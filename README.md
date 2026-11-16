@@ -1,3 +1,17 @@
+# VivaSE Cultura 2.0
+
+Nova versão do guia cultural e mapa do FASC, planejada para o ideathon de 19 a 21/11/2026. Repositório: [VivaSE_Cultura-2.0](https://github.com/bernas0610/VivaSE_Cultura-2.0).
+
+**Estado atual:** Fase 1 documentada para revisão. A pasta `src` foi perdida e ainda não foi reconstruída; os comandos de execução descritos no guia antigo abaixo só funcionarão após a fundação técnica. A direção visual será discutida antes das telas.
+
+[Documentação da Fase 1](docs/README.md) · [Matriz CSD em PDF](output/pdf/VivaSE-Matriz-CSD.pdf) · [Fontes e curadoria](docs/FONTES-E-CURADORIA.md)
+
+Escopo confirmado: FASC 2026, todos os espaços levantados pela pesquisa, mapa, localização, programação, detalhes, roteiros, memórias no próprio navegador e linha do tempo. Trajetos em aplicativo externo; administração adiada. A pesquisa completa de conteúdo e a implementação ainda estão pendentes.
+
+## Referência da versão anterior
+
+O texto a seguir foi preservado do repositório original como referência histórica de proposta e instalação.
+
 # 🗺️ Mapa Vivo do FASC
 
 Mapa interativo e histórico do Festival de Artes de São Cristóvão (FASC), unindo tecnologia, memória coletiva e patrimônio cultural sergipano.
