@@ -14,7 +14,7 @@ Atualizado em 17/11/2026. `[x]` = executado/registrado; `[ ]` = pendente ou aind
 - [ ] Aceite visual da versão implementada e nova conferência em celular físico.
 - [x] Corrigir o afastamento excessivo dos pins na visão geral, com separação proporcional ao zoom e referências preservadas (registro 20).
 - [x] Aprovar a fotografia, sua largura e o dourado da Home; publicação solicitada pelo responsável.
-- [ ] Confirmar commit/push e publicação no GitHub Pages (registro 21).
+- [x] Commit/push realizados e GitHub Pages publicado; foto, logo, mapa, busca e programação verificados no endereço público (registro 21).
 
 ## Fase 1 — Planejamento e definição do produto
 

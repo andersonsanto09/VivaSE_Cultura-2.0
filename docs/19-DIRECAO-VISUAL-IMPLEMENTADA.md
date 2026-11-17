@@ -44,4 +44,3 @@ Capturas da revisão estão em `tmp/redesign/`; relatórios das regressões fica
 - Novo teste em aparelho físico após o redesign; o retorno anterior do responsável se refere à versão anterior.
 - Roteiros, memórias e linha do tempo continuam na fase 4.
 - Endereços e referências aproximadas não foram convertidos em entradas exatas. Nenhum percurso interno, acessibilidade ou duração de show desconhecida foi inventado.
-

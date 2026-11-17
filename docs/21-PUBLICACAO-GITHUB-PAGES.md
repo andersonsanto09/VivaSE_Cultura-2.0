@@ -24,3 +24,16 @@ O domínio `bernas0610.github.io` (sem protocolo ou caminho) precisa estar em **
 Conferir o resultado do workflow, o carregamento em `/VivaSE_Cultura-2.0/`, a foto, a logo, os chunks e o worker do mapa. A confirmação de que o mapa público carrega depende também da origem permitida no MapTiler.
 
 Build e dez testes de domínio aprovados. Teste local do build no subdiretório `/VivaSE_Cultura-2.0/` confirmou foto, logo, chunks/worker, 20 marcadores e a agenda, sem respostas HTTP locais de erro. A verificação pública será feita após a conclusão do workflow.
+
+## Publicação confirmada
+
+- Commit de implementação: `60a024b`, enviado para `main`.
+- Workflow de publicação: [execução 44141859082](https://github.com/bernas0610/VivaSE_Cultura-2.0/actions/runs/44141859082), concluída com sucesso.
+- Site público respondeu HTTP 200 em 17/11/2026.
+- Foto e logo carregaram a partir do subdiretório do projeto.
+- MapTiler respondeu HTTP 200 para a origem pública após salvar `bernas0610.github.io` nas origens permitidas.
+- Conferidos 20 pins, busca por Péricles, detalhes e 51 atividades no sábado, 21/11.
+- Agenda em 390 px sem rolagem horizontal; nenhum erro JavaScript ou resposta HTTP de falha na verificação.
+- Evidências locais: `tmp/pages-public/result.json` e capturas na mesma pasta.
+
+O site do portfólio não foi modificado. A revisão em aparelho físico continua sendo uma validação distinta da automação em navegador.
