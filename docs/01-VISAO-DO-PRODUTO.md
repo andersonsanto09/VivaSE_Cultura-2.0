@@ -35,6 +35,7 @@ Não há persona demográfica validada. Não pressupor idade, renda, nacionalida
 - Dados reais e pesquisa em fontes diversas, incluindo bibliografia.
 - Conversa sobre design antes da implementação das telas.
 - Documentação em dez partes, seguindo o modelo do projeto anterior do salão.
+- Direção FASC 2026 aceita provisoriamente: entrada vibrante e interface clara de consulta, a refinar com o protótipo. Implementação iniciada somente após pedido de passagem à Fase 2.
 - Edição principal: FASC 2026. Datas oficiais de 20 a 22/11 e tema “Tradição que move o presente”, conforme [fontes de 2026](FONTES-E-CURADORIA.md).
 - Cobertura desejada: todos os espaços com atividades do festival, a identificar e reconciliar na pesquisa. Não limitar aos palcos principais.
 - MVP com mapa, localização, programação, detalhes dos lugares, roteiros culturais, memórias e linha do tempo.
@@ -50,7 +51,7 @@ Não há persona demográfica validada. Não pressupor idade, renda, nacionalida
 - Perfil da banca e duração do pitch: o responsável ainda não sabe informar.
 - Dispositivo, projetor, conectividade e possibilidade de demonstração ao vivo: informar quando conhecidos. “Por pitch” não confirma nenhum desses recursos.
 - Data e horário exatos da apresentação dentro de 19 a 21/11: não informados.
-- Direção visual, imagens e fontes definitivas: próxima conversa.
+- Refinamento visual e fontes web definitivas: revisar com o protótipo; direção provisória registrada em 04.
 - Inventário final de espaços, horários e serviços: depende da pesquisa de conteúdo.
 - Relatos públicos elegíveis e direitos sobre imagens: revisão editorial pendente.
 

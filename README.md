@@ -2,11 +2,26 @@
 
 Nova versão do guia cultural e mapa do FASC, planejada para o ideathon de 19 a 21/11/2026. Repositório: [VivaSE_Cultura-2.0](https://github.com/bernas0610/VivaSE_Cultura-2.0).
 
-**Estado atual:** Fase 1 documentada para revisão. A pasta `src` foi perdida e ainda não foi reconstruída; os comandos de execução descritos no guia antigo abaixo só funcionarão após a fundação técnica. A direção visual será discutida antes das telas.
+**Estado atual:** fases 1 e 2 concluídas como planejamento e fundação técnica. Fase 3 em validação, com mapa vetorial, agenda, busca, detalhes e localização implementados. Roteiros, memórias locais e linha do tempo seguem pendentes na fase 4. [Checklist completo](docs/13-CHECKLIST-DO-PROJETO.md).
 
-[Documentação da Fase 1](docs/README.md) · [Matriz CSD em PDF](output/pdf/VivaSE-Matriz-CSD.pdf) · [Fontes e curadoria](docs/FONTES-E-CURADORIA.md)
+## Executar a nova versão
 
-Escopo confirmado: FASC 2026, todos os espaços levantados pela pesquisa, mapa, localização, programação, detalhes, roteiros, memórias no próprio navegador e linha do tempo. Trajetos em aplicativo externo; administração adiada. A pesquisa completa de conteúdo e a implementação ainda estão pendentes.
+Usar Node.js 22.18 ou superior (ambiente validado: Node 26.10.0).
+
+```sh
+npm install
+npm run dev
+```
+
+Antes de usar o mapa vetorial, copie `.env.example` para `.env.local` e configure sua chave pública MapTiler com origens permitidas. Reinicie o servidor após alterar esse arquivo.
+
+Abrir o endereço local impresso pelo Vite. Verificações: `npm test`, `npm run typecheck` e `npm run build`. O build verifica tipos e gera `dist/`. O mapa é carregado sob demanda.
+
+A fundação tem 20 registros de espaços/frentes com referências geográficas de precisão declarada e 144 registros de agenda reconciliados com as 21 páginas de conteúdo da v4. Funções culturais e validação final dos fluxos ainda estão pendentes; o PDF v4 é mantido apenas na documentação interna do repositório. A abertura de “Como chegar” é externa.
+
+[Checklist de todas as fases](docs/13-CHECKLIST-DO-PROJETO.md) · [Documentação da Fase 1](docs/README.md) · [Matriz CSD em PDF](output/pdf/VivaSE-Matriz-CSD.pdf) · [Fontes e curadoria](docs/FONTES-E-CURADORIA.md)
+
+Escopo completo do MVP: FASC 2026, todos os espaços levantados pela pesquisa, mapa, localização, programação, detalhes, roteiros, memórias no próprio navegador e linha do tempo. Trajetos em aplicativo externo; administração adiada. O escopo completo não equivale ao incremento já implementado.
 
 ## Referência da versão anterior
 
@@ -164,3 +179,5 @@ O **Mapa Vivo do FASC** é uma plataforma digital que permite explorar o Festiva
 ## ❤️ Sergipe vive aqui
 
 Tecnologia a serviço da cultura e da memória.
+
+Mapa e identidade da nova versão: [registro da migração MapLibre/MapTiler](docs/14-MAPA-VETORIAL-E-REVISAO-VISUAL.md).

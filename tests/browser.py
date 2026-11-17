@@ -1,0 +1,122 @@
+"""Local browser checks. Requires Python Playwright and an installed Edge browser.
+Start npm run dev first. Map style is mocked to avoid downloading cartography in automated checks.
+"""
+from pathlib import Path
+import json
+from playwright.sync_api import sync_playwright, expect
+
+out = Path('tmp/phase-2-qa'); out.mkdir(parents=True, exist_ok=True)
+checks = []
+def mock_map(route):
+    if '.svg' in route.request.url:
+        route.fulfill(status=200,content_type='image/svg+xml',body='<svg xmlns="http://www.w3.org/2000/svg" width="82" height="24"><text x="0" y="16">MapTiler</text></svg>')
+    else:
+        route.fulfill(status=200,content_type='application/json',body=json.dumps({'version':8,'sources':{},'layers':[{'id':'background','type':'background','paint':{'background-color':'#e9eee3'}}]}))
+with sync_playwright() as p:
+    browser = p.chromium.launch(channel='msedge', headless=True, args=['--enable-unsafe-swiftshader'])
+    context = browser.new_context(viewport={'width':1440, 'height':1000}, locale='pt-BR')
+    context.route('https://api.maptiler.com/**', mock_map)
+    page = context.new_page()
+    errors=[]; page.on('pageerror',lambda e:errors.append(str(e)))
+    response=page.goto('http://127.0.0.1:5173/')
+    assert response and response.status==200
+    page.wait_for_load_state('networkidle')
+    expect(page.get_by_role('heading',name='Seu festival. Sua cidade.')).to_be_visible()
+    page.screenshot(path=str(out/'home-desktop.png'),full_page=True)
+    page.get_by_role('button',name='Explorar o mapa').click()
+    expect(page.get_by_text('20 espaços',exact=True)).to_be_visible()
+    page.wait_for_load_state('networkidle')
+    expect(page.locator('.festival-pin')).to_have_count(20)
+    expect(page.locator('.map-group')).to_have_count(0)
+    marker = page.locator('.festival-pin[aria-label="Abrir Palco João Bebe Água"]')
+    marker.click()
+    expect(page.get_by_role('heading',name='Palco João Bebe Água',exact=True)).to_be_visible()
+    expect(page.locator('a[href*="programacao-fasc-2026"]')).to_have_count(0)
+    page.get_by_role('button',name='Todos os espaços',exact=True).click()
+    expect(page.locator('.edition-art')).to_have_count(0)
+    expect(page.locator('.edition-label img')).to_have_attribute('src','/images/fasc-2026-logo.svg')
+    marker=page.get_by_role('button',name='Abrir Palco João Bebe Água',exact=True)
+    before=marker.bounding_box()['width']
+    for _ in range(5):
+        page.locator('.maplibregl-ctrl-zoom-out').click()
+        page.wait_for_timeout(350)
+    after=marker.bounding_box()['width']
+    assert after<before*.8, (before,after)
+    expect(page.locator('.festival-pin')).to_have_count(20)
+    page.screenshot(path=str(out/'overview-zoom.png'),full_page=True)
+    page.get_by_role('button',name='Ver todos os espaços',exact=True).click()
+    page.get_by_role('textbox',name='Buscar espaço ou atração').fill('pericles')
+    expect(page.get_by_text('1 espaço',exact=True)).to_be_visible()
+    page.locator('.place-row').filter(has_text='Palco João Bebe Água').click()
+    expect(page.get_by_role('heading',name='Palco João Bebe Água',exact=True)).to_be_visible()
+    assert page.get_by_role('link',name='Como chegar').get_attribute('href').startswith('https://www.google.com/maps/dir/?api=1&destination=')
+    page.get_by_role('button',name='Domingo, 22 de novembro').click()
+    expect(page.get_by_text('Péricles',exact=True)).to_be_visible()
+    page.screenshot(path=str(out/'map-desktop.png'),full_page=True)
+    checks.append('20 marcadores individuais, seleção direta, busca, detalhes sem PDF e destino externo')
+    page.get_by_role('button',name='Todos os espaços',exact=True).click()
+    page.get_by_role('textbox',name='Buscar espaço ou atração').fill('Tsuru')
+    expect(page.locator('.place-row').filter(has_text='Casa Tsuru')).to_contain_text('84')
+    expect(page.locator('.festival-pin')).to_have_count(1)
+    page.get_by_role('textbox',name='Buscar espaço ou atração').fill('zzzz-nao-existe')
+    expect(page.get_by_role('heading',name='Nenhum espaço encontrado')).to_be_visible()
+    page.get_by_role('button',name='Limpar filtros').click()
+    expect(page.get_by_text('20 espaços',exact=True)).to_be_visible()
+    checks.append('endereço confirmado de Tsuru e estado vazio recuperável')
+    page.goto('http://127.0.0.1:5173/#/programacao?dia=20')
+    expect(page.get_by_text('21/11 · madrugada',exact=True)).to_have_count(3)
+    expect(page.locator('.schedule-list>li')).to_have_count(49)
+    page.get_by_role('combobox',name='Espaço da programação').select_option('cinema')
+    expect(page.locator('.schedule-list>li')).to_have_count(4)
+    page.get_by_role('button',name='Limpar filtros').click()
+    page.get_by_role('textbox',name='Buscar na programação').fill('Tsuru')
+    expect(page.locator('.schedule-list>li')).to_have_count(1)
+    expect(page.get_by_text('até 21/11',exact=True)).to_be_visible()
+    page.set_viewport_size({'width':390,'height':900})
+    assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'overflow agenda'
+    page.screenshot(path=str(out/'agenda-mobile.png'),full_page=True)
+    checks.append('agenda completa, filtros por espaço e janela até a madrugada')
+    for width in [768,390]:
+        page.set_viewport_size({'width':width,'height':900})
+        page.goto('http://127.0.0.1:5173/')
+        page.wait_for_load_state('networkidle')
+        assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'overflow horizontal na entrada'
+        page.screenshot(path=str(out/f'home-{width}.png'),full_page=True)
+        page.get_by_role('button',name='Explorar o mapa').click()
+        page.wait_for_load_state('networkidle')
+        assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'overflow horizontal no mapa'
+        page.screenshot(path=str(out/f'list-{width}.png'),full_page=True)
+        if width==390:
+            page.get_by_role('button',name='Mapa',exact=True).click()
+            expect(page.locator('.maplibregl-map')).to_be_visible()
+            page.screenshot(path=str(out/'map-mobile.png'),full_page=True)
+            page.get_by_role('button',name='Lista',exact=True).click()
+        page.locator('.place-row').filter(has_text='Palco João Bebe Água').click()
+        expect(page.get_by_role('link',name='Como chegar')).to_be_visible()
+        page.screenshot(path=str(out/f'detail-{width}.png'),full_page=True)
+    checks.append('390/768 px: entrada, lista, mapa e detalhe sem overflow horizontal')
+    context.close()
+    denied=browser.new_context(viewport={'width':1440,'height':900})
+    denied.route('https://api.maptiler.com/**',lambda r:r.abort())
+    denied.add_init_script("Object.defineProperty(navigator,'geolocation',{value:{getCurrentPosition:(_,error)=>error({code:1})}})")
+    page=denied.new_page(); page.on('pageerror',lambda e:errors.append(str(e))); page.goto('http://127.0.0.1:5173/#/mapa')
+    page.get_by_role('button',name='Minha localização').click()
+    expect(page.get_by_text('Localização não autorizada. Você pode explorar todos os espaços pela lista.')).to_be_visible()
+    expect(page.get_by_text('20 espaços',exact=True)).to_be_visible()
+    expect(page.get_by_text('O fundo do mapa não carregou completamente. Você pode consultar os espaços pela lista.')).to_be_visible()
+    checks.append('permissão negada e falha de tiles preservam a lista')
+    denied.close()
+    located=browser.new_context(viewport={'width':1440,'height':900}, permissions=['geolocation'],geolocation={'latitude':-10.95,'longitude':-37.07})
+    located.route('https://api.maptiler.com/**',mock_map)
+    page=located.new_page(); page.on('pageerror',lambda e:errors.append(str(e))); page.goto('http://127.0.0.1:5173/#/mapa?dia=20&lugar=joao')
+    page.get_by_role('button',name='Minha localização').click()
+    expect(page.get_by_text('Você está fora da área central do festival. Use “Voltar ao festival” para explorar os espaços.')).to_be_visible()
+    page.get_by_role('button',name='Voltar ao festival').click()
+    expect(page.get_by_text('Mapa retornou à área do festival.')).to_be_visible()
+    expect(page.locator('.festival-pin').first).to_be_in_viewport()
+    checks.append('localização permitida fora da cidade e retorno efetivo ao festival')
+    located.close(); browser.close()
+    assert not errors,errors
+    result={'checks':checks,'pageErrors':errors,'tiles':'mocked','browser':'Edge Chromium','screenshots':str(out.resolve())}
+    (out/'result.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
+    print(json.dumps(result,ensure_ascii=False,indent=2))

@@ -1,6 +1,6 @@
 # 03 — Arquitetura proposta
 
-Referência: 16/11/2026. Estrutura planejada; a pasta `src` ainda não existe. Arquitetura compatível com o package.json recebido e com a decisão de adiar administração e publicação compartilhada.
+Referência de planejamento: 16/11/2026. Na Fase 1 a pasta `src` ainda não existia. A primeira estrutura efetiva foi criada na Fase 2, com estado e diferenças registrados em [11](11-FASE-2-FUNDACAO.md). O plano abaixo permanece referência, compatível com a decisão de adiar administração e publicação compartilhada.
 
 ## Base existente
 

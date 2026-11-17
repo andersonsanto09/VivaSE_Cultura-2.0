@@ -24,12 +24,19 @@ Quando houver divergência, preservar o conflito no registro e não publicar a a
 | F-10 | [Prefeitura — Fasc Inovação 2026](https://www.saocristovao.se.gov.br/noticia/tecnologia-criatividade-e-empreendedorismo-ganham-espaco-na-programacao-do-fasc-2026) | Espaço e horários das atividades de inovação | Complemento temático, não localização de todos os serviços |
 | F-11 | [Prefeitura — encerramento do FASC 2025 e relatos do público](https://www.saocristovao.se.gov.br/noticia/maior-edicao-do-fasc-chega-ao-fim-celebrando-arte-e-diversidade-cultural-na-cidade-mae-de-sergipe) | Relatos publicados de visitantes e artistas | Matéria de 24/11/2025; não são relatos enviados ao VivaSE |
 | F-12 | [UFS — Inventário digital do fundo FASC, Derian Conceição dos Santos, 2025](https://ri.ufs.br/handle/riufs/23168) | Localização de acervo histórico fotográfico e metadados | Página do registro consultada; imagens e direitos precisam de análise individual |
+| F-13 | [Programação Completa v4 recebida do responsável](fontes/programacao-fasc-2026-v4.pdf) | 24 páginas com espaços, dias, horários e identidade visual | Passa a ser a base editorial de trabalho; conferir complementos posteriores por registro |
+
+Arquivo original informado: `D:/downloads/FASC 2026_Programação Completa v4.pdf`. SHA-256: `9D5B16FC1F7141E14FD7EFF565717F3B6583635BC1AC9D6A7733F824F42E5311`. Cópia local preservada para consulta no protótipo, sem carregar o PDF automaticamente na entrada.
+
+As 24 páginas foram extraídas e inspecionadas visualmente em seis pranchas de quatro páginas. A extração textual mistura colunas em alguns casos; associações entre lugar e atividade precisam da conferência visual. Exemplo: os painéis de Museu Histórico e EMEF Gina Franco nas páginas 7, 15 e 23 não podem ser combinados como um único local.
+
+O inventário da Fase 2 contém 20 registros de espaços/frentes e 144 registros de agenda (49/51/44 por dia). As 21 páginas de conteúdo da v4 foram reconciliadas. Todos os registros possuem referências geográficas com limites de precisão. A [lista mestra](12-INVENTARIO-E-PROGRAMACAO.md) registra fontes por espaço, equipamentos compartilhados e decisões de transcrição.
 
 ## Base de 2026 confirmada
 
 F-07 e F-08 confirmam a 41ª edição, de 20 a 22/11/2026, com tema “Tradição que move o presente”. F-09 é complemento mais recente para os horários dos dois palcos principais. O calendário turístico inicial de 2026 encontrado na pesquisa indicava outra faixa de datas; usar as publicações específicas mais recentes do evento e preservar qualquer divergência relevante na revisão.
 
-Essa confirmação não significa que cada atividade, coordenada ou serviço já tenha sido extraído e conferido. A lista mestra exigida no documento 06 será produzida na etapa de conteúdo.
+A lista mestra da v4 está reconciliada na fase 2. Isso não confirma serviços não publicados, acessos temporários, programação posterior ou a pesquisa histórica.
 
 ## Memórias e relatos publicados
 
@@ -50,8 +57,8 @@ O print de comparação atribui o tema “Raízes do Amanhã” a 2024; F-01 reg
 
 ## Pendências de conteúdo
 
-- Levantar a programação completa da edição 2026 escolhida, cruzando F-08 e complementos.
-- Conferir coordenadas de cada lugar em fonte cartográfica e registrar precisão; há divergências entre páginas encontradas para a praça.
+- Reconferir eventuais revisões posteriores à v4 antes do pitch.
+- Refinar entradas exatas quando houver evidência; as referências de equipamento, praça e rua estão registradas na lista mestra.
 - Verificar locais de banheiros, saúde, alimentação e apoio na planta específica da edição; não deduzir pelo mapa urbano.
 - Validar acessibilidade por informação específica do espaço e edição; não reduzir a condição a um selo genérico.
 - Verificar anos e palcos de apresentações de artistas antes de reaproveitar as listas dos prints.

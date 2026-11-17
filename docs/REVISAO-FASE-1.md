@@ -21,4 +21,4 @@ O restante das respostas do leitor foi coerente com os documentos. A revisão n�
 
 ## Limites e próximo passo
 
-Documentação consolidada para revisão do responsável. Pesquisa de inventário completo, conteúdos históricos detalhados, seleção de mídias e implementação permanecem pendentes. A próxima conversa trata de design; o documento 04 é um briefing, não um design system visual aprovado.
+Histórico da revisão inicial: documentação consolidada para o responsável, ainda sem telas naquele momento. Posteriormente foram recebidas identidade e programação v4, registrada em 04 a direção aceita provisoriamente e solicitado pelo responsável o encerramento da Fase 1 e início da Fase 2. Estado da implementação em [11](11-FASE-2-FUNDACAO.md). Pesquisa integral de conteúdo e refinamento visual permanecem pendentes; não são apresentados como concluídos pela passagem de fase.

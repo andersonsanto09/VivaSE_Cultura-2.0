@@ -12,13 +12,13 @@ Referência: 16/11/2026. “Confirmada” é uma decisão do responsável; “pr
 | D-06 | Exemplos de memórias podem ser fictícios | Confirmada | Rótulo visível em cada exemplo; não atribuir falas inventadas a pessoas reais |
 | D-07 | Buscar relatos publicados na internet | Confirmada | Registrar fonte e contexto; não apresentar referência jornalística como contribuição enviada ao VivaSE |
 | D-08 | Administração fica para outra fase | Confirmada | Conteúdo revisado pela equipe e versionado; não prometer atualização remota em tempo real |
-| D-09 | Discutir design após documentação | Confirmada | Valores de paleta, fontes e telas continuam abertos |
+| D-09 | Identidade FASC 2026, entrada vibrante e consulta clara | Confirmada provisoriamente | Discutida após documentação; refinar cores, composição e tipografia com o protótipo |
 | D-10 | Preservar React, TypeScript, Vite e Leaflet | Proposta técnica | Compatível com dependências existentes; validar instalação e segurança na fundação |
 | D-11 | Conteúdo editorial em arquivos versionados | Proposta técnica | Atende protótipo sem backend e preserva rastreabilidade; mudanças exigem nova publicação |
 | D-12 | Armazenamento local versionado e validado | Proposta técnica | Reduz falhas de leitura e separa exemplos editoriais das memórias pessoais |
 | D-13 | Localização sob demanda, sem persistir coordenadas | Proposta técnica | Mantém orientação opcional e reduz complexidade de observação contínua |
 | D-14 | Alternativa em lista para mapa e tiles | Proposta técnica | Conteúdo permanece utilizável com falha de cartografia ou sem GPS |
-| D-15 | Provedor de tiles e fornecedor de rotas | Pendente | Selecionar por termos, atribuição e comportamento no ambiente disponível |
+| D-15 | Tiles OSM padrão e Google Maps externo no protótipo | Seleção técnica da Fase 2 | Atribuição visível, sem download offline; revisão antes de uso público |
 | D-16 | Novo repositório VivaSE_Cultura-2.0 | Confirmada pelo endereço informado | Preservar origem antiga e arquivos locais; conferir estado remoto antes de qualquer sincronização |
 
 ## D-04 — Navegação externa
@@ -41,4 +41,8 @@ A pasta `src` não consta do histórico clonado; o código da aplicação precis
 
 16/11: concluído alinhamento de edição, cobertura, funções, rotas e origem das memórias. A recomendação inicial de 2024 e administração local foi substituída pelas respostas do responsável. Manter histórico das decisões relevantes sem preservar instruções obsoletas como se ainda fossem pendências.
 
+16/11, encerramento da Fase 1: recebida a programação v4, aprovada provisoriamente a aplicação da identidade do FASC e solicitado início da fundação. As propostas D-10 a D-14 passaram a orientar o primeiro protótipo. A base Vite foi atualizada de 5 para 6.4.6 após confirmar compatibilidade com plugin React 4.7.0; `npm audit fix` sem `--force` corrigiu dependências transitivas. A arquitetura React/Leaflet foi preservada. Verificação efetiva em [11](11-FASE-2-FUNDACAO.md).
+
 Detalhes de arquitetura: [03](03-ARQUITETURA.md). Perguntas e riscos: [09](09-ROADMAP.md). Fontes: [FONTES-E-CURADORIA](FONTES-E-CURADORIA.md).
+
+16/11, revisão após feedback: Leaflet e tiles raster substituídos por MapLibre/react-map-gl e MapTiler; chave local, atribuição preservada e ícones semânticos. D-10 e D-15 descrevem a escolha anterior. Estado atual em [14](14-MAPA-VETORIAL-E-REVISAO-VISUAL.md).

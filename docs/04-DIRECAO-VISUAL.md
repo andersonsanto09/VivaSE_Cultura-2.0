@@ -1,6 +1,31 @@
 # 04 — Direção visual e design system
 
-Referência: 16/11/2026. Briefing para a próxima conversa de design. Paleta, fontes, imagens e composição ainda não estão aprovadas. Nenhuma tela implementada.
+Referência: 16/11/2026. Direção aprovada provisoriamente pelo responsável, para revisão no protótipo. Fase 1 encerrada como planejamento; a implementação visual começou na Fase 2.
+
+## Decisão de direção
+
+Usar a identidade original do FASC 2026 como base da edição, mantendo VivaSE Cultura como marca do produto. Entrada vibrante com ilustrações fornecidas; mapa e painéis claros para leitura; verde para sexta, roxo para sábado e turquesa para domingo, sempre com data e rótulo textual. O responsável concordou provisoriamente e pediu refinamento após ver o protótipo.
+
+A identidade oficial substitui as sugestões genéricas anteriores. A entrada e a interface de consulta têm composições diferentes, com a mesma família de cores. Referência de organização da interface: folha branca em moldura clara (Framed sheet), adaptada à marca existente; a biblioteca de estilo não substitui a identidade fornecida.
+
+## Material recebido e valores de referência
+
+Programação completa v4 com 24 páginas e três imagens da edição. Valores identificados nas formas vetoriais do PDF, sem alegar um manual oficial de marca:
+
+| Papel de referência | Cor |
+| --- | --- |
+| Rosa | `#E91A8A` |
+| Roxo | `#8F4197` |
+| Amarelo | `#FCD726` |
+| Verde | `#3CB44A` |
+| Turquesa | `#1ABDC7` |
+| Laranja | `#F4802A` |
+
+As combinações com texto precisam passar por contraste. Verde, amarelo e turquesa recebem texto escuro; o roxo pode receber branco conforme medição. Não usar todas as cores na mesma superfície funcional.
+
+O PDF identifica fontes incorporadas com os nomes Paris2024-Variable-Regular e Zorin-Regular. Não foram extraídas para uso na web nem há licença de webfont conferida. A primeira fundação usa fontes do sistema; a tipografia definitiva permanece aberta à revisão.
+
+O painel ilustrado fornecido foi preservado como imagem local para a entrada, com crédito de origem no protótipo. Não gerar ilustrações concorrentes ou reconstruir o logotipo oficial sem necessidade. A identificação do protótipo não afirma parceria institucional.
 
 ## O que a experiência precisa comunicar
 
@@ -33,15 +58,14 @@ São observações das imagens, sem teste no produto antigo ou comprovação de 
 7. Fotografias com origem e direito de uso revisados. Ilustração, se escolhida, não deve se passar por registro histórico.
 8. Avisos de ficção e armazenamento local próximos ao conteúdo correspondente.
 
-## Conversa de design a realizar
+## Refinamento após o primeiro protótipo
 
-- Quanto da identidade anterior manter: cores, nome composto, símbolo e tipografia?
-- A apresentação deve se aproximar mais de um guia turístico, de uma publicação cultural ou de um festival contemporâneo?
-- Quais referências visuais o responsável gosta e rejeita?
-- Qual composição atende melhor à entrada: cidade, festival, mapa ou combinação dos três?
-- Como distribuir navegação e painéis no celular sem perder contexto?
+- Avaliar a força da identidade da edição na entrada e a legibilidade no mapa.
+- Refinar a marca VivaSE sem confundi-la com o logotipo do festival.
+- Escolher tipografia web definitiva com licença adequada.
+- Conferir densidade, navegação e painéis em celular com o responsável.
 
-Apresentar propostas visuais concretas depois dessa conversa. Não transformar essas perguntas em decisões automáticas.
+O primeiro protótipo é a base concreta para essa avaliação; o aceite provisório não encerra o refinamento visual.
 
 ## Fundação proposta, sem valores finais
 
