@@ -52,3 +52,7 @@ Registrar data, versão/commit quando existir, ambiente, cenário, resultado, ca
 P0 implementados e verificados; erros críticos resolvidos; cobertura de espaços reconciliada; limitações restantes visíveis e aceitas pelo responsável. Typecheck, build e verificação de dados passam. Percurso do pitch executado no ambiente disponível. Decisão visual revisada pelo responsável.
 
 Esses critérios não estão satisfeitos pela documentação. Revisão desta fase valida o planejamento e os links locais, sem executar testes que dependem de uma aplicação inexistente.
+
+## Atualização após implementação
+
+O texto acima preserva os critérios de planejamento. A aplicação já existe: evidências efetivamente executadas na orientação, resultados automáticos, relato em celular físico e limites estão no [relatório da fase 3](15-FASE-3-VALIDACAO.md). Cenários culturais e medições finais permanecem pendentes; não considerar todos os P0 do MVP concluídos.

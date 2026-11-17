@@ -2,7 +2,7 @@
 
 Nova versão do guia cultural e mapa do FASC, planejada para o ideathon de 19 a 21/11/2026. Repositório: [VivaSE_Cultura-2.0](https://github.com/bernas0610/VivaSE_Cultura-2.0).
 
-**Estado atual:** fases 1 e 2 concluídas como planejamento e fundação técnica. Fase 3 em validação, com mapa vetorial, agenda, busca, detalhes e localização implementados. Roteiros, memórias locais e linha do tempo seguem pendentes na fase 4. [Checklist completo](docs/13-CHECKLIST-DO-PROJETO.md).
+**Estado atual:** fases 1, 2 e 3 concluídas no escopo do protótipo. Fluxos de orientação revisados e testados, incluindo retorno do responsável em celular físico. Próxima fase: 4 — roteiros, memórias locais e linha do tempo. [Checklist](docs/13-CHECKLIST-DO-PROJETO.md) · [Evidências e limites da fase 3](docs/15-FASE-3-VALIDACAO.md).
 
 ## Executar a nova versão
 
@@ -181,3 +181,5 @@ O **Mapa Vivo do FASC** é uma plataforma digital que permite explorar o Festiva
 Tecnologia a serviço da cultura e da memória.
 
 Mapa e identidade da nova versão: [registro da migração MapLibre/MapTiler](docs/14-MAPA-VETORIAL-E-REVISAO-VISUAL.md).
+
+Experiência atual do mapa: [pins individuais, precisão e próximos passos](docs/17-PINS-INDIVIDUAIS-E-PROXIMOS-PASSOS.md).

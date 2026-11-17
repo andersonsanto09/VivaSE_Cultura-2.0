@@ -2,7 +2,7 @@
 
 Atualizado em 16/11/2026. `[x]` = executado/registrado; `[ ]` = pendente ou ainda depende de aceite. Uma função existente não encerra sua fase sem a validação correspondente. Este é o estado do protótipo desta revisão, não uma promessa de prazo.
 
-**Fase atual: 3 — validação e acabamento dos fluxos de orientação.** A fase 2 está concluída tecnicamente; roteiros, memórias e linha do tempo ainda pertencem à fase 4.
+**Fases 1, 2 e 3 concluídas no escopo do protótipo. Próxima fase: 4 — roteiros, memórias e linha do tempo.** Limites e evidências da orientação estão no [relatório da fase 3](15-FASE-3-VALIDACAO.md).
 
 ## Fase 1 — Planejamento e definição do produto
 
@@ -45,13 +45,13 @@ Critério cumprido: escopo registrado e dúvidas explícitas. A hipótese de uti
 - [x] Retirar a imagem solta e os links de PDF das telas; fonte fora do build público.
 - [x] Corrigir zoom dos marcadores e preservar âncoras geográficas em todos os níveis.
 - [x] Habilitar roda, inclinação/rotação por arraste e botão de perspectiva; verificar no navegador.
-- [ ] Avaliar o `.txt` de sugestões quando for recebido — pendência de material, não de implementação conhecida.
+- [x] Avaliar recomendações enviadas por mensagens e registrar escolhas de tecnologias e melhorias. O arquivo `.txt` em si não foi recebido; isso não bloqueia a entrega.
 
 Critério técnico cumprido: base executável, dados coerentes e direção discutida. Precisão de rua/praça continua declarada; não equivale a coordenadas de portas nem a vistoria de acessibilidade.
 
 ## Fase 3 — Conclusão e validação dos fluxos de orientação
 
-**Situação: fase atual. Fluxos principais implementados e testados; revisão integral e testes em aparelho físico pendentes.**
+**Situação: concluída para orientação do protótipo. Testes, revisão e retorno do responsável em celular físico registrados.**
 
 - [x] Entrada abre mapa, e navegação permite voltar.
 - [x] Lista e mapa permitem selecionar espaços; cada registro tem marcador individual, inclusive em referências compartilhadas.
@@ -61,20 +61,20 @@ Critério técnico cumprido: base executável, dados coerentes e direção discu
 - [x] Localização por ação, recusa tratada e retorno à área do festival.
 - [x] Trajeto externo e ação de copiar endereço implementados.
 - [x] Lista permanece disponível em falha do mapa.
-- [ ] Validar manualmente todas as jornadas RF-01 a RF-07, RF-12 e RF-13, registrando falhas e correções.
-- [ ] Completar cobertura de indisponibilidade/timeout do GPS e de falha da cópia de endereço.
-- [ ] Conferir contexto de filtros, dia, URL e retorno em cada percurso e acesso direto.
-- [ ] Revisar teclado, foco, nomes acessíveis e zoom de 200%.
-- [ ] Experimentar os fluxos principais em celular físico disponível.
+- [x] Verificar RF-01 a RF-07, RF-12 e RF-13 com automação, inspeção e relato do responsável; registrar métodos e limites no documento 15.
+- [x] Cobrir indisponibilidade/timeout do GPS, API ausente, exceção síncrona, resposta tardia e falha da cópia de endereço.
+- [x] Conferir filtros, dia, URL, reload, histórico e acesso direto; retornar à agenda original quando o detalhe vier dela.
+- [x] Revisar teclado, foco, nomes acessíveis e reflow equivalente a 200% (640 CSS px para uma tela-base de 1280 px); zoom nativo permanece na qualidade final.
+- [x] Teste do responsável em celular físico: percurso proposto funcionou, sem cortes ou travamentos; aparelho/navegador não informados.
 - [x] Aplicar os ajustes de interação e composição solicitados na avaliação até esta revisão.
 - [x] Verificar roda do mouse, arraste com botão do meio/direito e alternância de perspectiva.
-- [ ] Continuar ajustes que surgirem na validação completa.
+- [x] Corrigir falhas encontradas na validação desta fase; refinamentos finais e verificações ampliadas seguem na fase 5.
 
 Critério de saída: percurso completo “encontrar atividade → escolher espaço → entender referência → abrir trajeto” repetível, inclusive sem GPS ou fundo do mapa.
 
 ## Fase 4 — Descoberta cultural e preservação da memória
 
-**Situação: planejada, ainda não implementada.**
+**Situação: próxima fase, ainda não implementada.**
 
 - [ ] Selecionar lugares e conteúdo cultural com fontes por afirmação.
 - [ ] Criar roteiros temáticos com ordem e paradas explícitas.
@@ -129,7 +129,7 @@ Não são requisitos para concluir o protótipo acordado. Só entram com nova de
 ## Dependências que não devem ser confundidas com fases concluídas
 
 - O responsável revisou o protótipo e as correções pedidas foram aplicadas. Isso não equivale à validação do MVP completo ou à aprovação de funções ainda não implementadas.
-- `.txt` da outra IA: ainda não recebido.
+- Recomendações recebidas por mensagens já foram avaliadas. Eventual `.txt` adicional será novo material de revisão.
 - Banheiros, emergências, bloqueios e acessibilidade: dependem de fonte específica da edição; não serão inventados.
 - Pesquisa histórica: bibliografia localizada não equivale a livros integralmente lidos.
 - Recursos e duração do pitch: ainda não informados.
@@ -148,4 +148,21 @@ Revisão após feedback: [14 — Mapa vetorial, ícones e identidade FASC](14-MA
 
 O responsável solicitou commit e push desta revisão. O snapshot reúne fundação, inventário/agenda, mapa vetorial, identidade e correções de interação. Configuração real do MapTiler fica em `.env.local`, ignorado pelo Git; apenas `.env.example` é versionado. A confirmação de envio e o identificador do commit são conferidos no Git e informados na entrega.
 
-Próximo trabalho: fechar as pendências de validação da fase 3, depois construir roteiros, memórias locais e linha do tempo na fase 4. Nenhuma dessas funções culturais deve ser marcada como entregue antecipadamente.
+Próximo trabalho: construir roteiros, memórias locais e linha do tempo na fase 4. Nenhuma dessas funções culturais deve ser marcada como entregue antecipadamente.
+
+Encerramento da orientação: [15 — Validação da fase 3](15-FASE-3-VALIDACAO.md). O relato em celular físico é do responsável; testes de GPS real por HTTPS e em campo continuam na revisão final.
+
+Revisão da entrada/agenda: [16](16-REVISAO-MAPA-AGENDA-E-LANDING.md). A experiência agrupada foi substituída pela decisão mais recente em [17 — Pins individuais](17-PINS-INDIVIDUAIS-E-PROXIMOS-PASSOS.md). Cards filtram categorias; agenda inclui categoria e modo “agora” por intervalos publicados.
+
+## Última revisão — mapa e publicação do snapshot
+
+- [x] Sem cluster: um pin por espaço, sem ocultar os outros ao selecionar.
+- [x] Pins menores; número somente no selecionado e na lista.
+- [x] Afastamento apenas quando há colisão, limitado em pixels, com traço à âncora original.
+- [x] Abertura no Centro Histórico; visão geral inclui a Bica.
+- [x] Lista de vizinhos para sobreposição residual, sem zoom automático.
+- [x] Preservar chips/legenda, precisão aproximada, cards que filtram, cores dos dias, Radix e agenda “agora”.
+- [x] Revalidar domínio, jornadas, foco/teclado, gestos, fallback e larguras de tela.
+- [x] Preparar snapshot solicitado para commit/push, com configuração real fora do Git.
+
+Fases 1, 2 e 3 concluídas no escopo do protótipo; fase 4 é o próximo trabalho. Confirmação do push e hash do snapshot são informados após a checagem do remoto. Próximos passos detalhados no documento 17.

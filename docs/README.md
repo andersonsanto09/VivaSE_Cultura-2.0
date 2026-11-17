@@ -1,6 +1,6 @@
 # VivaSE Cultura — Fase 1
 
-Data de referência: 16/11/2026. Fase 1 encerrada como planejamento; fase 2 concluída tecnicamente e revisada pelo responsável. Fase atual: 3, validação dos fluxos de orientação. Consulte o [checklist atualizado](13-CHECKLIST-DO-PROJETO.md) e a [migração do mapa e correções](14-MAPA-VETORIAL-E-REVISAO-VISUAL.md).
+Data de referência: 16/11/2026. Fase 1 encerrada como planejamento; fase 2 concluída tecnicamente e revisada pelo responsável. Fase 3 encerrada para orientação do protótipo; próxima fase: 4, funções culturais. Consulte o [checklist atualizado](13-CHECKLIST-DO-PROJETO.md) e a [migração do mapa e correções](14-MAPA-VETORIAL-E-REVISAO-VISUAL.md).
 
 ## Objetivo
 
@@ -56,3 +56,9 @@ Destino: [VivaSE_Cultura-2.0](https://github.com/bernas0610/VivaSE_Cultura-2.0).
 Registrar separadamente decisões confirmadas, recomendações, hipóteses e perguntas. Perguntar ao responsável quando faltar contexto que altere o produto. Discutir a direção visual antes de fechar o design system e de começar a implementação das telas. Não atribuir resultados de testes ou validação com turistas a esta documentação.
 
 Revisão após feedback: [14 — Mapa vetorial, ícones e identidade FASC](14-MAPA-VETORIAL-E-REVISAO-VISUAL.md).
+
+- [15 — Encerramento, evidências e limites da fase 3](15-FASE-3-VALIDACAO.md).
+
+Revisão posterior da orientação/visual: [16 — Mapa, agenda e entrada](16-REVISAO-MAPA-AGENDA-E-LANDING.md). Agrupamento/expansão agora autorizados; cards filtram categorias; agenda inclui categoria e modo “agora” por intervalos publicados.
+
+- [17 — Decisão final de pins individuais e próximos passos](17-PINS-INDIVIDUAIS-E-PROXIMOS-PASSOS.md).

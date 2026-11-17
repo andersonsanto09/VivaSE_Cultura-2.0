@@ -9,8 +9,8 @@ Referência: 16/11/2026. O ideathon vai de 19 a 21/11. A data exata do pitch e s
 | 1 — Planejamento | Dez documentos, matriz CSD e fontes iniciais | Escopo registrado, dúvidas explícitas e revisão de coerência | Encerrada; direção visual provisória registrada |
 | Conversa de design | Referências, direção, composição e prioridades visuais | Responsável escolhe a direção antes das telas | Direção FASC 2026 aceita provisoriamente; refinar no protótipo |
 | 2 — Fundação e conteúdo | Entrada, base técnica, inventário de espaços e agenda revisada | Build/typecheck, dados coerentes e base visual discutida | Concluída tecnicamente; protótipo revisado e correções solicitadas aplicadas |
-| 3 — Fluxos do MVP | Mapa, busca, localização, detalhes, agenda e trajeto externo | Percurso de orientação verificado | Fase atual: fluxos implementados, validação integral e aparelho físico pendentes |
-| 4 — Cultura e memória | Roteiros, memórias locais e linha do tempo | Conteúdo e origens identificados, persistência testada | Não iniciada |
+| 3 — Fluxos do MVP | Mapa, busca, localização, detalhes, agenda e trajeto externo | Percurso de orientação verificado | Concluída no escopo do protótipo; evidências e limites no documento 15 |
+| 4 — Cultura e memória | Roteiros, memórias locais e linha do tempo | Conteúdo e origens identificados, persistência testada | Próxima fase; não iniciada |
 | 5 — Preparação do pitch | Revisão mobile, falhas, evidências e material de apoio | Percurso repetível e limitações conhecidas | Não iniciada |
 
 ## Sequência sugerida para a janela disponível

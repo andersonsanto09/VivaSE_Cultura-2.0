@@ -46,3 +46,7 @@ A pasta `src` não consta do histórico clonado; o código da aplicação precis
 Detalhes de arquitetura: [03](03-ARQUITETURA.md). Perguntas e riscos: [09](09-ROADMAP.md). Fontes: [FONTES-E-CURADORIA](FONTES-E-CURADORIA.md).
 
 16/11, revisão após feedback: Leaflet e tiles raster substituídos por MapLibre/react-map-gl e MapTiler; chave local, atribuição preservada e ícones semânticos. D-10 e D-15 descrevem a escolha anterior. Estado atual em [14](14-MAPA-VETORIAL-E-REVISAO-VISUAL.md).
+
+16/11, revisão de concentração real: o responsável substituiu a preferência anterior por pins sempre separados e autorizou agrupamento/expansão. Implementada detecção de proximidade em tela e spiderfy, sem alterar âncoras; detalhes no documento 16.
+
+16/11, decisão mais recente: responsável voltou a priorizar pins individuais, sem cluster, afastamento pequeno só em colisões e lista de vizinhos como fallback. Substitui a escolha de agrupamento do registro anterior; detalhes no documento 17.

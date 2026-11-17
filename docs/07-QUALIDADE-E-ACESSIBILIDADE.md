@@ -45,3 +45,7 @@ Sem login, rastreamento ou recebimento de lembranças pelo servidor nesta entreg
 As memórias pessoais são locais, podem ser apagadas pelo navegador e não têm backup garantido. Não coletar posição contínua ou associar localização real aos textos. Exportação, nuvem e publicação compartilhada exigem definição futura.
 
 Plano de verificação: [08](08-ESTRATEGIA-DE-TESTES.md). Integrações e termos: [06](06-MAPA-LOCALIZACAO-E-ROTEIROS.md).
+
+## Atualização após implementação
+
+O texto acima preserva os critérios de planejamento. A aplicação já existe: evidências efetivamente executadas na orientação, resultados automáticos, relato em celular físico e limites estão no [relatório da fase 3](15-FASE-3-VALIDACAO.md). Cenários culturais e medições finais permanecem pendentes; não considerar todos os P0 do MVP concluídos.

@@ -34,22 +34,20 @@ export function festivalEnd(activity: Activity): string | undefined {
 export function activityPeriod(activity: Activity): string {
   return activity.endTime ? `${displayTime(activity.time)}–${displayTime(activity.endTime)}` : displayTime(activity.time);
 }
+export function isActivityLive(activity:Activity,now:number):boolean {
+  const end=festivalEnd(activity);
+  return !!end && Date.parse(festivalStart(activity.day,activity.time))<=now && now<Date.parse(end);
+}
+export function festivalDayAt(now:number):FestivalDay|undefined {
+  const parts=new Intl.DateTimeFormat('en',{timeZone:'America/Sao_Paulo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',hourCycle:'h23'}).formatToParts(now);
+  const value=(type:string)=>Number(parts.find(p=>p.type===type)?.value);
+  if(value('year')!==2026 || value('month')!==11) return undefined;
+  const day=value('day')-(value('hour')<6?1:0);
+  return day>=20 && day<=22 ? String(day) as FestivalDay : undefined;
+}
 export const displayTime = (time: string) => time.replace(':00', 'h').replace(':', 'h');
 export function filterPlaces(places: Place[], activities: Activity[], query: string, category: string): Place[] {
   const term = normalize(query);
   return places.filter(place => (category === 'Todos' || place.category === category) &&
     normalize(`${place.name} ${place.address} ${place.description} ${activities.filter(a => a.placeId === place.id).map(a => `${a.title} ${a.details || ''}`).join(' ')}`).includes(term));
-}
-
-// Geographic anchors never move. Only coincident references get compact pixel offsets
-// at street zoom, so zooming out cannot spread places across other municipalities.
-export function layoutMapPlaces(places: Place[], zoom: number): { place: Place; coordinates: [number,number]; offset: [number,number]; displaced: boolean }[] {
-  return places.filter(p=>p.coordinates).map(place=>{
-    const peers=places.filter(p=>p.coordinates && p.coordinates[0]===place.coordinates![0] && p.coordinates[1]===place.coordinates![1]);
-    const index=peers.findIndex(p=>p.id===place.id);
-    const radius=peers.length>1 ? 52*Math.max(0,Math.min(1,(zoom-15)*2)) : 0;
-    const angle=-Math.PI/2+index/peers.length*Math.PI*2;
-    const offset:[number,number]=radius ? [Math.round(Math.cos(angle)*radius),Math.round(Math.sin(angle)*radius)] : [0,0];
-    return {place,coordinates:[...place.coordinates!] as [number,number],offset,displaced:radius>0};
-  });
 }

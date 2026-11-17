@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { festivalStart, festivalEnd, filterPlaces, layoutMapPlaces } from '../src/domain/catalog.ts';
+import { festivalStart, festivalEnd, filterPlaces, isActivityLive, festivalDayAt } from '../src/domain/catalog.ts';
+import { layoutIndividualPins, overlappingNeighbours } from '../src/domain/map-layout.ts';
 import { activities, places } from '../src/data/festival.ts';
 
 test('madrugadas pertencem à data civil seguinte, preservando dia de programação', () => {
@@ -29,23 +30,30 @@ test('intervalos atravessam meia-noite sem deslocar a madrugada duas vezes', () 
   assert.equal(festivalEnd({...base,time:'18:00'}),undefined);
   assert.throws(() => festivalStart('20','9:00'));
 });
-test('cada espaço mantém seu marcador e posições compartilhadas são separadas visualmente', () => {
-  const shared = places.filter(p => p.id === 'camara' || p.id === 'mariano');
-  const pins = layoutMapPlaces(shared,17);
-  assert.equal(pins.length,2);
-  assert.deepEqual(pins.map(p=>p.place.id),shared.map(p=>p.id));
-  assert.deepEqual(pins[0].coordinates,pins[1].coordinates);
-  assert.notDeepEqual(pins[0].offset,pins[1].offset);
-  assert.deepEqual(shared[0].coordinates,shared[1].coordinates);
-  assert.equal(pins[1].displaced,true);
-  assert.equal(layoutMapPlaces([{...shared[0],coordinates:undefined}],14).length,0);
-  for (const zoom of [13,17,19]) {
-    const all = layoutMapPlaces(places,zoom);
-    assert.equal(all.length,20);
-    assert.equal(new Set(all.map(p=>p.place.id)).size,20);
-    for(const pin of all) assert.deepEqual(pin.coordinates,pin.place.coordinates);
-    if(zoom<15) assert.ok(all.every(p=>p.offset[0]===0 && p.offset[1]===0));
-  }
+test('todos os pins continuam individuais com deslocamento pequeno e âncora preservada', () => {
+  const base={...places[0],coordinates:[-11,-37] as [number,number]};
+  const points=Array.from({length:6},(_,i)=>({place:{...base,id:String(i)},x:100,y:100}));
+  const pins=layoutIndividualPins(points);
+  assert.equal(pins.length,6);
+  for(const pin of pins){assert.deepEqual(pin.place.coordinates,[-11,-37]);assert.ok(Math.hypot(...pin.offset)<=72);}
+  for(let i=0;i<pins.length;i++)for(let j=i+1;j<pins.length;j++)assert.ok(Math.hypot(pins[i].x+pins[i].offset[0]-pins[j].x-pins[j].offset[0],pins[i].y+pins[i].offset[1]-pins[j].y-pins[j].offset[1])>=50);
+  const separate=layoutIndividualPins([points[0],{...points[1],x:300}]);
+  assert.deepEqual(separate.map(p=>p.offset),[[0,0],[0,0]]);
+  const residual=[{...points[0],offset:[0,0] as [number,number]},{...points[1],offset:[10,0] as [number,number]}];
+  assert.equal(overlappingNeighbours(residual,residual[0]).length,2);
+  assert.equal(overlappingNeighbours(separate,separate[0]).length,1);
+  const crowded=layoutIndividualPins(Array.from({length:20},(_,i)=>({...points[0],place:{...base,id:String(i)}})));
+  assert.equal(crowded.length,20);
+  assert.ok(crowded.every(pin=>Math.hypot(...pin.offset)<=72.001));
+});
+test('agora usa intervalo conhecido, considera madrugada e não inventa fim de show', () => {
+  const activity={id:'test',placeId:'tsuru',title:'Tsuru',day:'20' as const,time:'10:00',endTime:'02:00',page:6};
+  assert.equal(isActivityLive(activity,Date.parse('2026-11-21T01:30:00-03:00')),true);
+  assert.equal(isActivityLive(activity,Date.parse('2026-11-21T02:00:00-03:00')),false);
+  assert.equal(isActivityLive({...activity,endTime:undefined},Date.parse('2026-11-20T12:00:00-03:00')),false);
+  assert.equal(festivalDayAt(Date.parse('2026-11-21T01:30:00-03:00')),'20');
+  assert.equal(festivalDayAt(Date.parse('2026-11-23T01:30:00-03:00')),'22');
+  assert.equal(festivalDayAt(Date.parse('2026-11-16T14:00:00-03:00')),undefined);
 });
 test('cobertura reconciliada com as 21 páginas de conteúdo da v4', () => {
   assert.deepEqual([...new Set(activities.map(a=>a.page))].sort((a,b)=>a-b),[2,3,4,5,6,7,8,10,11,12,13,14,15,16,18,19,20,21,22,23,24]);
