@@ -5,7 +5,7 @@ import PlaceSymbol, { placeKind } from './components/PlaceSymbol';
 import CategoryChips, { categoryItems, categoryTone } from './components/CategoryChips';
 import SelectField from './components/SelectField';
 import * as Accordion from '@radix-ui/react-accordion';
-import { ChevronDown } from 'lucide-react';
+import { ArrowUpRight, ChevronDown, SlidersHorizontal } from 'lucide-react';
 import { activities, categories, geoSources, places, reviewedAt } from './data/festival';
 import { days, displayTime, festivalStart, festivalEnd, filterPlaces, normalize, isActivityLive, festivalDayAt } from './domain/catalog';
 import type { Activity, FestivalDay, Place } from './domain/catalog';
@@ -41,7 +41,7 @@ function DayPicker({ day, onChange }: { day: FestivalDay; onChange: (day: Festiv
 function ActivityTime({ activity }: { activity: Activity }) {
   const end = festivalEnd(activity);
   const endDate = end && new Date(end).toLocaleDateString('pt-BR',{timeZone:'America/Sao_Paulo',day:'2-digit',month:'2-digit'});
-  return <time dateTime={festivalStart(activity.day,activity.time)}><span>{displayTime(activity.time)}</span>{activity.endTime && <span className="end-time">até {displayTime(activity.endTime)}</span>}{Number(activity.time.slice(0,2)) < 6 ? <small>{Number(activity.day)+1}/11 · madrugada</small> : endDate && endDate !== `${activity.day}/11` ? <small>até {endDate}</small> : null}</time>;
+  return <time className={activity.time.slice(3)!=='00'?'has-minutes':undefined} dateTime={festivalStart(activity.day,activity.time)}><span>{displayTime(activity.time)}</span>{activity.endTime && <span className="end-time">até {displayTime(activity.endTime)}</span>}{Number(activity.time.slice(0,2)) < 6 ? <small>{Number(activity.day)+1}/11 · madrugada</small> : endDate && endDate !== `${activity.day}/11` ? <small>até {endDate}</small> : null}</time>;
 }
 function ActivityDetails({ activity }: { activity: Activity }) {
   if(!activity.details)return null;
@@ -55,20 +55,22 @@ class MapBoundary extends Component<{ children: ReactNode }, { failed: boolean }
 function Home() {
   return <main id="conteudo" className="home">
     <section className="hero">
-      <div className="hero-copy"><p className="eyebrow">São Cristóvão, Sergipe · 20 a 22 de novembro</p><h1>Seu festival.<br /><span>Sua cidade.</span></h1>
-        <p className="hero-description">Encontre os espaços do FASC 2026 e descubra a cultura que acontece pelo caminho.</p>
-        <button className="button primary hero-action" onClick={() => go('mapa')}>Explorar o mapa <Icon name="arrow" /></button>
-        <a className="text-action" href="#/programacao?dia=20">Ver programação <Icon name="arrow" size={17} /></a>
+      <div className="hero-copy"><p className="eyebrow">São Cristóvão · 20—22 novembro 2026</p><h1>A cidade<br />é o <span>festival.</span></h1>
+        <p className="hero-description">Encontre seu palco, descubra um novo caminho.<br />Viva o FASC por toda São Cristóvão.</p>
+        <div className="hero-actions"><a className="button primary hero-action" href="#/mapa?dia=20">Explorar o mapa <ArrowUpRight size={22} aria-hidden="true" /></a>
+          <a className="text-action" href="#/programacao?dia=20">Ver programação <Icon name="arrow" size={18} /></a></div>
       </div>
-      <figure className="hero-art"><div className="art-heading"><span>41º FASC / 2026</span><span>Tradição que move o presente</span></div>
-        <img src="/images/fasc-2026-identidade.png" alt="Arte do FASC 2026: personagens, fitas e elementos culturais em amarelo, rosa, roxo, verde e turquesa." width="847" height="380" />
-        <figcaption>Identidade da edição, fornecida como referência para o protótipo.</figcaption>
-        <div className="festival-dates">{days.map(d => <button key={d.id} className={`date-block date-${d.id}`} onClick={() => go('programacao', d.id)}><span>{d.name}</span><strong>{d.id}<small>nov</small></strong><Icon name="arrow" /></button>)}</div>
+      <figure className="hero-art">
+        <div className="hero-art-image" role="img" aria-label="Palco e público do FASC 2025 na Praça São Francisco. Foto: Julia Rodrigues." />
+        <a className="hero-photo-credit" href="https://www.saocristovao.se.gov.br/noticia/primeira-noite-de-shows-do-fasc-2025-e-marcada-por-sucesso-de-publico-e-representatividade-negra-nos-palcos" target="_blank" rel="noreferrer">FASC 2025 · Foto: Julia Rodrigues / Prefeitura de São Cristóvão <Icon name="external" size={12} /></a>
+        <figcaption className="art-ticket">Tradição que<br />move o presente</figcaption>
       </figure>
     </section>
-    <section className="home-explore"><div><p className="eyebrow">O festival ocupa a cidade</p><h2>Escolha por onde começar.</h2><p>Dos palcos às oficinas, da feira ao cinema. Cada espaço tem um encontro esperando por você.</p></div>
-      <div className="start-links">{categoryItems.map(({name,tone,icon:Symbol})=>{const count=places.filter(place=>place.category===name).length;return <a key={name} className={`start-card tone-${tone}`} href={`#/mapa?dia=20&categoria=${encodeURIComponent(name)}`}><Symbol className="start-card-symbol" size={34} strokeWidth={1.8} aria-hidden="true" /><span><strong>{name}</strong><span>{count} {count===1?'espaço':'espaços'} para explorar</span></span><Icon name="arrow" size={22} /></a>;})}</div>
+    <div className="festival-ribbon"><span>Música · Teatro · Cultura popular</span><span className="ribbon-star" aria-hidden="true" /><span>41º FASC · São Cristóvão</span></div>
+    <section className="festival-calendar" aria-labelledby="calendar-title"><h2 id="calendar-title">Três dias.<br /> Muitos encontros.</h2>
+      <div className="festival-dates">{days.map(d => <a key={d.id} className={`date-block date-${d.id}`} href={`#/programacao?dia=${d.id}`} aria-label={`Ver programação de ${d.name}, ${d.id} de novembro`}><strong>{d.id}</strong><span>{d.name}<small>novembro <ArrowUpRight size={15} aria-hidden="true" /></small></span></a>)}</div>
     </section>
+    <section className="home-explore" aria-label="Explorar por categoria"><div className="start-links">{categoryItems.map(({name,tone,icon:Symbol})=>{const count=places.filter(place=>place.category===name).length;return <a key={name} className={`start-card tone-${tone}`} href={`#/mapa?dia=20&categoria=${encodeURIComponent(name)}`}><Symbol className="start-card-symbol" size={27} strokeWidth={1.8} aria-hidden="true" /><strong>{name}</strong><span className="start-card-count">{count} {count===1?'espaço':'espaços'}</span><span className="start-card-action">Explorar <ArrowUpRight size={18} aria-hidden="true" /></span></a>;})}</div></section>
     <footer className="home-footer"><span>VivaSE Cultura — seu guia para viver o FASC.</span><a href="#/sobre">Sobre o protótipo e os créditos <Icon name="arrow" size={16} /></a></footer>
   </main>;
 }
@@ -84,21 +86,22 @@ function PlaceDetail({ place, day, onBack, fromAgenda }: { place: Place; day: Fe
   }
   return <section className="place-detail" aria-label="Detalhes do espaço">
     <button className="back-button" onClick={onBack}><Icon name="back" size={18} /> {fromAgenda ? 'Voltar à programação' : 'Todos os espaços'}</button>
-    <span className="category-label"><PlaceSymbol place={place} />{place.category}</span><h2 tabIndex={-1} ref={heading}>{place.name}</h2>
-    <p className="place-address"><Icon name="pin" size={17} />{place.address}</p><p className="precision-note">{place.locationKind!=='equipment' || place.id==='bica' ? 'Referência aproximada: o ponto indica a área, não a entrada exata.' : 'Referência do equipamento. Confirme a entrada e o acesso ao chegar.'}</p><p>{place.description}</p>
+    <span className={`category-label tone-${categoryTone(place.category)}`}><span className="detail-category-symbol"><PlaceSymbol place={place} size={18} /></span>{place.category}</span><h2 tabIndex={-1} ref={heading}>{place.name}</h2>
+    <p className="place-address"><Icon name="pin" size={17} />{place.address}</p><p className="precision-note">{place.locationKind!=='equipment' || place.id==='bica' ? 'Referência aproximada: o ponto indica a área, não a entrada exata.' : 'Referência do equipamento. Confirme a entrada e o acesso ao chegar.'}</p>
+    {rows.length > 0 && <p className="day-preview"><strong>{displayTime(rows[0].time)}</strong><span>Primeiro horário anunciado · {day}/11<br />{rows[0].title}</span></p>}
     <div className="place-actions">{place.canNavigate ? <a className="button primary" href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(destination)}&travelmode=walking`} target="_blank" rel="noreferrer">Como chegar <Icon name="external" size={17} /></a> : <p className="notice">O endereço está em conferência. O trajeto será disponibilizado após a confirmação.</p>}
       {place.canNavigate && <button className="small-action" onClick={copyAddress}>Copiar endereço</button>}<span role="status" className="copy-status">{copied}</span>
     </div>
     {place.canNavigate && <p className="helper">O trajeto abre no Google Maps. Confirme acessos e bloqueios locais ao chegar.</p>}
     <div className="detail-section"><h3>Programação · {day}/11</h3>{rows.length ? <ol className="activity-list">{rows.map(row => <li key={row.id}><ActivityTime activity={row} /><div><strong>{row.title}</strong><ActivityDetails activity={row} /></div></li>)}</ol> : <div className="notice">Nenhuma atividade deste espaço está indicada para {day}/11. Consulte os outros dias.</div>}</div>
-    <div className="detail-section"><h3>Informações do espaço</h3><p className="helper">{place.coordinateNote || 'A localização exata no mapa está em conferência. Este espaço permanece disponível na lista.'}</p><p className="helper">Condições de acessibilidade ainda não verificadas para esta edição.</p>
+    <div className="detail-section"><h3>Informações do espaço</h3><p>{place.description}</p><p className="helper">{place.coordinateNote || 'A localização exata no mapa está em conferência. Este espaço permanece disponível na lista.'}</p><p className="helper">Condições de acessibilidade ainda não verificadas para esta edição.</p>
       {place.locationSources && <details className="location-sources"><summary>Fontes da localização</summary><ul>{place.locationSources.filter(url => !url.startsWith('/programacao-fasc')).map((url,i) => <li key={url}><a href={url} target="_blank" rel="noreferrer">Referência {i+1} <Icon name="external" size={12} /></a></li>)}</ul></details>}
     </div>
   </section>;
 }
 function Explore({ day, placeId, query, category, origin }: { day: FestivalDay; placeId: string; query:string; category:string; origin:string }) {
-  const setQuery=(value:string)=>updateFilters({busca:value});
-  const setCategory=(value:string)=>updateFilters({categoria:value});
+  const setQuery=(value:string)=>{lastPlace.current='';updateFilters({busca:value,lugar:''});};
+  const setCategory=(value:string)=>{lastPlace.current='';updateFilters({categoria:value,lugar:''});};
   const panel=useRef<HTMLElement>(null);
   const lastPlace=useRef('');
   const listScroll=useRef(0);
@@ -109,17 +112,19 @@ function Explore({ day, placeId, query, category, origin }: { day: FestivalDay; 
     button?.focus({preventScroll:true});panel.current.scrollTop=listScroll.current;
   }},[placeId]);
   const [mobileView, setMobileView] = useState<'lista' | 'mapa'>('lista');
+  const [detailOpen, setDetailOpen] = useState(true);
   const [position, setPosition] = useState<{ lat: number; lng: number; accuracy: number } | null>(null);
   const [geoMessage, setGeoMessage] = useState('');
   const [locating, setLocating] = useState(false);
   const selected = places.find(p => p.id === placeId);
   const filtered = useMemo(() => filterPlaces(places, activities, query, category),[query,category]);
   const pinCount = filtered.filter(p => p.coordinates).length;
-  function select(id: string) {
+  function select(id: string, showDetails = true) {
     listScroll.current=panel.current?.scrollTop || 0;
     const term = normalize(query);
     const matching = term ? activities.filter(a => a.placeId === id && normalize(`${a.title} ${a.details || ''}`).includes(term)) : [];
     const match = matching.find(a => a.day === day) || matching[0];
+    setDetailOpen(showDetails || window.matchMedia('(max-width: 800px)').matches);
     go('mapa',match?.day || day,id); setMobileView('lista');
   }
   function locate() {
@@ -137,20 +142,22 @@ function Explore({ day, placeId, query, category, origin }: { day: FestivalDay; 
     catch { setLocating(false);setGeoMessage('Não foi possível obter sua posição. Você pode usar a lista.'); }
   }
   return <main id="conteudo" className="explorer" data-day={day}>
-    <div className="explore-heading"><div><p className="eyebrow">FASC 2026 · São Cristóvão</p><h1>Viva o FASC. Explore a cidade.</h1></div><DayPicker day={day} onChange={d => go('mapa', d, placeId)} /></div>
+    <div className="explore-heading"><div><p className="eyebrow">FASC 2026 · São Cristóvão</p><h1>Encontre seu lugar.</h1></div><DayPicker day={day} onChange={d => go('mapa', d, placeId)} /></div>
     <div className="mobile-switch" role="group" aria-label="Visualização"><button aria-pressed={mobileView === 'lista'} onClick={() => setMobileView('lista')}><Icon name="list" size={17} /> {selected ? 'Detalhes' : 'Lista'}</button><button aria-pressed={mobileView === 'mapa'} onClick={() => setMobileView('mapa')}><Icon name="map" size={17} /> Mapa</button></div>
     <div className={`workspace view-${mobileView}`}>
-      <aside ref={panel} className="places-panel" aria-label="Espaços do festival">{selected ? <PlaceDetail place={selected} day={day} fromAgenda={!!origin} onBack={() => {if(origin) window.location.hash=origin;else go('mapa', day);}} /> : <>
+      <aside ref={panel} className="places-panel" aria-label="Espaços do festival">{selected && detailOpen ? <PlaceDetail place={selected} day={day} fromAgenda={!!origin} onBack={() => {if(origin) window.location.hash=origin;else go('mapa', day);}} /> : <>
         <div className="list-controls">{placeId && !selected && <p className="notice" role="status">Espaço não encontrado. Escolha um lugar na lista.</p>}<label className="search-box"><Icon name="search" /><span className="sr-only">Buscar espaço ou atração</span><input placeholder="Espaço, artista ou atividade" value={query} onChange={e => setQuery(e.target.value)} /></label>
-          <CategoryChips value={category} onChange={setCategory} />
+          <details className="filter-disclosure map-filters"><summary><SlidersHorizontal size={16} aria-hidden="true" />Categorias<span>{category==='Todos'?'Todas':category}</span><ChevronDown size={16} aria-hidden="true" /></summary><CategoryChips value={category} onChange={setCategory} /></details>
+          {category!=='Todos' && <button className="filter-reset" onClick={()=>setCategory('Todos')}>Limpar categoria <Icon name="close" size={14} /></button>}
           <div className="result-count" aria-live="polite"><strong>{filtered.length} {filtered.length === 1 ? 'espaço' : 'espaços'}</strong><span>{pinCount} com referência no mapa</span></div>
         </div>
-        <div className="places-list">{filtered.length ? filtered.map(place => <button className="place-row" data-place={place.id} key={place.id} onClick={() => select(place.id)}><span className={`place-symbol tone-${categoryTone(place.category)} kind-${placeKind(place)}`}><PlaceSymbol place={place} /></span><span className="row-body"><span className="row-category">{String(place.number).padStart(2,'0')} · {place.category}</span><strong>{place.name}</strong><span>{place.address}</span></span><Icon name="arrow" size={16} /></button>) : <div className="empty"><h2>Nenhum espaço encontrado</h2><p>Tente outro nome ou remova os filtros.</p><button className="button" onClick={() => { updateFilters({busca:'',categoria:''}); }}>Limpar filtros</button></div>}</div>
+        <div className="places-list">{filtered.length ? filtered.map(place => <button className={`place-row ${selected?.id===place.id?'is-selected':''}`} aria-pressed={selected?.id===place.id} data-place={place.id} key={place.id} onClick={() => select(place.id)}><span className={`place-symbol tone-${categoryTone(place.category)} kind-${placeKind(place)}`}><PlaceSymbol place={place} /></span><span className="row-body"><span className="row-category">{String(place.number).padStart(2,'0')} · {place.category}</span><strong>{place.name}</strong><span>{place.address}</span></span><Icon name="arrow" size={16} /></button>) : <div className="empty"><h2>Nenhum espaço encontrado</h2><p>Tente outro nome ou remova os filtros.</p><button className="button" onClick={() => { updateFilters({busca:'',categoria:''}); }}>Limpar filtros</button></div>}</div>
       </>}</aside>
-      <section className="map-panel" aria-label="Mapa e localização"><MapBoundary><Suspense fallback={<div className="map-loading" role="status">Abrindo o mapa de São Cristóvão…</div>}><MapView places={filtered} selected={selected} onSelect={select} position={position} /></Suspense></MapBoundary>
+      <section className="map-panel" aria-label="Mapa e localização"><MapBoundary><Suspense fallback={<div className="map-loading" role="status">Abrindo o mapa de São Cristóvão…</div>}><MapView places={filtered} selected={selected} onSelect={id=>select(id,false)} position={position} /></Suspense></MapBoundary>
+        {selected && !detailOpen && <article className={`map-selection tone-${categoryTone(selected.category)}`} aria-label="Resumo do espaço selecionado"><span className="eyebrow">{selected.category} · {day}/11</span><h2><span className="sr-only">Selecionado: </span>{selected.name}</h2><p>{selected.address}</p><p className="selection-agenda">{activities.filter(a=>a.placeId===selected.id && a.day===day).slice(0,2).map(a=><span key={a.id}><strong>{displayTime(a.time)}</strong> {a.title}</span>)}</p><button className="text-action" onClick={()=>{setDetailOpen(true);setMobileView('lista');panel.current?.scrollTo({top:0});}}>Ver detalhes <ArrowUpRight size={16} aria-hidden="true" /></button></article>}
         <div className="map-tools"><button className="button" onClick={locate} disabled={locating}><Icon name="locate" size={19} />{locating ? 'Localizando…' : 'Minha localização'}</button>{position && <button className="button" onClick={() => { setPosition(null); setGeoMessage('Mapa retornou à área do festival.'); go('mapa', day); }}>Voltar ao festival</button>}</div>
         {geoMessage && <div className="geo-message" role="status">{geoMessage}</div>}
-        <div className="map-caption"><span className="legend-dot" /><span>Contorno tracejado: referência aproximada. Os traços ligam pins deslocados ao ponto de referência.</span></div>
+        <div className="map-caption"><span className="precision-swatch" /><span><strong>Referência aproximada</strong><span>Confirme a entrada ao chegar. Saiba mais na legenda.</span></span></div>
       </section>
     </div>
   </main>;
@@ -167,24 +174,25 @@ function Schedule({ day, query, placeId, category, nowOnly }: { day: FestivalDay
     if(nowOnly)params.delete('agora');else{params.set('agora','1');if(currentDay)params.set('dia',currentDay);}
     window.location.hash=`/programacao?${params}`;
   }
-  return <main id="conteudo" className="content-page schedule-page"><p className="eyebrow">FASC 2026</p><h1>Programação</h1><p className="page-intro">Shows, oficinas, cinema e encontros. Escolha seu dia.</p>
-    <DayPicker day={day} onChange={d=>{go('programacao',d);updateFilters({agora:''});}} />
-    <CategoryChips value={category} onChange={value=>updateFilters({categoria:value,espaco:''})} />
-    <div className="schedule-filters"><label className="search-box"><Icon name="search" /><span className="sr-only">Buscar na programação</span><input value={query} onChange={e=>updateFilters({busca:e.target.value})} placeholder="Artista, atividade ou participante" /></label><SelectField label="Espaço da programação" value={placeId} onChange={value=>updateFilters({espaco:value})} options={[{value:'',label:'Todos os espaços'},...places.filter(place=>category==='Todos' || place.category===category || place.id===placeId).map(place=>({value:place.id,label:place.name}))]} /></div>
-    <div className="now-toolbar"><button className="now-filter" aria-pressed={nowOnly} onClick={toggleNow}><span className="live-dot" />Acontecendo agora</button><span>Relógio do aparelho · {timeLabel}</span></div>
+  return <main id="conteudo" className="schedule-page"><div className="schedule-heading"><div><p className="eyebrow">FASC 2026 · Encontros por toda a cidade</p><h1>Viva cada encontro.</h1><span className="sr-only">Programação</span></div>
+    <DayPicker day={day} onChange={d=>{go('programacao',d);updateFilters({agora:''});}} /></div>
+    <div className="schedule-body"><div className="schedule-toolbar"><label className="search-box"><Icon name="search" /><span className="sr-only">Buscar na programação</span><input value={query} onChange={e=>updateFilters({busca:e.target.value})} placeholder="Artista, atividade ou participante" /></label>
+      <button className="now-filter" aria-pressed={nowOnly} onClick={toggleNow}><span className={`live-dot ${nowOnly && currentDay ? 'is-active' : ''}`} />Acontecendo agora</button></div>
+    <details className="filter-disclosure schedule-filter-panel"><summary><SlidersHorizontal size={16} aria-hidden="true" />Filtros<span>{[category!=='Todos'?category:'',placeId?places.find(p=>p.id===placeId)?.name:''].filter(Boolean).join(' · ') || 'Categoria e espaço'}</span><ChevronDown size={16} aria-hidden="true" /></summary><div className="schedule-filters"><CategoryChips value={category} onChange={value=>updateFilters({categoria:value,espaco:''})} /><SelectField label="Espaço da programação" value={placeId} onChange={value=>updateFilters({espaco:value})} options={[{value:'',label:'Todos os espaços'},...places.filter(place=>category==='Todos' || place.category===category || place.id===placeId).map(place=>({value:place.id,label:place.name}))]} /></div></details>
+    {nowOnly && <p className="device-clock">Relógio do aparelho · {timeLabel}</p>}
     {nowOnly && <p className="now-explanation">Somente atividades com início e término informados. Sem horário final, a duração não é presumida. {!currentDay && 'O relógio do aparelho está fora dos dias do festival.'}</p>}
     <div className="schedule-summary"><p aria-live="polite"><strong>{rows.length}</strong> {rows.length===1?'atividade':'atividades'} em {day}/11</p>{(query || placeId || category!=='Todos' || nowOnly) && <button className="small-action" onClick={()=>updateFilters({busca:'',espaco:'',categoria:'',agora:''})}>Limpar filtros</button>}</div>
-    <p className="agenda-note">Programação conferida em {reviewedAt}. Sujeita a alterações. Sessões e janelas gerais seguem o agrupamento publicado; horários finais só aparecem quando informados.</p>
+    <details className="agenda-note"><summary>Conferida em {reviewedAt} · Sujeita a alterações <ChevronDown size={14} aria-hidden="true" /></summary><p>Sessões e janelas gerais seguem o agrupamento publicado; horários finais só aparecem quando informados.</p></details>
     {rows.length ? <ol className="schedule-list">{rows.map(row=>{
       const place=places.find(p=>p.id===row.placeId)!;
       const live=isActivityLive(row,now);
-      return <li key={row.id} className={live?'is-live':''}><ActivityTime activity={row} /><div><div className="activity-category"><span className={`category-dot tone-${categoryTone(place.category)}`}><PlaceSymbol place={place} size={14} /></span>{place.category}{live && <span className="live-badge">Em andamento</span>}</div><h2>{row.title}</h2><p>{place.name}</p><ActivityDetails activity={row} /></div><button className="button" onClick={()=>go('mapa',day,row.placeId,window.location.hash.slice(1))}>Ver espaço<Icon name="arrow" size={17} /></button></li>;
-    })}</ol> : <div className="empty"><h2>Nenhuma atividade encontrada</h2><p>{nowOnly?'Nenhuma atividade com intervalo informado está em andamento nesta consulta.':'Confira outro dia ou remova os filtros para explorar outras atividades.'}</p></div>}
+      return <li key={row.id} className={`timeline-row tone-${categoryTone(place.category)} ${live?'is-live':''}`}><div className="timeline-time"><ActivityTime activity={row} /></div><article className="event-card"><div className="event-body"><div className="activity-category"><span className="category-dot" />{place.category}{live && <span className="live-badge">Em andamento</span>}</div><h2>{row.title}</h2><p className="event-place">{place.name}</p><ActivityDetails activity={row} /></div><button className="event-action" aria-label={`Ver espaço: ${row.title}`} onClick={()=>go('mapa',day,row.placeId,window.location.hash.slice(1))}><ArrowUpRight size={21} aria-hidden="true" /><span className="sr-only">Ver espaço</span></button></article></li>;
+    })}</ol> : <div className="empty"><h2>Nenhuma atividade encontrada</h2><p>{nowOnly ? (!currentDay?'O festival acontece de 20 a 22 de novembro. Escolha um dia para consultar a programação.':'Nenhuma atividade com intervalo informado está em andamento nesta consulta.'):'Confira outro dia ou remova os filtros para explorar outras atividades.'}</p></div>}</div>
   </main>;
 }
 function About() {
-  return <main id="conteudo" className="content-page about"><p className="eyebrow">Cultura sergipana, no seu caminho</p><h1>Sobre o VivaSE</h1><p className="page-intro">Um guia para se encontrar no festival e descobrir São Cristóvão.</p><section><h2>Protótipo em construção</h2><p>Este é o protótipo do VivaSE Cultura em desenvolvimento para apresentação no ideathon. O produto é independente e não é um canal oficial de atualização do FASC.</p><p>O inventário inicial contém {places.length} espaços ou frentes de programação. Há equipamentos compartilhados e cortejos itinerantes: esse total não é o número de endereços físicos distintos.</p><p>A agenda reúne 144 registros dos três dias, incluindo sessões, janelas de funcionamento e aberturas. Isso não equivale ao número de artistas. Roteiros, memórias e linha do tempo serão construídos nas próximas etapas.</p></section>
-      <section><h2>Fontes e créditos</h2><p>Programação completa v4 de 24 páginas e peças da identidade do FASC 2026 fornecidas pelo responsável pelo projeto. A arte foi preservada como referência visual da edição. Revisão inicial: {reviewedAt}.</p><ul>{geoSources.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a></li>)}</ul><p>Cartografia: MapTiler e © colaboradores do OpenStreetMap. Mapa vetorial com MapLibre. Os marcadores distinguem referências de equipamento, praça, rua e saída de cortejo. Cada espaço possui seu marcador. Referências compartilhadas se separam visualmente apenas ao aproximar, com ligação ao ponto original; suas coordenadas não são alteradas. As fontes e limites de precisão estão nos detalhes de cada espaço. Não são posições garantidas das estruturas temporárias ou de suas entradas.</p></section>
+  return <main id="conteudo" className="content-page about"><p className="eyebrow">Cultura sergipana, no seu caminho</p><h1>Sobre o VivaSE</h1><p className="page-intro">Um guia para se encontrar no festival e descobrir São Cristóvão.</p><section><h2>Um festival, muitos caminhos</h2><p>O VivaSE aproxima quem chega à cidade dos espaços, das atrações e da cultura local. Explore o mapa, consulte a programação e escolha o seu próximo encontro.</p><p>Orientação durante o festival, descoberta cultural e preservação da memória são as três prioridades do projeto. Roteiros, memórias e linha do tempo serão construídos nas próximas etapas.</p><p>Este é um protótipo independente em desenvolvimento para apresentação no ideathon. Não é um canal oficial de atualização do FASC.</p><details className="coverage-note"><summary>Cobertura deste protótipo <ChevronDown size={16} aria-hidden="true" /></summary><p>O inventário inicial contém {places.length} espaços ou frentes de programação. Há equipamentos compartilhados e cortejos itinerantes: esse total não é o número de endereços físicos distintos.</p><p>A agenda reúne 144 registros dos três dias, incluindo sessões, janelas de funcionamento e aberturas. Isso não equivale ao número de artistas.</p></details></section>
+      <section><h2>Fontes e créditos</h2><p>Programação completa v4 de 24 páginas e peças da identidade do FASC 2026 fornecidas pelo responsável pelo projeto. A arte foi preservada como referência visual da edição. Revisão inicial: {reviewedAt}.</p><ul>{geoSources.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a></li>)}</ul><p>Cartografia: MapTiler e © colaboradores do OpenStreetMap. Mapa vetorial com MapLibre. Os marcadores distinguem referências de equipamento, praça, rua e saída de cortejo. Cada espaço possui seu marcador. Referências compartilhadas recebem pequenos deslocamentos visuais fixos, ligados ao ponto original; suas coordenadas não são alteradas. As fontes e limites de precisão estão nos detalhes de cada espaço. Não são posições garantidas das estruturas temporárias ou de suas entradas.</p></section>
       <section><h2>Sua localização</h2><p>É solicitada apenas ao tocar em “Minha localização” e fica na sessão. Você pode usar o guia sem autorizar. O fundo do mapa é carregado de um serviço externo; “Como chegar” abre o Google Maps.</p></section>
   </main>;
 }
@@ -197,7 +205,7 @@ export default function App() {
   useEffect(() => { const listener = () => setRoute(readRoute()); window.addEventListener('hashchange', listener); return () => window.removeEventListener('hashchange', listener); }, []);
   useEffect(() => { document.title = `${route.page === 'inicio' ? 'VivaSE Cultura' : route.page === 'mapa' ? 'Mapa | VivaSE Cultura' : route.page === 'programacao' ? 'Programação | VivaSE Cultura' : 'Sobre | VivaSE Cultura'} — FASC 2026`; window.scrollTo(0, 0); }, [route.page]);
   return <div className={`app page-${route.page}`}><a href="#conteudo" className="skip-link" onClick={e => { e.preventDefault(); const main = document.getElementById('conteudo'); main?.setAttribute('tabindex', '-1'); main?.focus(); }}>Pular para o conteúdo</a>
-    <header className="site-header"><Brand /><nav aria-label="Navegação principal">{[{ page: 'mapa', label: 'Mapa' }, { page: 'programacao', label: 'Programação' }, { page: 'sobre', label: 'Sobre' }].map(item => <a key={item.page} href={`#/${item.page}?dia=${route.day}`} aria-current={route.page === item.page ? 'page' : undefined}>{item.label}</a>)}</nav><span className="edition-label"><img src="/images/fasc-2026-logo.svg" alt="FASC 2026" width="100" height="34" /></span></header>
+    <header className="site-header"><Brand /><nav aria-label="Navegação principal">{[{ page: 'mapa', label: 'Mapa' }, { page: 'programacao', label: 'Programação' }, { page: 'sobre', label: 'Sobre' }].map(item => <a key={item.page} href={`#/${item.page}?dia=${route.day}`} aria-current={route.page === item.page ? 'page' : undefined}>{item.label}</a>)}</nav><span className="edition-label"><img src={`${import.meta.env.BASE_URL}images/fasc-2026-logo.svg`} alt="FASC 2026" width="100" height="34" /></span></header>
     {route.page === 'inicio' ? <Home /> : route.page === 'mapa' ? <Explore day={route.day} placeId={route.placeId} query={route.query} category={route.category} origin={route.origin} /> : route.page === 'programacao' ? <Schedule day={route.day} query={route.query} placeId={route.agendaPlace} category={route.category} nowOnly={route.nowOnly} /> : <About />}
   </div>;
 }

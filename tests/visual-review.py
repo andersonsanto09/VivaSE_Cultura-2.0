@@ -5,6 +5,12 @@ from playwright.sync_api import sync_playwright,expect
 BASE='http://127.0.0.1:5173/'
 out=Path('tmp/visual-review');out.mkdir(parents=True,exist_ok=True)
 checks=[];errors=[]
+def reveal_filters(page):
+    panel=page.locator("details.filter-disclosure").first
+    panel.wait_for(state="visible")
+    if panel.get_attribute("open") is None:
+        panel.locator("summary").click()
+
 with sync_playwright() as p:
     browser=p.chromium.launch(channel='msedge',headless=True,args=['--enable-unsafe-swiftshader'])
     context=browser.new_context(viewport={'width':1440,'height':1000},locale='pt-BR')
@@ -46,6 +52,7 @@ with sync_playwright() as p:
     assert page.locator('.nearby-picker>button').count()>1
     page.keyboard.press('Escape');expect(page.locator('.nearby-picker')).to_have_count(0)
     pin.evaluate('el=>el.click()');page.locator('.nearby-picker>button').first.click()
+    page.get_by_role('button',name='Ver detalhes',exact=True).click()
     expect(page.locator('.place-detail h2')).to_be_visible()
     expect(page.locator('.festival-pin .pin-number')).to_have_count(1)
     checks.append('20 pins individuais; 19 centrais na abertura; visão geral inclui Bica; fallback residual abre lista sem zoom')
@@ -54,13 +61,16 @@ with sync_playwright() as p:
     assert title.evaluate('el=>getComputedStyle(el).letterSpacing')=='normal' or float(title.evaluate('el=>parseFloat(getComputedStyle(el).letterSpacing)||0'))==0
     for category in ['Música','Artes cênicas','Cultura e formação','Feiras e experiências','Cortejos']:
         page.get_by_role('link',name=category,exact=False).click()
+        reveal_filters(page)
         expect(page.get_by_role('button',name='Filtrar '+category,exact=True)).to_have_attribute('aria-pressed','true')
         assert page.locator('.place-row').count()>0
         page.goto(BASE)
     checks.append('Cinco cards da entrada filtram categorias reais; título sem tracking negativo')
     page.goto(BASE+'#/programacao?dia=21')
+    reveal_filters(page)
     page.get_by_role('button',name='Filtrar Música',exact=True).click()
     count=page.locator('.schedule-list>li').count();assert 0<count<51
+    reveal_filters(page)
     page.get_by_role('combobox',name='Espaço da programação').click()
     page.get_by_role('option',name='Palco João Bebe Água',exact=True).click()
     expect(page.locator('.schedule-list>li')).to_have_count(4)
@@ -81,11 +91,12 @@ with sync_playwright() as p:
             page.goto(BASE+path);page.wait_for_load_state('networkidle')
             assert page.evaluate('document.documentElement.scrollWidth<=innerWidth'),(width,label)
             page.screenshot(path=str(out/f'{label}-{width}.png'),full_page=True)
-            if label=='map-list' and width<700:
+            if label=='map-list' and width<=800:
                 page.get_by_role('button',name='Mapa',exact=True).click();coverage(19)
                 page.get_by_role('button',name='Ver todos os espaços',exact=True).click();coverage()
                 page.screenshot(path=str(out/f'map-{width}.png'))
     page.goto(BASE+'#/programacao?dia=21')
+    page.emulate_media(reduced_motion="reduce")
     day_colors=[]
     for name in ['Sexta-feira, 20 de novembro','Sábado, 21 de novembro','Domingo, 22 de novembro']:
         page.get_by_role('button',name=name).click()

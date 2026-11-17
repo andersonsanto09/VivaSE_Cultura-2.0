@@ -59,6 +59,14 @@ Revisão após feedback: [14 — Mapa vetorial, ícones e identidade FASC](14-MA
 
 - [15 — Encerramento, evidências e limites da fase 3](15-FASE-3-VALIDACAO.md).
 
-Revisão posterior da orientação/visual: [16 — Mapa, agenda e entrada](16-REVISAO-MAPA-AGENDA-E-LANDING.md). Agrupamento/expansão agora autorizados; cards filtram categorias; agenda inclui categoria e modo “agora” por intervalos publicados.
+Revisão histórica da orientação/visual: [16 — Mapa, agenda e entrada](16-REVISAO-MAPA-AGENDA-E-LANDING.md). A proposta intermediária de agrupamento foi substituída pela decisão de pins individuais do registro 17. Cards filtram categorias; agenda inclui categoria e modo “agora” por intervalos publicados.
 
 - [17 — Decisão final de pins individuais e próximos passos](17-PINS-INDIVIDUAIS-E-PROXIMOS-PASSOS.md).
+
+- [18 — Correção do zoom e acabamento antes da fase 4](18-CORRECAO-ZOOM-E-ACABAMENTO.md), revisão de 17/11/2026.
+
+- [19 — Implementação da direção visual aprovada](19-DIRECAO-VISUAL-IMPLEMENTADA.md): Cartaz vivo + Atlas cultural, refinamentos e validação de 17/11/2026.
+
+- [20 — Correção da visão geral e proposta com fotografia](20-ZOOM-GERAL-E-PROPOSTA-FOTOGRAFICA.md): separação proporcional ao zoom e fotografia aplicada após avaliação.
+
+- [21 — Publicação no GitHub Pages](21-PUBLICACAO-GITHUB-PAGES.md): endereço do projeto, build e configuração do domínio do mapa.

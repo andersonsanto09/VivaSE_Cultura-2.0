@@ -7,6 +7,12 @@ from playwright.sync_api import sync_playwright, expect
 
 out = Path('tmp/phase-2-qa'); out.mkdir(parents=True, exist_ok=True)
 checks = []
+def reveal_filters(page):
+    panel=page.locator("details.filter-disclosure").first
+    panel.wait_for(state="visible")
+    if panel.get_attribute("open") is None:
+        panel.locator("summary").click()
+
 def mock_map(route):
     if '.svg' in route.request.url:
         route.fulfill(status=200,content_type='image/svg+xml',body='<svg xmlns="http://www.w3.org/2000/svg" width="82" height="24"><text x="0" y="16">MapTiler</text></svg>')
@@ -21,9 +27,9 @@ with sync_playwright() as p:
     response=page.goto('http://127.0.0.1:5173/')
     assert response and response.status==200
     page.wait_for_load_state('networkidle')
-    expect(page.get_by_role('heading',name='Seu festival. Sua cidade.')).to_be_visible()
+    expect(page.get_by_role('heading',name='A cidade é o festival.')).to_be_visible()
     page.screenshot(path=str(out/'home-desktop.png'),full_page=True)
-    page.get_by_role('button',name='Explorar o mapa').click()
+    page.get_by_role('link',name='Explorar o mapa').click()
     expect(page.get_by_text('20 espaços',exact=True)).to_be_visible()
     page.wait_for_load_state('networkidle')
     page.wait_for_function('Array.from(document.querySelectorAll(".map-cluster strong")).reduce((sum,n)=>sum+Number(n.textContent),0)+document.querySelectorAll(".festival-pin").length===20')
@@ -31,11 +37,13 @@ with sync_playwright() as p:
     page.get_by_role('textbox',name='Buscar espaço ou atração').fill('pericles')
     marker=page.get_by_role('button',name='Abrir Palco João Bebe Água',exact=True)
     expect(marker).to_be_visible();marker.click()
+    expect(page.locator(".place-row[aria-pressed=true]")).to_have_count(1)
+    page.get_by_role("button",name="Ver detalhes",exact=True).click()
     expect(page.get_by_role('heading',name='Palco João Bebe Água',exact=True)).to_be_visible()
     expect(page.locator('a[href*="programacao-fasc-2026"]')).to_have_count(0)
     page.get_by_role('button',name='Todos os espaços',exact=True).click()
     expect(page.locator('.edition-art')).to_have_count(0)
-    expect(page.locator('.edition-label img')).to_have_attribute('src','/images/fasc-2026-logo.svg')
+    assert page.locator('.edition-label img').get_attribute('src').endswith('images/fasc-2026-logo.svg')
     page.get_by_role('textbox',name='Buscar espaço ou atração').fill('pericles')
     expect(page.get_by_text('1 espaço',exact=True)).to_be_visible()
     page.locator('.place-row').filter(has_text='Palco João Bebe Água').click()
@@ -57,6 +65,7 @@ with sync_playwright() as p:
     page.goto('http://127.0.0.1:5173/#/programacao?dia=20')
     expect(page.get_by_text('21/11 · madrugada',exact=True)).to_have_count(3)
     expect(page.locator('.schedule-list>li')).to_have_count(49)
+    reveal_filters(page)
     page.get_by_role('combobox',name='Espaço da programação').click()
     page.get_by_role('option',name='Cine Trianon',exact=True).click()
     expect(page.locator('.schedule-list>li')).to_have_count(4)
@@ -74,7 +83,7 @@ with sync_playwright() as p:
         page.wait_for_load_state('networkidle')
         assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'overflow horizontal na entrada'
         page.screenshot(path=str(out/f'home-{width}.png'),full_page=True)
-        page.get_by_role('button',name='Explorar o mapa').click()
+        page.get_by_role('link',name='Explorar o mapa').click()
         page.wait_for_load_state('networkidle')
         assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'overflow horizontal no mapa'
         page.screenshot(path=str(out/f'list-{width}.png'),full_page=True)

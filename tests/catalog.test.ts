@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { festivalStart, festivalEnd, filterPlaces, isActivityLive, festivalDayAt } from '../src/domain/catalog.ts';
-import { layoutIndividualPins, overlappingNeighbours } from '../src/domain/map-layout.ts';
+import { layoutIndividualPins, overlappingNeighbours, pinOffsetAtZoom } from '../src/domain/map-layout.ts';
 import { activities, places } from '../src/data/festival.ts';
 
 test('madrugadas pertencem à data civil seguinte, preservando dia de programação', () => {
@@ -37,7 +37,7 @@ test('todos os pins continuam individuais com deslocamento pequeno e âncora pre
   assert.equal(pins.length,6);
   for(const pin of pins){assert.deepEqual(pin.place.coordinates,[-11,-37]);assert.ok(Math.hypot(...pin.offset)<=72);}
   for(let i=0;i<pins.length;i++)for(let j=i+1;j<pins.length;j++)assert.ok(Math.hypot(pins[i].x+pins[i].offset[0]-pins[j].x-pins[j].offset[0],pins[i].y+pins[i].offset[1]-pins[j].y-pins[j].offset[1])>=50);
-  const separate=layoutIndividualPins([points[0],{...points[1],x:300}]);
+  const separate=layoutIndividualPins([points[0],{...points[1],place:{...base,id:'far',coordinates:[-11,-37.01]},x:300}]);
   assert.deepEqual(separate.map(p=>p.offset),[[0,0],[0,0]]);
   const residual=[{...points[0],offset:[0,0] as [number,number]},{...points[1],offset:[10,0] as [number,number]}];
   assert.equal(overlappingNeighbours(residual,residual[0]).length,2);
@@ -45,6 +45,14 @@ test('todos os pins continuam individuais com deslocamento pequeno e âncora pre
   const crowded=layoutIndividualPins(Array.from({length:20},(_,i)=>({...points[0],place:{...base,id:String(i)}})));
   assert.equal(crowded.length,20);
   assert.ok(crowded.every(pin=>Math.hypot(...pin.offset)<=72.001));
+});
+test('zoom e movimento não redistribuem os deslocamentos dos pins', () => {
+  const original=places.filter(p=>p.coordinates).map((place,i)=>({place,x:i*11,y:i*7}));
+  const baseline=layoutIndividualPins(original).map(pin=>pin.offset);
+  for(const factor of [.1,.3,.75,1,1.5,2,4,8,16]){
+    const projected=original.map(p=>({...p,x:p.x*factor+37,y:p.y*factor-81}));
+    assert.deepEqual(layoutIndividualPins(projected).map(pin=>pin.offset),baseline);
+  }
 });
 test('agora usa intervalo conhecido, considera madrugada e não inventa fim de show', () => {
   const activity={id:'test',placeId:'tsuru',title:'Tsuru',day:'20' as const,time:'10:00',endTime:'02:00',page:6};
@@ -75,5 +83,19 @@ test('catálogo tem identificadores únicos, referências e localizadores válid
   for (const place of places) {
     assert.ok(place.pages.length);
     if (place.coordinates) assert.ok(place.coordinateNote);
+  }
+});
+
+test('visão geral mantém os pins junto à referência, sem espalhá-los pela cidade', () => {
+  const offset:[number,number]=[40,-40];
+  const close=pinOffsetAtZoom(offset,16.5);
+  const overview=pinOffsetAtZoom(offset,11);
+  assert.deepEqual(close,offset);
+  assert.ok(Math.hypot(...overview)<1.3);
+  assert.deepEqual(pinOffsetAtZoom(offset,20),offset);
+  // Under the reference zoom, pixel separation divided by map scale stays fixed.
+  for(const zoom of [11,12,13,14,15,16]){
+    const p=pinOffsetAtZoom(offset,zoom);
+    assert.ok(Math.abs(p[0]/(2**zoom)-close[0]/(2**16.5))<1e-10);
   }
 });

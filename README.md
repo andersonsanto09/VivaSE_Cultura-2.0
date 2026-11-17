@@ -183,3 +183,7 @@ Tecnologia a serviço da cultura e da memória.
 Mapa e identidade da nova versão: [registro da migração MapLibre/MapTiler](docs/14-MAPA-VETORIAL-E-REVISAO-VISUAL.md).
 
 Experiência atual do mapa: [pins individuais, precisão e próximos passos](docs/17-PINS-INDIVIDUAIS-E-PROXIMOS-PASSOS.md).
+
+Direção visual atual: [Cartaz vivo + Atlas cultural e validação](docs/19-DIRECAO-VISUAL-IMPLEMENTADA.md).
+
+Site: [VivaSE Cultura no GitHub Pages](https://bernas0610.github.io/VivaSE_Cultura-2.0/). [Configuração da publicação](docs/21-PUBLICACAO-GITHUB-PAGES.md).

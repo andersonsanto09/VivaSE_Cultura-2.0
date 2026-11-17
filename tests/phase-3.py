@@ -6,6 +6,12 @@ from playwright.sync_api import sync_playwright,expect
 BASE='http://127.0.0.1:5173/'
 out=Path('tmp/phase-3-qa');out.mkdir(parents=True,exist_ok=True)
 checks=[];errors=[];accessibility=[]
+def reveal_filters(page):
+    panel=page.locator("details.filter-disclosure").first
+    panel.wait_for(state="visible")
+    if panel.get_attribute("open") is None:
+        panel.locator("summary").click()
+
 def mock_map(route):
     if '.svg' in route.request.url:
         route.fulfill(status=200,content_type='image/svg+xml',body='<svg xmlns="http://www.w3.org/2000/svg" width="82" height="24"/>')
@@ -21,9 +27,10 @@ with sync_playwright() as p:
     page.goto(BASE);page.keyboard.press('Tab')
     expect(page.get_by_role('link',name='Pular para o conteúdo')).to_be_focused()
     page.keyboard.press('Enter');expect(page.locator('#conteudo')).to_be_focused()
-    page.get_by_role('button',name='Explorar o mapa').click()
+    page.get_by_role('link',name='Explorar o mapa').click()
     expect(page.locator('main h1')).to_be_focused()
     search=page.get_by_role('textbox',name='Buscar espaço ou atração')
+    reveal_filters(page)
     search.fill('PERICLES');page.get_by_role('button',name='Filtrar Música',exact=True).click()
     expect(page.locator('.place-row')).to_have_count(1)
     search.focus()
@@ -37,6 +44,7 @@ with sync_playwright() as p:
     page.get_by_role('button',name='Todos os espaços',exact=True).click()
     expect(search).to_have_value('PERICLES');expect(page.locator('.place-row')).to_be_focused()
     page.reload();expect(search).to_have_value('PERICLES')
+    reveal_filters(page)
     expect(page.get_by_role('button',name='Filtrar Música',exact=True)).to_have_attribute('aria-pressed','true')
     page.locator('.place-row').click();page.go_back()
     expect(search).to_have_value('PERICLES');page.go_forward()
@@ -45,12 +53,13 @@ with sync_playwright() as p:
     page.goto(BASE+'#/programacao?dia=20&espaco=cinema&busca=sess')
     expect(page.locator('.schedule-list>li').first).to_be_visible()
     agenda_url=page.url;agenda_count=page.locator('.schedule-list>li').count()
-    page.locator('.schedule-list .button').first.click()
+    page.locator('.schedule-list .event-action').first.click()
     expect(page.locator('.place-detail h2')).to_be_focused()
     page.get_by_role('button',name='Sábado, 21 de novembro').click()
     page.get_by_role('button',name='Voltar à programação').click()
     expect(page).to_have_url(agenda_url)
     expect(page.get_by_role('textbox',name='Buscar na programação')).to_have_value('sess')
+    reveal_filters(page)
     expect(page.get_by_role('combobox',name='Espaço da programação')).to_contain_text('Cine Trianon')
     expect(page.locator('.schedule-list>li')).to_have_count(agenda_count)
     checks.append('T06: agenda filtrada → espaço → troca de dia → retorno à consulta original')
@@ -88,9 +97,9 @@ with sync_playwright() as p:
     page.evaluate("Object.defineProperty(navigator,'geolocation',{configurable:true,value:{getCurrentPosition:success=>{window.lateLocation=success;}}})")
     page.get_by_role('button',name='Minha localização').click()
     page.get_by_role('link',name='Programação',exact=True).click()
-    expect(page.get_by_role('heading',name='Programação',exact=True)).to_be_visible()
+    expect(page.get_by_role('heading',name='Viva cada encontro.',exact=True)).to_be_visible()
     page.evaluate('window.lateLocation({coords:{latitude:-11.014,longitude:-37.205,accuracy:30}})')
-    expect(page.get_by_role('heading',name='Programação',exact=True)).to_be_visible()
+    expect(page.get_by_role('heading',name='Viva cada encontro.',exact=True)).to_be_visible()
     assert '/programacao?' in page.url
     checks.append('Resposta tardia de GPS não interrompe outra tela')
     page.goto(BASE+'#/mapa')
@@ -102,8 +111,8 @@ with sync_playwright() as p:
     page.reload();expect(page.locator('.user-position')).to_have_count(0)
     checks.append('T08: posição aproximada em sessão, sem persistência ou restauração após reload')
     # Textual content survives a missing festival image.
-    page.route('**/images/fasc-2026-identidade.png',lambda route:route.abort())
-    page.goto(BASE);expect(page.get_by_role('button',name='Explorar o mapa')).to_be_visible()
+    page.route('**/images/fasc-2025-palco-julia-rodrigues.jpg',lambda route:route.abort())
+    page.goto(BASE);expect(page.get_by_role('link',name='Explorar o mapa')).to_be_visible()
     checks.append('T19: imagem indisponível preserva ação e texto da entrada')
     # A 640 CSS-pixel layout is the reflow width of a 1280px desktop at 200% zoom.
     # This is explicit simulation, not a claim of native browser zoom or physical hardware.

@@ -1,8 +1,20 @@
 # 13 — Checklist de todas as fases do projeto
 
-Atualizado em 16/11/2026. `[x]` = executado/registrado; `[ ]` = pendente ou ainda depende de aceite. Uma função existente não encerra sua fase sem a validação correspondente. Este é o estado do protótipo desta revisão, não uma promessa de prazo.
+Atualizado em 17/11/2026. `[x]` = executado/registrado; `[ ]` = pendente ou ainda depende de aceite. Uma função existente não encerra sua fase sem a validação correspondente. Este é o estado do protótipo desta revisão, não uma promessa de prazo.
 
 **Fases 1, 2 e 3 concluídas no escopo do protótipo. Próxima fase: 4 — roteiros, memórias e linha do tempo.** Limites e evidências da orientação estão no [relatório da fase 3](15-FASE-3-VALIDACAO.md).
+
+**Revisão estética antes da fase 4:** mescla aprovada de Cartaz vivo e Atlas cultural implementada em 17/11/2026. Evidências e limites no [registro 19](19-DIRECAO-VISUAL-IMPLEMENTADA.md). A avaliação visual desta versão pelo responsável permanece pendente.
+
+- [x] Home com abertura de Cartaz vivo, calendário editorial e categorias em faixa roxa.
+- [x] Cabeçalhos amarelos no mapa e na programação; linha do tempo com cards por categoria.
+- [x] Hierarquia de ícone/título/ação, CTAs distintos e microinterações curtas com movimento reduzido.
+- [x] Filtros recolhíveis, informações práticas antecipadas e estado de “agora” fora do festival.
+- [x] Regressão de orientação, gestos e estabilidade dos pins; reflow até 320 px.
+- [ ] Aceite visual da versão implementada e nova conferência em celular físico.
+- [x] Corrigir o afastamento excessivo dos pins na visão geral, com separação proporcional ao zoom e referências preservadas (registro 20).
+- [x] Aprovar a fotografia, sua largura e o dourado da Home; publicação solicitada pelo responsável.
+- [ ] Confirmar commit/push e publicação no GitHub Pages (registro 21).
 
 ## Fase 1 — Planejamento e definição do produto
 
@@ -166,3 +178,14 @@ Revisão da entrada/agenda: [16](16-REVISAO-MAPA-AGENDA-E-LANDING.md). A experi�
 - [x] Preparar snapshot solicitado para commit/push, com configuração real fora do Git.
 
 Fases 1, 2 e 3 concluídas no escopo do protótipo; fase 4 é o próximo trabalho. Confirmação do push e hash do snapshot são informados após a checagem do remoto. Próximos passos detalhados no documento 17.
+
+## Manutenção antes da fase 4 — 17/11
+
+- [x] Analisar o vídeo e confirmar o bug com o responsável.
+- [x] Eliminar redistribuição de pins durante o zoom; manter afastamento estável e pins individuais.
+- [x] Preservar câmera ao redimensionar e manter enquadramento ao revelar mapa oculto.
+- [x] Refinar contornos, detalhe, controles, aviso de precisão e legenda móvel.
+- [x] Nove testes de domínio, teste de estabilidade por quadros, regressões e build.
+- [ ] Avaliar a nova versão com o responsável; este ajuste não inicia a fase 4.
+
+Detalhes: [18 — Correção do zoom e acabamento](18-CORRECAO-ZOOM-E-ACABAMENTO.md).
