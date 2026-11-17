@@ -2,7 +2,7 @@
 
 Atualizado em 17/11/2026. `[x]` = executado/registrado; `[ ]` = pendente ou ainda depende de aceite. Uma função existente não encerra sua fase sem a validação correspondente. Este é o estado do protótipo desta revisão, não uma promessa de prazo.
 
-**Fases 1, 2 e 3 concluídas no escopo do protótipo. Próxima fase: 4 — roteiros, memórias e linha do tempo.** Limites e evidências da orientação estão no [relatório da fase 3](15-FASE-3-VALIDACAO.md).
+**Fases 1, 2 e 3 concluídas no escopo do protótipo. Fase 4 em andamento: funções culturais implementadas e testadas localmente; fotografias integradas aos 20 registros, com aceite e revisão editorial pendentes.** Limites e evidências da orientação estão no [relatório da fase 3](15-FASE-3-VALIDACAO.md).
 
 **Revisão estética antes da fase 4:** mescla aprovada de Cartaz vivo e Atlas cultural implementada em 17/11/2026. Evidências e limites no [registro 19](19-DIRECAO-VISUAL-IMPLEMENTADA.md). A avaliação visual desta versão pelo responsável permanece pendente.
 
@@ -86,24 +86,53 @@ Critério de saída: percurso completo “encontrar atividade → escolher espa�
 
 ## Fase 4 — Descoberta cultural e preservação da memória
 
-**Situação: próxima fase, ainda não implementada.**
+**Situação: em andamento. Roteiros, memórias e linha do tempo implementados e testados; 20 dos 20 registros têm fotografia contextualizada (arquivo, equipamento ou entorno identificado). A fase ainda não está encerrada.**
 
-- [ ] Selecionar lugares e conteúdo cultural com fontes por afirmação.
-- [ ] Criar roteiros temáticos com ordem e paradas explícitas.
-- [ ] Integrar parada ao detalhe/mapa e ao trajeto externo.
-- [ ] Evitar prometer duração, distância ou acessibilidade de percurso não verificado.
-- [ ] Criar exploração de memórias, distinguindo exemplos fictícios e referências públicas.
-- [ ] Pesquisar e atribuir relatos publicados que possam entrar na interface.
-- [ ] Permitir escrever lembrança salva somente no navegador/aparelho.
-- [ ] Permitir excluir lembrança e verificar persistência ao recarregar.
-- [ ] Tratar falha, indisponibilidade e limite de armazenamento sem alegar salvamento.
-- [ ] Informar que apagar dados do navegador pode remover lembranças.
-- [ ] Criar linha do tempo com marcos históricos documentados e fontes acessíveis.
-- [ ] Conferir datas e descontinuidades; não inventar edições, públicos ou artistas.
+- [x] Selecionar lugares e conteúdo cultural com fontes por afirmação.
+- [x] Criar roteiros temáticos com ordem e paradas explícitas.
+- [x] Integrar parada ao detalhe/mapa e ao trajeto externo.
+- [x] Evitar prometer duração, distância ou acessibilidade de percurso não verificado.
+- [x] Criar exploração de memórias, distinguindo exemplos fictícios e referências públicas.
+- [x] Pesquisar e atribuir relatos publicados que possam entrar na interface.
+- [x] Permitir escrever lembrança salva somente no navegador/aparelho.
+- [x] Permitir excluir lembrança e verificar persistência ao recarregar.
+- [x] Tratar falha, indisponibilidade e limite de armazenamento sem alegar salvamento.
+- [x] Informar que apagar dados do navegador pode remover lembranças.
+- [x] Criar linha do tempo com marcos históricos documentados e fontes acessíveis.
+- [x] Conferir datas e descontinuidades; não inventar edições, públicos ou artistas.
 - [ ] Conferir direitos de imagens e trechos antes de incorporá-los.
 - [ ] Verificar integração dessas funções no celular e testar as jornadas culturais.
 
+- [x] Fotografias reais no resumo do pin e no detalhe, com crédito, contexto e falha tratada. Cobertura atual: 20/20 registros, sem apresentar fotos antigas como montagem de 2026.
+- [x] Referências de fachada de Tsuru e Reurb confirmadas pelo responsável; links de consulta disponíveis.
+- [x] Completar os nove registros pendentes com fotografias reais, créditos e legendas; referências de entorno/arquivo identificadas.
+- [x] Testar jornadas culturais e reflow em 1440/768/390/320 px; axe sem violações detectadas nas três telas culturais em 390 px.
+- [ ] Revisar e aprovar as novas telas com o responsável; conferir os novos fluxos em celular físico.
+
+Evidências, fontes, cobertura e pendências: [22 — Fase 4](22-FASE-4-CULTURA-E-FOTOS.md). A conferência de atribuição não equivale a uma licença irrestrita de uso.
+
 Critério de saída: roteiros, memórias e linha do tempo utilizáveis, fontes rastreáveis e persistência local testada. RF-08 a RF-11 são parte do MVP e continuam obrigatórios.
+
+### Expansão histórica solicitada — 17/11/2026
+
+- [x] Inspecionar e reutilizar MapLibre, rotas por hash, tokens e componentes existentes.
+- [x] Modelar edições, fontes, espaços, artistas e participações com relações tipadas.
+- [x] Cadastrar 18 edições do acervo recebido, sem preencher interrupções por inferência.
+- [x] Separar mapa de 2026 do modo histórico e preservar a consulta do modo atual.
+- [x] Atualizar pins e nomes por edição; manter registros sem coordenadas somente na lista.
+- [x] Máquina do tempo sempre visível acima do mapa atual e do histórico, com pontos por edição, anterior/próxima e Play/Pause/reinício.
+- [x] Limpar timers, pausar fora da tela e preservar a câmera durante a sequência.
+- [x] Preservar os 38 registros anteriores, integrar as 212 entradas recebidas e acrescentar um anúncio verificado no PDF oficial de 2025: 230 registros após o merge. Distinguir cobertura, anúncio, convite e menção sem edição.
+- [x] Preservar 191 artistas/grupos no acervo e destacar uma curadoria de 80 nomes, com busca, categoria, edição, ordenação, paginação e trajetória cronológica.
+- [x] Expandir a linha do tempo de oito para 15 marcos, com contexto e ligações ao mapa.
+- [x] Preservar edição, espaço e busca ao navegar entre Cultura, artista e mapa.
+- [x] Testar teclado, trocas rápidas, ausência de registros, mobile, movimento reduzido, build e regressões.
+- [ ] Avaliar os novos fluxos com o responsável e testar em aparelho físico.
+- [x] Corrigir popup encoberto pelos pins e carregamento tardio após sair do mapa.
+- [x] Ampliar o inventário histórico para 125 espaços por edição; usar coordenadas somente nas referências conferidas.
+- [ ] Concluir conferências editoriais ainda identificadas como pendentes e obter o aceite da revisão geral da fase 4.
+
+Relatório completo: [23 — Mapa histórico e acervo](23-MAPA-HISTORICO-E-ACERVO.md). A revisão atual está em [24 — Pesquisa integrada e máquina do tempo](24-PESQUISA-INTEGRADA-E-MAQUINA-DO-TEMPO.md). O recorte histórico tem cobertura parcial explícita; o seletor não representa todos os anos da trajetória.
 
 ## Fase 5 — Qualidade final e preparação do pitch
 
@@ -189,3 +218,13 @@ Fases 1, 2 e 3 concluídas no escopo do protótipo; fase 4 é o próximo trabalh
 - [ ] Avaliar a nova versão com o responsável; este ajuste não inicia a fase 4.
 
 Detalhes: [18 — Correção do zoom e acabamento](18-CORRECAO-ZOOM-E-ACABAMENTO.md).
+
+## Revisão integrada e publicação solicitada — 17/11/2026
+
+- [x] Aplicar os seis pontos de revisão: máquina do tempo aberta, curadoria, popup, fotografias, espaços por edição e trajetórias de artistas.
+- [x] Preservar os registros existentes, deduplicar e testar o merge das pesquisas.
+- [x] 27 testes de domínio, build e jornadas históricas/culturais aprovados; estabilidade em 1.131 quadros com desvio máximo de 1,142 px.
+- [x] Preparar a revisão para commit, push e publicação autorizados pelo responsável.
+- [ ] Aceite das novas telas e conferência final em aparelho físico.
+
+Registro detalhado: [24 — Pesquisa integrada](24-PESQUISA-INTEGRADA-E-MAQUINA-DO-TEMPO.md).

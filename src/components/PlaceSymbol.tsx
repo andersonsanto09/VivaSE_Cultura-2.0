@@ -3,6 +3,11 @@ import type { Place } from '../domain/catalog';
 
 export function placeKind(place: Place) {
   if(place.category === 'Música') return 'music';
+  if(/literatura/i.test(place.name)) return 'books';
+  if(/museu/i.test(place.name)) return 'heritage';
+  if(/cine|cinema/i.test(place.name)) return 'cinema';
+  if(place.category==='Artes cênicas') return 'theatre';
+  if(/artes|galeria/i.test(place.name)) return 'art';
   if(place.id === 'mariano') return 'theatre';
   if(place.id === 'literatura') return 'books';
   if(place.id === 'cinema') return 'cinema';

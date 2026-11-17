@@ -1,0 +1,1815 @@
+{
+  "titulo": "Participações artísticas documentadas na programação do FASC — amostra curada para VivaSE",
+  "pesquisado_em": "2026-11-17",
+  "criterio": "Fontes contemporâneas/arquivos históricos. Programação anunciada não equivale a apresentação realizada.",
+  "edicoes": [
+    {
+      "ano": 1972,
+      "numero": 1
+    },
+    {
+      "ano": 2005,
+      "numero": 33
+    },
+    {
+      "ano": 2017,
+      "numero": 34
+    },
+    {
+      "ano": 2018,
+      "numero": 35
+    },
+    {
+      "ano": 2019,
+      "numero": 36
+    },
+    {
+      "ano": 2022,
+      "numero": 37
+    },
+    {
+      "ano": 2023,
+      "numero": 38
+    },
+    {
+      "ano": 2024,
+      "numero": 39
+    },
+    {
+      "ano": 2025,
+      "numero": 40
+    }
+  ],
+  "participacoes": [
+    {
+      "nome": "Coral da UFS",
+      "ano": 1972,
+      "edicao": 1,
+      "linguagem": "música sacra",
+      "espaco": "Igreja de São Francisco",
+      "registro": "programação antecipada (julho/1972)",
+      "observacao": "Programa prévio; não comprova execução do espetáculo",
+      "fonte": "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf"
+    },
+    {
+      "nome": "Maestro Antônio Carlos Plech",
+      "ano": 1972,
+      "edicao": 1,
+      "linguagem": "música sacra",
+      "espaco": "Igreja de São Francisco",
+      "registro": "programação antecipada (julho/1972)",
+      "observacao": "Programa prévio; não comprova execução do espetáculo",
+      "fonte": "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf"
+    },
+    {
+      "nome": "Teatro Livre da Bahia",
+      "ano": 1972,
+      "edicao": 1,
+      "linguagem": "teatro",
+      "espaco": "Cinema-Teatro Trianon",
+      "registro": "programação antecipada (julho/1972)",
+      "observacao": "",
+      "fonte": "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf"
+    },
+    {
+      "nome": "Escola de Ballet Márcia Haydée",
+      "ano": 1972,
+      "edicao": 1,
+      "linguagem": "dança",
+      "espaco": "Cinema-Teatro Trianon",
+      "registro": "programação antecipada (julho/1972)",
+      "observacao": "",
+      "fonte": "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf"
+    },
+    {
+      "nome": "Nóbia Marques",
+      "ano": 1972,
+      "edicao": 1,
+      "linguagem": "literatura",
+      "espaco": "Museu de Sergipe",
+      "registro": "programação antecipada (julho/1972)",
+      "observacao": "Autógrafos e obras na programação prévia, não apresentações musicais",
+      "fonte": "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf"
+    },
+    {
+      "nome": "Acrísio Torres",
+      "ano": 1972,
+      "edicao": 1,
+      "linguagem": "literatura",
+      "espaco": "Museu de Sergipe",
+      "registro": "programação antecipada (julho/1972)",
+      "observacao": "Autógrafos e obras na programação prévia, não apresentações musicais",
+      "fonte": "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf"
+    },
+    {
+      "nome": "Hunald Alencar",
+      "ano": 1972,
+      "edicao": 1,
+      "linguagem": "literatura",
+      "espaco": "Museu de Sergipe",
+      "registro": "programação antecipada (julho/1972)",
+      "observacao": "Autógrafos e obras na programação prévia, não apresentações musicais",
+      "fonte": "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf"
+    },
+    {
+      "nome": "Jackson da Silva Lima",
+      "ano": 1972,
+      "edicao": 1,
+      "linguagem": "literatura",
+      "espaco": "Museu de Sergipe",
+      "registro": "programação antecipada (julho/1972)",
+      "observacao": "Autógrafos e obras na programação prévia, não apresentações musicais",
+      "fonte": "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf"
+    },
+    {
+      "nome": "Beatriz Góis Dantas",
+      "ano": 1972,
+      "edicao": 1,
+      "linguagem": "literatura",
+      "espaco": "Museu de Sergipe",
+      "registro": "programação antecipada (julho/1972)",
+      "observacao": "Autógrafos e obras na programação prévia, não apresentações musicais",
+      "fonte": "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf"
+    },
+    {
+      "nome": "Otto",
+      "ano": 2005,
+      "edicao": 33,
+      "linguagem": "música",
+      "espaco": "Palco São Francisco — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/"
+    },
+    {
+      "nome": "Ilê Aiyê",
+      "ano": 2005,
+      "edicao": 33,
+      "linguagem": "música",
+      "espaco": "Palco São Francisco — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/"
+    },
+    {
+      "nome": "Joésia Ramos",
+      "ano": 2005,
+      "edicao": 33,
+      "linguagem": "música",
+      "espaco": "Palco São Francisco — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/"
+    },
+    {
+      "nome": "Mariene de Castro",
+      "ano": 2005,
+      "edicao": 33,
+      "linguagem": "música",
+      "espaco": "Palco São Francisco — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/"
+    },
+    {
+      "nome": "Alceu Valença",
+      "ano": 2005,
+      "edicao": 33,
+      "linguagem": "música",
+      "espaco": "Palco São Francisco — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/"
+    },
+    {
+      "nome": "Nando Reis",
+      "ano": 2005,
+      "edicao": 33,
+      "linguagem": "música",
+      "espaco": "Palco São Francisco — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/"
+    },
+    {
+      "nome": "Chiko Queiroga e Antônio Rogério",
+      "ano": 2005,
+      "edicao": 33,
+      "linguagem": "música",
+      "espaco": "Palco São Francisco — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/"
+    },
+    {
+      "nome": "Orquestra Sinfônica de Sergipe",
+      "ano": 2005,
+      "edicao": 33,
+      "linguagem": "música",
+      "espaco": "Palco São Francisco — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/"
+    },
+    {
+      "nome": "Bando Teatro Olodum",
+      "ano": 2005,
+      "edicao": 33,
+      "linguagem": "teatro",
+      "espaco": "Teatro de Palco — Colégio Modelo de Aplicação",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/"
+    },
+    {
+      "nome": "Outra Cia. de Teatro",
+      "ano": 2005,
+      "edicao": 33,
+      "linguagem": "teatro",
+      "espaco": "Teatro de Palco — Colégio Modelo de Aplicação",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/"
+    },
+    {
+      "nome": "Grupo Imbuaça",
+      "ano": 2005,
+      "edicao": 33,
+      "linguagem": "teatro",
+      "espaco": "Praça da Matriz — Teatro de Rua",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/"
+    },
+    {
+      "nome": "Mamulengo de Cheiroso",
+      "ano": 2005,
+      "edicao": 33,
+      "linguagem": "teatro",
+      "espaco": "Praça da Matriz — Teatro de Rua",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/"
+    },
+    {
+      "nome": "Grupo Galpão",
+      "ano": 2005,
+      "edicao": 33,
+      "linguagem": "teatro",
+      "espaco": "Palco Alternativo — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/"
+    },
+    {
+      "nome": "Naurêa",
+      "ano": 2005,
+      "edicao": 33,
+      "linguagem": "música",
+      "espaco": "Palco Quintal Musical — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/"
+    },
+    {
+      "nome": "Banda Reação",
+      "ano": 2005,
+      "edicao": 33,
+      "linguagem": "música",
+      "espaco": "Palco Quintal Musical — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/"
+    },
+    {
+      "nome": "Otto",
+      "ano": 2017,
+      "edicao": 34,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes"
+    },
+    {
+      "nome": "Mestrinho",
+      "ano": 2017,
+      "edicao": 34,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes"
+    },
+    {
+      "nome": "Margareth Menezes",
+      "ano": 2017,
+      "edicao": 34,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes"
+    },
+    {
+      "nome": "Joésia Ramos",
+      "ano": 2017,
+      "edicao": 34,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes"
+    },
+    {
+      "nome": "The Baggios",
+      "ano": 2017,
+      "edicao": 34,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes"
+    },
+    {
+      "nome": "Nação Zumbi",
+      "ano": 2017,
+      "edicao": 34,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes"
+    },
+    {
+      "nome": "Orquestra Sinfônica de Sergipe",
+      "ano": 2017,
+      "edicao": 34,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes"
+    },
+    {
+      "nome": "Grupo Imbuaça",
+      "ano": 2017,
+      "edicao": 34,
+      "linguagem": "teatro",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes"
+    },
+    {
+      "nome": "Cidade Dormitório",
+      "ano": 2017,
+      "edicao": 34,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes"
+    },
+    {
+      "nome": "Naurêa",
+      "ano": 2017,
+      "edicao": 34,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes"
+    },
+    {
+      "nome": "Trem do Samba com Marquinhos de Oswaldo Cruz e Tia Surica",
+      "ano": 2017,
+      "edicao": 34,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes"
+    },
+    {
+      "nome": "Theniza Melo Companhia de Dança",
+      "ano": 2017,
+      "edicao": 34,
+      "linguagem": "dança",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes"
+    },
+    {
+      "nome": "Teatro Erukerê",
+      "ano": 2017,
+      "edicao": 34,
+      "linguagem": "teatro",
+      "espaco": "Teatro Mariano Antônio — Colégio Elic",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes"
+    },
+    {
+      "nome": "Cia de Teatro UFS",
+      "ano": 2017,
+      "edicao": 34,
+      "linguagem": "teatro",
+      "espaco": "Teatro Mariano Antônio — Colégio Elic",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes"
+    },
+    {
+      "nome": "Dicuri Produções",
+      "ano": 2017,
+      "edicao": 34,
+      "linguagem": "teatro",
+      "espaco": "Teatro Mariano Antônio — Colégio Elic",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes"
+    },
+    {
+      "nome": "The Baggios",
+      "ano": 2018,
+      "edicao": 35,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/"
+    },
+    {
+      "nome": "BaianaSystem",
+      "ano": 2018,
+      "edicao": 35,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/"
+    },
+    {
+      "nome": "Lenine",
+      "ano": 2018,
+      "edicao": 35,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/"
+    },
+    {
+      "nome": "Céu",
+      "ano": 2018,
+      "edicao": 35,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/"
+    },
+    {
+      "nome": "Chico César",
+      "ano": 2018,
+      "edicao": 35,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/"
+    },
+    {
+      "nome": "Mart’nália",
+      "ano": 2018,
+      "edicao": 35,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/"
+    },
+    {
+      "nome": "Cidade Dormitório",
+      "ano": 2018,
+      "edicao": 35,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/"
+    },
+    {
+      "nome": "Orquestra de Atabaques de Sergipe",
+      "ano": 2018,
+      "edicao": 35,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/"
+    },
+    {
+      "nome": "Samba do Arnesto",
+      "ano": 2018,
+      "edicao": 35,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/"
+    },
+    {
+      "nome": "Luedji Luna",
+      "ano": 2018,
+      "edicao": 35,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/"
+    },
+    {
+      "nome": "Joésia Ramos",
+      "ano": 2018,
+      "edicao": 35,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/"
+    },
+    {
+      "nome": "Banda Eddie",
+      "ano": 2018,
+      "edicao": 35,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/"
+    },
+    {
+      "nome": "Rincon Sapiência",
+      "ano": 2018,
+      "edicao": 35,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/"
+    },
+    {
+      "nome": "Samba de Coco da Ilha Grande",
+      "ano": 2018,
+      "edicao": 35,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/"
+    },
+    {
+      "nome": "Patrícia Polayne",
+      "ano": 2018,
+      "edicao": 35,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/"
+    },
+    {
+      "nome": "Dami Dória Quarteto",
+      "ano": 2018,
+      "edicao": 35,
+      "linguagem": "música",
+      "espaco": "Beco do Amor — Largo do Amparo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/"
+    },
+    {
+      "nome": "Voodoo Cigano",
+      "ano": 2018,
+      "edicao": 35,
+      "linguagem": "música",
+      "espaco": "Beco do Amor — Largo do Amparo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/"
+    },
+    {
+      "nome": "Caceteiras de Mestre Rindú",
+      "ano": 2018,
+      "edicao": 35,
+      "linguagem": "cultura popular",
+      "espaco": "Cortejos — ruas de São Cristóvão",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/"
+    },
+    {
+      "nome": "Samba de Pareia de Laranjeiras",
+      "ano": 2018,
+      "edicao": 35,
+      "linguagem": "cultura popular",
+      "espaco": "Cortejos — ruas de São Cristóvão",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/"
+    },
+    {
+      "nome": "Taieiras de São Cristóvão",
+      "ano": 2018,
+      "edicao": 35,
+      "linguagem": "cultura popular",
+      "espaco": "Cortejos — ruas de São Cristóvão",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/"
+    },
+    {
+      "nome": "Parafusos",
+      "ano": 2018,
+      "edicao": 35,
+      "linguagem": "cultura popular",
+      "espaco": "Cortejos — ruas de São Cristóvão",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/"
+    },
+    {
+      "nome": "Gilberto Gil",
+      "ano": 2019,
+      "edicao": 36,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "apresentação realizada",
+      "observacao": "Reportagem após apresentação de 16/11/2019",
+      "fonte": "https://senoticias.com.br/se/gilberto-gil-canta-para-uma-multidao-em-sao-cristovao/"
+    },
+    {
+      "nome": "Cordel do Fogo Encantado",
+      "ano": 2019,
+      "edicao": 36,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-completa-do-fasc-2019/"
+    },
+    {
+      "nome": "The Baggios",
+      "ano": 2019,
+      "edicao": 36,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-completa-do-fasc-2019/"
+    },
+    {
+      "nome": "Mariene de Castro",
+      "ano": 2019,
+      "edicao": 36,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-completa-do-fasc-2019/"
+    },
+    {
+      "nome": "Naurêa",
+      "ano": 2019,
+      "edicao": 36,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-completa-do-fasc-2019/"
+    },
+    {
+      "nome": "Dezarie",
+      "ano": 2019,
+      "edicao": 36,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-completa-do-fasc-2019/"
+    },
+    {
+      "nome": "Àttøøxxá",
+      "ano": 2019,
+      "edicao": 36,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-completa-do-fasc-2019/"
+    },
+    {
+      "nome": "Liniker e os Caramelows",
+      "ano": 2019,
+      "edicao": 36,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-completa-do-fasc-2019/"
+    },
+    {
+      "nome": "Silvério Pessoa",
+      "ano": 2019,
+      "edicao": 36,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-completa-do-fasc-2019/"
+    },
+    {
+      "nome": "Afrocidade",
+      "ano": 2019,
+      "edicao": 36,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-completa-do-fasc-2019/"
+    },
+    {
+      "nome": "Cidade Dormitório",
+      "ano": 2019,
+      "edicao": 36,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-completa-do-fasc-2019/"
+    },
+    {
+      "nome": "Isis Broken",
+      "ano": 2019,
+      "edicao": 36,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-completa-do-fasc-2019/"
+    },
+    {
+      "nome": "Grupo Imbuaça",
+      "ano": 2019,
+      "edicao": 36,
+      "linguagem": "teatro",
+      "espaco": "Palco Mariano Antônio — Largo da Matriz",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-completa-do-fasc-2019/"
+    },
+    {
+      "nome": "Mamulengo de Cheiroso",
+      "ano": 2019,
+      "edicao": 36,
+      "linguagem": "teatro",
+      "espaco": "Palco Mariano Antônio — Largo da Matriz",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-completa-do-fasc-2019/"
+    },
+    {
+      "nome": "Grupo Lurupari",
+      "ano": 2019,
+      "edicao": 36,
+      "linguagem": "teatro",
+      "espaco": "Palco Mariano Antônio — Largo da Matriz",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-completa-do-fasc-2019/"
+    },
+    {
+      "nome": "Xico Sá",
+      "ano": 2019,
+      "edicao": 36,
+      "linguagem": "literatura",
+      "espaco": "Salão de Literatura José Augusto Garcez — Salão Paroquial",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-completa-do-fasc-2019/"
+    },
+    {
+      "nome": "Paloma Amado",
+      "ano": 2019,
+      "edicao": 36,
+      "linguagem": "literatura",
+      "espaco": "Salão de Literatura José Augusto Garcez — Salão Paroquial",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-completa-do-fasc-2019/"
+    },
+    {
+      "nome": "Tânia Mara",
+      "ano": 2019,
+      "edicao": 36,
+      "linguagem": "teatro",
+      "espaco": "Teatro no Museu — Museu de Sergipe",
+      "registro": "programado",
+      "observacao": "Espetáculo Billie Holiday – A Canção",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-completa-do-fasc-2019/"
+    },
+    {
+      "nome": "Alceu Valença",
+      "ano": 2022,
+      "edicao": 37,
+      "linguagem": "música",
+      "espaco": "Palco Gal Costa — Praça São Francisco",
+      "registro": "apresentação realizada",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/alceu-valenca-the-baggios-e-coletivo-sergipano-de-mulheres-no-samba-animam-publico-do-palco-gal-costa-no-segundo-dia-do-fasc"
+    },
+    {
+      "nome": "The Baggios",
+      "ano": 2022,
+      "edicao": 37,
+      "linguagem": "música",
+      "espaco": "Palco Gal Costa — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao"
+    },
+    {
+      "nome": "Daniela Mercury",
+      "ano": 2022,
+      "edicao": 37,
+      "linguagem": "música",
+      "espaco": "Palco Gal Costa — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao"
+    },
+    {
+      "nome": "Larissa Luz",
+      "ano": 2022,
+      "edicao": 37,
+      "linguagem": "música",
+      "espaco": "Palco Gal Costa — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao"
+    },
+    {
+      "nome": "MC Tha",
+      "ano": 2022,
+      "edicao": 37,
+      "linguagem": "música",
+      "espaco": "Palco Gal Costa — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao"
+    },
+    {
+      "nome": "Reemah",
+      "ano": 2022,
+      "edicao": 37,
+      "linguagem": "música",
+      "espaco": "Palco Gal Costa — Praça São Francisco",
+      "registro": "apresentação realizada",
+      "observacao": "Cobertura oficial após apresentações",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/reemah-emicida-e-diogo-nogueira-fazem-encerramento-do-fasc-e-lotam-praca-sao-francisco-no-ultimo-dia-do-festival"
+    },
+    {
+      "nome": "Emicida",
+      "ano": 2022,
+      "edicao": 37,
+      "linguagem": "música",
+      "espaco": "Palco Gal Costa — Praça São Francisco",
+      "registro": "apresentação realizada",
+      "observacao": "Cobertura oficial após apresentações",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/reemah-emicida-e-diogo-nogueira-fazem-encerramento-do-fasc-e-lotam-praca-sao-francisco-no-ultimo-dia-do-festival"
+    },
+    {
+      "nome": "Diogo Nogueira",
+      "ano": 2022,
+      "edicao": 37,
+      "linguagem": "música",
+      "espaco": "Palco Gal Costa — Praça São Francisco",
+      "registro": "apresentação realizada",
+      "observacao": "Cobertura oficial após apresentações",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/reemah-emicida-e-diogo-nogueira-fazem-encerramento-do-fasc-e-lotam-praca-sao-francisco-no-ultimo-dia-do-festival"
+    },
+    {
+      "nome": "BK’",
+      "ano": 2022,
+      "edicao": 37,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao"
+    },
+    {
+      "nome": "Almério",
+      "ano": 2022,
+      "edicao": 37,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao"
+    },
+    {
+      "nome": "Academia da Berlinda",
+      "ano": 2022,
+      "edicao": 37,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao"
+    },
+    {
+      "nome": "Héloa",
+      "ano": 2022,
+      "edicao": 37,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao"
+    },
+    {
+      "nome": "Alex Sant’Anna",
+      "ano": 2022,
+      "edicao": 37,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao"
+    },
+    {
+      "nome": "Grupo Imbuaça",
+      "ano": 2022,
+      "edicao": 37,
+      "linguagem": "teatro",
+      "espaco": "Palco Mariano Antônio — Largo da Matriz",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao"
+    },
+    {
+      "nome": "Mamulengo de Cheiroso",
+      "ano": 2022,
+      "edicao": 37,
+      "linguagem": "teatro",
+      "espaco": "Palco Mariano Antônio — Largo da Matriz",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao"
+    },
+    {
+      "nome": "Cia de Teatro Loucos por Loucos",
+      "ano": 2022,
+      "edicao": 37,
+      "linguagem": "teatro",
+      "espaco": "Palco Mariano Antônio — Largo da Matriz",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao"
+    },
+    {
+      "nome": "Paulo André",
+      "ano": 2022,
+      "edicao": 37,
+      "linguagem": "literatura",
+      "espaco": "Salão de Literatura Manoel Ferreira — EMEF Gina Franco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao"
+    },
+    {
+      "nome": "Carlinhos Brown",
+      "ano": 2023,
+      "edicao": 38,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "apresentação realizada",
+      "observacao": "Relato da primeira noite",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/fasc-2023-inicia-com-diversidade-e-grandes-atracoes-nos-palcos-joao-bebe-agua-e-frei-santa-cecilia"
+    },
+    {
+      "nome": "Marina Sena",
+      "ano": 2023,
+      "edicao": 38,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "apresentação realizada",
+      "observacao": "Relato da primeira noite",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/fasc-2023-inicia-com-diversidade-e-grandes-atracoes-nos-palcos-joao-bebe-agua-e-frei-santa-cecilia"
+    },
+    {
+      "nome": "Liniker",
+      "ano": 2023,
+      "edicao": 38,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/divulgada-a-programacao-completa-do-fasc-2023-confira-as-atracoes/"
+    },
+    {
+      "nome": "Djonga",
+      "ano": 2023,
+      "edicao": 38,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/divulgada-a-programacao-completa-do-fasc-2023-confira-as-atracoes/"
+    },
+    {
+      "nome": "Zeca Baleiro",
+      "ano": 2023,
+      "edicao": 38,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/divulgada-a-programacao-completa-do-fasc-2023-confira-as-atracoes/"
+    },
+    {
+      "nome": "Groundation",
+      "ano": 2023,
+      "edicao": 38,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/divulgada-a-programacao-completa-do-fasc-2023-confira-as-atracoes/"
+    },
+    {
+      "nome": "Arlindinho",
+      "ano": 2023,
+      "edicao": 38,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/divulgada-a-programacao-completa-do-fasc-2023-confira-as-atracoes/"
+    },
+    {
+      "nome": "Joésia Ramos",
+      "ano": 2023,
+      "edicao": 38,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/divulgada-a-programacao-completa-do-fasc-2023-confira-as-atracoes/"
+    },
+    {
+      "nome": "Rachel Reis",
+      "ano": 2023,
+      "edicao": 38,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/divulgada-a-programacao-completa-do-fasc-2023-confira-as-atracoes/"
+    },
+    {
+      "nome": "The Baggios",
+      "ano": 2023,
+      "edicao": 38,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/divulgada-a-programacao-completa-do-fasc-2023-confira-as-atracoes/"
+    },
+    {
+      "nome": "Pato Fu",
+      "ano": 2023,
+      "edicao": 38,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/divulgada-a-programacao-completa-do-fasc-2023-confira-as-atracoes/"
+    },
+    {
+      "nome": "Vandal",
+      "ano": 2023,
+      "edicao": 38,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/divulgada-a-programacao-completa-do-fasc-2023-confira-as-atracoes/"
+    },
+    {
+      "nome": "FBC",
+      "ano": 2023,
+      "edicao": 38,
+      "linguagem": "música",
+      "espaco": "Palco Capuchinhos — Praça da Bandeira",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/divulgada-a-programacao-completa-do-fasc-2023-confira-as-atracoes/"
+    },
+    {
+      "nome": "Luísa e os Alquimistas",
+      "ano": 2023,
+      "edicao": 38,
+      "linguagem": "música",
+      "espaco": "Palco Capuchinhos — Praça da Bandeira",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/divulgada-a-programacao-completa-do-fasc-2023-confira-as-atracoes/"
+    },
+    {
+      "nome": "Morgana",
+      "ano": 2023,
+      "edicao": 38,
+      "linguagem": "música",
+      "espaco": "Palco Capuchinhos — Praça da Bandeira",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/divulgada-a-programacao-completa-do-fasc-2023-confira-as-atracoes/"
+    },
+    {
+      "nome": "Maracatu Asé D’Ori",
+      "ano": 2023,
+      "edicao": 38,
+      "linguagem": "cultura popular",
+      "espaco": "Palco Seu Neca — Rua Erundino Prado",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/divulgada-a-programacao-completa-do-fasc-2023-confira-as-atracoes/"
+    },
+    {
+      "nome": "Samba de Coco da Ilha Grande",
+      "ano": 2023,
+      "edicao": 38,
+      "linguagem": "cultura popular",
+      "espaco": "Palco Seu Neca — Rua Erundino Prado",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/divulgada-a-programacao-completa-do-fasc-2023-confira-as-atracoes/"
+    },
+    {
+      "nome": "Quadrilha Meu Xodó",
+      "ano": 2023,
+      "edicao": 38,
+      "linguagem": "cultura popular",
+      "espaco": "Palco Seu Neca — Rua Erundino Prado",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/divulgada-a-programacao-completa-do-fasc-2023-confira-as-atracoes/"
+    },
+    {
+      "nome": "Timbalada",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-musical-do-fasc-2024-que-inicia-nesta-sexta/"
+    },
+    {
+      "nome": "Afrocidade",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-musical-do-fasc-2024-que-inicia-nesta-sexta/"
+    },
+    {
+      "nome": "Grupo Revelação",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-musical-do-fasc-2024-que-inicia-nesta-sexta/"
+    },
+    {
+      "nome": "Tasha & Tracie",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-musical-do-fasc-2024-que-inicia-nesta-sexta/"
+    },
+    {
+      "nome": "Marina Lima",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-musical-do-fasc-2024-que-inicia-nesta-sexta/"
+    },
+    {
+      "nome": "BaianaSystem",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-musical-do-fasc-2024-que-inicia-nesta-sexta/"
+    },
+    {
+      "nome": "The Baggios",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-musical-do-fasc-2024-que-inicia-nesta-sexta/"
+    },
+    {
+      "nome": "Clinton Fearon",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-musical-do-fasc-2024-que-inicia-nesta-sexta/"
+    },
+    {
+      "nome": "Don L",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-musical-do-fasc-2024-que-inicia-nesta-sexta/"
+    },
+    {
+      "nome": "Arnaldo Antunes",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "apresentação realizada",
+      "observacao": "A Prefeitura documenta a apresentação musical após a mesa de literatura",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/festival-de-artes-de-sao-cristovao-promove-discussoes-literarias-durante-os-tres-dias-de-evento-e-aproxima-leitores-de-grandes-escritores"
+    },
+    {
+      "nome": "Mãeana",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-musical-do-fasc-2024-que-inicia-nesta-sexta/"
+    },
+    {
+      "nome": "Filipe Catto",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-musical-do-fasc-2024-que-inicia-nesta-sexta/"
+    },
+    {
+      "nome": "Lamparina",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-musical-do-fasc-2024-que-inicia-nesta-sexta/"
+    },
+    {
+      "nome": "Francisco, el Hombre",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-musical-do-fasc-2024-que-inicia-nesta-sexta/"
+    },
+    {
+      "nome": "Mombojó",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-musical-do-fasc-2024-que-inicia-nesta-sexta/"
+    },
+    {
+      "nome": "Descidão dos Quilombolas",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://infonet.com.br/noticias/cultura/confira-a-programacao-musical-do-fasc-2024-que-inicia-nesta-sexta/"
+    },
+    {
+      "nome": "Arnaldo Antunes",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "literatura",
+      "espaco": "Salão de Literatura Manoel Ferreira — EMEF Gina Franco",
+      "registro": "participação documentada",
+      "observacao": "Mesas literárias documentadas após o evento",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/festival-de-artes-de-sao-cristovao-promove-discussoes-literarias-durante-os-tres-dias-de-evento-e-aproxima-leitores-de-grandes-escritores"
+    },
+    {
+      "nome": "Amara Moira",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "literatura",
+      "espaco": "Salão de Literatura Manoel Ferreira — EMEF Gina Franco",
+      "registro": "participação documentada",
+      "observacao": "Mesas literárias documentadas após o evento",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/festival-de-artes-de-sao-cristovao-promove-discussoes-literarias-durante-os-tres-dias-de-evento-e-aproxima-leitores-de-grandes-escritores"
+    },
+    {
+      "nome": "Socorro Acioli",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "literatura",
+      "espaco": "Salão de Literatura Manoel Ferreira — EMEF Gina Franco",
+      "registro": "participação documentada",
+      "observacao": "Mesas literárias documentadas após o evento",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/festival-de-artes-de-sao-cristovao-promove-discussoes-literarias-durante-os-tres-dias-de-evento-e-aproxima-leitores-de-grandes-escritores"
+    },
+    {
+      "nome": "Itamar Vieira Junior",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "literatura",
+      "espaco": "Salão de Literatura Manoel Ferreira — EMEF Gina Franco",
+      "registro": "programado",
+      "observacao": "Anúncio oficial da participação em outra fonte: https://www.saocristovao.se.gov.br/noticia/arnaldo-antunes-itamar-vieira-e-amara-moira-participarao-do-salao-de-literatura-do-39o-fasc",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/arnaldo-antunes-itamar-vieira-e-amara-moira-participarao-do-salao-de-literatura-do-39o-fasc"
+    },
+    {
+      "nome": "Grupo Imbuaça",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "teatro",
+      "espaco": "Palco Mariano Antônio — Largo da Matriz",
+      "registro": "apresentação realizada",
+      "observacao": "Espetáculo Do Molambo ao Filó",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/teatro-no-palco-mariano-antonio-emociona-publico-no-fasc-2024"
+    },
+    {
+      "nome": "Mamulengo de Cheiroso",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "teatro",
+      "espaco": "Palco Mariano Antônio — Largo da Matriz",
+      "registro": "apresentação realizada",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/teatro-no-palco-mariano-antonio-emociona-publico-no-fasc-2024"
+    },
+    {
+      "nome": "Grupo Riso Cínico",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "teatro",
+      "espaco": "Palco Mariano Antônio — Largo da Matriz",
+      "registro": "apresentação realizada",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/teatro-no-palco-mariano-antonio-emociona-publico-no-fasc-2024"
+    },
+    {
+      "nome": "Grupo A Tua Lona",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "teatro",
+      "espaco": "Palco Mariano Antônio — Largo da Matriz",
+      "registro": "apresentação realizada",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/teatro-no-palco-mariano-antonio-emociona-publico-no-fasc-2024"
+    },
+    {
+      "nome": "Embrazados Crew",
+      "ano": 2024,
+      "edicao": 39,
+      "linguagem": "teatro",
+      "espaco": "Palco Mariano Antônio — Largo da Matriz",
+      "registro": "apresentação realizada",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/teatro-no-palco-mariano-antonio-emociona-publico-no-fasc-2024"
+    },
+    {
+      "nome": "Olodum",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Gaby Amarantos",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Pabllo Vittar",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Marcelo D2",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "João Gomes",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Seu Jorge",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Saulo Fernandes",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Joyce Alane",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Edcity",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Os Garotin",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Maysa Reis",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Héloa",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "Lia de Itamaracá anunciada como participação especial no show de Héloa",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Lia de Itamaracá",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco João Bebe-Água — Praça São Francisco",
+      "registro": "programado",
+      "observacao": "Lia de Itamaracá anunciada como participação especial no show de Héloa",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Karol Conká",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Maglore",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Urias",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Dead Fish",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Mundo Livre S/A",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Getúlio Abelha",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Mestre Ambrósio",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Ana Frango Elétrico",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Cidade Dormitório",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Chico Chico",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "música",
+      "espaco": "Palco Frei Santa Cecília — Praça do Carmo",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025"
+    },
+    {
+      "nome": "Raphael Montes",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "literatura",
+      "espaco": "Salão de Literatura Manoel Ferreira — EMEF Gina Franco",
+      "registro": "participação documentada",
+      "observacao": "Reportagem após sua mesa literária",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/criacao-literaria-e-a-forca-das-narrativas-femininas-marcaram-o-segundo-dia-do-salao-de-literatura-manoel-ferreira-no-fasc-2025"
+    },
+    {
+      "nome": "Elisama Santos",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "literatura",
+      "espaco": "Salão de Literatura Manoel Ferreira — EMEF Gina Franco",
+      "registro": "participação documentada",
+      "observacao": "Reportagem sobre encontro do primeiro dia",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/literatura-no-fasc-2025-elisama-santos-mafuane-oliveira-e-cristiane-sobral-abrem-a-programacao-com-debates-sobre-antirracismo-e-aquilombamento"
+    },
+    {
+      "nome": "Mafuane Oliveira",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "literatura",
+      "espaco": "Salão de Literatura Manoel Ferreira — EMEF Gina Franco",
+      "registro": "participação documentada",
+      "observacao": "Reportagem sobre encontro do primeiro dia",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/literatura-no-fasc-2025-elisama-santos-mafuane-oliveira-e-cristiane-sobral-abrem-a-programacao-com-debates-sobre-antirracismo-e-aquilombamento"
+    },
+    {
+      "nome": "Cristiane Sobral",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "literatura",
+      "espaco": "Salão de Literatura Manoel Ferreira — EMEF Gina Franco",
+      "registro": "participação documentada",
+      "observacao": "Reportagem sobre encontro do primeiro dia",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/literatura-no-fasc-2025-elisama-santos-mafuane-oliveira-e-cristiane-sobral-abrem-a-programacao-com-debates-sobre-antirracismo-e-aquilombamento"
+    },
+    {
+      "nome": "Xico Sá",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "literatura",
+      "espaco": "Salão de Literatura Manoel Ferreira — EMEF Gina Franco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/literatura-no-fasc-2025-elisama-santos-mafuane-oliveira-e-cristiane-sobral-abrem-a-programacao-com-debates-sobre-antirracismo-e-aquilombamento"
+    },
+    {
+      "nome": "Sérgio Vaz",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "literatura",
+      "espaco": "Salão de Literatura Manoel Ferreira — EMEF Gina Franco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/literatura-no-fasc-2025-elisama-santos-mafuane-oliveira-e-cristiane-sobral-abrem-a-programacao-com-debates-sobre-antirracismo-e-aquilombamento"
+    },
+    {
+      "nome": "Luiza Romão",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "literatura",
+      "espaco": "Salão de Literatura Manoel Ferreira — EMEF Gina Franco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/literatura-no-fasc-2025-elisama-santos-mafuane-oliveira-e-cristiane-sobral-abrem-a-programacao-com-debates-sobre-antirracismo-e-aquilombamento"
+    },
+    {
+      "nome": "Izabel Nascimento",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "literatura",
+      "espaco": "Salão de Literatura Manoel Ferreira — EMEF Gina Franco",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/literatura-no-fasc-2025-elisama-santos-mafuane-oliveira-e-cristiane-sobral-abrem-a-programacao-com-debates-sobre-antirracismo-e-aquilombamento"
+    },
+    {
+      "nome": "Cármen Lúcia",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "literatura",
+      "espaco": "Salão de Literatura Manoel Ferreira — EMEF Gina Franco",
+      "registro": "programado",
+      "observacao": "Participação prevista por videopalestra; não registrar como presença física",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/literatura-no-fasc-2025-elisama-santos-mafuane-oliveira-e-cristiane-sobral-abrem-a-programacao-com-debates-sobre-antirracismo-e-aquilombamento"
+    },
+    {
+      "nome": "Afrobapho",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "teatro",
+      "espaco": "Palco Mariano Antônio — Largo da Matriz",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025"
+    },
+    {
+      "nome": "Embrazados Crew",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "teatro",
+      "espaco": "Palco Mariano Antônio — Largo da Matriz",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025"
+    },
+    {
+      "nome": "Mamulengo Baile Estrela",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "teatro",
+      "espaco": "Palco Mariano Antônio — Largo da Matriz",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025"
+    },
+    {
+      "nome": "Trupe Kadabra",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "teatro",
+      "espaco": "Palco Mariano Antônio — Largo da Matriz",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025"
+    },
+    {
+      "nome": "Catalise Cia de Artistas",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "teatro",
+      "espaco": "Palco Mariano Antônio — Largo da Matriz",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025"
+    },
+    {
+      "nome": "Coletivo Transe",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "teatro",
+      "espaco": "Palco Mariano Antônio — Largo da Matriz",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025"
+    },
+    {
+      "nome": "Espaço Formas",
+      "ano": 2025,
+      "edicao": 40,
+      "linguagem": "teatro",
+      "espaco": "Palco Mariano Antônio — Largo da Matriz",
+      "registro": "programado",
+      "observacao": "",
+      "fonte": "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025"
+    }
+  ]
+}

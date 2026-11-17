@@ -70,3 +70,9 @@ Revisão histórica da orientação/visual: [16 — Mapa, agenda e entrada](16-R
 - [20 — Correção da visão geral e proposta com fotografia](20-ZOOM-GERAL-E-PROPOSTA-FOTOGRAFICA.md): separação proporcional ao zoom e fotografia aplicada após avaliação.
 
 - [21 — Publicação no GitHub Pages](21-PUBLICACAO-GITHUB-PAGES.md): endereço do projeto, build e configuração do domínio do mapa.
+
+- [22 — Fase 4: roteiros, memórias, história e fotografias](22-FASE-4-CULTURA-E-FOTOS.md): implementação local, evidências e pendências de curadoria.
+
+- [23 — Mapa histórico interativo e acervo de artistas](23-MAPA-HISTORICO-E-ACERVO.md): nove edições, 15 marcos, 36 artistas/grupos, reprodução, integração e evidências.
+
+- [24 — Pesquisa integrada e máquina do tempo](24-PESQUISA-INTEGRADA-E-MAQUINA-DO-TEMPO.md): merge das seis pesquisas, curadoria, trajetórias, fotografias e correções de interação.

@@ -1,0 +1,1560 @@
+{
+  "description": "Pesquisa de fontes públicas para o protótipo VivaSE. Catálogo inicial não exaustivo. Participações em programação anunciada não equivalem a prova de apresentação realizada. Não há coordenadas verificadas neste arquivo.",
+  "editions": [
+    {
+      "edition": 1,
+      "dates": "setembro de 1972 (1 a 3/9 conforme documentação retrospectiva)",
+      "theme": "Criação do festival pela UFS; programação anunciada no jornal de julho de 1972",
+      "venues": [
+        {
+          "name": "Praça do Convento São Francisco",
+          "category": "abertura e música",
+          "location_text": "Praça São Francisco",
+          "examples_announced": "abertura, corais e apresentações",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Teatro do Orfanato Imaculada Conceição",
+          "category": "teatro",
+          "location_text": "Orfanato Imaculada Conceição",
+          "examples_announced": "teatro infantil, jogral e atividades cênicas",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Museu de Sergipe",
+          "category": "exposição / artesanato",
+          "location_text": "Museu de Sergipe",
+          "examples_announced": "artes plásticas, noites de autógrafos e artesanato em ambientes distintos",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Praça do Coreto",
+          "category": "música / folclore",
+          "location_text": "Praça do Coreto",
+          "examples_announced": "retretas e grupos folclóricos",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Ginásio Lourival Batista",
+          "category": "dança / ginástica",
+          "location_text": "Ginásio Lourival Batista",
+          "examples_announced": "ginástica moderna",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Cinema-Teatro Trianon",
+          "category": "cinema / teatro / balé",
+          "location_text": "Cinema-Teatro Trianon",
+          "examples_announced": "cinema, teatro, balé e mostra de cinema",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Igreja de São Francisco",
+          "category": "música sacra",
+          "location_text": "Convento São Francisco",
+          "examples_announced": "concerto e Coral da UFS",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Orfanato Imaculada Conceição",
+          "category": "cinema",
+          "location_text": "Orfanato Imaculada Conceição",
+          "examples_announced": "festival nacional de cinema amador",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Igreja do Carmo",
+          "category": "palestra",
+          "location_text": "Igreja do Carmo",
+          "examples_announced": "palestra de museologia",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Ruas históricas de São Cristóvão",
+          "category": "roteiro cultural",
+          "location_text": "Centro Histórico",
+          "examples_announced": "visita à cidade; percurso não reconstituído",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        }
+      ],
+      "year": 1972,
+      "sources": [
+        "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf",
+        "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+      ]
+    },
+    {
+      "edition": 33,
+      "dates": "9 a 11/12/2005",
+      "theme": "Última edição antes da pausa até 2017; apresentações variadas e nove mostras artísticas na cobertura",
+      "venues": [
+        {
+          "name": "Palco São Francisco",
+          "category": "música",
+          "location_text": "Praça São Francisco",
+          "examples_announced": "Otto, Alceu Valença, Nando Reis, Ilê Aiyê, Joésia Ramos e grupos locais",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/",
+            "https://www.overmundo.com.br/overblog/33-festival-de-artes-de-sao-cristovao"
+          ]
+        },
+        {
+          "name": "Palco Quintal Musical",
+          "category": "música",
+          "location_text": "Praça do Carmo",
+          "examples_announced": "noites de samba e jazz, Banda Reação, Alejandro Moro Jazz Quarteto, Nino Karva",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/",
+            "https://www.overmundo.com.br/overblog/33-festival-de-artes-de-sao-cristovao"
+          ]
+        },
+        {
+          "name": "Palco Alternativo",
+          "category": "teatro",
+          "location_text": "Praça São Francisco",
+          "examples_announced": "Grupo Galpão, programação do palco alternativo",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/",
+            "https://www.overmundo.com.br/overblog/33-festival-de-artes-de-sao-cristovao"
+          ]
+        },
+        {
+          "name": "Teatro de Palco",
+          "category": "teatro",
+          "location_text": "Colégio Modelo de Aplicação",
+          "examples_announced": "Bando Teatro Olodum com Cabaré da RRRRaça, Joana Gajuru, Outra Cia.",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/",
+            "https://www.overmundo.com.br/overblog/33-festival-de-artes-de-sao-cristovao"
+          ]
+        },
+        {
+          "name": "Teatro de Rua",
+          "category": "teatro de rua",
+          "location_text": "Praça da Matriz",
+          "examples_announced": "Grupo Imbuaça, Mamulengo de Cheiroso e outras companhias",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/",
+            "https://www.overmundo.com.br/overblog/33-festival-de-artes-de-sao-cristovao"
+          ]
+        },
+        {
+          "name": "Igreja da Matriz",
+          "category": "música sacra / câmara",
+          "location_text": "Igreja da Matriz",
+          "examples_announced": "Coral da UFS, quinteto de cordas, corais",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/",
+            "https://www.overmundo.com.br/overblog/33-festival-de-artes-de-sao-cristovao"
+          ]
+        },
+        {
+          "name": "Cinema",
+          "category": "audiovisual",
+          "location_text": "Ao lado da Igreja da Matriz",
+          "examples_announced": "Curta-se Itinerante, curtas Humberto Mauro e outras mostras",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/",
+            "https://www.overmundo.com.br/overblog/33-festival-de-artes-de-sao-cristovao"
+          ]
+        },
+        {
+          "name": "Salão de Literatura",
+          "category": "literatura",
+          "location_text": null,
+          "examples_announced": "lançamentos, saraus, debates, Ciber Café e Blog do FASC; localização não informada",
+          "geo_status": "needs_verification",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/",
+            "https://www.overmundo.com.br/overblog/33-festival-de-artes-de-sao-cristovao"
+          ]
+        },
+        {
+          "name": "Centro de Catequese Santa Clara",
+          "category": "artes visuais",
+          "location_text": "Centro de Catequese Santa Clara",
+          "examples_announced": "exposição Entreolhar, artes e fotografia",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/",
+            "https://www.overmundo.com.br/overblog/33-festival-de-artes-de-sao-cristovao"
+          ]
+        },
+        {
+          "name": "Largo da Matriz",
+          "category": "feira / artesanato",
+          "location_text": "Largo da Matriz",
+          "examples_announced": "feira de artesanato e comidas típicas, mostra de arte universitária",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/",
+            "https://www.overmundo.com.br/overblog/33-festival-de-artes-de-sao-cristovao"
+          ]
+        },
+        {
+          "name": "Rua Frei Santa Cecília",
+          "category": "design / exposição",
+          "location_text": "Rua Frei Santa Cecília",
+          "examples_announced": "mostra de designers acadêmicos da UNIT",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/",
+            "https://www.overmundo.com.br/overblog/33-festival-de-artes-de-sao-cristovao"
+          ]
+        },
+        {
+          "name": "Ruas da cidade",
+          "category": "cortejo / dança / grafite",
+          "location_text": "Ruas do Centro Histórico",
+          "examples_announced": "grupos folclóricos, street dance e grafitagem; não há rota exata",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/",
+            "https://www.overmundo.com.br/overblog/33-festival-de-artes-de-sao-cristovao"
+          ]
+        },
+        {
+          "name": "Auditório do Convento São Francisco",
+          "category": "palestras",
+          "location_text": "Convento São Francisco",
+          "examples_announced": "palestras e mesas-redondas",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/",
+            "https://www.overmundo.com.br/overblog/33-festival-de-artes-de-sao-cristovao"
+          ]
+        },
+        {
+          "name": "Cultart",
+          "category": "seminário / palestra",
+          "location_text": null,
+          "examples_announced": "mesa-redonda sobre cinema; conferir localização do local em 2005",
+          "geo_status": "needs_verification",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/",
+            "https://www.overmundo.com.br/overblog/33-festival-de-artes-de-sao-cristovao"
+          ]
+        },
+        {
+          "name": "Escola Municipal de São Cristóvão",
+          "category": "oficinas",
+          "location_text": null,
+          "examples_announced": "oficinas de teatro, fotografia, pífano, arte e audiovisual",
+          "geo_status": "needs_verification",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/",
+            "https://www.overmundo.com.br/overblog/33-festival-de-artes-de-sao-cristovao"
+          ]
+        },
+        {
+          "name": "Academia Espaço e Forma",
+          "category": "oficinas",
+          "location_text": null,
+          "examples_announced": "oficinas de dança e grafite",
+          "geo_status": "needs_verification",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/",
+            "https://www.overmundo.com.br/overblog/33-festival-de-artes-de-sao-cristovao"
+          ]
+        }
+      ],
+      "year": 2005,
+      "sources": [
+        "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/",
+        "https://www.overmundo.com.br/overblog/33-festival-de-artes-de-sao-cristovao"
+      ]
+    },
+    {
+      "edition": 34,
+      "dates": "1 a 3/12/2017",
+      "theme": "Retomada depois de 12 anos, com homenagem à memória do festival",
+      "venues": [
+        {
+          "name": "Palco João Bebe-Água",
+          "category": "música",
+          "location_text": "Praça São Francisco",
+          "examples_announced": "Otto, Margareth Menezes, Nação Zumbi, Mestrinho, Joésia Ramos",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Palco Frei Santa Cecília",
+          "category": "música",
+          "location_text": "Praça do Carmo",
+          "examples_announced": "bandas e artistas independentes, Cidade Dormitório, Reação",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Teatro Mariano Antônio",
+          "category": "teatro e dança",
+          "location_text": "Colégio Elic",
+          "examples_announced": "espetáculos cênicos e apresentações de dança; nome e localização em 2017",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Cine Trianon",
+          "category": "cinema",
+          "location_text": "Praça da Matriz",
+          "examples_announced": "sessões audiovisuais e mostras",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Salão de Literatura José Augusto Garcez",
+          "category": "literatura",
+          "location_text": "Biblioteca Lourival Baptista, Praça São Francisco",
+          "examples_announced": "rodas de conversa, literatura e cordel",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Salão de Artes Visuais Jenner Augusto",
+          "category": "exposição",
+          "location_text": "Casa Paroquial, Praça da Matriz",
+          "examples_announced": "artes visuais",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Salão de Artes Visuais Vesta Vianna",
+          "category": "exposição",
+          "location_text": "Vigário Barroso, Praça da Matriz",
+          "examples_announced": "artes visuais",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Roteiro de Igrejas - Nossa Senhora da Vitória",
+          "category": "música coral",
+          "location_text": "Igreja Nossa Senhora da Vitória, Praça da Matriz",
+          "examples_announced": "corais, concertos e filarmônicas",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Roteiro de Igrejas - Nossa Senhora do Amparo",
+          "category": "música sacra",
+          "location_text": "Igreja Nossa Senhora do Amparo, Rua Messias Prado",
+          "examples_announced": "concertos em igreja",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Museu de Sergipe",
+          "category": "exposições",
+          "location_text": "Museu de Sergipe",
+          "examples_announced": "FASC em Cartaz, Museu do Homem Sergipano, 100 Anos do Cultart",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Museu de Arte Sacra",
+          "category": "exposição / oficina",
+          "location_text": "Museu de Arte Sacra",
+          "examples_announced": "exposições e oficina de tapetes",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Espaço D’Época",
+          "category": "exposição",
+          "location_text": null,
+          "examples_announced": "mostra Emblemáticos; geolocalização exata pendente",
+          "geo_status": "needs_verification",
+          "source_urls": [
+            "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Salão dos Carmelitas",
+          "category": "debate / fórum",
+          "location_text": "Salão dos Carmelitas",
+          "examples_announced": "I Fórum Pensar São Cristóvão",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Praça da Bíblia",
+          "category": "ciência / atividade cultural",
+          "location_text": "Praça da Bíblia",
+          "examples_announced": "observatório astronômico",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Paço Municipal",
+          "category": "tecnologia / hackathon",
+          "location_text": "Praça São Francisco",
+          "examples_announced": "hackathon",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Ruas do Centro Histórico",
+          "category": "cortejos",
+          "location_text": "Centro Histórico",
+          "examples_announced": "Caminhos de Mestre Rindú, cortejos folclóricos; não fixar rota",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        },
+        {
+          "name": "Praça São Francisco",
+          "category": "oficinas / capoeira",
+          "location_text": "Praça São Francisco",
+          "examples_announced": "oficinas e rodas de capoeira",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes",
+            "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+          ]
+        }
+      ],
+      "year": 2017,
+      "sources": [
+        "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes",
+        "https://www.ufs.br/conteudo/60741-abertura-do-festival-de-artes-de-sao-cristovao-acontece-nesta-sexta"
+      ]
+    },
+    {
+      "edition": 35,
+      "dates": "15 a 18/11/2018",
+      "theme": "Ampliação dos circuitos e integração entre música, artes e patrimônio",
+      "venues": [
+        {
+          "name": "Palco João Bebe-Água",
+          "category": "música",
+          "location_text": "Praça São Francisco",
+          "examples_announced": "BaianaSystem, Lenine, Céu, Chico César, Mart’nália, The Baggios",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.ufs.br/conteudo/62420-prefeitura-de-sao-cristovao-lanca-programacao-do-35-fasc",
+            "https://jornaldodiase.com.br/prefeitura-de-sao-cristovao-lanca-programacao-do-35o-fasc/"
+          ]
+        },
+        {
+          "name": "Palco Frei Santa Cecília",
+          "category": "música",
+          "location_text": "Praça do Carmo",
+          "examples_announced": "Luedji Luna, Rincon Sapiência, Banda Eddie",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.ufs.br/conteudo/62420-prefeitura-de-sao-cristovao-lanca-programacao-do-35-fasc",
+            "https://jornaldodiase.com.br/prefeitura-de-sao-cristovao-lanca-programacao-do-35o-fasc/"
+          ]
+        },
+        {
+          "name": "Palco Antônio Mariano",
+          "category": "teatro / dança / circo",
+          "location_text": "Praça da Bíblia",
+          "examples_announced": "Mamulengo de Cheiroso, dança, circo e teatro; LOCAL DIFERE DO LARGO DA MATRIZ EM 2024",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.ufs.br/conteudo/62420-prefeitura-de-sao-cristovao-lanca-programacao-do-35-fasc",
+            "https://jornaldodiase.com.br/prefeitura-de-sao-cristovao-lanca-programacao-do-35o-fasc/"
+          ]
+        },
+        {
+          "name": "Beco do Amor / Beco das Artes",
+          "category": "música / intervenção",
+          "location_text": "Largo do Amparo",
+          "examples_announced": "música alternativa, Mostra Aliança Francesa, Pífano de Pife",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.ufs.br/conteudo/62420-prefeitura-de-sao-cristovao-lanca-programacao-do-35-fasc",
+            "https://jornaldodiase.com.br/prefeitura-de-sao-cristovao-lanca-programacao-do-35o-fasc/"
+          ]
+        },
+        {
+          "name": "Salão de Literatura José Augusto Garcez",
+          "category": "literatura / feira",
+          "location_text": "Largo da Matriz",
+          "examples_announced": "Feira da Prensa, cordel, fanzines, contação de histórias e debates",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.ufs.br/conteudo/62420-prefeitura-de-sao-cristovao-lanca-programacao-do-35-fasc",
+            "https://jornaldodiase.com.br/prefeitura-de-sao-cristovao-lanca-programacao-do-35o-fasc/"
+          ]
+        },
+        {
+          "name": "Cine Trianon",
+          "category": "cinema",
+          "location_text": "Teatro Elic",
+          "examples_announced": "curtas, Festivalzinho, cinema universitário, filmes franceses",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.ufs.br/conteudo/62420-prefeitura-de-sao-cristovao-lanca-programacao-do-35-fasc",
+            "https://jornaldodiase.com.br/prefeitura-de-sao-cristovao-lanca-programacao-do-35o-fasc/"
+          ]
+        },
+        {
+          "name": "Salão de Artes Visuais Vesta Vianna",
+          "category": "exposição / oficinas",
+          "location_text": null,
+          "examples_announced": "artes visuais, oficinas e grafite; confirmar endereço em 2018",
+          "geo_status": "needs_verification",
+          "source_urls": [
+            "https://www.ufs.br/conteudo/62420-prefeitura-de-sao-cristovao-lanca-programacao-do-35-fasc",
+            "https://jornaldodiase.com.br/prefeitura-de-sao-cristovao-lanca-programacao-do-35o-fasc/"
+          ]
+        },
+        {
+          "name": "Igreja do Rosário",
+          "category": "música de câmara",
+          "location_text": "Igreja do Rosário",
+          "examples_announced": "concertos e música de câmara",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.ufs.br/conteudo/62420-prefeitura-de-sao-cristovao-lanca-programacao-do-35-fasc",
+            "https://jornaldodiase.com.br/prefeitura-de-sao-cristovao-lanca-programacao-do-35o-fasc/"
+          ]
+        },
+        {
+          "name": "Casa do Folclore",
+          "category": "exposição",
+          "location_text": "Casa do Folclore",
+          "examples_announced": "exposição ligada a quatro décadas de Mamulengo de Cheiroso",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.ufs.br/conteudo/62420-prefeitura-de-sao-cristovao-lanca-programacao-do-35-fasc",
+            "https://jornaldodiase.com.br/prefeitura-de-sao-cristovao-lanca-programacao-do-35o-fasc/"
+          ]
+        },
+        {
+          "name": "Ruas do Centro Histórico",
+          "category": "cortejos",
+          "location_text": "Centro Histórico",
+          "examples_announced": "manifestações folclóricas de rua",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.ufs.br/conteudo/62420-prefeitura-de-sao-cristovao-lanca-programacao-do-35-fasc",
+            "https://jornaldodiase.com.br/prefeitura-de-sao-cristovao-lanca-programacao-do-35o-fasc/"
+          ]
+        },
+        {
+          "name": "Fórum Pensar São Cristóvão",
+          "category": "debate",
+          "location_text": null,
+          "examples_announced": "debates sobre a cidade; local específico não verificado",
+          "geo_status": "needs_verification",
+          "source_urls": [
+            "https://www.ufs.br/conteudo/62420-prefeitura-de-sao-cristovao-lanca-programacao-do-35-fasc",
+            "https://jornaldodiase.com.br/prefeitura-de-sao-cristovao-lanca-programacao-do-35o-fasc/"
+          ]
+        }
+      ],
+      "year": 2018,
+      "sources": [
+        "https://www.ufs.br/conteudo/62420-prefeitura-de-sao-cristovao-lanca-programacao-do-35-fasc",
+        "https://jornaldodiase.com.br/prefeitura-de-sao-cristovao-lanca-programacao-do-35o-fasc/"
+      ]
+    },
+    {
+      "edition": 36,
+      "dates": "14 a 17/11/2019",
+      "theme": "Resistir para Existir",
+      "venues": [
+        {
+          "name": "Palco João Bebe-Água",
+          "category": "música",
+          "location_text": "Praça São Francisco",
+          "examples_announced": "Gilberto Gil, Mariene de Castro, Cordel do Fogo Encantado, Dezarie",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-do-fasc-que-comecou-nesta-quinta-feira-14/",
+            "https://revistarever.wordpress.com/2019/09/03/confira-a-programacao-do-festival-de-artes-de-sao-cristovao/"
+          ]
+        },
+        {
+          "name": "Palco Frei Santa Cecília",
+          "category": "música",
+          "location_text": "Praça do Carmo",
+          "examples_announced": "Liniker e os Caramelows, Afrocidade, Silvério Pessoa",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-do-fasc-que-comecou-nesta-quinta-feira-14/",
+            "https://revistarever.wordpress.com/2019/09/03/confira-a-programacao-do-festival-de-artes-de-sao-cristovao/"
+          ]
+        },
+        {
+          "name": "Palco Mariano Antônio",
+          "category": "teatro / dança",
+          "location_text": "Largo da Matriz",
+          "examples_announced": "Mamulengo de Cheiroso, Imbuaça e outros",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-do-fasc-que-comecou-nesta-quinta-feira-14/",
+            "https://revistarever.wordpress.com/2019/09/03/confira-a-programacao-do-festival-de-artes-de-sao-cristovao/"
+          ]
+        },
+        {
+          "name": "Teatro no Museu",
+          "category": "teatro",
+          "location_text": "Museu de Sergipe",
+          "examples_announced": "espetáculos de teatro dentro do museu",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-do-fasc-que-comecou-nesta-quinta-feira-14/",
+            "https://revistarever.wordpress.com/2019/09/03/confira-a-programacao-do-festival-de-artes-de-sao-cristovao/"
+          ]
+        },
+        {
+          "name": "Beco do Amor",
+          "category": "música / poesia",
+          "location_text": null,
+          "examples_announced": "música independente, poesia e DJs; conferir localização específica naquele ano",
+          "geo_status": "needs_verification",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-do-fasc-que-comecou-nesta-quinta-feira-14/",
+            "https://revistarever.wordpress.com/2019/09/03/confira-a-programacao-do-festival-de-artes-de-sao-cristovao/"
+          ]
+        },
+        {
+          "name": "Cine Trianon",
+          "category": "cinema",
+          "location_text": "Teatro Elic",
+          "examples_announced": "Mostra Sesc, Curta-SE, filmes e debates",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-do-fasc-que-comecou-nesta-quinta-feira-14/",
+            "https://revistarever.wordpress.com/2019/09/03/confira-a-programacao-do-festival-de-artes-de-sao-cristovao/"
+          ]
+        },
+        {
+          "name": "Salão de Literatura José Augusto Garcez",
+          "category": "literatura / feira",
+          "location_text": "Salão Paroquial, Praça da Matriz",
+          "examples_announced": "Feira da Prensa, poesia e oficinas",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-do-fasc-que-comecou-nesta-quinta-feira-14/",
+            "https://revistarever.wordpress.com/2019/09/03/confira-a-programacao-do-festival-de-artes-de-sao-cristovao/"
+          ]
+        },
+        {
+          "name": "Salão de Artes Visuais Vesta Vianna",
+          "category": "exposição",
+          "location_text": "Vigário Barroso",
+          "examples_announced": "exposição e roda de conversa",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-do-fasc-que-comecou-nesta-quinta-feira-14/",
+            "https://revistarever.wordpress.com/2019/09/03/confira-a-programacao-do-festival-de-artes-de-sao-cristovao/"
+          ]
+        },
+        {
+          "name": "Igreja do Rosário dos Homens Pardos",
+          "category": "música de câmara",
+          "location_text": "Igreja do Rosário",
+          "examples_announced": "música instrumental / de câmara",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-do-fasc-que-comecou-nesta-quinta-feira-14/",
+            "https://revistarever.wordpress.com/2019/09/03/confira-a-programacao-do-festival-de-artes-de-sao-cristovao/"
+          ]
+        },
+        {
+          "name": "Espaço Doca",
+          "category": "feira / oficina / slam",
+          "location_text": "Colégio Gina Franco",
+          "examples_announced": "feira de trocas e vinil, oficinas, slams, DJs",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-do-fasc-que-comecou-nesta-quinta-feira-14/",
+            "https://revistarever.wordpress.com/2019/09/03/confira-a-programacao-do-festival-de-artes-de-sao-cristovao/"
+          ]
+        },
+        {
+          "name": "Ruas do Centro Histórico",
+          "category": "cortejos",
+          "location_text": "Concentração na Igreja do Rosário",
+          "examples_announced": "cortejos populares pelas ruas; rota não reconstituída",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://infonet.com.br/noticias/cultura/confira-a-programacao-do-fasc-que-comecou-nesta-quinta-feira-14/",
+            "https://revistarever.wordpress.com/2019/09/03/confira-a-programacao-do-festival-de-artes-de-sao-cristovao/"
+          ]
+        }
+      ],
+      "year": 2019,
+      "sources": [
+        "https://infonet.com.br/noticias/cultura/confira-a-programacao-do-fasc-que-comecou-nesta-quinta-feira-14/",
+        "https://revistarever.wordpress.com/2019/09/03/confira-a-programacao-do-festival-de-artes-de-sao-cristovao/"
+      ]
+    },
+    {
+      "edition": 37,
+      "dates": "1 a 4/12/2022",
+      "theme": "Comemoração dos 50 anos do nascimento do festival; retorno depois da pausa da pandemia",
+      "venues": [
+        {
+          "name": "Palco Gal Costa",
+          "category": "música",
+          "location_text": "Praça São Francisco",
+          "examples_announced": "Alceu Valença, Daniela Mercury, Emicida, Diogo Nogueira, The Baggios; homenagem a Gal Costa",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao",
+            "https://www.saocristovao.se.gov.br/noticia/estruturas-dos-palcos-do-37o-fasc-comecam-a-ser-montadas"
+          ]
+        },
+        {
+          "name": "Palco Frei Santa Cecília",
+          "category": "música",
+          "location_text": "Praça do Carmo",
+          "examples_announced": "BK’, Academia da Berlinda, Héloa e outros",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao",
+            "https://www.saocristovao.se.gov.br/noticia/estruturas-dos-palcos-do-37o-fasc-comecam-a-ser-montadas"
+          ]
+        },
+        {
+          "name": "Palco Largo do Rosário",
+          "category": "música",
+          "location_text": "Largo do Rosário, Igreja do Rosário dos Homens Pretos",
+          "examples_announced": "DJs e música em circuito próprio",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao",
+            "https://www.saocristovao.se.gov.br/noticia/estruturas-dos-palcos-do-37o-fasc-comecam-a-ser-montadas"
+          ]
+        },
+        {
+          "name": "Palco Mariano Antônio",
+          "category": "teatro / dança",
+          "location_text": "Largo da Matriz",
+          "examples_announced": "peças, dança, circo e arte cênica",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao",
+            "https://www.saocristovao.se.gov.br/noticia/estruturas-dos-palcos-do-37o-fasc-comecam-a-ser-montadas"
+          ]
+        },
+        {
+          "name": "Cine Trianon",
+          "category": "cinema",
+          "location_text": "Rua Coronel Erundino Prado",
+          "examples_announced": "exibições do Curta-SE e outros",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao",
+            "https://www.saocristovao.se.gov.br/noticia/estruturas-dos-palcos-do-37o-fasc-comecam-a-ser-montadas"
+          ]
+        },
+        {
+          "name": "Salão de Artes Vesta Viana",
+          "category": "exposição",
+          "location_text": "Praça da Matriz",
+          "examples_announced": "mostras de artes visuais",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao",
+            "https://www.saocristovao.se.gov.br/noticia/estruturas-dos-palcos-do-37o-fasc-comecam-a-ser-montadas"
+          ]
+        },
+        {
+          "name": "Salão de Artes Horácio Hora",
+          "category": "exposição / oficinas",
+          "location_text": "Rua Pereira Lobo",
+          "examples_announced": "artes visuais e oficinas",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao",
+            "https://www.saocristovao.se.gov.br/noticia/estruturas-dos-palcos-do-37o-fasc-comecam-a-ser-montadas"
+          ]
+        },
+        {
+          "name": "Salão de Literatura Manoel Ferreira",
+          "category": "literatura",
+          "location_text": "EMEF Gina Franco",
+          "examples_announced": "palestras, lançamento de livros e oficinas",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao",
+            "https://www.saocristovao.se.gov.br/noticia/estruturas-dos-palcos-do-37o-fasc-comecam-a-ser-montadas"
+          ]
+        },
+        {
+          "name": "Espaço ODS",
+          "category": "sustentabilidade / participação",
+          "location_text": "EMEF Gina Franco",
+          "examples_announced": "ações ambientais e sociais",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao",
+            "https://www.saocristovao.se.gov.br/noticia/estruturas-dos-palcos-do-37o-fasc-comecam-a-ser-montadas"
+          ]
+        },
+        {
+          "name": "Casa das Culturas Populares",
+          "category": "exposição",
+          "location_text": "Praça São Francisco",
+          "examples_announced": "Rezadeiras da Nossa Terra e tradições",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao",
+            "https://www.saocristovao.se.gov.br/noticia/estruturas-dos-palcos-do-37o-fasc-comecam-a-ser-montadas"
+          ]
+        },
+        {
+          "name": "Casa Sesc / Salão da Casa Paroquial",
+          "category": "exposição / cinema / cultura geek",
+          "location_text": "Casa Paroquial, Igreja da Matriz",
+          "examples_announced": "Casa Geek e Cine Sesc; verificar ações por dia",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao",
+            "https://www.saocristovao.se.gov.br/noticia/estruturas-dos-palcos-do-37o-fasc-comecam-a-ser-montadas"
+          ]
+        },
+        {
+          "name": "Cortejos",
+          "category": "folclore / rua",
+          "location_text": "Concentração Praça João Ferreira dos Reis",
+          "examples_announced": "grupos afro, populares e percussivos; percurso não documentado",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao",
+            "https://www.saocristovao.se.gov.br/noticia/estruturas-dos-palcos-do-37o-fasc-comecam-a-ser-montadas"
+          ]
+        }
+      ],
+      "year": 2022,
+      "sources": [
+        "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao",
+        "https://www.saocristovao.se.gov.br/noticia/estruturas-dos-palcos-do-37o-fasc-comecam-a-ser-montadas"
+      ]
+    },
+    {
+      "edition": 38,
+      "dates": "1 a 3/12/2023",
+      "theme": "Somos Múltiplos",
+      "venues": [
+        {
+          "name": "Palco João Bebe-Água",
+          "category": "música",
+          "location_text": "Praça São Francisco",
+          "examples_announced": "Carlinhos Brown, Marina Sena, Liniker, Djonga, Zeca Baleiro, Groundation",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-lanca-programacao-do-fasc-2023",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-2023-palco-mestre-neca-vai-receber-grupos-de-cultura-popular"
+          ]
+        },
+        {
+          "name": "Palco Frei Santa Cecília",
+          "category": "música",
+          "location_text": "Praça do Carmo",
+          "examples_announced": "Rachel Reis, Pato Fu, The Baggios e outros",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-lanca-programacao-do-fasc-2023",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-2023-palco-mestre-neca-vai-receber-grupos-de-cultura-popular"
+          ]
+        },
+        {
+          "name": "Palco Capuchinhos",
+          "category": "música",
+          "location_text": "Praça da Bandeira",
+          "examples_announced": "FBC, Luísa e os Alquimistas, Morgana; endereço confirmado pela Prefeitura",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-lanca-programacao-do-fasc-2023",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-2023-palco-mestre-neca-vai-receber-grupos-de-cultura-popular"
+          ]
+        },
+        {
+          "name": "Palco Mestre Neca / Seu Neca",
+          "category": "cultura popular",
+          "location_text": "Rua Erundino Prado",
+          "examples_announced": "Caceteiras de Mestre Rindú, Chegança da Ami, Pífano de Pife, Maracatu Baque Mulher; endereço confirmado pela Prefeitura",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-lanca-programacao-do-fasc-2023",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-2023-palco-mestre-neca-vai-receber-grupos-de-cultura-popular"
+          ]
+        },
+        {
+          "name": "Palco Mariano Antônio",
+          "category": "teatro / dança",
+          "location_text": "Largo da Matriz",
+          "examples_announced": "teatro, circo e dança",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-lanca-programacao-do-fasc-2023",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-2023-palco-mestre-neca-vai-receber-grupos-de-cultura-popular"
+          ]
+        },
+        {
+          "name": "Samba na Bica",
+          "category": "música / samba",
+          "location_text": "Parque Natural Aloísio Campos (Bica dos Pintos)",
+          "examples_announced": "samba e apresentações diurnas",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-lanca-programacao-do-fasc-2023",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-2023-palco-mestre-neca-vai-receber-grupos-de-cultura-popular"
+          ]
+        },
+        {
+          "name": "Cine Trianon",
+          "category": "cinema",
+          "location_text": null,
+          "examples_announced": "filmes e debates; confirmar nome do prédio e endereço em 2023",
+          "geo_status": "needs_verification",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-lanca-programacao-do-fasc-2023",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-2023-palco-mestre-neca-vai-receber-grupos-de-cultura-popular"
+          ]
+        },
+        {
+          "name": "Salão de Literatura Manoel Ferreira",
+          "category": "literatura",
+          "location_text": null,
+          "examples_announced": "debates e atividades literárias; não presumir sem confirmação endereço do ano",
+          "geo_status": "needs_verification",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-lanca-programacao-do-fasc-2023",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-2023-palco-mestre-neca-vai-receber-grupos-de-cultura-popular"
+          ]
+        },
+        {
+          "name": "Salão de Artes Vesta Viana",
+          "category": "exposição",
+          "location_text": null,
+          "examples_announced": "mostras artísticas",
+          "geo_status": "needs_verification",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-lanca-programacao-do-fasc-2023",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-2023-palco-mestre-neca-vai-receber-grupos-de-cultura-popular"
+          ]
+        },
+        {
+          "name": "Música na Igreja",
+          "category": "música sacra / câmara",
+          "location_text": "Igreja do Rosário dos Homens Pretos",
+          "examples_announced": "grupos musicais na igreja",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-lanca-programacao-do-fasc-2023",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-2023-palco-mestre-neca-vai-receber-grupos-de-cultura-popular"
+          ]
+        },
+        {
+          "name": "Casa das Culturas Populares",
+          "category": "exposição",
+          "location_text": null,
+          "examples_announced": "Tradição Junina nas Telas de Joel Dantas",
+          "geo_status": "needs_verification",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-lanca-programacao-do-fasc-2023",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-2023-palco-mestre-neca-vai-receber-grupos-de-cultura-popular"
+          ]
+        },
+        {
+          "name": "Biblioteca Senador Lourival Baptista",
+          "category": "exposição",
+          "location_text": "Biblioteca Lourival Baptista",
+          "examples_announced": "Sergipe Berço das Águas",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-lanca-programacao-do-fasc-2023",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-2023-palco-mestre-neca-vai-receber-grupos-de-cultura-popular"
+          ]
+        },
+        {
+          "name": "IPHAN",
+          "category": "exposição",
+          "location_text": "Sede do IPHAN, São Cristóvão",
+          "examples_announced": "O Sonho de João Bebe Água / Os Antepassados de Xingó; verificar divisão entre órgãos",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-lanca-programacao-do-fasc-2023",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-2023-palco-mestre-neca-vai-receber-grupos-de-cultura-popular"
+          ]
+        },
+        {
+          "name": "Museu de Arte Sacra de Sergipe",
+          "category": "exposição",
+          "location_text": "Museu de Arte Sacra",
+          "examples_announced": "Mani Oca",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-lanca-programacao-do-fasc-2023",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-2023-palco-mestre-neca-vai-receber-grupos-de-cultura-popular"
+          ]
+        },
+        {
+          "name": "Ateliê Mestre Passos",
+          "category": "exposição / luteria",
+          "location_text": "Ateliê Mestre Passos",
+          "examples_announced": "Fluxo de Memórias e luteria",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-lanca-programacao-do-fasc-2023",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-2023-palco-mestre-neca-vai-receber-grupos-de-cultura-popular"
+          ]
+        },
+        {
+          "name": "Feiras culturais",
+          "category": "feira / gastronomia",
+          "location_text": "Vários espaços da cidade",
+          "examples_announced": "gastronomia e artesanato; locais exatos não extraídos",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-lanca-programacao-do-fasc-2023",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-2023-palco-mestre-neca-vai-receber-grupos-de-cultura-popular"
+          ]
+        }
+      ],
+      "year": 2023,
+      "sources": [
+        "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-lanca-programacao-do-fasc-2023",
+        "https://www.saocristovao.se.gov.br/noticia/fasc-2023-palco-mestre-neca-vai-receber-grupos-de-cultura-popular"
+      ]
+    },
+    {
+      "edition": 39,
+      "dates": "29/11 a 1/12/2024",
+      "theme": "Cidade Viva",
+      "venues": [
+        {
+          "name": "Palco João Bebe-Água",
+          "category": "música",
+          "location_text": "Praça São Francisco",
+          "examples_announced": "Timbalada, BaianaSystem, Marina Lima, Arnaldo Antunes, Clinton Fearon, Don L",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/9/fasc-2024/Programac%CC%A7a%CC%83o-Fasc-2024.pdf",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-encerra-neste-domingo-com-grandes-atracoes-nacionais-e-internacionais-confira-a-programacao-completa",
+            "https://www.saocristovao.se.gov.br/noticia/teatro-e-danca-enriquecem-programacao-do-fasc-com-espetaculos-no-palco-mariano-antonio"
+          ]
+        },
+        {
+          "name": "Palco Frei Santa Cecília",
+          "category": "música",
+          "location_text": "Praça do Carmo",
+          "examples_announced": "Filipe Catto, Mãeana, Francisco el Hombre, Mombojó",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/9/fasc-2024/Programac%CC%A7a%CC%83o-Fasc-2024.pdf",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-encerra-neste-domingo-com-grandes-atracoes-nacionais-e-internacionais-confira-a-programacao-completa",
+            "https://www.saocristovao.se.gov.br/noticia/teatro-e-danca-enriquecem-programacao-do-fasc-com-espetaculos-no-palco-mariano-antonio"
+          ]
+        },
+        {
+          "name": "Palco Mariano Antônio",
+          "category": "teatro / dança",
+          "location_text": "Largo da Matriz",
+          "examples_announced": "espetáculos cênicos e dança",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/9/fasc-2024/Programac%CC%A7a%CC%83o-Fasc-2024.pdf",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-encerra-neste-domingo-com-grandes-atracoes-nacionais-e-internacionais-confira-a-programacao-completa",
+            "https://www.saocristovao.se.gov.br/noticia/teatro-e-danca-enriquecem-programacao-do-fasc-com-espetaculos-no-palco-mariano-antonio"
+          ]
+        },
+        {
+          "name": "Samba na Bica",
+          "category": "música / samba",
+          "location_text": "Parque Natural Aloísio Campos (Bica dos Pintos)",
+          "examples_announced": "samba e música diurna",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/9/fasc-2024/Programac%CC%A7a%CC%83o-Fasc-2024.pdf",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-encerra-neste-domingo-com-grandes-atracoes-nacionais-e-internacionais-confira-a-programacao-completa",
+            "https://www.saocristovao.se.gov.br/noticia/teatro-e-danca-enriquecem-programacao-do-fasc-com-espetaculos-no-palco-mariano-antonio"
+          ]
+        },
+        {
+          "name": "Música na Igreja",
+          "category": "música / câmara",
+          "location_text": "Igreja do Rosário dos Homens Pretos",
+          "examples_announced": "música coral e de câmara",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/9/fasc-2024/Programac%CC%A7a%CC%83o-Fasc-2024.pdf",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-encerra-neste-domingo-com-grandes-atracoes-nacionais-e-internacionais-confira-a-programacao-completa",
+            "https://www.saocristovao.se.gov.br/noticia/teatro-e-danca-enriquecem-programacao-do-fasc-com-espetaculos-no-palco-mariano-antonio"
+          ]
+        },
+        {
+          "name": "Cine Trianon",
+          "category": "cinema",
+          "location_text": "Rua Coronel Erundino Prado / Cine Theatro Elic",
+          "examples_announced": "O Clube das Mulheres de Negócios e outras mostras",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/9/fasc-2024/Programac%CC%A7a%CC%83o-Fasc-2024.pdf",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-encerra-neste-domingo-com-grandes-atracoes-nacionais-e-internacionais-confira-a-programacao-completa",
+            "https://www.saocristovao.se.gov.br/noticia/teatro-e-danca-enriquecem-programacao-do-fasc-com-espetaculos-no-palco-mariano-antonio"
+          ]
+        },
+        {
+          "name": "Salão de Literatura Manoel Ferreira",
+          "category": "literatura",
+          "location_text": "EMEF Gina Franco",
+          "examples_announced": "debates, apresentações literárias",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/9/fasc-2024/Programac%CC%A7a%CC%83o-Fasc-2024.pdf",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-encerra-neste-domingo-com-grandes-atracoes-nacionais-e-internacionais-confira-a-programacao-completa",
+            "https://www.saocristovao.se.gov.br/noticia/teatro-e-danca-enriquecem-programacao-do-fasc-com-espetaculos-no-palco-mariano-antonio"
+          ]
+        },
+        {
+          "name": "Galeria de Artes Vesta Viana",
+          "category": "exposição",
+          "location_text": "Praça da Matriz",
+          "examples_announced": "artes visuais e exposição",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/9/fasc-2024/Programac%CC%A7a%CC%83o-Fasc-2024.pdf",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-encerra-neste-domingo-com-grandes-atracoes-nacionais-e-internacionais-confira-a-programacao-completa",
+            "https://www.saocristovao.se.gov.br/noticia/teatro-e-danca-enriquecem-programacao-do-fasc-com-espetaculos-no-palco-mariano-antonio"
+          ]
+        },
+        {
+          "name": "Espaço Cidade Viva",
+          "category": "oficinas / debate",
+          "location_text": "EMEF Gina Franco",
+          "examples_announced": "debates e atividades culturais",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/9/fasc-2024/Programac%CC%A7a%CC%83o-Fasc-2024.pdf",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-encerra-neste-domingo-com-grandes-atracoes-nacionais-e-internacionais-confira-a-programacao-completa",
+            "https://www.saocristovao.se.gov.br/noticia/teatro-e-danca-enriquecem-programacao-do-fasc-com-espetaculos-no-palco-mariano-antonio"
+          ]
+        },
+        {
+          "name": "Casa das Culturas Populares",
+          "category": "exposição",
+          "location_text": "Praça São Francisco",
+          "examples_announced": "manifestações folclóricas e Caceteiras",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/9/fasc-2024/Programac%CC%A7a%CC%83o-Fasc-2024.pdf",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-encerra-neste-domingo-com-grandes-atracoes-nacionais-e-internacionais-confira-a-programacao-completa",
+            "https://www.saocristovao.se.gov.br/noticia/teatro-e-danca-enriquecem-programacao-do-fasc-com-espetaculos-no-palco-mariano-antonio"
+          ]
+        },
+        {
+          "name": "Museu de Arte Sacra",
+          "category": "exposição",
+          "location_text": "Praça São Francisco",
+          "examples_announced": "50 anos do MASC",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/9/fasc-2024/Programac%CC%A7a%CC%83o-Fasc-2024.pdf",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-encerra-neste-domingo-com-grandes-atracoes-nacionais-e-internacionais-confira-a-programacao-completa",
+            "https://www.saocristovao.se.gov.br/noticia/teatro-e-danca-enriquecem-programacao-do-fasc-com-espetaculos-no-palco-mariano-antonio"
+          ]
+        },
+        {
+          "name": "Arquivo Público Municipal",
+          "category": "exposição",
+          "location_text": "Rua 24 de Outubro",
+          "examples_announced": "mostras documentais e artes",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/9/fasc-2024/Programac%CC%A7a%CC%83o-Fasc-2024.pdf",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-encerra-neste-domingo-com-grandes-atracoes-nacionais-e-internacionais-confira-a-programacao-completa",
+            "https://www.saocristovao.se.gov.br/noticia/teatro-e-danca-enriquecem-programacao-do-fasc-com-espetaculos-no-palco-mariano-antonio"
+          ]
+        },
+        {
+          "name": "Cortejos Mestre Neca",
+          "category": "cultura popular",
+          "location_text": "Concentrações no Centro Histórico",
+          "examples_announced": "desfiles e grupos populares; percursos não reconstituídos",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/9/fasc-2024/Programac%CC%A7a%CC%83o-Fasc-2024.pdf",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-encerra-neste-domingo-com-grandes-atracoes-nacionais-e-internacionais-confira-a-programacao-completa",
+            "https://www.saocristovao.se.gov.br/noticia/teatro-e-danca-enriquecem-programacao-do-fasc-com-espetaculos-no-palco-mariano-antonio"
+          ]
+        },
+        {
+          "name": "Gastronomia e artesanato",
+          "category": "feira / economia criativa",
+          "location_text": "Espaços diversos",
+          "examples_announced": "comércio cultural, locais por banca não documentados",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/9/fasc-2024/Programac%CC%A7a%CC%83o-Fasc-2024.pdf",
+            "https://www.saocristovao.se.gov.br/noticia/fasc-encerra-neste-domingo-com-grandes-atracoes-nacionais-e-internacionais-confira-a-programacao-completa",
+            "https://www.saocristovao.se.gov.br/noticia/teatro-e-danca-enriquecem-programacao-do-fasc-com-espetaculos-no-palco-mariano-antonio"
+          ]
+        }
+      ],
+      "year": 2024,
+      "sources": [
+        "https://anexos.saocristovao.se.gov.br/storage/files/9/fasc-2024/Programac%CC%A7a%CC%83o-Fasc-2024.pdf",
+        "https://www.saocristovao.se.gov.br/noticia/fasc-encerra-neste-domingo-com-grandes-atracoes-nacionais-e-internacionais-confira-a-programacao-completa",
+        "https://www.saocristovao.se.gov.br/noticia/teatro-e-danca-enriquecem-programacao-do-fasc-com-espetaculos-no-palco-mariano-antonio"
+      ]
+    },
+    {
+      "edition": 40,
+      "dates": "20 a 23/11/2025",
+      "theme": "Na cultura a gente se encontra",
+      "venues": [
+        {
+          "name": "Palco João Bebe-Água",
+          "category": "música",
+          "location_text": "Praça São Francisco",
+          "examples_announced": "Olodum, Gaby Amarantos, Pabllo Vittar, Marcelo D2, João Gomes, Seu Jorge, Saulo Fernandes, Os Garotin",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/62/FASC%202025%20-%20Programa%C3%A7%C3%A3o%20Completa.pdf",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-e-banco-do-nordeste-anunciam-novo-palco-para-o-fasc",
+            "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025",
+            "https://www.saocristovao.se.gov.br/noticia/prefeitura-de-sao-cristovao-e-governo-de-sergipe-anunciam-programacao-historica-para-a-40a-edicao-do-fasc"
+          ]
+        },
+        {
+          "name": "Palco Frei Santa Cecília",
+          "category": "música",
+          "location_text": "Praça do Carmo",
+          "examples_announced": "Karol Conká, Chico Chico, Urias, Dead Fish, Mundo Livre S/A, Getúlio Abelha, Mestre Ambrósio, Ana Frango Elétrico",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/62/FASC%202025%20-%20Programa%C3%A7%C3%A3o%20Completa.pdf",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-e-banco-do-nordeste-anunciam-novo-palco-para-o-fasc",
+            "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025",
+            "https://www.saocristovao.se.gov.br/noticia/prefeitura-de-sao-cristovao-e-governo-de-sergipe-anunciam-programacao-historica-para-a-40a-edicao-do-fasc"
+          ]
+        },
+        {
+          "name": "Palco Banco do Nordeste Cultural",
+          "category": "música",
+          "location_text": "Praça da Bandeira",
+          "examples_announced": "The Baggios, Mateus Fazeno Rock, Cabruêra, Seu Pereira e Coletivo 401 e outros; palco estreante",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/62/FASC%202025%20-%20Programa%C3%A7%C3%A3o%20Completa.pdf",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-e-banco-do-nordeste-anunciam-novo-palco-para-o-fasc",
+            "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025",
+            "https://www.saocristovao.se.gov.br/noticia/prefeitura-de-sao-cristovao-e-governo-de-sergipe-anunciam-programacao-historica-para-a-40a-edicao-do-fasc"
+          ]
+        },
+        {
+          "name": "Palco Mariano Antônio",
+          "category": "teatro / dança / circo",
+          "location_text": "Largo da Matriz",
+          "examples_announced": "13 espetáculos, incluindo A Peleja de Maria Bunita, Não Queremos Falar de Amor, O Canto do Mar",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/62/FASC%202025%20-%20Programa%C3%A7%C3%A3o%20Completa.pdf",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-e-banco-do-nordeste-anunciam-novo-palco-para-o-fasc",
+            "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025",
+            "https://www.saocristovao.se.gov.br/noticia/prefeitura-de-sao-cristovao-e-governo-de-sergipe-anunciam-programacao-historica-para-a-40a-edicao-do-fasc"
+          ]
+        },
+        {
+          "name": "Samba na Bica",
+          "category": "música / samba",
+          "location_text": "Parque Natural Aloísio Campos (Bica dos Pintos)",
+          "examples_announced": "programação diurna de samba",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/62/FASC%202025%20-%20Programa%C3%A7%C3%A3o%20Completa.pdf",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-e-banco-do-nordeste-anunciam-novo-palco-para-o-fasc",
+            "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025",
+            "https://www.saocristovao.se.gov.br/noticia/prefeitura-de-sao-cristovao-e-governo-de-sergipe-anunciam-programacao-historica-para-a-40a-edicao-do-fasc"
+          ]
+        },
+        {
+          "name": "Música na Igreja",
+          "category": "música de câmara",
+          "location_text": "Igreja do Rosário dos Homens Pretos",
+          "examples_announced": "Lucas Campelo e João Ventura, entre outros",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/62/FASC%202025%20-%20Programa%C3%A7%C3%A3o%20Completa.pdf",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-e-banco-do-nordeste-anunciam-novo-palco-para-o-fasc",
+            "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025",
+            "https://www.saocristovao.se.gov.br/noticia/prefeitura-de-sao-cristovao-e-governo-de-sergipe-anunciam-programacao-historica-para-a-40a-edicao-do-fasc"
+          ]
+        },
+        {
+          "name": "Cine Trianon",
+          "category": "cinema / teatro",
+          "location_text": "Cine Theatro Elic",
+          "examples_announced": "curtas sergipanos e nacionais; espetáculo Tsuru teve circuito associado ao patrocinador",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/62/FASC%202025%20-%20Programa%C3%A7%C3%A3o%20Completa.pdf",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-e-banco-do-nordeste-anunciam-novo-palco-para-o-fasc",
+            "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025",
+            "https://www.saocristovao.se.gov.br/noticia/prefeitura-de-sao-cristovao-e-governo-de-sergipe-anunciam-programacao-historica-para-a-40a-edicao-do-fasc"
+          ]
+        },
+        {
+          "name": "Salão de Literatura Manoel Ferreira",
+          "category": "literatura",
+          "location_text": "EMEF Gina Franco",
+          "examples_announced": "Elisama Santos, Xico Sá, Sérgio Vaz, Raphael Montes e debates",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/62/FASC%202025%20-%20Programa%C3%A7%C3%A3o%20Completa.pdf",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-e-banco-do-nordeste-anunciam-novo-palco-para-o-fasc",
+            "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025",
+            "https://www.saocristovao.se.gov.br/noticia/prefeitura-de-sao-cristovao-e-governo-de-sergipe-anunciam-programacao-historica-para-a-40a-edicao-do-fasc"
+          ]
+        },
+        {
+          "name": "Sala Mangue Jornalismo",
+          "category": "jornalismo / debate",
+          "location_text": "EMEF Gina Franco",
+          "examples_announced": "debates e rodas de conversa",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/62/FASC%202025%20-%20Programa%C3%A7%C3%A3o%20Completa.pdf",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-e-banco-do-nordeste-anunciam-novo-palco-para-o-fasc",
+            "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025",
+            "https://www.saocristovao.se.gov.br/noticia/prefeitura-de-sao-cristovao-e-governo-de-sergipe-anunciam-programacao-historica-para-a-40a-edicao-do-fasc"
+          ]
+        },
+        {
+          "name": "Salão de Artes Vesta Viana",
+          "category": "exposição",
+          "location_text": "Praça da Matriz",
+          "examples_announced": "exposição coletiva com artistas visuais",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/62/FASC%202025%20-%20Programa%C3%A7%C3%A3o%20Completa.pdf",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-e-banco-do-nordeste-anunciam-novo-palco-para-o-fasc",
+            "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025",
+            "https://www.saocristovao.se.gov.br/noticia/prefeitura-de-sao-cristovao-e-governo-de-sergipe-anunciam-programacao-historica-para-a-40a-edicao-do-fasc"
+          ]
+        },
+        {
+          "name": "Museu Histórico de Sergipe",
+          "category": "exposição / oficina",
+          "location_text": "Praça São Francisco",
+          "examples_announced": "colagens, Cumbucado, Relocações Visuais",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/62/FASC%202025%20-%20Programa%C3%A7%C3%A3o%20Completa.pdf",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-e-banco-do-nordeste-anunciam-novo-palco-para-o-fasc",
+            "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025",
+            "https://www.saocristovao.se.gov.br/noticia/prefeitura-de-sao-cristovao-e-governo-de-sergipe-anunciam-programacao-historica-para-a-40a-edicao-do-fasc"
+          ]
+        },
+        {
+          "name": "Museu de Arte Sacra",
+          "category": "exposição",
+          "location_text": "Praça São Francisco",
+          "examples_announced": "artes sacras e exposições",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/62/FASC%202025%20-%20Programa%C3%A7%C3%A3o%20Completa.pdf",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-e-banco-do-nordeste-anunciam-novo-palco-para-o-fasc",
+            "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025",
+            "https://www.saocristovao.se.gov.br/noticia/prefeitura-de-sao-cristovao-e-governo-de-sergipe-anunciam-programacao-historica-para-a-40a-edicao-do-fasc"
+          ]
+        },
+        {
+          "name": "Museu da Polícia Militar de Sergipe",
+          "category": "exposição",
+          "location_text": "Rua Ivo do Prado",
+          "examples_announced": "De Si, de Ana Denise",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/62/FASC%202025%20-%20Programa%C3%A7%C3%A3o%20Completa.pdf",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-e-banco-do-nordeste-anunciam-novo-palco-para-o-fasc",
+            "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025",
+            "https://www.saocristovao.se.gov.br/noticia/prefeitura-de-sao-cristovao-e-governo-de-sergipe-anunciam-programacao-historica-para-a-40a-edicao-do-fasc"
+          ]
+        },
+        {
+          "name": "IPHAN",
+          "category": "exposição",
+          "location_text": "Praça São Francisco",
+          "examples_announced": "Afrotextura, de Juracy Júnior",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/62/FASC%202025%20-%20Programa%C3%A7%C3%A3o%20Completa.pdf",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-e-banco-do-nordeste-anunciam-novo-palco-para-o-fasc",
+            "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025",
+            "https://www.saocristovao.se.gov.br/noticia/prefeitura-de-sao-cristovao-e-governo-de-sergipe-anunciam-programacao-historica-para-a-40a-edicao-do-fasc"
+          ]
+        },
+        {
+          "name": "EMEF Gina Franco - AgPopSUS",
+          "category": "saúde / social",
+          "location_text": "EMEF Gina Franco",
+          "examples_announced": "I Mostra de Experiências AgPopSUS e práticas integrativas",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/62/FASC%202025%20-%20Programa%C3%A7%C3%A3o%20Completa.pdf",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-e-banco-do-nordeste-anunciam-novo-palco-para-o-fasc",
+            "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025",
+            "https://www.saocristovao.se.gov.br/noticia/prefeitura-de-sao-cristovao-e-governo-de-sergipe-anunciam-programacao-historica-para-a-40a-edicao-do-fasc"
+          ]
+        },
+        {
+          "name": "Espaço FASC Sustentável",
+          "category": "sustentabilidade",
+          "location_text": null,
+          "examples_announced": "ações ambientais e conscientização; localização exata pendente",
+          "geo_status": "needs_verification",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/62/FASC%202025%20-%20Programa%C3%A7%C3%A3o%20Completa.pdf",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-e-banco-do-nordeste-anunciam-novo-palco-para-o-fasc",
+            "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025",
+            "https://www.saocristovao.se.gov.br/noticia/prefeitura-de-sao-cristovao-e-governo-de-sergipe-anunciam-programacao-historica-para-a-40a-edicao-do-fasc"
+          ]
+        },
+        {
+          "name": "Cortejos Mestre Neca",
+          "category": "cortejos",
+          "location_text": "Saídas da Praça da Bandeira; atividades na Praça da Matriz",
+          "examples_announced": "grupos folclóricos e percussivos; percurso completo não documentado",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/62/FASC%202025%20-%20Programa%C3%A7%C3%A3o%20Completa.pdf",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-e-banco-do-nordeste-anunciam-novo-palco-para-o-fasc",
+            "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025",
+            "https://www.saocristovao.se.gov.br/noticia/prefeitura-de-sao-cristovao-e-governo-de-sergipe-anunciam-programacao-historica-para-a-40a-edicao-do-fasc"
+          ]
+        },
+        {
+          "name": "Feiras e comércio cultural",
+          "category": "gastronomia / artesanato",
+          "location_text": "Praças São Francisco, da Matriz, do Carmo e da Bandeira",
+          "examples_announced": "cerca de 120 empreendedores anunciados entre artesanato, alimentação e bebidas; barracas não geolocalizadas",
+          "geo_status": "textual_location_only",
+          "source_urls": [
+            "https://anexos.saocristovao.se.gov.br/storage/files/62/FASC%202025%20-%20Programa%C3%A7%C3%A3o%20Completa.pdf",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025",
+            "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-e-banco-do-nordeste-anunciam-novo-palco-para-o-fasc",
+            "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025",
+            "https://www.saocristovao.se.gov.br/noticia/prefeitura-de-sao-cristovao-e-governo-de-sergipe-anunciam-programacao-historica-para-a-40a-edicao-do-fasc"
+          ]
+        }
+      ],
+      "year": 2025,
+      "sources": [
+        "https://anexos.saocristovao.se.gov.br/storage/files/62/FASC%202025%20-%20Programa%C3%A7%C3%A3o%20Completa.pdf",
+        "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025",
+        "https://www.saocristovao.se.gov.br/index.php/noticia/prefeitura-de-sao-cristovao-e-banco-do-nordeste-anunciam-novo-palco-para-o-fasc",
+        "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025",
+        "https://www.saocristovao.se.gov.br/noticia/prefeitura-de-sao-cristovao-e-governo-de-sergipe-anunciam-programacao-historica-para-a-40a-edicao-do-fasc"
+      ]
+    }
+  ]
+}

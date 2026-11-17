@@ -1,0 +1,138 @@
+/* Historical archive: the FASC poster palette and the existing editorial grid. */
+:root{--font-body:'DM Sans',Arial,sans-serif}
+.festival-mode-entry{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 32px;border-top:1px solid var(--border);background:#fff;font-size:12px}
+.festival-mode-entry>span{font-weight:700;color:var(--purple)}
+.festival-mode-entry a{display:flex;align-items:center;gap:10px;color:var(--purple);min-height:36px;text-underline-offset:4px}
+.historical-map-page{background:var(--frame)}
+.historical-map-heading{display:flex;align-items:center;justify-content:space-between;gap:25px;padding:24px 32px;background:var(--yellow)}
+.historical-map-heading h1{font:800 clamp(36px,3.6vw,52px)/1 var(--font-display);text-transform:uppercase;color:var(--deep);margin:8px 0 0}
+.historical-map-heading h1:focus,.historical-artist-detail h2:focus{outline:none}
+.historical-artists h2:focus{outline:none}
+.map-mode-switch{display:flex;gap:5px;padding:4px;border:1px solid #7a487e;border-radius:6px;font-size:12px}
+.map-mode-switch a{display:flex;align-items:center;min-height:42px;padding:10px 15px;text-decoration:none;color:var(--deep);border-radius:3px}
+.map-mode-switch a[aria-current]{background:var(--purple);color:white;font-weight:700}
+.history-origin{display:inline-flex;align-items:center;gap:8px;min-height:44px;color:var(--purple);font-size:13px;text-decoration:none}
+.historical-map-page>.history-origin{padding:8px 32px}
+.historical-workspace{display:grid;grid-template-columns:330px minmax(0,1fr);border-top:1px solid var(--border);height:calc(100dvh - 210px);min-height:650px;max-height:1100px}
+.historical-panel{padding:24px;overflow:auto;background:white;border-right:1px solid var(--border);scrollbar-width:thin}
+.edition-dossier h2{font:700 35px/1.05 var(--font-display);color:var(--purple);margin:12px 0 16px}
+.historical-panel p{font-size:13px;line-height:1.7;color:var(--muted)}
+.coverage-label{padding:12px 14px;border-left:3px solid var(--purple);background:var(--tint);margin:16px 0}
+.coverage-label strong{display:block;font-size:12px;color:var(--deep);margin-bottom:6px}
+.edition-counts{display:block;font-size:11px;color:var(--muted);margin:15px 0}
+.edition-dossier>.text-action{display:flex;justify-content:space-between;gap:8px;font-size:12px;color:var(--purple);min-height:40px;text-decoration:none;border-bottom:1px solid var(--border)}
+.historical-venue-list{margin:24px 0}
+.historical-panel h3{font:700 26px/1.1 var(--font-display);color:var(--deep);margin:20px 0 14px}
+.historical-venue-list>button{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;text-align:left;padding:16px 0;background:transparent;border:0;border-bottom:1px solid var(--border);color:var(--deep)}
+.historical-venue-list>button strong{display:block;font-size:14px;line-height:1.5}
+.historical-venue-list small{display:block;font-size:11px;line-height:1.6;color:var(--muted);margin-top:5px}
+.historical-venue-list>button>svg{flex-shrink:0;color:var(--purple)}
+.historical-cartography{display:flex;flex-direction:column;min-width:0;min-height:0}
+.historical-map-canvas{position:relative;flex:1;min-height:360px;isolation:isolate;background:#e9eee3}
+.historical-map-page[data-input=pointer] .festival-pin{animation:historical-pin-in 160ms ease-out}
+@keyframes historical-pin-in{from{opacity:.45}to{opacity:1}}
+.historical-map-note{position:absolute;bottom:28px;left:14px;z-index:2;padding:7px 10px;border-radius:4px;background:#fffdf5eF;max-width:calc(100% - 45px);font-size:10px;color:#54425d;pointer-events:none}
+.historical-map-empty{position:absolute;z-index:3;inset:110px auto auto 50%;transform:translateX(-50%);width:min(360px,calc(100% - 38px));padding:20px;border-top:4px solid var(--purple);background:white;border-radius:6px;box-shadow:0 8px 25px #31183514;text-align:center}
+.historical-map-empty>svg{color:var(--purple);margin-bottom:12px}
+.historical-map-empty strong{display:block;font:700 27px/1.05 var(--font-display);color:var(--purple)}
+.historical-map-empty p{font-size:13px;color:var(--muted);margin:12px 0}
+.historical-map-empty button{min-height:40px;border:1px solid var(--border);border-radius:4px;background:var(--tint);color:var(--purple);font-size:12px;padding:8px 14px}
+.edition-timeline{flex-shrink:0;padding:17px 22px 12px;background:white;border-top:4px solid var(--purple)}
+.timeline-top{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.timeline-top>.eyebrow{font-size:10px}
+.timeline-top strong{display:block;font:700 27px/1.1 var(--font-display);color:var(--purple);margin-top:7px}
+.timeline-top strong>span{font:400 12px/1.5 var(--font-body);color:var(--muted)}
+.history-player{display:flex;align-items:center;gap:5px}
+.history-player button{display:flex;align-items:center;justify-content:center;gap:7px;min-width:44px;min-height:44px;background:white;border:1px solid var(--border);color:var(--purple);border-radius:5px}
+.history-player .history-play{padding:9px 13px;min-width:116px;background:var(--purple);color:white;border-color:var(--purple);font-size:12px}
+.history-player .history-play[aria-pressed=true]{background:var(--deep)}
+.history-player button:disabled{opacity:.4;cursor:default}
+.edition-range{display:block;margin-top:13px}
+.edition-range input{width:100%;margin:0;accent-color:var(--purple);height:44px;cursor:pointer}
+.edition-years{display:flex;justify-content:space-between;gap:8px;overflow-x:auto;padding:4px 1px 7px;scrollbar-width:thin}
+.edition-years button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;flex:1 0 64px;min-height:48px;border:1px solid transparent;border-radius:4px;background:var(--frame);font:700 23px/1 var(--font-display);color:var(--deep);transition:background-color var(--fast) ease,color var(--fast) ease}
+.edition-years small{font:400 10px/1.2 var(--font-body)}
+.edition-years button[aria-pressed=true]{background:var(--purple);color:white;border-color:var(--purple)}
+.timeline-help{font-size:10px;color:var(--muted);margin:3px 0 0}
+.historical-venue-detail{margin-top:24px;padding-top:20px;border-top:1px solid var(--border)}
+.historical-venue-detail h2{font:700 34px/1.05 var(--font-display);color:var(--purple);margin:12px 0}
+.historical-venue-detail>.eyebrow{margin-top:18px}
+.historical-location-label{display:inline-block;margin:10px 0;padding:6px 9px;border:1px dashed var(--purple);border-radius:3px;font-size:11px;color:var(--purple)}
+.historical-performance{margin:18px 0;padding:18px 0;border-top:1px solid var(--border)}
+.historical-performance h3{margin:12px 0;font:700 27px/1.1 var(--font-display)}
+.historical-performance h3 a{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--purple)}
+.historical-performance p{font-size:13px;color:var(--muted);line-height:1.7}
+.historical-performance .performance-edition{font-size:12px;color:var(--purple);margin-bottom:7px}
+.historical-performance .performance-date{font-size:11px;margin:10px 0}
+.historical-performance .text-action{font-size:12px;color:var(--purple)}
+.evidence-label{display:inline-flex;align-items:center;gap:6px;padding:5px 8px;border-radius:3px;font-size:10px;font-weight:500;line-height:1.5}
+.evidence-label.performed{background:#e9f3e9;color:#235e32}.evidence-label.announced{background:#fff3cd;color:#75551c}
+.record-uncertainty{padding:9px 11px;border-left:2px solid #9d681b;background:#fffaf0}
+.historical-proof,.edition-records,.milestone-context{border-top:1px solid var(--border);margin-top:15px}
+.historical-proof summary,.edition-records summary,.milestone-context summary{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:44px;padding:10px 0;color:var(--purple);font-size:12px;cursor:pointer;list-style:none}
+.historical-proof summary::-webkit-details-marker,.edition-records summary::-webkit-details-marker,.milestone-context summary::-webkit-details-marker{display:none}
+.historical-proof summary::after,.edition-records summary::after,.milestone-context summary::after{content:'+';font-size:20px}
+.historical-proof[open]>summary::after,.edition-records[open]>summary::after,.milestone-context[open]>summary::after{content:'−'}
+.historical-sources{list-style:none;margin:20px 0;padding:0;font-size:11px;color:var(--muted);overflow-wrap:anywhere}
+.historical-sources li{margin:12px 0}.historical-sources a{display:inline-flex;align-items:center;gap:6px;color:var(--purple);text-underline-offset:3px}
+.historical-sources li>p{font-size:10px;line-height:1.6;margin-top:7px}
+.historical-empty{padding:18px;background:var(--tint);color:var(--muted);font-size:13px;line-height:1.7;border-radius:5px}
+.historical-mobile-switch{display:none}
+.history-explore-toolbar{display:flex;align-items:start;justify-content:space-between;gap:20px}.history-explore-toolbar>.select-field{min-width:235px}
+.history-map-invite{display:flex;align-items:center;gap:20px;padding:22px 24px;border-radius:7px;background:var(--deep);color:white;text-decoration:none;margin:8px 0 32px}
+.history-map-invite>svg:first-child{color:var(--yellow);flex-shrink:0}.history-map-invite>span{flex:1;font-size:13px;line-height:1.7}.history-map-invite strong{display:block;font:700 29px/1.1 var(--font-display);margin-bottom:5px}
+.history-result-count{font-size:12px;color:var(--muted);margin:0 0 25px}
+.expanded-history .history-year small{display:block;font:400 11px/1.5 var(--font-body);margin-top:9px}
+.milestone-context>p{font-size:14px;color:var(--muted);padding:5px 0 15px;line-height:1.8}
+.milestone-artists{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+.milestone-artists a{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--border);padding:7px 10px;border-radius:4px;font-size:12px;color:var(--purple);text-decoration:none;min-height:36px}
+.archive-intro{display:grid;grid-template-columns:1fr .8fr;gap:50px;align-items:end;margin:0 0 30px}.archive-intro h2{font:700 43px/1.05 var(--font-display);color:var(--purple);margin-top:10px}.archive-intro p:last-child{font-size:14px;color:var(--muted)}
+.archive-filters{display:grid;grid-template-columns:1.3fr 1fr 1fr .8fr;gap:14px;align-items:end;padding:22px;background:white;border:1px solid var(--border);border-top:4px solid var(--purple);border-radius:7px}
+.archive-filters .search-box{height:48px;min-width:0}.archive-filters .select-field{min-width:0}.archive-filters .select-trigger{min-height:48px}
+.archive-results{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:24px 0 10px;font-size:12px;color:var(--muted)}
+.archive-reading-note{font-size:12px;color:var(--muted);line-height:1.8;max-width:850px;margin-bottom:26px}
+.historical-artist-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.historical-artist-card{display:flex;flex-direction:column;min-width:0;padding:23px;border:1px solid var(--border);border-top:5px solid var(--category-color);border-radius:6px;background:white;transition:transform 180ms var(--ease-out),border-color var(--fast) ease}
+.artist-card-type{display:flex;justify-content:space-between;gap:12px;font-size:10px;line-height:1.7;color:var(--muted)}
+.historical-artist-card h3{font:700 34px/1.05 var(--font-display);margin:20px 0 18px;overflow-wrap:anywhere}
+.historical-artist-card h3 a{color:var(--purple);text-decoration:none}.historical-artist-card>.evidence-label{align-self:start;margin-bottom:16px}
+.historical-artist-card>p{font-size:13px;color:var(--muted);line-height:1.7}.historical-artist-card .artist-card-place{font-size:11px;margin:15px 0 20px}
+.artist-card-actions{display:flex;flex-direction:column;margin-top:auto;gap:10px;border-top:1px solid var(--border);padding-top:16px}
+.artist-card-actions a{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:32px;font-size:12px;color:var(--purple);text-decoration:none}
+.archive-pagination{display:flex;align-items:center;justify-content:center;gap:18px;margin-top:35px;font-size:13px}
+.artist-poster{padding:35px;border-top:6px solid var(--category-color);background:var(--deep);color:white;border-radius:7px;margin:16px 0 25px}
+.artist-poster h2{font:800 clamp(42px,5vw,65px)/1 var(--font-display);margin:18px 0;text-transform:uppercase}
+.artist-poster p{font-size:15px;max-width:650px;color:#f0e3f2}.artist-poster>span:last-child{display:block;font-size:12px;color:var(--yellow);margin-top:22px}
+.artist-performances{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;align-items:start}
+.artist-performances>.historical-performance{padding:24px;border:1px solid var(--border);border-radius:6px;background:white;margin:0}
+@media(hover:hover) and (pointer:fine){.historical-artist-card:hover{transform:translateY(-2px);border-color:var(--purple)}.edition-years button:not([aria-pressed=true]):hover,.historical-venue-list>button:hover{background:var(--tint)}.artist-card-actions a:hover,.milestone-artists a:hover{text-decoration:underline}.map-mode-switch a:not([aria-current]):hover{background:#ffffff5f}}
+@media(max-width:1100px){.historical-workspace{grid-template-columns:300px minmax(0,1fr)}.historical-panel{padding:20px}.historical-artist-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.archive-filters{grid-template-columns:1fr 1fr}.timeline-top strong>span{display:none}}
+@media(max-width:800px){.historical-map-heading{align-items:start;flex-direction:column;gap:18px;padding:23px 24px}.historical-workspace{height:auto;max-height:none;min-height:0;display:block}.historical-mobile-switch{display:flex;gap:6px;padding:12px 18px;background:white}.historical-mobile-switch button{display:flex;align-items:center;justify-content:center;gap:8px;min-height:44px;flex:1;border:1px solid var(--border);background:white;color:var(--purple);border-radius:4px;font-size:12px}.historical-mobile-switch button[aria-pressed=true]{background:var(--purple);color:white}.historical-panel{display:none;border:0;max-height:none;padding:24px}.historical-view-lista .historical-panel{display:block}.historical-view-lista .historical-cartography{display:none}.historical-map-canvas{height:max(360px,49dvh);min-height:360px;flex:none}.historical-map-note{max-width:calc(100% - 30px);font-size:9px}.historical-map-canvas .map-view-controls{gap:5px;left:56px;right:auto}.historical-map-canvas .map-view-controls button{padding:8px;min-height:40px;font-size:11px}.historical-map-canvas .map-view-controls button svg{width:14px}.historical-panel .historical-performance{padding:20px;border:1px solid var(--border);border-radius:6px}.archive-intro{gap:22px;grid-template-columns:1fr}.archive-intro h2{font-size:38px}.artist-performances{grid-template-columns:1fr}.history-explore-toolbar{flex-direction:column;gap:0;margin-bottom:22px}.history-explore-toolbar>.select-field{width:100%}}
+@media(max-width:650px){.festival-mode-entry{padding:9px 18px;font-size:11px}.historical-map-heading{padding:22px 18px}.historical-map-heading h1{font-size:38px}.map-mode-switch{width:100%;font-size:11px}.map-mode-switch a{flex:1;justify-content:center;padding:8px}.edition-timeline{padding:13px 14px 11px}.timeline-top{gap:8px}.timeline-top strong{font-size:24px}.timeline-top .eyebrow{font-size:9px}.history-player{gap:4px}.history-player button{min-width:44px;min-height:44px}.history-player .history-play{min-width:44px;padding:9px}.history-play>span{display:none}.edition-years button{flex-basis:58px}.timeline-help{font-size:9px}.edition-range{margin-top:8px}.culture-tabs{justify-content:flex-start;overflow-x:auto;scrollbar-width:thin}.culture-tabs a{flex-shrink:0;flex-grow:1;white-space:nowrap;padding-left:10px;padding-right:10px}.history-map-invite{gap:13px;padding:18px}.history-map-invite strong{font-size:27px}.history-map-invite>span{font-size:12px}.archive-filters{grid-template-columns:minmax(0,1fr);padding:17px}.archive-filters input,.archive-filters .select-trigger{font-size:16px}.historical-artist-grid{grid-template-columns:minmax(0,1fr);gap:16px}.historical-artist-card{padding:22px}.artist-poster{padding:25px}.artist-poster h2{font-size:43px}.artist-performances>.historical-performance{padding:20px}.archive-intro h2{font-size:35px}.history-origin{font-size:12px}}
+@media(prefers-reduced-motion:reduce){.historical-artist-card,.edition-years button{transition:none}.historical-artist-card:hover{transform:none}.historical-map-page .festival-pin{animation:none}}
+
+/* The archive is always within reach, directly above both map modes. */
+.time-machine{display:flex;align-items:center;gap:24px;padding:14px 28px;background:white;border-block:1px solid var(--border);min-width:0}
+.time-machine-label{display:flex;align-items:center;gap:10px;color:var(--purple);font-size:11px;flex-shrink:0}
+.time-machine-label strong{display:block;font:700 22px/1.2 var(--font-display);margin-top:3px}
+.time-machine-years{display:flex;flex:1;min-width:0;overflow-x:auto;scrollbar-width:thin;padding:3px 4px 5px}
+.time-machine-years>button{position:relative;flex:1 0 64px;display:flex;align-items:center;flex-direction:column;gap:8px;border:0;background:transparent;min-height:48px;color:var(--muted);font-size:11px;padding:6px 0}
+.time-machine-years>button:before{content:'';position:absolute;top:12px;left:0;right:0;height:2px;background:var(--border)}
+.time-stop{z-index:1;width:13px;height:13px;border-radius:50%;border:2px solid var(--purple);background:white;transition:background 180ms,box-shadow 180ms}
+.time-machine-years>button[aria-pressed=true]{color:var(--purple);font-weight:700}
+.time-machine-years>button[aria-pressed=true] .time-stop{background:var(--purple);box-shadow:0 0 0 4px #87378f20}
+.time-machine .history-player{flex-shrink:0}
+.historical-workspace{height:calc(100dvh - 300px);min-height:560px}
+.maplibregl-popup{z-index:20!important}
+.artist-chronology{padding:0;list-style:none;margin:28px 0;display:grid;gap:24px}
+.artist-chronology>li{display:grid;grid-template-columns:95px minmax(0,1fr);gap:20px;position:relative}
+.artist-year{font:800 36px/1 var(--font-display);color:var(--purple);border-right:2px solid var(--border);padding:20px 10px 0 0}
+.artist-chronology .historical-performance{margin:0}
+.performance-discipline{font-size:11px!important;text-transform:uppercase;letter-spacing:.08em}
+@media(hover:hover){.time-machine-years>button:hover .time-stop{background:var(--yellow);box-shadow:0 0 0 4px #fcd72630}}
+@media(max-width:700px){.time-machine{gap:12px;padding:12px 16px;flex-wrap:wrap}.time-machine-label{flex:1}.time-machine-years{order:3;flex-basis:100%}.time-machine-years>button{flex-basis:61px}.artist-chronology>li{grid-template-columns:60px minmax(0,1fr);gap:12px}.artist-year{font-size:27px}.historical-workspace{height:auto;min-height:0}}
+@media(prefers-reduced-motion:reduce){.time-stop{transition:none}}
+
+@media(min-width:701px){.time-machine-years>button{flex-basis:47px}.time-machine .history-play{min-width:44px;width:44px;padding:9px}}
+
+.artist-chronology .performance-place{margin:10px 0 8px}.artist-chronology .performance-place strong{font:700 26px/1.1 var(--font-display);color:var(--purple)}

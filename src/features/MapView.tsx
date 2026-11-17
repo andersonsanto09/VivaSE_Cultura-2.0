@@ -14,9 +14,10 @@ maplibre.setWorkerUrl(workerUrl);
 interface Props {
   places: Place[]; selected?: Place; onSelect: (id: string) => void;
   position: { lat: number; lng: number; accuracy: number } | null;
+  preserveCamera?:boolean;
 }
 const key = import.meta.env.VITE_MAPTILER_KEY;
-export default function MapView({ places, selected, onSelect, position }: Props) {
+export default function MapView({ places, selected, onSelect, position, preserveCamera=false }: Props) {
   const ref = useRef<MapRef>(null);
   const [ready,setReady] = useState(false);
   const [zoom,setZoom] = useState(16.5);
@@ -26,6 +27,9 @@ export default function MapView({ places, selected, onSelect, position }: Props)
   const legendId=useId();
   const legendButton=useRef<HTMLButtonElement>(null);
   const lastSize=useRef({width:0,height:0});
+  const cameraInitialized=useRef(false);
+  const previousSelection=useRef(selected?.id);
+  const nativeMarkers=useRef(new globalThis.Map<string,maplibre.Marker>());
   const [picker,setPicker]=useState<{ids:string[];coordinates:[number,number]}|null>(null);
   const lastPin=useRef<HTMLButtonElement|null>(null);
   const pinScale=Math.max(.55,Math.min(1,(zoom-10)/6.5));
@@ -54,7 +58,7 @@ export default function MapView({ places, selected, onSelect, position }: Props)
   },[position]);
   const fitPlaces = useCallback((includeBica:boolean) => {
     const map=ref.current;
-    const points=places.filter(p=>includeBica || p.id!=='bica').flatMap(p=>p.coordinates?[p.coordinates]:[]);
+    const points=places.filter(p=>includeBica || !/(?:^|-)bica$/.test(p.id)).flatMap(p=>p.coordinates?[p.coordinates]:[]);
     if(!map || !points.length) return;
     map.fitBounds([[Math.min(...points.map(p=>p[1])),Math.min(...points.map(p=>p[0]))],[Math.max(...points.map(p=>p[1])),Math.max(...points.map(p=>p[0]))]],{padding:{top:Math.min(160,map.getContainer().clientHeight*.3),bottom:Math.min(220,map.getContainer().clientHeight*.36),left:Math.min(78,map.getContainer().clientWidth*.18),right:Math.min(78,map.getContainer().clientWidth*.18)},maxZoom:includeBica?17:16.5,duration:0,bearing:0,pitch:0});
   },[places]);
@@ -65,7 +69,11 @@ export default function MapView({ places, selected, onSelect, position }: Props)
     else if(places.length===1 || places.every(p=>p.id==='bica')) fitPlaces(true);
     else fitPlaces(false);
   },[selected,position,places,fitPlaces]);
-  useEffect(()=>{if(ready) focus();},[ready,focus]);
+  useEffect(()=>{if(ready && (!preserveCamera || !cameraInitialized.current)){focus();cameraInitialized.current=true;}},[ready,focus,preserveCamera]);
+  useEffect(()=>{
+    if(ready && preserveCamera && selected?.id && previousSelection.current!==selected.id)focus();
+    previousSelection.current=selected?.id;
+  },[ready,preserveCamera,selected?.id,focus]);
   useEffect(()=>{
     const map=ref.current;
     if(!ready || !map) return;
@@ -98,7 +106,19 @@ export default function MapView({ places, selected, onSelect, position }: Props)
   return <>
     <Map ref={ref} mapLib={maplibre} initialViewState={{longitude:-37.2058,latitude:-11.014,zoom:16.5}} mapStyle={`https://api.maptiler.com/maps/streets-v2/style.json?key=${key}`}
       style={{width:'100%',height:'100%'}} minZoom={11} maxZoom={20} maxPitch={60} attributionControl={false} scrollZoom dragRotate pitchWithRotate touchPitch
-      onLoad={()=>{hideBasePOI();const container=ref.current!.getContainer();lastSize.current={width:container.clientWidth,height:container.clientHeight};setReady(true);}} onMove={e=>{setZoom(e.viewState.zoom);setPitch(e.viewState.pitch);}} onError={()=>setTilesFailed(true)}
+      onLoad={()=>{const container=ref.current?.getContainer();if(!container)return;hideBasePOI();lastSize.current={width:container.clientWidth,height:container.clientHeight};setReady(true);}} onMove={e=>{
+        // Update native markers in the same MapLibre event as the camera. React
+        // may defer decorative updates under load; geographic alignment cannot.
+        for(const pin of pins){
+          const marker=nativeMarkers.current.get(pin.place.id);if(!marker)continue;
+          const offset=pinOffsetAtZoom(pin.offset,e.viewState.zoom);marker.setOffset(offset);
+          const tether=marker.getElement().querySelector('.pin-tether line');
+          tether?.setAttribute('x2',String(-offset[0]));tether?.setAttribute('y2',String(-offset[1]));
+          const anchor=marker.getElement().querySelector('.pin-tether circle');
+          anchor?.setAttribute('cx',String(-offset[0]));anchor?.setAttribute('cy',String(-offset[1]));
+        }
+        setZoom(e.viewState.zoom);setPitch(e.viewState.pitch);
+      }} onError={()=>setTilesFailed(true)}
       onResize={()=>{const container=ref.current?.getContainer();if(!container)return;const wasHidden=!lastSize.current.width || !lastSize.current.height;lastSize.current={width:container.clientWidth,height:container.clientHeight};if(ready && wasHidden)focus();}} canvasContextAttributes={{preserveDrawingBuffer:true}}>
       <NavigationControl position="top-left" visualizePitch />
       <AttributionControl position="bottom-right" compact={false} />
@@ -106,7 +126,7 @@ export default function MapView({ places, selected, onSelect, position }: Props)
         const {place,offset}=pin;
         const [lat,lng]=place.coordinates!;
         const approximate=place.locationKind!=='equipment' || place.id==='bica';
-        return <Marker key={place.id} longitude={lng} latitude={lat} offset={offset} anchor="bottom" style={{zIndex:place.id===selected?.id?3:1}}>
+        return <Marker key={place.id} ref={marker=>{if(marker)nativeMarkers.current.set(place.id,marker);else nativeMarkers.current.delete(place.id);}} longitude={lng} latitude={lat} offset={offset} anchor="bottom" style={{zIndex:place.id===selected?.id?3:1}}>
           <button style={{transform:`rotate(-45deg) scale(${pinScale})`}} className={`festival-pin tone-${categoryTone(place.category)} kind-${placeKind(place)} ${approximate?'is-approximate':''} ${place.id===selected?.id?'is-selected':''}`} aria-label={`Abrir ${place.name}`} title={`${place.name}${approximate?' — referência aproximada':''}`} onClick={event=>{
             lastPin.current=event.currentTarget;
             setLegendOpen(false);
@@ -115,7 +135,7 @@ export default function MapView({ places, selected, onSelect, position }: Props)
             if(neighbours.length>1)setPicker({ids:neighbours.map(p=>p.place.id),coordinates:[lng,lat]});
             else {setPicker(null);onSelect(place.id);}
           }}>
-            <PlaceSymbol place={place} size={18} />{place.id===selected?.id && <span className="pin-number">{String(place.number).padStart(2,'0')}</span>}<span className="pin-name">{place.name}</span>
+            <PlaceSymbol place={place} size={18} />{place.id===selected?.id && place.number!==undefined && <span className="pin-number">{String(place.number).padStart(2,'0')}</span>}<span className="pin-name">{place.name}</span>
           </button>
           {Math.hypot(...offset)>1 && <svg className="pin-tether" width="1" height="1" aria-hidden="true"><line x1="0" y1="0" x2={-offset[0]} y2={-offset[1]} stroke="#574b61" strokeWidth="1" strokeDasharray="2 3" /><circle cx={-offset[0]} cy={-offset[1]} r="2" fill="#574b61" /></svg>}
         </Marker>;
