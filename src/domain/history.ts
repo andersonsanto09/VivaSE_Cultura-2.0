@@ -10,7 +10,7 @@ export interface HistoricalVenue {
 export interface Artist {id:string;name:string;category:Category;context:string;featured?:boolean}
 export interface HistoricalPerformance {
   id:string;editionId:string;artistId:string;venueId?:string;date?:string;time?:string;title?:string;
-  status:'performed'|'announced'|'invited'|'undated'|'pending';context:string;sourceIds:string[];uncertainty?:string;dateKind?:'civil'|'program';timeKind?:'announced'|'reported';category?:Category;provenanceIds?:string[];billingName?:string;venueText?:string;
+  status:'performed'|'announced'|'invited'|'undated'|'pending'|'replaced';context:string;sourceIds:string[];uncertainty?:string;dateKind?:'civil'|'program';timeKind?:'announced'|'reported';category?:Category;provenanceIds?:string[];reviewedSourceIds?:string[];billingName?:string;venueText?:string;
 }
 export interface HistoricalMilestone {
   id:string;year:number;title:string;description:string;detail:string;kind:'festival'|'cidade';
@@ -44,4 +44,4 @@ export function patchHistoryParams(values:Record<string,string>,replace=false) {
 }
 export function safeHistoryOrigin(value:string){return /^\/(mapa|historia|artistas|programacao|cultura|roteiros|memorias)\?/.test(value)?value:'';}
 
-export function performanceStatus(status:HistoricalPerformance["status"]){return {performed:"Participação documentada",announced:"Anunciada · realização não comprovada",invited:"Convite registrado · presença não comprovada",undated:"Memória institucional · edição não identificada",pending:"Pesquisa recebida · conferência pendente"}[status];}
+export function performanceStatus(status:HistoricalPerformance["status"]){return {performed:"Participação documentada",announced:"Registro de programação",invited:"Convite registrado · presença não comprovada",undated:"Memória institucional · edição não identificada",pending:"Pesquisa recebida · conferência pendente",replaced:"Participação substituída"}[status];}

@@ -296,3 +296,17 @@ Evidências e limites: [27 — Sobre editorial e transparência](27-SOBRE-EDITOR
 - [ ] Pesquisar fotografias dos demais nomes, com atribuição conferida, em expansão editorial futura.
 
 Detalhes e inventário: [28 — Auditoria dos retratos](28-AUDITORIA-DOS-RETRATOS.md).
+
+
+## Revisão das participações históricas — 18/11/2026
+
+- [x] Conferir João Gomes e Pabllo Vittar nas coberturas posteriores aos shows.
+- [x] Incorporar confirmação de realização a 47 registros, preservando IDs e pesquisa recebida.
+- [x] Distinguir a substituição documentada de Itamar Vieira Jr. em 2024.
+- [x] Priorizar fontes de cobertura e atualizar o contexto das edições revisadas.
+- [x] Apresentar fonte de programação como natureza do registro, sem sugerir que não houve show.
+- [x] Preservar horários anunciados, precisão dos lugares e separação da edição futura de 2026.
+- [x] Verificar domínio, lista/trajetória, fontes, teclado/acessibilidade, reflow e build.
+- [ ] Ampliar a pesquisa de cobertura dos 98 registros que ainda usam fontes de programação.
+
+Inventário e critérios: [29 — Revisão das participações](29-REVISAO-DAS-PARTICIPACOES.md).

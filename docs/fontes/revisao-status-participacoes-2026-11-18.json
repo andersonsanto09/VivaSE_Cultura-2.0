@@ -1,0 +1,640 @@
+{
+  "reviewedAt": "2026-11-18",
+  "announcedBefore": 146,
+  "confirmed": 47,
+  "replaced": 1,
+  "remaining": 98,
+  "reviews": [
+    {
+      "performanceId": "research-base-0141",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-segunda"
+      ],
+      "evidence": "A cobertura de 22/11/2025 registra a participação de Pabllo Vittar no FASC 2025.",
+      "artist": "Pabllo Vittar",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0142",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-segunda"
+      ],
+      "evidence": "A cobertura de 22/11/2025 registra a participação de Marcelo D2 no FASC 2025.",
+      "artist": "Marcelo D2",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0153",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-segunda"
+      ],
+      "evidence": "A cobertura de 22/11/2025 registra a participação de Maglore no FASC 2025.",
+      "artist": "Maglore",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0154",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-segunda"
+      ],
+      "evidence": "A cobertura de 22/11/2025 registra a participação de Urias no FASC 2025.",
+      "artist": "Urias",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0161",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-segunda"
+      ],
+      "evidence": "A cobertura de 22/11/2025 registra a participação de Chico Chico no FASC 2025.",
+      "artist": "Chico Chico",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0143",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-terceira"
+      ],
+      "evidence": "A cobertura de 23/11/2025 registra a participação de João Gomes no FASC 2025.",
+      "artist": "João Gomes",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0144",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-terceira"
+      ],
+      "evidence": "A cobertura de 23/11/2025 registra a participação de Seu Jorge no FASC 2025.",
+      "artist": "Seu Jorge",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0150",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-terceira"
+      ],
+      "evidence": "A cobertura de 23/11/2025 registra a participação de Héloa no FASC 2025.",
+      "artist": "Héloa",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0151",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-terceira"
+      ],
+      "evidence": "A cobertura de 23/11/2025 registra a participação de Lia de Itamaracá no FASC 2025.",
+      "artist": "Lia de Itamaracá",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0155",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-terceira"
+      ],
+      "evidence": "A cobertura de 23/11/2025 registra a participação de Dead Fish no FASC 2025.",
+      "artist": "Dead Fish",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0156",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-terceira"
+      ],
+      "evidence": "A cobertura de 23/11/2025 registra a participação de Mundo Livre S/A no FASC 2025.",
+      "artist": "Mundo Livre S/A",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0157",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-terceira"
+      ],
+      "evidence": "A cobertura de 23/11/2025 registra a participação de Getúlio Abelha no FASC 2025.",
+      "artist": "Getúlio Abelha",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0160",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-terceira"
+      ],
+      "evidence": "A cobertura de 23/11/2025 registra a participação de Cidade Dormitório no FASC 2025.",
+      "artist": "Cidade Dormitório",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0145",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-encerramento"
+      ],
+      "evidence": "A cobertura de 24/11/2025 registra a participação de Saulo Fernandes no FASC 2025.",
+      "artist": "Saulo Fernandes",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0149",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-encerramento"
+      ],
+      "evidence": "A cobertura de 24/11/2025 registra a participação de Maysa Reis no FASC 2025.",
+      "artist": "Maysa Reis",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0148",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-encerramento"
+      ],
+      "evidence": "A cobertura de 24/11/2025 registra a participação de Os Garotin no FASC 2025.",
+      "artist": "Os Garotin",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0158",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-encerramento"
+      ],
+      "evidence": "A cobertura de 24/11/2025 registra a participação de Mestre Ambrósio no FASC 2025.",
+      "artist": "Mestre Ambrósio",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0159",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-encerramento"
+      ],
+      "evidence": "A cobertura de 24/11/2025 registra a participação de Ana Frango Elétrico no FASC 2025.",
+      "artist": "Ana Frango Elétrico",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0166",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-literatura-sabado"
+      ],
+      "evidence": "A cobertura de 23/11/2025 registra a participação de Xico Sá no FASC 2025.",
+      "artist": "Xico Sá",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0167",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-literatura-sabado"
+      ],
+      "evidence": "A cobertura de 23/11/2025 registra a participação de Sérgio Vaz no FASC 2025.",
+      "artist": "Sérgio Vaz",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0168",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-literatura-domingo"
+      ],
+      "evidence": "A cobertura de 23/11/2025 registra a participação de Luiza Romão no FASC 2025.",
+      "artist": "Luiza Romão",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0169",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2025-literatura-domingo"
+      ],
+      "evidence": "A cobertura de 23/11/2025 registra a participação de Izabel Nascimento no FASC 2025.",
+      "artist": "Izabel Nascimento",
+      "edition": "2025"
+    },
+    {
+      "performanceId": "research-base-0114",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2024-primeira"
+      ],
+      "evidence": "A cobertura de 30/11/2024 registra a participação de Timbalada no FASC 2024.",
+      "artist": "Timbalada",
+      "edition": "2024"
+    },
+    {
+      "performanceId": "research-base-0115",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2024-primeira"
+      ],
+      "evidence": "A cobertura de 30/11/2024 registra a participação de Afrocidade no FASC 2024.",
+      "artist": "Afrocidade",
+      "edition": "2024"
+    },
+    {
+      "performanceId": "research-base-0116",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2024-primeira"
+      ],
+      "evidence": "A cobertura de 30/11/2024 registra a participação de Grupo Revelação no FASC 2024.",
+      "artist": "Grupo Revelação",
+      "edition": "2024"
+    },
+    {
+      "performanceId": "research-base-0117",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2024-primeira"
+      ],
+      "evidence": "A cobertura de 30/11/2024 registra a participação de Tasha & Tracie no FASC 2024.",
+      "artist": "Tasha & Tracie",
+      "edition": "2024"
+    },
+    {
+      "performanceId": "research-base-0124",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2024-primeira"
+      ],
+      "evidence": "A cobertura de 30/11/2024 registra a participação de Mãeana no FASC 2024.",
+      "artist": "Mãeana",
+      "edition": "2024"
+    },
+    {
+      "performanceId": "research-base-0121",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2024-encerramento"
+      ],
+      "evidence": "A cobertura de 02/12/2024 registra a participação de Clinton Fearon no FASC 2024.",
+      "artist": "Clinton Fearon",
+      "edition": "2024"
+    },
+    {
+      "performanceId": "research-base-0122",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2024-encerramento"
+      ],
+      "evidence": "A cobertura de 02/12/2024 registra a participação de Don L no FASC 2024.",
+      "artist": "Don L",
+      "edition": "2024"
+    },
+    {
+      "performanceId": "research-base-0127",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2024-encerramento"
+      ],
+      "evidence": "A cobertura de 02/12/2024 registra a participação de Francisco, el Hombre no FASC 2024.",
+      "artist": "Francisco, el Hombre",
+      "edition": "2024"
+    },
+    {
+      "performanceId": "research-base-0128",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2024-encerramento"
+      ],
+      "evidence": "A cobertura de 02/12/2024 registra a participação de Mombojó no FASC 2024.",
+      "artist": "Mombojó",
+      "edition": "2024"
+    },
+    {
+      "performanceId": "research-base-0098",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2023-segunda-joao"
+      ],
+      "evidence": "A cobertura de 03/12/2023 registra a participação de Liniker no FASC 2023.",
+      "artist": "Liniker",
+      "edition": "2023"
+    },
+    {
+      "performanceId": "research-base-0099",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2023-segunda-joao"
+      ],
+      "evidence": "A cobertura de 03/12/2023 registra a participação de Djonga no FASC 2023.",
+      "artist": "Djonga",
+      "edition": "2023"
+    },
+    {
+      "performanceId": "research-base-0102",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2023-segunda-joao"
+      ],
+      "evidence": "A cobertura de 03/12/2023 registra a participação de Arlindinho no FASC 2023.",
+      "artist": "Arlindinho",
+      "edition": "2023"
+    },
+    {
+      "performanceId": "research-base-0106",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2023-segunda-frei"
+      ],
+      "evidence": "A cobertura de 03/12/2023 registra a participação de Pato Fu no FASC 2023.",
+      "artist": "Pato Fu",
+      "edition": "2023"
+    },
+    {
+      "performanceId": "research-base-0107",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2023-terceira-frei"
+      ],
+      "evidence": "A cobertura de 04/12/2023 registra a participação de Vandal no FASC 2023.",
+      "artist": "Vandal",
+      "edition": "2023"
+    },
+    {
+      "performanceId": "research-base-0109",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2023-capuchinhos"
+      ],
+      "evidence": "A cobertura de 03/12/2023 registra a participação de Luísa e os Alquimistas no FASC 2023.",
+      "artist": "Luísa e os Alquimistas",
+      "edition": "2023"
+    },
+    {
+      "performanceId": "research-base-0104",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2023-primeira"
+      ],
+      "evidence": "A cobertura de 02/12/2023 registra a participação de Rachel Reis no FASC 2023.",
+      "artist": "Rachel Reis",
+      "edition": "2023"
+    },
+    {
+      "performanceId": "research-base-0081",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2022-terceira"
+      ],
+      "evidence": "A cobertura de 04/12/2022 registra a participação de Daniela Mercury no FASC 2022.",
+      "artist": "Daniela Mercury",
+      "edition": "2022"
+    },
+    {
+      "performanceId": "research-base-0082",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2022-terceira"
+      ],
+      "evidence": "A cobertura de 04/12/2022 registra a participação de Larissa Luz no FASC 2022.",
+      "artist": "Larissa Luz",
+      "edition": "2022"
+    },
+    {
+      "performanceId": "research-base-0083",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2022-terceira"
+      ],
+      "evidence": "A cobertura de 04/12/2022 registra a participação de MC Tha no FASC 2022.",
+      "artist": "MC Tha",
+      "edition": "2022"
+    },
+    {
+      "performanceId": "research-base-0087",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2022-frei-final"
+      ],
+      "evidence": "A cobertura de 05/12/2022 registra a participação de BK’ no FASC 2022.",
+      "artist": "BK’",
+      "edition": "2022"
+    },
+    {
+      "performanceId": "research-base-0090",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2022-frei-final"
+      ],
+      "evidence": "A cobertura de 05/12/2022 registra a participação de Héloa no FASC 2022.",
+      "artist": "Héloa",
+      "edition": "2022"
+    },
+    {
+      "performanceId": "research-base-0048",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2018-samba-retrospectiva"
+      ],
+      "evidence": "Depoimento retrospectivo confirma a apresentação de Samba do Arnesto em 2018.",
+      "artist": "Samba do Arnesto",
+      "edition": "2018"
+    },
+    {
+      "performanceId": "2019-liniker",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2019-liniker-retrospectiva"
+      ],
+      "evidence": "O texto de 2023 relembra a apresentação de Liniker no FASC 2019.",
+      "artist": "Liniker",
+      "edition": "2019"
+    },
+    {
+      "performanceId": "research-base-0063",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2019-baggios-retrospectiva"
+      ],
+      "evidence": "A fotografia é legendada como The Baggios na Praça São Francisco, FASC 2019.",
+      "artist": "The Baggios",
+      "edition": "2019"
+    },
+    {
+      "performanceId": "2017-orsse",
+      "status": "performed",
+      "sourceIds": [
+        "review-status-2017-ufs"
+      ],
+      "evidence": "O balanço retrospectivo da UFS registra a apresentação da Orquestra Sinfônica de Sergipe no 34º FASC.",
+      "artist": "Orquestra Sinfônica de Sergipe",
+      "edition": "2017"
+    },
+    {
+      "performanceId": "research-base-0133",
+      "status": "replaced",
+      "sourceIds": [
+        "review-status-itamar-substituido"
+      ],
+      "evidence": "A Prefeitura comunicou a suspensão da agenda de Itamar Vieira Jr. e sua substituição por Socorro Acioli no Salão de Literatura de 2024.",
+      "artist": "Itamar Vieira Junior",
+      "edition": "2024"
+    }
+  ],
+  "sources": [
+    {
+      "id": "review-status-2025-segunda",
+      "title": "Prefeitura — Segunda noite de shows de 2025",
+      "url": "https://www.saocristovao.se.gov.br/noticia/sucesso-de-publico-e-diversidade-de-ritmos-marcam-a-segunda-noite-de-shows-do-fasc-2025",
+      "type": "coverage",
+      "publishedAt": "2025-11-22",
+      "note": "O vínculo da realização usa o trecho retrospectivo ou de cobertura, não eventuais programações futuras na mesma página."
+    },
+    {
+      "id": "review-status-2025-terceira",
+      "title": "Prefeitura — Terceira noite de shows de 2025",
+      "url": "https://www.saocristovao.se.gov.br/noticia/terceira-noite-de-fasc-tem-recorde-de-publico-com-a-uniao-de-artistas-nacionais-e-regionais",
+      "type": "coverage",
+      "publishedAt": "2025-11-23",
+      "note": "O vínculo da realização usa o trecho retrospectivo ou de cobertura, não eventuais programações futuras na mesma página."
+    },
+    {
+      "id": "review-status-2025-encerramento",
+      "title": "Prefeitura — Encerramento de 2025",
+      "url": "https://www.saocristovao.se.gov.br/noticia/maior-edicao-do-fasc-chega-ao-fim-celebrando-arte-e-diversidade-cultural-na-cidade-mae-de-sergipe",
+      "type": "coverage",
+      "publishedAt": "2025-11-24",
+      "note": "O vínculo da realização usa o trecho retrospectivo ou de cobertura, não eventuais programações futuras na mesma página."
+    },
+    {
+      "id": "review-status-2025-literatura-sabado",
+      "title": "Prefeitura — Poesia no sábado de 2025",
+      "url": "https://www.saocristovao.se.gov.br/noticia/salao-de-literatura-grandes-encontros-sobre-poesia-representam-a-resistencia-atraves-da-palavra-neste-sabado-de-fasc",
+      "type": "coverage",
+      "publishedAt": "2025-11-23",
+      "note": "O vínculo da realização usa o trecho retrospectivo ou de cobertura, não eventuais programações futuras na mesma página."
+    },
+    {
+      "id": "review-status-2025-literatura-domingo",
+      "title": "Prefeitura — Encerramento da literatura em 2025",
+      "url": "https://www.saocristovao.se.gov.br/noticia/ultimo-dia-de-fasc-celebra-a-literatura-com-hip-hop-e-roda-de-poesia",
+      "type": "coverage",
+      "publishedAt": "2025-11-23",
+      "note": "O vínculo da realização usa o trecho retrospectivo ou de cobertura, não eventuais programações futuras na mesma página."
+    },
+    {
+      "id": "review-status-2024-primeira",
+      "title": "Prefeitura — Primeira noite de shows de 2024",
+      "url": "https://www.saocristovao.se.gov.br/noticia/primeira-noite-de-fasc-agita-publico-com-grandes-atracoes-nos-palcos-joao-bebe-agua-e-frei-santa-cecilia",
+      "type": "coverage",
+      "publishedAt": "2024-11-30",
+      "note": "O vínculo da realização usa o trecho retrospectivo ou de cobertura, não eventuais programações futuras na mesma página."
+    },
+    {
+      "id": "review-status-2024-encerramento",
+      "title": "Prefeitura — Encerramento musical de 2024",
+      "url": "https://www.saocristovao.se.gov.br/noticia/lirismo-potencia-e-diversidade-saudam-os-palcos-no-terceiro-e-ultimo-dia-do-39o-fasc",
+      "type": "coverage",
+      "publishedAt": "2024-12-02",
+      "note": "O vínculo da realização usa o trecho retrospectivo ou de cobertura, não eventuais programações futuras na mesma página."
+    },
+    {
+      "id": "review-status-2023-segunda-joao",
+      "title": "Prefeitura — Segunda noite no João Bebe Água em 2023",
+      "url": "https://www.saocristovao.se.gov.br/noticia/palco-joao-bebe-agua-segunda-noite-de-fasc-recebe-arlindinho-liniker-djonga-e-orquestra-sanfonica-de-sergipe",
+      "type": "coverage",
+      "publishedAt": "2023-12-03",
+      "note": "O vínculo da realização usa o trecho retrospectivo ou de cobertura, não eventuais programações futuras na mesma página."
+    },
+    {
+      "id": "review-status-2023-segunda-frei",
+      "title": "Prefeitura — Segunda noite no Frei Santa Cecília em 2023",
+      "url": "https://www.saocristovao.se.gov.br/noticia/fasc-homenagem-a-ismar-barreto-e-shows-de-snooze-pato-fu-e-livia-aquino-marcam-segundo-dia-no-palco-frei-santa-cecilia",
+      "type": "coverage",
+      "publishedAt": "2023-12-03",
+      "note": "O vínculo da realização usa o trecho retrospectivo ou de cobertura, não eventuais programações futuras na mesma página."
+    },
+    {
+      "id": "review-status-2023-terceira-frei",
+      "title": "Prefeitura — Terceira noite no Frei Santa Cecília em 2023",
+      "url": "https://www.saocristovao.se.gov.br/noticia/publico-lota-palco-frei-santa-cecilia-no-terceiro-dia-do-fasc-2023",
+      "type": "coverage",
+      "publishedAt": "2023-12-04",
+      "note": "O vínculo da realização usa o trecho retrospectivo ou de cobertura, não eventuais programações futuras na mesma página."
+    },
+    {
+      "id": "review-status-2023-capuchinhos",
+      "title": "Prefeitura — Segundo dia dos Capuchinhos em 2023",
+      "url": "https://www.saocristovao.se.gov.br/noticia/mistura-de-ritmos-atrai-grande-publico-ao-palco-dos-capuchinhos-no-segundo-dia-do-fasc",
+      "type": "coverage",
+      "publishedAt": "2023-12-03",
+      "note": "O vínculo da realização usa o trecho retrospectivo ou de cobertura, não eventuais programações futuras na mesma página."
+    },
+    {
+      "id": "review-status-2023-primeira",
+      "title": "Prefeitura — Primeira noite de shows de 2023",
+      "url": "https://www.saocristovao.se.gov.br/noticia/fasc-2023-inicia-com-diversidade-e-grandes-atracoes-nos-palcos-joao-bebe-agua-e-frei-santa-cecilia",
+      "type": "coverage",
+      "publishedAt": "2023-12-02",
+      "note": "O vínculo da realização usa o trecho retrospectivo ou de cobertura, não eventuais programações futuras na mesma página."
+    },
+    {
+      "id": "review-status-2022-terceira",
+      "title": "Prefeitura — Terceiro dia do Palco Gal Costa em 2022",
+      "url": "https://www.saocristovao.se.gov.br/noticia/terceiro-dia-do-fasc-e-marcado-por-representatividade-feminina-no-palco-gal-costa",
+      "type": "coverage",
+      "publishedAt": "2022-12-04",
+      "note": "O vínculo da realização usa o trecho retrospectivo ou de cobertura, não eventuais programações futuras na mesma página."
+    },
+    {
+      "id": "review-status-2022-frei-final",
+      "title": "Prefeitura — Encerramento do Frei Santa Cecília em 2022",
+      "url": "https://www.saocristovao.se.gov.br/noticia/palco-frei-santa-cecilia-encerra-a-programacao-do-fasc-com-uma-pluralidade-musical-que-contemplou-todos-os-gostos",
+      "type": "coverage",
+      "publishedAt": "2022-12-05",
+      "note": "O vínculo da realização usa o trecho retrospectivo ou de cobertura, não eventuais programações futuras na mesma página."
+    },
+    {
+      "id": "review-status-2018-samba-retrospectiva",
+      "title": "Prefeitura — Depoimento retrospectivo de Samba do Arnesto",
+      "url": "https://www.saocristovao.se.gov.br/noticia/primeira-noite-de-fasc-agita-publico-com-grandes-atracoes-nos-palcos-joao-bebe-agua-e-frei-santa-cecilia",
+      "type": "institutional",
+      "publishedAt": "2024-11-30",
+      "note": "O vínculo da realização usa o trecho retrospectivo ou de cobertura, não eventuais programações futuras na mesma página."
+    },
+    {
+      "id": "review-status-2019-liniker-retrospectiva",
+      "title": "Prefeitura — Retrospectiva da passagem de Liniker em 2019",
+      "url": "https://www.saocristovao.se.gov.br/noticia/fasc-2023-liniker-e-a-terceira-atracao-confirmada",
+      "type": "institutional",
+      "publishedAt": "2023-09-28",
+      "note": "O vínculo da realização usa o trecho retrospectivo ou de cobertura, não eventuais programações futuras na mesma página."
+    },
+    {
+      "id": "review-status-2019-baggios-retrospectiva",
+      "title": "Prefeitura — Registro fotográfico de The Baggios em 2019",
+      "url": "https://www.saocristovao.se.gov.br/noticia/fasc-50-anos-palco-gal-costa-recebera-artistas-locais-nacionais-e-internacionais",
+      "type": "institutional",
+      "publishedAt": "2022-11-10",
+      "note": "O vínculo da realização usa o trecho retrospectivo ou de cobertura, não eventuais programações futuras na mesma página."
+    },
+    {
+      "id": "review-status-2017-ufs",
+      "title": "UFS — balanço retrospectivo de 2017",
+      "url": "https://www.ufs.br/conteudo/60813-relembre-os-fatos-que-marcaram-a-ufs-no-ano-de-2017",
+      "type": "institutional"
+    },
+    {
+      "id": "review-status-itamar-substituido",
+      "title": "Prefeitura — substituição de Itamar Vieira Jr. por Socorro Acioli",
+      "url": "https://www.saocristovao.se.gov.br/noticia/socorro-acioli-substitui-itamar-vieira-jr-no-39o-festival-de-artes-de-sao-cristovao",
+      "type": "announcement",
+      "publishedAt": "2024-11-29"
+    }
+  ]
+}
