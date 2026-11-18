@@ -114,3 +114,38 @@ h1[tabindex="-1"]:focus{outline:none}
 .place-detail h2[tabindex="-1"]:focus{outline:none}
 
 .letterpress-label{color:white;background:var(--deep);padding:4px 6px;border-radius:2px;z-index:2}
+
+/* A calm closing in the festival's own colours and type. */
+.home-footer{position:relative;display:block;padding:0 max(28px,4vw);background:var(--deep);color:white;overflow:hidden}
+.footer-motif{display:flex;align-items:center;justify-content:space-between;height:28px;border-bottom:1px solid #ffffff28;gap:24px}
+.footer-motif span{display:block;flex:1;height:4px;background:var(--purple)}
+.footer-motif span:nth-child(2),.footer-motif span:nth-child(6){background:var(--turquoise)}
+.footer-motif span:nth-child(3),.footer-motif span:nth-child(5){background:var(--yellow)}
+.footer-motif span:nth-child(4){flex:0 0 20px;width:20px;height:20px;background:var(--yellow);clip-path:polygon(50% 0,61% 36%,100% 50%,61% 62%,50% 100%,38% 62%,0 50%,38% 36%)}
+.footer-invitation{display:flex;justify-content:space-between;align-items:center;gap:32px;padding:30px 0;border-bottom:1px solid #ffffff28}
+.footer-invitation h2{font:700 clamp(33px,3.4vw,48px)/1.08 var(--font-display);letter-spacing:0}
+.footer-invitation h2 span{color:var(--yellow)}
+.home-footer .footer-map-action{display:inline-flex;align-items:center;justify-content:space-between;gap:28px;min-height:52px;padding:14px 18px;border:1px solid var(--yellow);border-radius:4px;background:var(--yellow);color:var(--deep);font-size:13px;font-weight:700;text-decoration:none;flex-shrink:0;transition:background var(--fast),color var(--fast),border-color var(--fast)}
+.footer-map-action svg{transition:transform 180ms var(--ease-out)}
+.footer-main{display:grid;grid-template-columns:1.15fr 1fr .8fr;gap:40px;padding:30px 0}
+.home-footer .brand{display:flex;gap:10px;min-height:44px;margin:0;width:fit-content;align-items:baseline}
+.home-footer .brand-name{font-size:43px}.home-footer .brand-label{display:inline;font-size:12px}
+.home-footer .brand-spark{display:block;width:22px;height:22px}
+.footer-about>p{color:#e2d2e7;font-size:12px;line-height:1.8;margin-top:10px}
+.footer-navigation h3{font:600 11px/1.5 var(--font-body,'DM Sans',sans-serif);letter-spacing:.08em;text-transform:uppercase;color:#e2d2e7;margin:6px 0 10px}
+.footer-navigation>div{display:grid;grid-template-columns:1fr 1fr;gap:0 22px}
+.footer-navigation a{justify-content:space-between;font-size:13px;text-decoration:none;margin:0;border-bottom:1px solid #ffffff22;min-height:40px}
+.footer-navigation svg{color:var(--yellow)}
+.footer-city{position:relative;align-self:start;padding:6px 30px 0 0}
+.footer-city>.eyebrow{font-size:9px;letter-spacing:.06em;color:#e2d2e7}
+.footer-city p{font:700 30px/1.1 var(--font-display);margin-top:14px}
+.footer-city p span{display:block;font:400 11px/1.6 'DM Sans',sans-serif;letter-spacing:.04em;color:#e2d2e7;margin-top:8px}
+.footer-city-star{position:absolute;right:0;top:35px;width:20px;height:20px;background:var(--yellow)}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:14px 0;border-top:1px solid #ffffff28;font-size:10px;color:#e2d2e7}
+.footer-bottom p span{display:inline-block;margin-left:16px}
+.footer-bottom a{min-height:40px;color:#e2d2e7;font-size:11px;text-decoration:none;margin:0}
+.home-footer a:focus-visible{outline-color:var(--yellow);outline-offset:4px}
+@media(hover:hover) and (pointer:fine){.home-footer .footer-map-action:hover{background:white;border-color:white;color:var(--deep)}.footer-map-action:hover svg{transform:translate(2px,-2px)}.footer-navigation a:hover,.footer-bottom a:hover{color:var(--yellow)}}
+@media(max-width:800px){.footer-main{gap:26px;grid-template-columns:1fr 1fr}.footer-city{grid-column:1/-1;display:flex;align-items:center;gap:26px;padding:0 35px 0 0}.footer-city p{margin:0;font-size:27px}.footer-city-star{top:10px}.footer-bottom p span{display:block;margin:4px 0 0}}
+@media(max-width:650px){.home-footer{padding:0 22px}.footer-motif{gap:12px}.footer-invitation{flex-direction:column;align-items:start;gap:22px;padding:26px 0}.footer-invitation h2{font-size:34px}.home-footer .footer-map-action{margin:0;min-height:48px;gap:24px}.footer-main{grid-template-columns:minmax(0,1fr);gap:24px;padding:26px 0}.footer-navigation a{margin:0;min-height:44px}.footer-city{display:block;grid-column:auto}.footer-city p{margin-top:10px}.footer-city-star{top:28px}.footer-bottom{flex-direction:column;align-items:start;gap:4px;padding:16px 0}.footer-bottom a{margin:0;min-height:44px}.footer-about>p{font-size:12px}.footer-motif span{height:3px}}
+@media(prefers-reduced-motion:reduce){.footer-map-action,.footer-map-action svg{transition:none}.footer-map-action:hover svg{transform:none}}

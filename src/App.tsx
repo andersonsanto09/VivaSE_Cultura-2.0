@@ -1,3 +1,4 @@
+import HomeFooter from './components/HomeFooter';
 import {editorialActivityIds} from './data/editorial';
 import PlaceThumbnail from './components/PlaceThumbnail';
 import TimeMachine,{TimeMachineProvider} from './components/TimeMachine';
@@ -58,7 +59,7 @@ function ActivityDetails({ activity }: { activity: Activity }) {
   return <Accordion.Root type="single" collapsible className="activity-accordion"><Accordion.Item value="details"><Accordion.Header><Accordion.Trigger>Participantes e detalhes<ChevronDown size={16} aria-hidden="true" /></Accordion.Trigger></Accordion.Header><Accordion.Content><p>{activity.details}</p></Accordion.Content></Accordion.Item></Accordion.Root>;
 }
 function Home() {
-  return <main id="conteudo" className="home">
+  return <><main id="conteudo" className="home">
     <section className="hero">
       <div className="hero-copy"><p className="eyebrow">São Cristóvão · 20—22 novembro 2026</p><h1>A cidade<br />é o <span>festival.</span></h1>
         <p className="hero-description">Encontre seu palco, descubra um novo caminho.<br />Viva o FASC por toda São Cristóvão.</p>
@@ -77,8 +78,7 @@ function Home() {
     </section>
     <section className="home-explore" aria-label="Explorar por categoria"><div className="start-links">{categoryItems.map(({name,tone,icon:Symbol})=>{const count=places.filter(place=>place.category===name).length;return <a key={name} className={`start-card tone-${tone}`} href={`#/mapa?dia=20&categoria=${encodeURIComponent(name)}`}><Symbol className="start-card-symbol" size={27} strokeWidth={1.8} aria-hidden="true" /><strong>{name}</strong><span className="start-card-count">{count} {count===1?'espaço':'espaços'}</span><span className="start-card-action">Explorar <ArrowUpRight size={18} aria-hidden="true" /></span></a>;})}</div></section>
     <Suspense fallback={<div className="home-editorial-loading" role="status">Abrindo histórias da cidade…</div>}><HomeCulture/></Suspense>
-    <footer className="home-footer"><span>VivaSE Cultura — seu guia para viver o FASC.</span><a href="#/sobre">Sobre o protótipo e os créditos <Icon name="arrow" size={16} /></a></footer>
-  </main>;
+  </main><HomeFooter brand={<Brand/>}/></>;
 }
 function PlaceDetail({ place, day, onBack, returnLabel }: { place: Place; day: FestivalDay; onBack: () => void; returnLabel?:string }) {
   const heading = useRef<HTMLHeadingElement>(null);

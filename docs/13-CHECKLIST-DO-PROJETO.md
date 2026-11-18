@@ -248,3 +248,9 @@ Registro detalhado: [24 — Pesquisa integrada](24-PESQUISA-INTEGRADA-E-MAQUINA-
 - [ ] Aceite visual e teste final em aparelho físico.
 
 Detalhes: [25 — Refinamento visual](25-REFINAMENTO-VISUAL-E-ACERVO-FOTOGRAFICO.md).
+
+### Footer da Home
+
+- [x] Chamada final, CTA, marca, navegação e referência à cidade na identidade FASC.
+- [x] Fontes, créditos e identificação de projeto independente.
+- [x] Desktop/mobile, contraste, teclado e build conferidos.

@@ -38,3 +38,7 @@ As associações foram feitas pelo texto/legenda da reportagem e pela conferênc
 - TypeScript e build de produção aprovados. Permanece o aviso de tamanho do bundle MapLibre, já carregado sob demanda.
 
 Capturas e resultados locais em `tmp/art-polish` (não versionados). Publicação solicitada no fluxo autorizado; aceite visual desta revisão e teste final em aparelho físico continuam pendentes.
+
+## Footer da Home — complemento aprovado
+
+Implementados chamada final com CTA para o mapa, faixa roxa escura, marca e descrição do VivaSE, navegação para Mapa/Programação/Memórias/Artistas, motivo gráfico nas cores do FASC, referência a São Cristóvão/Sergipe e linha discreta de fontes, créditos e projeto independente. Footer fora do `main`, com landmark próprio. Conferência em 1440/768/390/320 px sem overflow; axe no footer sem violações detectadas; CTA por teclado e acesso a fontes/créditos funcionando; TypeScript e build aprovados. Capturas locais em `tmp/footer`.
