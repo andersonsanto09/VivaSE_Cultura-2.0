@@ -17,7 +17,7 @@ export default function HistoricalVenueAgenda({records,origin}:{records:Historic
         <h4><a href={`#/artistas?${new URLSearchParams({artista:artist.id,edicao:record.editionId,origem:origin})}`}>{artist.name}<ArrowUpRight size={15} aria-hidden="true"/></a></h4>
         {record.title&&<p className="historical-agenda-title">{record.title}</p>}
         <span className={`evidence-label ${record.status}`}>{performanceStatus(record.status)}</span>
-        <details className="historical-proof"><summary>Detalhes e fontes<span className="sr-only"> de {artist.name}</span></summary><p>{record.context}</p>{record.billingName&&record.billingName!==artist.name&&<p>Crédito na fonte: {record.billingName}</p>}{record.status==='announced'&&<p>A fonte disponível é de programação; a cobertura da realização ainda não foi incorporada.</p>}{record.uncertainty&&<p className="record-uncertainty">{record.uncertainty}</p>}<HistoricalSources ids={record.sourceIds}/></details>
+        <details className="historical-proof"><summary>Detalhes e fontes<span className="sr-only"> de {artist.name}</span></summary><p>{record.context}</p>{record.dateEvidence&&<p>{record.dateEvidence}</p>}{record.dateNote&&<p className="record-uncertainty">{record.dateNote}</p>}{record.billingName&&record.billingName!==artist.name&&<p>Crédito na fonte: {record.billingName}</p>}{record.status==='announced'&&<p>A fonte disponível é de programação; a cobertura da realização ainda não foi incorporada.</p>}{record.uncertainty&&<p className="record-uncertainty">{record.uncertainty}</p>}<HistoricalSources ids={record.sourceIds}/></details>
       </div></li>;
     })}</ol>
   </section>)}</div>;

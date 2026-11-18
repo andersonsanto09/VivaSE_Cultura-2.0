@@ -42,9 +42,9 @@ test('anúncio não se transforma em show realizado e divergências ficam explí
   assert.equal(historicalPerformances.find(p=>p.id==='2022-alceu')?.status,'performed');assert.equal(historicalPerformances.find(p=>p.id==='2022-alceu')?.timeKind,'announced');
   assert.equal(historicalPerformances.find(p=>p.id==='2022-afexe')?.status,'performed');
   const lamparina=historicalPerformances.find(p=>p.id==='2024-lamparina')!;
-  assert.equal(lamparina.date,undefined);assert.ok(lamparina.uncertainty);
+  assert.equal(lamparina.date,'2024-11-30');assert.equal(lamparina.dateKind,'program');assert.ok(lamparina.uncertainty);
   const baiana=historicalPerformances.find(p=>p.id==='2018-baiana')!;
-  assert.equal(baiana.status,'performed');assert.equal(historicalVenues.find(v=>v.id===baiana.venueId)?.address,'Praça São Francisco');assert.equal(baiana.date,undefined);
+  assert.equal(baiana.status,'performed');assert.equal(historicalVenues.find(v=>v.id===baiana.venueId)?.address,'Praça São Francisco');assert.equal(baiana.date,'2018-11-16');assert.ok(baiana.dateSourceIds?.length);
 });
 test('busca, categoria, edição e ordenação usam participações compartilhadas',()=>{
   const find=(query='',edition='',category='',order='recentes')=>filterHistoricalArtists(historicalArtists,historicalPerformances,festivalEditions,{query,edition,category,order});

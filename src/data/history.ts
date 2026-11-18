@@ -1,4 +1,7 @@
 import {applyHistoryReviews} from '../domain/review-history.ts';
+import {applyHistoricalDates} from '../domain/history-dates.ts';
+import type {HistoricalDateReview} from '../domain/history-dates.ts';
+import dateReviews from './history-date-reviews.json' with {type:'json'};
 import {statusReviewSources,performanceReviews} from './history-status-reviews.ts';
 import research from './research-import.json' with {type:'json'};
 import {mergeHistory} from '../domain/merge-history.ts';
@@ -104,4 +107,4 @@ export const historicalMilestones:HistoricalMilestone[]=[
   {id:'2026',year:2026,title:'Seu próximo encontro',kind:'festival',announced:true,description:'A edição de 20 a 22 de novembro está anunciada na programação v4.',detail:'Na revisão de 17/11/2026, o evento ainda não aconteceu. Sua programação está no mapa do festival, separada do acervo de edições anteriores.',source:cs.programa},
 ];
 
-export const {historicalSources,festivalEditions,historicalVenues,historicalArtists,historicalPerformances,historyImportAudit}=applyHistoryReviews(mergeHistory({historicalSources:baseHistoricalSources,festivalEditions:baseFestivalEditions,historicalVenues:baseHistoricalVenues,historicalArtists:baseHistoricalArtists,historicalPerformances:baseHistoricalPerformances},research),statusReviewSources,performanceReviews);
+export const {historicalSources,festivalEditions,historicalVenues,historicalArtists,historicalPerformances,historyImportAudit}=applyHistoricalDates(applyHistoryReviews(mergeHistory({historicalSources:baseHistoricalSources,festivalEditions:baseFestivalEditions,historicalVenues:baseHistoricalVenues,historicalArtists:baseHistoricalArtists,historicalPerformances:baseHistoricalPerformances},research),statusReviewSources,performanceReviews),dateReviews.sources as HistoricalSource[],dateReviews.reviews as HistoricalDateReview[]);

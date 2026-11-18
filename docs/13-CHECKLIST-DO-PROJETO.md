@@ -336,3 +336,16 @@ Detalhes: [30 — Expansão das fotos dos artistas](30-EXPANSAO-DAS-FOTOS-DOS-AR
 - [x] Testar as 18 edições, reflow em quatro larguras e build de produção.
 
 Detalhes: [31 — Programação no mapa histórico](31-PROGRAMACAO-NO-MAPA-HISTORICO.md).
+
+## Datas e rolagem do mapa histórico — 18/11/2026
+
+- [x] Conferir e preencher 156 datas com fontes e evidência por participação.
+- [x] Eliminar datas ausentes nas participações cadastradas de 2005 e 2017–2025.
+- [x] Preservar dias de programação, datas civis, horários anunciados e status históricos.
+- [x] Registrar divergências de horário e programação, sem inventar valores.
+- [x] Corrigir a área branca ao rolar o painel até o fim.
+- [x] Corrigir o conflito de altura em tablet e preservar a rolagem no celular.
+- [x] Testar datas, rolagem, acessibilidade, fluxo histórico e build.
+- [ ] Recuperar o dia individual das 42 participações antigas ainda sem comprovação suficiente.
+
+Detalhes e inventário: [32 — Datas históricas e rolagem](32-DATAS-HISTORICAS-E-ROLAGEM.md).

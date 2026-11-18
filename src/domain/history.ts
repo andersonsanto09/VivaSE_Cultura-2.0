@@ -10,7 +10,7 @@ export interface HistoricalVenue {
 export interface Artist {id:string;name:string;category:Category;context:string;featured?:boolean}
 export interface HistoricalPerformance {
   id:string;editionId:string;artistId:string;venueId?:string;date?:string;time?:string;title?:string;
-  status:'performed'|'announced'|'invited'|'undated'|'pending'|'replaced';context:string;sourceIds:string[];uncertainty?:string;dateKind?:'civil'|'program';timeKind?:'announced'|'reported';category?:Category;provenanceIds?:string[];reviewedSourceIds?:string[];billingName?:string;venueText?:string;
+  status:'performed'|'announced'|'invited'|'undated'|'pending'|'replaced';context:string;sourceIds:string[];uncertainty?:string;dateKind?:'civil'|'program';timeKind?:'announced'|'reported';dateSourceIds?:string[];dateEvidence?:string;dateNote?:string;category?:Category;provenanceIds?:string[];reviewedSourceIds?:string[];billingName?:string;venueText?:string;
 }
 export interface HistoricalMilestone {
   id:string;year:number;title:string;description:string;detail:string;kind:'festival'|'cidade';

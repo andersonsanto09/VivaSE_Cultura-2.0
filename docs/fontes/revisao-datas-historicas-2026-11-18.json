@@ -1,0 +1,2316 @@
+{
+  "date": "2026-11-18",
+  "counts": {
+    "records": 230,
+    "missingBefore": 198,
+    "datesAdded": 156,
+    "missingAfter": 42,
+    "remainingByEdition": {
+      "1972": 9,
+      "1985": 2,
+      "1988": 7,
+      "1989": 1,
+      "1990": 5,
+      "1991": 2,
+      "1993": 3,
+      "sem ano": 13
+    }
+  },
+  "criteria": "Datas de programação preservam o dia do festival, inclusive madrugada; horários de agendas continuam anunciados. Cobertura não é datada pela sua publicação. Status, IDs e coordenadas são preservados.",
+  "reviews": [
+    {
+      "performanceId": "research-base-0141",
+      "date": "2025-11-21",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-45"
+      ],
+      "evidence": "Programação consultada: Pabllo Vittar, dia 21/11/2025, às 22:00 (horário anunciado).",
+      "time": "22:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0142",
+      "date": "2025-11-21",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-45"
+      ],
+      "evidence": "Programação consultada: Marcelo D2, dia 21/11/2025, às 00:00 (horário anunciado).",
+      "time": "00:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0143",
+      "date": "2025-11-22",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-45"
+      ],
+      "evidence": "Programação consultada: João Gomes, dia 22/11/2025, às 22:00 (horário anunciado).",
+      "time": "22:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0144",
+      "date": "2025-11-22",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-45"
+      ],
+      "evidence": "Programação consultada: Seu Jorge, dia 22/11/2025, às 00:00 (horário anunciado).",
+      "time": "00:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0145",
+      "date": "2025-11-23",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-45"
+      ],
+      "evidence": "Programação consultada: Saulo Fernandes, dia 23/11/2025, às 17:00 (horário anunciado).",
+      "time": "17:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0148",
+      "date": "2025-11-23",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-45"
+      ],
+      "evidence": "Programação consultada: Os Garotin, dia 23/11/2025, às 21:00 (horário anunciado).",
+      "time": "21:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0149",
+      "date": "2025-11-23",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-45"
+      ],
+      "evidence": "Programação consultada: Maysa Reis, dia 23/11/2025, às 19:00 (horário anunciado).",
+      "time": "19:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0150",
+      "date": "2025-11-22",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-45"
+      ],
+      "evidence": "Programação consultada: Héloa, dia 22/11/2025, às 20:00 (horário anunciado).",
+      "time": "20:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0151",
+      "date": "2025-11-22",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-45"
+      ],
+      "evidence": "Programação consultada: Lia de Itamaracá, dia 22/11/2025, às 20:00 (horário anunciado).",
+      "time": "20:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0153",
+      "date": "2025-11-21",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-45"
+      ],
+      "evidence": "Programação consultada: Maglore, dia 21/11/2025, às 19:00 (horário anunciado).",
+      "time": "19:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0154",
+      "date": "2025-11-21",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-45"
+      ],
+      "evidence": "Programação consultada: Urias, dia 21/11/2025, às 01:00 (horário anunciado).",
+      "time": "01:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0155",
+      "date": "2025-11-22",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-45"
+      ],
+      "evidence": "Programação consultada: Dead Fish, dia 22/11/2025, às 19:00 (horário anunciado).",
+      "time": "19:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0156",
+      "date": "2025-11-22",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-45"
+      ],
+      "evidence": "Programação consultada: Mundo Livre S/A, dia 22/11/2025, às 21:00 (horário anunciado).",
+      "time": "21:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0157",
+      "date": "2025-11-22",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-45"
+      ],
+      "evidence": "Programação consultada: Getúlio Abelha, dia 22/11/2025, às 23:00 (horário anunciado).",
+      "time": "23:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0158",
+      "date": "2025-11-23",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-45"
+      ],
+      "evidence": "Programação consultada: Mestre Ambrósio, dia 23/11/2025, às 20:00 (horário anunciado).",
+      "time": "20:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0159",
+      "date": "2025-11-23",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-45"
+      ],
+      "evidence": "Programação consultada: Ana Frango Elétrico, dia 23/11/2025, às 00:00 (horário anunciado).",
+      "time": "00:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0160",
+      "date": "2025-11-22",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-45"
+      ],
+      "evidence": "Programação consultada: Cidade Dormitório, dia 22/11/2025, às 01:00 (horário anunciado).",
+      "time": "01:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0161",
+      "date": "2025-11-21",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-45"
+      ],
+      "evidence": "Programação consultada: Chico Chico, dia 21/11/2025, às 23:00 (horário anunciado).",
+      "time": "23:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0162",
+      "date": "2025-11-21",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-44",
+        "research-source-50"
+      ],
+      "evidence": "Programação consultada: Raphael Montes, dia 21/11/2025, às 14:00 (horário anunciado).",
+      "time": "14:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0163",
+      "date": "2025-11-20",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-44",
+        "research-source-50"
+      ],
+      "evidence": "Programação consultada: Elisama Santos, dia 20/11/2025, às 14:00 (horário anunciado).",
+      "time": "14:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0164",
+      "date": "2025-11-20",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-44",
+        "research-source-50"
+      ],
+      "evidence": "Programação consultada: Mafuane Oliveira, dia 20/11/2025, às 14:00 (horário anunciado).",
+      "time": "14:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0165",
+      "date": "2025-11-20",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-44",
+        "research-source-50"
+      ],
+      "evidence": "Programação consultada: Cristiane Sobral, dia 20/11/2025, às 16:00 (horário anunciado).",
+      "time": "16:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0166",
+      "date": "2025-11-22",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-44",
+        "research-source-50"
+      ],
+      "evidence": "Programação consultada: Xico Sá, dia 22/11/2025, às 16:00 (horário anunciado).",
+      "time": "16:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0167",
+      "date": "2025-11-22",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-44",
+        "research-source-50"
+      ],
+      "evidence": "Programação consultada: Sérgio Vaz, dia 22/11/2025, às 16:00 (horário anunciado).",
+      "time": "16:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0168",
+      "date": "2025-11-23",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-44",
+        "research-source-50"
+      ],
+      "evidence": "Programa oficial de 2025, página 21: Luiza Romão integra a Roda Fasc de Poesia no domingo 23/11, às 16h. Este registro já se vincula à cobertura do encerramento; a mesa de sábado é uma atividade distinta.",
+      "time": "16:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0169",
+      "date": "2025-11-23",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-44",
+        "research-source-50"
+      ],
+      "evidence": "Programação consultada: Izabel Nascimento, dia 23/11/2025, às 14:00 (horário anunciado).",
+      "time": "14:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0170",
+      "date": "2025-11-21",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-50"
+      ],
+      "evidence": "Programação consultada: Cármen Lúcia, dia 21/11/2025, às 16:00 (horário anunciado).",
+      "time": "16:00",
+      "timeKind": "announced",
+      "note": "Vídeo-palestra anunciada para 21/11 às 16h na matéria oficial; ausente do PDF posterior. A data é do anúncio, não confirmação de realização."
+    },
+    {
+      "performanceId": "research-base-0171",
+      "date": "2025-11-20",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-44",
+        "research-source-47"
+      ],
+      "evidence": "Programação consultada: Afrobapho, dia 20/11/2025, às 16:30 (horário anunciado).",
+      "time": "16:30",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0172",
+      "date": "2025-11-20",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-44",
+        "research-source-47"
+      ],
+      "evidence": "Programação consultada: Embrazados Crew, dia 20/11/2025. O horário não foi confirmado nesta revisão.",
+      "note": "As fontes concordam com 20/11, mas divergem no horário: PDF página 3 indica 18h e matéria do palco indica 18h30; horário mantido sem confirmação."
+    },
+    {
+      "performanceId": "research-base-0173",
+      "date": "2025-11-21",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-44",
+        "research-source-47"
+      ],
+      "evidence": "Programação consultada: Mamulengo Baile Estrela, dia 21/11/2025, às 15:00 (horário anunciado).",
+      "time": "15:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0174",
+      "date": "2025-11-22",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-44",
+        "research-source-47"
+      ],
+      "evidence": "Programação consultada: Trupe Kadabra, dia 22/11/2025, às 16:30 (horário anunciado).",
+      "time": "16:30",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0175",
+      "date": "2025-11-23",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-44",
+        "research-source-47"
+      ],
+      "evidence": "Programação consultada: Catalise Cia de Artistas, dia 23/11/2025, às 15:00 (horário anunciado).",
+      "time": "15:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0176",
+      "date": "2025-11-23",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-44",
+        "research-source-47"
+      ],
+      "evidence": "Programação consultada: Coletivo Transe, dia 23/11/2025, às 16:30 (horário anunciado).",
+      "time": "16:30",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0177",
+      "date": "2025-11-23",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-44",
+        "research-source-47"
+      ],
+      "evidence": "Programação consultada: Espaço Formas, dia 23/11/2025, às 19:00 (horário anunciado).",
+      "time": "19:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "2024-baggios",
+      "date": "2024-11-30",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-music-2024",
+        "research-source-37"
+      ],
+      "evidence": "Programação consultada: The Baggios, dia 30/11/2024, às 02:00 (horário anunciado).",
+      "time": "02:00",
+      "timeKind": "announced",
+      "uncertainty": "A cobertura não informa o início civil efetivo. O programa de 2024 anuncia 30/11, às 02h, na madrugada seguinte; a data registrada é o dia de programação."
+    },
+    {
+      "performanceId": "2024-lamparina",
+      "date": "2024-11-30",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-music-2024",
+        "research-source-37"
+      ],
+      "evidence": "Programação consultada: Lamparina, dia 30/11/2024, às 21:20 (horário anunciado).",
+      "time": "21:20",
+      "timeKind": "announced",
+      "uncertainty": "Há divergência interna na reportagem sobre a noite. A agenda oficial identifica 30/11, às 21h20; a data e o horário cadastrados correspondem à programação anunciada."
+    },
+    {
+      "performanceId": "2024-iggo",
+      "date": "2024-11-30",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-music-2024",
+        "research-source-37"
+      ],
+      "evidence": "Programação consultada: Iggo Centaura, dia 30/11/2024, às 23:20 (horário anunciado).",
+      "time": "23:20",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "2024-descidao",
+      "date": "2024-11-30",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-music-2024",
+        "research-source-37"
+      ],
+      "evidence": "Programação consultada: Descidão dos Quilombolas, dia 30/11/2024, às 01:20 (horário anunciado).",
+      "time": "01:20",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0114",
+      "date": "2024-11-29",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-music-2024",
+        "research-source-37"
+      ],
+      "evidence": "Programação consultada: Timbalada, dia 29/11/2024, às 22:00 (horário anunciado).",
+      "time": "22:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0115",
+      "date": "2024-11-29",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-music-2024",
+        "research-source-37"
+      ],
+      "evidence": "Programação consultada: Afrocidade, dia 29/11/2024, às 22:00 (horário anunciado).",
+      "time": "22:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0116",
+      "date": "2024-11-29",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-music-2024",
+        "research-source-37"
+      ],
+      "evidence": "Programação consultada: Grupo Revelação, dia 29/11/2024, às 00:00 (horário anunciado).",
+      "time": "00:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0117",
+      "date": "2024-11-29",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-music-2024",
+        "research-source-37"
+      ],
+      "evidence": "Programação consultada: Tasha & Tracie, dia 29/11/2024, às 02:00 (horário anunciado).",
+      "time": "02:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0124",
+      "date": "2024-11-29",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-music-2024",
+        "research-source-37"
+      ],
+      "evidence": "Programação consultada: Mãeana, dia 29/11/2024, às 23:00 (horário anunciado).",
+      "time": "23:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0121",
+      "date": "2024-12-01",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-music-2024",
+        "research-source-37"
+      ],
+      "evidence": "Programação consultada: Clinton Fearon, dia 01/12/2024, às 23:00 (horário anunciado).",
+      "time": "23:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0122",
+      "date": "2024-12-01",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-music-2024",
+        "research-source-37"
+      ],
+      "evidence": "Programação consultada: Don L, dia 01/12/2024, às 01:00 (horário anunciado).",
+      "time": "01:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0127",
+      "date": "2024-12-01",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-music-2024",
+        "research-source-37"
+      ],
+      "evidence": "Programação consultada: Francisco, el Hombre, dia 01/12/2024, às 18:00 (horário anunciado).",
+      "time": "18:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0128",
+      "date": "2024-12-01",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-music-2024",
+        "research-source-37"
+      ],
+      "evidence": "Programação consultada: Mombojó, dia 01/12/2024, às 22:00 (horário anunciado).",
+      "time": "22:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0123",
+      "date": "2024-12-01",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-37",
+        "research-source-41"
+      ],
+      "evidence": "Programa oficial de 2024 e cobertura da linguagem artística conferidos: Arnaldo Antunes, 2024-12-01, horário anunciado 21:00.",
+      "time": "21:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0130",
+      "date": "2024-12-01",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-37",
+        "research-source-41"
+      ],
+      "evidence": "Programa oficial de 2024 e cobertura da linguagem artística conferidos: Arnaldo Antunes, 2024-12-01, horário anunciado 14:00.",
+      "time": "14:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0131",
+      "date": "2024-11-29",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-37",
+        "research-source-41"
+      ],
+      "evidence": "Programa oficial de 2024 e cobertura da linguagem artística conferidos: Amara Moira, 2024-11-29, horário anunciado 14:00.",
+      "time": "14:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0132",
+      "date": "2024-11-30",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-37",
+        "research-source-41"
+      ],
+      "evidence": "Programa oficial de 2024 e cobertura da linguagem artística conferidos: Socorro Acioli, 2024-11-30. A cobertura confirma o sábado, sem horário individual."
+    },
+    {
+      "performanceId": "research-base-0133",
+      "date": "2024-11-30",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-37",
+        "research-source-41"
+      ],
+      "evidence": "Programa oficial de 2024 e cobertura da linguagem artística conferidos: Itamar Vieira Junior, 2024-11-30, horário anunciado 16:00.",
+      "time": "16:00",
+      "timeKind": "announced",
+      "note": "Data do compromisso inicialmente anunciado para Itamar; a substituição por Socorro Acioli continua identificada no status do registro."
+    },
+    {
+      "performanceId": "research-base-0134",
+      "date": "2024-12-01",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-37",
+        "research-source-43"
+      ],
+      "evidence": "Programa oficial de 2024 e cobertura da linguagem artística conferidos: Grupo Imbuaça, 2024-12-01, horário anunciado 15:00.",
+      "time": "15:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0135",
+      "date": "2024-11-29",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-37",
+        "research-source-43"
+      ],
+      "evidence": "Programa oficial de 2024 e cobertura da linguagem artística conferidos: Mamulengo de Cheiroso, 2024-11-29, horário anunciado 15:00.",
+      "time": "15:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0136",
+      "date": "2024-11-29",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-37",
+        "research-source-43"
+      ],
+      "evidence": "Programa oficial de 2024 e cobertura da linguagem artística conferidos: Grupo Riso Cínico, 2024-11-29, horário anunciado 16:30.",
+      "time": "16:30",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0137",
+      "date": "2024-12-01",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-37",
+        "research-source-43"
+      ],
+      "evidence": "Programa oficial de 2024 e cobertura da linguagem artística conferidos: Grupo A Tua Lona, 2024-12-01, horário anunciado 17:00.",
+      "time": "17:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0138",
+      "date": "2024-11-29",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-37",
+        "research-source-43"
+      ],
+      "evidence": "Programa oficial de 2024 e cobertura da linguagem artística conferidos: Embrazados Crew, 2024-11-29, horário anunciado 17:30.",
+      "time": "17:30",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0096",
+      "date": "2023-12-01",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-a8-2023",
+        "research-source-36"
+      ],
+      "evidence": "Programação consultada: Carlinhos Brown, dia 01/12/2023, às 22:00 (horário anunciado).",
+      "time": "22:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0097",
+      "date": "2023-12-01",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-a8-2023",
+        "research-source-36"
+      ],
+      "evidence": "Programação consultada: Marina Sena, dia 01/12/2023, às 02:00 (horário anunciado).",
+      "time": "02:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0098",
+      "date": "2023-12-02",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-a8-2023",
+        "research-source-36"
+      ],
+      "evidence": "Programação consultada: Liniker, dia 02/12/2023, às 00:00 (horário anunciado).",
+      "time": "00:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0099",
+      "date": "2023-12-02",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-a8-2023",
+        "research-source-36"
+      ],
+      "evidence": "Programação consultada: Djonga, dia 02/12/2023, às 02:00 (horário anunciado).",
+      "time": "02:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0102",
+      "date": "2023-12-02",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-a8-2023",
+        "research-source-36"
+      ],
+      "evidence": "Programação consultada: Arlindinho, dia 02/12/2023, às 22:00 (horário anunciado).",
+      "time": "22:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0104",
+      "date": "2023-12-01",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-a8-2023",
+        "research-source-36"
+      ],
+      "evidence": "Programação consultada: Rachel Reis, dia 01/12/2023, às 20:30 (horário anunciado).",
+      "time": "20:30",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0105",
+      "date": "2023-12-01",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-a8-2023",
+        "research-source-36"
+      ],
+      "evidence": "Programação consultada: The Baggios, dia 01/12/2023, às 00:30 (horário anunciado).",
+      "time": "00:30",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0106",
+      "date": "2023-12-02",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-a8-2023",
+        "research-source-36"
+      ],
+      "evidence": "Programação consultada: Pato Fu, dia 02/12/2023, às 23:00 (horário anunciado).",
+      "time": "23:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0107",
+      "date": "2023-12-03",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-a8-2023",
+        "research-source-36"
+      ],
+      "evidence": "Programação consultada: Vandal, dia 03/12/2023, às 22:00 (horário anunciado).",
+      "time": "22:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0108",
+      "date": "2023-12-01",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-a8-2023",
+        "research-source-36"
+      ],
+      "evidence": "Programação consultada: FBC, dia 01/12/2023, às 18:00 (horário anunciado).",
+      "time": "18:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0109",
+      "date": "2023-12-02",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-a8-2023",
+        "research-source-36"
+      ],
+      "evidence": "Programação consultada: Luísa e os Alquimistas, dia 02/12/2023, às 18:00 (horário anunciado).",
+      "time": "18:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0110",
+      "date": "2023-12-03",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-a8-2023",
+        "research-source-36"
+      ],
+      "evidence": "Programação consultada: Morgana, dia 03/12/2023, às 18:00 (horário anunciado).",
+      "time": "18:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0111",
+      "date": "2023-12-03",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-a8-2023",
+        "research-source-36"
+      ],
+      "evidence": "Programação consultada: Maracatu Asé D’Ori, dia 03/12/2023, às 14:00 (horário anunciado).",
+      "time": "14:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0112",
+      "date": "2023-12-03",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-a8-2023",
+        "research-source-36"
+      ],
+      "evidence": "Programação consultada: Samba de Coco da Ilha Grande, dia 03/12/2023, às 15:00 (horário anunciado).",
+      "time": "15:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0113",
+      "date": "2023-12-03",
+      "dateKind": "program",
+      "sourceIds": [
+        "date-a8-2023",
+        "research-source-36"
+      ],
+      "evidence": "Programação consultada: Quadrilha Meu Xodó, dia 03/12/2023, às 16:00 (horário anunciado).",
+      "time": "16:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0081",
+      "date": "2022-12-03",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-29"
+      ],
+      "evidence": "Programação consultada: Daniela Mercury, dia 03/12/2022, às 23:00 (horário anunciado).",
+      "time": "23:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0082",
+      "date": "2022-12-03",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-29"
+      ],
+      "evidence": "Programação consultada: Larissa Luz, dia 03/12/2022, às 21:00 (horário anunciado).",
+      "time": "21:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0083",
+      "date": "2022-12-03",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-29"
+      ],
+      "evidence": "Programação consultada: MC Tha, dia 03/12/2022, às 01:00 (horário anunciado).",
+      "time": "01:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0084",
+      "date": "2022-12-04",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-29"
+      ],
+      "evidence": "Programação consultada: Reemah, dia 04/12/2022, às 19:00 (horário anunciado).",
+      "time": "19:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0085",
+      "date": "2022-12-04",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-29"
+      ],
+      "evidence": "Programação consultada: Emicida, dia 04/12/2022, às 21:00 (horário anunciado).",
+      "time": "21:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0086",
+      "date": "2022-12-04",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-29"
+      ],
+      "evidence": "Programação consultada: Diogo Nogueira, dia 04/12/2022, às 23:00 (horário anunciado).",
+      "time": "23:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0087",
+      "date": "2022-12-04",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-29"
+      ],
+      "evidence": "Programação consultada: BK’, dia 04/12/2022, às 18:00 (horário anunciado).",
+      "time": "18:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0088",
+      "date": "2022-12-03",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-29"
+      ],
+      "evidence": "Programação consultada: Almério, dia 03/12/2022, às 20:00 (horário anunciado).",
+      "time": "20:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0089",
+      "date": "2022-12-02",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-29"
+      ],
+      "evidence": "Programação consultada: Academia da Berlinda, dia 02/12/2022, às 00:00 (horário anunciado).",
+      "time": "00:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0090",
+      "date": "2022-12-04",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-29"
+      ],
+      "evidence": "Programação consultada: Héloa, dia 04/12/2022, às 22:00 (horário anunciado).",
+      "time": "22:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0091",
+      "date": "2022-12-01",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-29"
+      ],
+      "evidence": "Programação consultada: Alex Sant’Anna, dia 01/12/2022, às 21:30 (horário anunciado).",
+      "time": "21:30",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0092",
+      "date": "2022-12-03",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-29"
+      ],
+      "evidence": "Programação consultada: Grupo Imbuaça, dia 03/12/2022, às 17:00 (horário anunciado).",
+      "time": "17:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0093",
+      "date": "2022-12-04",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-29"
+      ],
+      "evidence": "Programação consultada: Mamulengo de Cheiroso, dia 04/12/2022, às 15:00 (horário anunciado).",
+      "time": "15:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0094",
+      "date": "2022-12-03",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-29"
+      ],
+      "evidence": "Programação consultada: Cia de Teatro Loucos por Loucos, dia 03/12/2022, às 18:00 (horário anunciado).",
+      "time": "18:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0095",
+      "date": "2022-12-03",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-29"
+      ],
+      "evidence": "Programação consultada: Paulo André, dia 03/12/2022, às 15:00 (horário anunciado).",
+      "time": "15:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0062",
+      "date": "2019-11-16",
+      "dateKind": "program",
+      "sourceIds": [
+        "2019",
+        "research-source-52"
+      ],
+      "evidence": "Programação consultada: Cordel do Fogo Encantado, dia 16/11/2019, às 23:00 (horário anunciado).",
+      "time": "23:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0063",
+      "date": "2019-11-15",
+      "dateKind": "program",
+      "sourceIds": [
+        "2019",
+        "research-source-52"
+      ],
+      "evidence": "Programação consultada: The Baggios, dia 15/11/2019, às 20:00 (horário anunciado).",
+      "time": "20:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0064",
+      "date": "2019-11-15",
+      "dateKind": "program",
+      "sourceIds": [
+        "2019",
+        "research-source-52"
+      ],
+      "evidence": "Programação consultada: Mariene de Castro, dia 15/11/2019, às 22:00 (horário anunciado).",
+      "time": "22:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0065",
+      "date": "2019-11-16",
+      "dateKind": "program",
+      "sourceIds": [
+        "2019",
+        "research-source-52"
+      ],
+      "evidence": "Programação consultada: Naurêa, dia 16/11/2019, às 01:00 (horário anunciado).",
+      "time": "01:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0066",
+      "date": "2019-11-17",
+      "dateKind": "program",
+      "sourceIds": [
+        "2019",
+        "research-source-52"
+      ],
+      "evidence": "Programação consultada: Dezarie, dia 17/11/2019, às 22:00 (horário anunciado).",
+      "time": "22:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0067",
+      "date": "2019-11-17",
+      "dateKind": "program",
+      "sourceIds": [
+        "2019",
+        "research-source-52"
+      ],
+      "evidence": "Programação consultada: Àttøøxxá, dia 17/11/2019, às 00:00 (horário anunciado).",
+      "time": "00:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0071",
+      "date": "2019-11-15",
+      "dateKind": "program",
+      "sourceIds": [
+        "2019",
+        "research-source-52"
+      ],
+      "evidence": "Programação consultada: Cidade Dormitório, dia 15/11/2019, às 19:00 (horário anunciado).",
+      "time": "19:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0072",
+      "date": "2019-11-17",
+      "dateKind": "program",
+      "sourceIds": [
+        "2019",
+        "research-source-52"
+      ],
+      "evidence": "Programação consultada: Isis Broken, dia 17/11/2019, às 19:00 (horário anunciado).",
+      "time": "19:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0069",
+      "date": "2019-11-15",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-52"
+      ],
+      "evidence": "Programação consultada: Silvério Pessoa, dia 15/11/2019, às 21:00 (horário anunciado).",
+      "time": "21:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0070",
+      "date": "2019-11-15",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-52"
+      ],
+      "evidence": "Programação consultada: Afrocidade, dia 15/11/2019, às 23:00 (horário anunciado).",
+      "time": "23:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0073",
+      "date": "2019-11-17",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-52"
+      ],
+      "evidence": "Programação consultada: Grupo Imbuaça, dia 17/11/2019, às 15:00 (horário anunciado).",
+      "time": "15:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0074",
+      "date": "2019-11-16",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-52"
+      ],
+      "evidence": "Programação consultada: Mamulengo de Cheiroso, dia 16/11/2019, às 15:00 (horário anunciado).",
+      "time": "15:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0075",
+      "date": "2019-11-15",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-52"
+      ],
+      "evidence": "Programação consultada: Grupo Lurupari, dia 15/11/2019, às 17:00 (horário anunciado).",
+      "time": "17:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0076",
+      "date": "2019-11-15",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-52"
+      ],
+      "evidence": "Programação consultada: Xico Sá, dia 15/11/2019, às 15:00 (horário anunciado).",
+      "time": "15:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0077",
+      "date": "2019-11-17",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-52"
+      ],
+      "evidence": "Programação consultada: Paloma Amado, dia 17/11/2019, às 15:00 (horário anunciado).",
+      "time": "15:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0078",
+      "date": "2019-11-14",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-52"
+      ],
+      "evidence": "Programação consultada: Tânia Mara, dia 14/11/2019, às 21:00 (horário anunciado).",
+      "time": "21:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "2018-baiana",
+      "date": "2018-11-16",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-24",
+        "2018"
+      ],
+      "evidence": "Programação consultada: BaianaSystem, dia 16/11/2018, às 02:00 (horário anunciado).",
+      "time": "02:00",
+      "timeKind": "announced",
+      "uncertainty": "A retrospectiva não indicava a data; a programação de 2018 informa 16/11, às 02h (madrugada seguinte). Horário anunciado, sem confirmação do início civil efetivo."
+    },
+    {
+      "performanceId": "research-base-0040",
+      "date": "2018-11-16",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-24",
+        "2018"
+      ],
+      "evidence": "Programação consultada: The Baggios, dia 16/11/2018, às 00:00 (horário anunciado).",
+      "time": "00:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0042",
+      "date": "2018-11-17",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-24",
+        "2018"
+      ],
+      "evidence": "Programação consultada: Lenine, dia 17/11/2018, às 00:00 (horário anunciado).",
+      "time": "00:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0043",
+      "date": "2018-11-17",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-24",
+        "2018"
+      ],
+      "evidence": "Programação consultada: Céu, dia 17/11/2018, às 02:00 (horário anunciado).",
+      "time": "02:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0044",
+      "date": "2018-11-18",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-24",
+        "2018"
+      ],
+      "evidence": "Programação consultada: Chico César, dia 18/11/2018, às 22:00 (horário anunciado).",
+      "time": "22:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0045",
+      "date": "2018-11-18",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-24",
+        "2018"
+      ],
+      "evidence": "Programação consultada: Mart’nália, dia 18/11/2018, às 00:00 (horário anunciado).",
+      "time": "00:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0046",
+      "date": "2018-11-18",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-24",
+        "2018"
+      ],
+      "evidence": "Programação consultada: Cidade Dormitório, dia 18/11/2018, às 20:00 (horário anunciado).",
+      "time": "20:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0047",
+      "date": "2018-11-17",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-24",
+        "2018"
+      ],
+      "evidence": "Programação consultada: Orquestra de Atabaques de Sergipe, dia 17/11/2018, às 20:00 (horário anunciado).",
+      "time": "20:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0048",
+      "date": "2018-11-16",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-24",
+        "2018"
+      ],
+      "evidence": "Programação consultada: Samba do Arnesto, dia 16/11/2018, às 22:00 (horário anunciado).",
+      "time": "22:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0049",
+      "date": "2018-11-16",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-24",
+        "2018"
+      ],
+      "evidence": "Programação consultada: Luedji Luna, dia 16/11/2018, às 23:00 (horário anunciado).",
+      "time": "23:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0050",
+      "date": "2018-11-16",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-24",
+        "2018"
+      ],
+      "evidence": "Programação consultada: Joésia Ramos, dia 16/11/2018, às 01:00 (horário anunciado).",
+      "time": "01:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0051",
+      "date": "2018-11-17",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-24",
+        "2018"
+      ],
+      "evidence": "Programação consultada: Banda Eddie, dia 17/11/2018, às 23:00 (horário anunciado).",
+      "time": "23:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0052",
+      "date": "2018-11-18",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-24",
+        "2018"
+      ],
+      "evidence": "Programação consultada: Rincon Sapiência, dia 18/11/2018, às 21:30 (horário anunciado).",
+      "time": "21:30",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0053",
+      "date": "2018-11-16",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-24",
+        "2018"
+      ],
+      "evidence": "Programação consultada: Samba de Coco da Ilha Grande, dia 16/11/2018, às 21:00 (horário anunciado).",
+      "time": "21:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0054",
+      "date": "2018-11-18",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-24",
+        "2018"
+      ],
+      "evidence": "Programação consultada: Patrícia Polayne, dia 18/11/2018, às 19:30 (horário anunciado).",
+      "time": "19:30",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0055",
+      "date": "2018-11-16",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-24",
+        "2018"
+      ],
+      "evidence": "Programação consultada: Dami Dória Quarteto, dia 16/11/2018, às 17:00 (horário anunciado).",
+      "time": "17:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0056",
+      "date": "2018-11-17",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-24",
+        "2018"
+      ],
+      "evidence": "Programação consultada: Voodoo Cigano, dia 17/11/2018, às 15:00 (horário anunciado).",
+      "time": "15:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0057",
+      "date": "2018-11-15",
+      "dateKind": "program",
+      "sourceIds": [
+        "2018"
+      ],
+      "evidence": "Programação consultada: Caceteiras de Mestre Rindú, dia 15/11/2018. O horário não foi confirmado nesta revisão."
+    },
+    {
+      "performanceId": "research-base-0058",
+      "date": "2018-11-15",
+      "dateKind": "program",
+      "sourceIds": [
+        "2018"
+      ],
+      "evidence": "Programação consultada: Samba de Pareia de Laranjeiras, dia 15/11/2018. O horário não foi confirmado nesta revisão."
+    },
+    {
+      "performanceId": "research-base-0059",
+      "date": "2018-11-18",
+      "dateKind": "program",
+      "sourceIds": [
+        "2018"
+      ],
+      "evidence": "Programação consultada: Taieiras de São Cristóvão, dia 18/11/2018. O horário não foi confirmado nesta revisão."
+    },
+    {
+      "performanceId": "research-base-0060",
+      "date": "2018-11-16",
+      "dateKind": "program",
+      "sourceIds": [
+        "2018"
+      ],
+      "evidence": "Programação consultada: Parafusos, dia 16/11/2018. O horário não foi confirmado nesta revisão."
+    },
+    {
+      "performanceId": "2017-imbuaca",
+      "date": "2017-12-01",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-22"
+      ],
+      "evidence": "Programação consultada: Grupo Imbuaça, dia 01/12/2017, às 18:00 (horário anunciado).",
+      "time": "18:00",
+      "timeKind": "announced",
+      "uncertainty": "A programação divulgada confirma 01/12 às 18h no João Bebe-Água. A realização não é comprovada por esse anúncio."
+    },
+    {
+      "performanceId": "2017-orsse",
+      "date": "2017-12-01",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-22"
+      ],
+      "evidence": "Programação consultada: Orquestra Sinfônica de Sergipe, dia 01/12/2017, às 20:00 (horário anunciado).",
+      "time": "20:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0025",
+      "date": "2017-12-01",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-22"
+      ],
+      "evidence": "Programação consultada: Otto, dia 01/12/2017, às 01:00 (horário anunciado).",
+      "time": "01:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0026",
+      "date": "2017-12-01",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-22"
+      ],
+      "evidence": "Programação consultada: Mestrinho, dia 01/12/2017, às 22:00 (horário anunciado).",
+      "time": "22:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0027",
+      "date": "2017-12-02",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-22"
+      ],
+      "evidence": "Programação consultada: Margareth Menezes, dia 02/12/2017, às 22:30 (horário anunciado).",
+      "time": "22:30",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0028",
+      "date": "2017-12-02",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-22"
+      ],
+      "evidence": "Programação consultada: Joésia Ramos, dia 02/12/2017, às 00:00 (horário anunciado).",
+      "time": "00:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0029",
+      "date": "2017-12-03",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-22"
+      ],
+      "evidence": "Programação consultada: The Baggios, dia 03/12/2017, às 21:30 (horário anunciado).",
+      "time": "21:30",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0030",
+      "date": "2017-12-03",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-22"
+      ],
+      "evidence": "Programação consultada: Nação Zumbi, dia 03/12/2017, às 23:30 (horário anunciado).",
+      "time": "23:30",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0033",
+      "date": "2017-12-01",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-22"
+      ],
+      "evidence": "Programação consultada: Cidade Dormitório, dia 01/12/2017, às 22:30 (horário anunciado).",
+      "time": "22:30",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0034",
+      "date": "2017-12-03",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-22"
+      ],
+      "evidence": "Programação consultada: Naurêa, dia 03/12/2017, às 17:30 (horário anunciado).",
+      "time": "17:30",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0035",
+      "date": "2017-12-03",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-22"
+      ],
+      "evidence": "Programação consultada: Trem do Samba com Marquinhos de Oswaldo Cruz e Tia Surica, dia 03/12/2017, às 19:00 (horário anunciado).",
+      "time": "19:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0036",
+      "date": "2017-12-01",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-22"
+      ],
+      "evidence": "Programação consultada: Theniza Melo Companhia de Dança, dia 01/12/2017, às 20:00 (horário anunciado).",
+      "time": "20:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0037",
+      "date": "2017-12-02",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-22"
+      ],
+      "evidence": "Programação consultada: Teatro Erukerê, dia 02/12/2017, às 19:30 (horário anunciado).",
+      "time": "19:30",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0038",
+      "date": "2017-12-02",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-22"
+      ],
+      "evidence": "Programação consultada: Cia de Teatro UFS, dia 02/12/2017, às 20:30 (horário anunciado).",
+      "time": "20:30",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0039",
+      "date": "2017-12-02",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-22"
+      ],
+      "evidence": "Programação consultada: Dicuri Produções, dia 02/12/2017, às 18:00 (horário anunciado).",
+      "time": "18:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0010",
+      "date": "2005-12-09",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-20"
+      ],
+      "evidence": "Programação consultada: Otto, dia 09/12/2005, às 22:30 (horário anunciado).",
+      "time": "22:30",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0011",
+      "date": "2005-12-09",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-20"
+      ],
+      "evidence": "Programação consultada: Ilê Aiyê, dia 09/12/2005, às 22:10 (horário anunciado).",
+      "time": "22:10",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0012",
+      "date": "2005-12-10",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-20"
+      ],
+      "evidence": "Programação consultada: Joésia Ramos, dia 10/12/2005, às 21:50 (horário anunciado).",
+      "time": "21:50",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0013",
+      "date": "2005-12-10",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-20"
+      ],
+      "evidence": "Programação consultada: Mariene de Castro, dia 10/12/2005, às 23:00 (horário anunciado).",
+      "time": "23:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0014",
+      "date": "2005-12-10",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-20"
+      ],
+      "evidence": "Programação consultada: Alceu Valença, dia 10/12/2005, às 00:00 (horário anunciado).",
+      "time": "00:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0015",
+      "date": "2005-12-11",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-20"
+      ],
+      "evidence": "Programação consultada: Nando Reis, dia 11/12/2005, às 22:30 (horário anunciado).",
+      "time": "22:30",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0016",
+      "date": "2005-12-11",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-20"
+      ],
+      "evidence": "Programação consultada: Chiko Queiroga e Antônio Rogério, dia 11/12/2005, às 00:00 (horário anunciado).",
+      "time": "00:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0017",
+      "date": "2005-12-09",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-20"
+      ],
+      "evidence": "Programação consultada: Orquestra Sinfônica de Sergipe, dia 09/12/2005, às 20:00 (horário anunciado).",
+      "time": "20:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0018",
+      "date": "2005-12-09",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-20"
+      ],
+      "evidence": "Programação consultada: Bando Teatro Olodum, dia 09/12/2005, às 21:00 (horário anunciado).",
+      "time": "21:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0019",
+      "date": "2005-12-10",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-20"
+      ],
+      "evidence": "Programação consultada: Outra Cia. de Teatro, dia 10/12/2005, às 21:00 (horário anunciado).",
+      "time": "21:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0020",
+      "date": "2005-12-10",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-20"
+      ],
+      "evidence": "Programação consultada: Grupo Imbuaça, dia 10/12/2005, às 11:00 (horário anunciado).",
+      "time": "11:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0021",
+      "date": "2005-12-11",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-20"
+      ],
+      "evidence": "Programação consultada: Mamulengo de Cheiroso, dia 11/12/2005, às 18:00 (horário anunciado).",
+      "time": "18:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0022",
+      "date": "2005-12-11",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-20"
+      ],
+      "evidence": "Programação consultada: Grupo Galpão, dia 11/12/2005, às 19:00 (horário anunciado).",
+      "time": "19:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0023",
+      "date": "2005-12-11",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-20"
+      ],
+      "evidence": "Programação consultada: Naurêa, dia 11/12/2005, às 22:00 (horário anunciado).",
+      "time": "22:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-base-0024",
+      "date": "2005-12-11",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-20"
+      ],
+      "evidence": "Programação consultada: Banda Reação, dia 11/12/2005, às 00:00 (horário anunciado).",
+      "time": "00:00",
+      "timeKind": "announced"
+    },
+    {
+      "performanceId": "research-novo-1988-olodum",
+      "date": "1988-10-21",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-18"
+      ],
+      "evidence": "Santos (2014), páginas PDF 112–113: edição de 1988 realizada de 21 a 29/10, com participação de Olodum na abertura. A data decorre da relação explícita entre abertura e apresentação, não da data do jornal."
+    },
+    {
+      "performanceId": "research-novo-1984-sivuca",
+      "date": "1984-12-07",
+      "dateKind": "program",
+      "sourceIds": [
+        "research-source-18"
+      ],
+      "evidence": "Santos (2014), página PDF 97: Sivuca abriu o XIII FASC; quadro de datas da página PDF 163 informa 07 a 09/12/1984. Data da abertura vinculada à apresentação; não é a data da publicação do jornal."
+    }
+  ],
+  "sources": [
+    {
+      "id": "2018",
+      "title": "UFS — programação da 35ª edição",
+      "url": "https://www.ufs.br/conteudo/62420-prefeitura-de-sao-cristovao-lanca-programacao-do-35-fasc",
+      "type": "announcement",
+      "publishedAt": "2018-10-04",
+      "note": "A referência a cerca de 30 anos de pausa diverge da notícia da retomada, que registra 12 anos. O acervo não reproduz a duração de 30 anos."
+    },
+    {
+      "id": "2019",
+      "title": "UFS — programação da 36ª edição",
+      "url": "https://www.ufs.br/conteudo/64406-programacao-do-festival-de-artes-de-sao-cristovao-comeca-nesta-quinta-feira-e-segue-ate-domingo",
+      "type": "announcement",
+      "publishedAt": "2019-11-13",
+      "note": "Confirma anúncios, não comprova execução de cada show nem informa os palcos dos artistas selecionados."
+    },
+    {
+      "id": "date-a8-2023",
+      "title": "A8 / Prefeitura — Programação completa de 2023",
+      "url": "https://a8se.com/noticias/entretenimento/2023/11/27/83078-marina-sena-e-carlinhos-brown-sao-atracoes-confirmadas-no-fasc-2023-confira-programacao-completa",
+      "type": "announcement"
+    },
+    {
+      "id": "date-music-2024",
+      "title": "Prefeitura — Dias e horários dos shows de 2024",
+      "url": "https://www.saocristovao.se.gov.br/noticia/grupo-revelacao-completa-quadro-de-atracoes-musicais-do-fasc-2024",
+      "type": "announcement"
+    },
+    {
+      "id": "research-source-18",
+      "title": "UFS · MISLENE VIEIRA SANTOS",
+      "url": "https://ri.ufs.br/bitstream/riufs/5649/1/MISLENE_VIEIRA_SANTOS.pdf",
+      "type": "institutional",
+      "note": "Fonte da pesquisa recebida. O status e os limites de cada afirmação estão no registro; uma programação não comprova sua execução."
+    },
+    {
+      "id": "research-source-20",
+      "title": "infonet.com.br · Referência histórica",
+      "url": "https://infonet.com.br/noticias/cultura/confira-a-programacao-oficial-e-completa-do-fasc/",
+      "type": "institutional",
+      "note": "Fonte da pesquisa recebida. O status e os limites de cada afirmação estão no registro; uma programação não comprova sua execução."
+    },
+    {
+      "id": "research-source-22",
+      "title": "a8se.com · 52085 divulgada a programacao completa do festival de artes",
+      "url": "https://a8se.com/noticias/sergipe/2017/11/29/52085-divulgada-a-programacao-completa-do-festival-de-artes",
+      "type": "institutional",
+      "note": "Fonte da pesquisa recebida. O status e os limites de cada afirmação estão no registro; uma programação não comprova sua execução."
+    },
+    {
+      "id": "research-source-24",
+      "title": "jornaldodiase.com.br · Referência histórica",
+      "url": "https://jornaldodiase.com.br/sao-cristovao-divulga-programacao-completa-do-fasc/",
+      "type": "institutional",
+      "note": "Fonte da pesquisa recebida. O status e os limites de cada afirmação estão no registro; uma programação não comprova sua execução."
+    },
+    {
+      "id": "research-source-29",
+      "title": "Prefeitura · confira a programacao completa do festival de artes de sao cristovao",
+      "url": "https://www.saocristovao.se.gov.br/noticia/confira-a-programacao-completa-do-festival-de-artes-de-sao-cristovao",
+      "type": "institutional",
+      "note": "Fonte da pesquisa recebida. O status e os limites de cada afirmação estão no registro; uma programação não comprova sua execução."
+    },
+    {
+      "id": "research-source-36",
+      "title": "infonet.com.br · Referência histórica",
+      "url": "https://infonet.com.br/noticias/cultura/divulgada-a-programacao-completa-do-fasc-2023-confira-as-atracoes/",
+      "type": "institutional",
+      "note": "Fonte da pesquisa recebida. O status e os limites de cada afirmação estão no registro; uma programação não comprova sua execução."
+    },
+    {
+      "id": "research-source-37",
+      "title": "Prefeitura · Programação Fasc 2024",
+      "url": "https://anexos.saocristovao.se.gov.br/storage/files/9/fasc-2024/Programac%CC%A7a%CC%83o-Fasc-2024.pdf",
+      "type": "institutional",
+      "note": "Fonte da pesquisa recebida. O status e os limites de cada afirmação estão no registro; uma programação não comprova sua execução."
+    },
+    {
+      "id": "research-source-41",
+      "title": "Prefeitura · festival de artes de sao cristovao promove discussoes literarias durante os tres dias de evento e aproxima leitores de grandes escritores",
+      "url": "https://www.saocristovao.se.gov.br/noticia/festival-de-artes-de-sao-cristovao-promove-discussoes-literarias-durante-os-tres-dias-de-evento-e-aproxima-leitores-de-grandes-escritores",
+      "type": "institutional",
+      "note": "Fonte da pesquisa recebida. O status e os limites de cada afirmação estão no registro; uma programação não comprova sua execução."
+    },
+    {
+      "id": "research-source-43",
+      "title": "Prefeitura · teatro no palco mariano antonio emociona publico no fasc 2024",
+      "url": "https://www.saocristovao.se.gov.br/noticia/teatro-no-palco-mariano-antonio-emociona-publico-no-fasc-2024",
+      "type": "institutional",
+      "note": "Fonte da pesquisa recebida. O status e os limites de cada afirmação estão no registro; uma programação não comprova sua execução."
+    },
+    {
+      "id": "research-source-44",
+      "title": "Prefeitura · FASC 2025   Programação Completa",
+      "url": "https://anexos.saocristovao.se.gov.br/storage/files/62/FASC%202025%20-%20Programa%C3%A7%C3%A3o%20Completa.pdf",
+      "type": "institutional",
+      "note": "Fonte da pesquisa recebida. O status e os limites de cada afirmação estão no registro; uma programação não comprova sua execução."
+    },
+    {
+      "id": "research-source-45",
+      "title": "Prefeitura · confira os horarios dos shows que agitarao os palcos joao bebe agua e frei santa cecilia no fasc 2025",
+      "url": "https://www.saocristovao.se.gov.br/index.php/noticia/confira-os-horarios-dos-shows-que-agitarao-os-palcos-joao-bebe-agua-e-frei-santa-cecilia-no-fasc-2025",
+      "type": "institutional",
+      "note": "Fonte da pesquisa recebida. O status e os limites de cada afirmação estão no registro; uma programação não comprova sua execução."
+    },
+    {
+      "id": "research-source-47",
+      "title": "Prefeitura · palco mariano antonio recebera espetaculos sergipanos e nacionais durante o fasc 2025",
+      "url": "https://www.saocristovao.se.gov.br/noticia/palco-mariano-antonio-recebera-espetaculos-sergipanos-e-nacionais-durante-o-fasc-2025",
+      "type": "institutional",
+      "note": "Fonte da pesquisa recebida. O status e os limites de cada afirmação estão no registro; uma programação não comprova sua execução."
+    },
+    {
+      "id": "research-source-50",
+      "title": "Prefeitura · literatura no fasc 2025 elisama santos mafuane oliveira e cristiane sobral abrem a programacao com debates sobre antirracismo e aquilombamento",
+      "url": "https://www.saocristovao.se.gov.br/noticia/literatura-no-fasc-2025-elisama-santos-mafuane-oliveira-e-cristiane-sobral-abrem-a-programacao-com-debates-sobre-antirracismo-e-aquilombamento",
+      "type": "institutional",
+      "note": "Fonte da pesquisa recebida. O status e os limites de cada afirmação estão no registro; uma programação não comprova sua execução."
+    },
+    {
+      "id": "research-source-52",
+      "title": "infonet.com.br · Referência histórica",
+      "url": "https://infonet.com.br/entretenimento-infonet/confira-programacao-completa-do-fasc-2019/",
+      "type": "institutional",
+      "note": "Fonte da pesquisa recebida. O status e os limites de cada afirmação estão no registro; uma programação não comprova sua execução."
+    }
+  ],
+  "remaining": [
+    {
+      "id": "research-base-0001",
+      "name": "Coral da UFS",
+      "edition": "1972",
+      "sourceUrls": [
+        "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-base-0002",
+      "name": "Maestro Antônio Carlos Plech",
+      "edition": "1972",
+      "sourceUrls": [
+        "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-base-0003",
+      "name": "Teatro Livre da Bahia",
+      "edition": "1972",
+      "sourceUrls": [
+        "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-base-0004",
+      "name": "Escola de Ballet Márcia Haydée",
+      "edition": "1972",
+      "sourceUrls": [
+        "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-base-0005",
+      "name": "Nóbia Marques",
+      "edition": "1972",
+      "sourceUrls": [
+        "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-base-0006",
+      "name": "Acrísio Torres",
+      "edition": "1972",
+      "sourceUrls": [
+        "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-base-0007",
+      "name": "Hunald Alencar",
+      "edition": "1972",
+      "sourceUrls": [
+        "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-base-0008",
+      "name": "Jackson da Silva Lima",
+      "edition": "1972",
+      "sourceUrls": [
+        "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-base-0009",
+      "name": "Beatriz Góis Dantas",
+      "edition": "1972",
+      "sourceUrls": [
+        "https://jornaisdesergipe.ufs.br/bitstream/123456789/43856/1/Jornal%20da%20Cidade%201972.07.16%20e%20%2017.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-novo-1985-chico-queiroga",
+      "name": "Chico Queiroga",
+      "edition": "1985",
+      "sourceUrls": [
+        "https://ri.ufs.br/bitstream/riufs/5649/1/MISLENE_VIEIRA_SANTOS.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-novo-1985-grupo-cataluzes",
+      "name": "Grupo Cataluzes",
+      "edition": "1985",
+      "sourceUrls": [
+        "https://ri.ufs.br/bitstream/riufs/5649/1/MISLENE_VIEIRA_SANTOS.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-novo-1988-wagner-tiso",
+      "name": "Wagner Tiso",
+      "edition": "1988",
+      "sourceUrls": [
+        "https://ri.ufs.br/bitstream/riufs/5649/1/MISLENE_VIEIRA_SANTOS.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-novo-1988-paulinho-da-viola",
+      "name": "Paulinho da Viola",
+      "edition": "1988",
+      "sourceUrls": [
+        "https://ri.ufs.br/bitstream/riufs/5649/1/MISLENE_VIEIRA_SANTOS.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-novo-1988-dominguinhos",
+      "name": "Dominguinhos",
+      "edition": "1988",
+      "sourceUrls": [
+        "https://ri.ufs.br/bitstream/riufs/5649/1/MISLENE_VIEIRA_SANTOS.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-novo-1988-pepeu-gomes",
+      "name": "Pepeu Gomes",
+      "edition": "1988",
+      "sourceUrls": [
+        "https://ri.ufs.br/bitstream/riufs/5649/1/MISLENE_VIEIRA_SANTOS.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-novo-1988-geraldo-azevedo",
+      "name": "Geraldo Azevedo",
+      "edition": "1988",
+      "sourceUrls": [
+        "https://ri.ufs.br/bitstream/riufs/5649/1/MISLENE_VIEIRA_SANTOS.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-novo-1988-chico-queiroga",
+      "name": "Chico Queiroga",
+      "edition": "1988",
+      "sourceUrls": [
+        "https://ri.ufs.br/bitstream/riufs/5649/1/MISLENE_VIEIRA_SANTOS.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-novo-1988-tonho-baixinho",
+      "name": "Tonho Baixinho",
+      "edition": "1988",
+      "sourceUrls": [
+        "https://ri.ufs.br/bitstream/riufs/5649/1/MISLENE_VIEIRA_SANTOS.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-novo-1989-alceu-valenca",
+      "name": "Alceu Valença",
+      "edition": "1989",
+      "sourceUrls": [
+        "https://ri.ufs.br/bitstream/riufs/5649/1/MISLENE_VIEIRA_SANTOS.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-novo-1990-jards-macale",
+      "name": "Jards Macalé",
+      "edition": "1990",
+      "sourceUrls": [
+        "https://www.articulistas.com.br/post/macal%C3%A9-tr%C3%AAs-vezes-em-sergipe"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-novo-1990-tunai",
+      "name": "Tunai",
+      "edition": "1990",
+      "sourceUrls": [
+        "https://www.articulistas.com.br/post/macal%C3%A9-tr%C3%AAs-vezes-em-sergipe"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-novo-1990-sebastiao-tapajos",
+      "name": "Sebastião Tapajós",
+      "edition": "1990",
+      "sourceUrls": [
+        "https://www.articulistas.com.br/post/macal%C3%A9-tr%C3%AAs-vezes-em-sergipe"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-novo-1990-mauricio-tapajos",
+      "name": "Maurício Tapajós",
+      "edition": "1990",
+      "sourceUrls": [
+        "https://www.articulistas.com.br/post/macal%C3%A9-tr%C3%AAs-vezes-em-sergipe"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-novo-1990-claudio-nucci",
+      "name": "Cláudio Nucci",
+      "edition": "1990",
+      "sourceUrls": [
+        "https://www.articulistas.com.br/post/macal%C3%A9-tr%C3%AAs-vezes-em-sergipe"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-novo-1991-nando-cordel",
+      "name": "Nando Cordel",
+      "edition": "1991",
+      "sourceUrls": [
+        "https://ri.ufs.br/bitstream/riufs/5649/1/MISLENE_VIEIRA_SANTOS.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-novo-1991-zeze-motta",
+      "name": "Zezé Motta",
+      "edition": "1991",
+      "sourceUrls": [
+        "https://ri.ufs.br/bitstream/riufs/5649/1/MISLENE_VIEIRA_SANTOS.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-novo-1993-moraes-moreira",
+      "name": "Moraes Moreira",
+      "edition": "1993",
+      "sourceUrls": [
+        "https://ri.ufs.br/bitstream/riufs/5649/1/MISLENE_VIEIRA_SANTOS.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-novo-1993-chico-queiroga",
+      "name": "Chico Queiroga",
+      "edition": "1993",
+      "sourceUrls": [
+        "https://ri.ufs.br/bitstream/riufs/5649/1/MISLENE_VIEIRA_SANTOS.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-novo-1993-amorosa",
+      "name": "Amorosa",
+      "edition": "1993",
+      "sourceUrls": [
+        "https://ri.ufs.br/bitstream/riufs/5649/1/MISLENE_VIEIRA_SANTOS.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-sem-ano-dona-ivone-lara",
+      "name": "Dona Ivone Lara",
+      "edition": null,
+      "sourceUrls": [
+        "https://www.gov.br/iphan/pt-br/assuntos/noticias/lei-rouanet-fomenta-realizacao-festival-de-artes-de-sao-cristovao"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-sem-ano-nelson-cavaquinho",
+      "name": "Nelson Cavaquinho",
+      "edition": null,
+      "sourceUrls": [
+        "https://www.gov.br/iphan/pt-br/assuntos/noticias/lei-rouanet-fomenta-realizacao-festival-de-artes-de-sao-cristovao"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-sem-ano-jorge-amado",
+      "name": "Jorge Amado",
+      "edition": null,
+      "sourceUrls": [
+        "https://www.gov.br/iphan/pt-br/assuntos/noticias/lei-rouanet-fomenta-realizacao-festival-de-artes-de-sao-cristovao"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-sem-ano-ariano-suassuna",
+      "name": "Ariano Suassuna",
+      "edition": null,
+      "sourceUrls": [
+        "https://www.gov.br/iphan/pt-br/assuntos/noticias/lei-rouanet-fomenta-realizacao-festival-de-artes-de-sao-cristovao"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-sem-ano-carlos-lyra",
+      "name": "Carlos Lyra",
+      "edition": null,
+      "sourceUrls": [
+        "https://www.gov.br/iphan/pt-br/assuntos/noticias/lei-rouanet-fomenta-realizacao-festival-de-artes-de-sao-cristovao"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-sem-ano-moreira-da-silva",
+      "name": "Moreira da Silva",
+      "edition": null,
+      "sourceUrls": [
+        "https://www.gov.br/iphan/pt-br/assuntos/noticias/lei-rouanet-fomenta-realizacao-festival-de-artes-de-sao-cristovao"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-sem-ano-arrigo-barnabe",
+      "name": "Arrigo Barnabé",
+      "edition": null,
+      "sourceUrls": [
+        "https://www.gov.br/iphan/pt-br/assuntos/noticias/lei-rouanet-fomenta-realizacao-festival-de-artes-de-sao-cristovao"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-sem-ano-djalma-muniz-de-brito",
+      "name": "Djalma Muniz de Brito",
+      "edition": null,
+      "sourceUrls": [
+        "https://www.gov.br/iphan/pt-br/assuntos/noticias/lei-rouanet-fomenta-realizacao-festival-de-artes-de-sao-cristovao"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-sem-ano-waly-salomao",
+      "name": "Waly Salomão",
+      "edition": null,
+      "sourceUrls": [
+        "https://www.gov.br/iphan/pt-br/assuntos/noticias/lei-rouanet-fomenta-realizacao-festival-de-artes-de-sao-cristovao",
+        "https://ri.ufs.br/bitstream/riufs/5649/1/MISLENE_VIEIRA_SANTOS.pdf"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-sem-ano-luiz-carlos-vinhas",
+      "name": "Luiz Carlos Vinhas",
+      "edition": null,
+      "sourceUrls": [
+        "https://www.articulistas.com.br/post/macal%C3%A9-tr%C3%AAs-vezes-em-sergipe"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-sem-ano-bale-stagium",
+      "name": "Balé Stagium",
+      "edition": null,
+      "sourceUrls": [
+        "https://www.articulistas.com.br/post/macal%C3%A9-tr%C3%AAs-vezes-em-sergipe"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-sem-ano-clyde-morgan",
+      "name": "Clyde Morgan",
+      "edition": null,
+      "sourceUrls": [
+        "https://www.articulistas.com.br/post/macal%C3%A9-tr%C3%AAs-vezes-em-sergipe"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    },
+    {
+      "id": "research-sem-ano-grupo-primeiro-ato",
+      "name": "Grupo Primeiro Ato",
+      "edition": null,
+      "sourceUrls": [
+        "https://www.articulistas.com.br/post/macal%C3%A9-tr%C3%AAs-vezes-em-sergipe"
+      ],
+      "reason": "As fontes consultadas não identificam dia individual; ano/período geral e datas de publicação não foram convertidos em dia de apresentação."
+    }
+  ]
+}
