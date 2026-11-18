@@ -1,0 +1,1049 @@
+{
+  "reviewedAt": "2026-11-18",
+  "scope": "Todos os retratos cadastrados e inventário de ausências no catálogo; ausente não significa inexistente em outras fontes.",
+  "counts": {
+    "artists": 191,
+    "featured": 80,
+    "photos": 10,
+    "featuredWithoutPhoto": 72,
+    "allWithoutPhoto": 181
+  },
+  "portraits": [
+    {
+      "artistId": "alceu",
+      "name": "Alceu Valença",
+      "imageSource": "https://publicacao.saocristovao.se.gov.br/laravel-filemanager/photos/3/2Q2A0607.jpg",
+      "evidence": "Imagem imediatamente após a declaração atribuída a Alceu Valença, antes do início do trecho The Baggios.",
+      "file": "alceu.jpg",
+      "alt": "Alceu Valença de chapéu, cantando no FASC 2022.",
+      "caption": "Alceu Valença · FASC 2022",
+      "credit": "Fernando Correia e Dani Santos / Prefeitura",
+      "source": "https://www.saocristovao.se.gov.br/noticia/alceu-valenca-the-baggios-e-coletivo-sergipano-de-mulheres-no-samba-animam-publico-do-palco-gal-costa-no-segundo-dia-do-fasc",
+      "position": "50% 28%",
+      "sha256": "72c8c1922d2909343495cd0f1549bdcd9cb023c5865dcb9642f66943c00cda80"
+    },
+    {
+      "artistId": "baggios",
+      "name": "The Baggios",
+      "imageSource": "https://publicacao.saocristovao.se.gov.br/laravel-filemanager/photos/3/2Q2A0746.jpg",
+      "evidence": "Imagem após a declaração de Julico sobre The Baggios, antes do relato da visitante.",
+      "file": "baggios.jpg",
+      "alt": "Julico, vocalista e guitarrista de The Baggios, durante show no FASC 2022.",
+      "caption": "Julico / The Baggios · FASC 2022",
+      "credit": "Fernando Correia e Dani Santos / Prefeitura",
+      "source": "https://www.saocristovao.se.gov.br/noticia/alceu-valenca-the-baggios-e-coletivo-sergipano-de-mulheres-no-samba-animam-publico-do-palco-gal-costa-no-segundo-dia-do-fasc",
+      "position": "50% 30%",
+      "sha256": "4762eed35ff9a538773216f0f016be387a98408085a8bac4456aa63e702244a5"
+    },
+    {
+      "artistId": "marina",
+      "name": "Marina Lima",
+      "imageSource": "https://publicacao.saocristovao.se.gov.br/laravel-filemanager/photos/19/WhatsApp%20Image%202024-12-01%20at%2013.23.44%20(1).jpeg",
+      "evidence": "Imagem após o parágrafo e a declaração de Marina Lima, antes do trecho BaianaSystem.",
+      "file": "marina-fasc-2024.jpg",
+      "alt": "Marina Lima cantando ao microfone no palco do FASC 2024.",
+      "caption": "Marina Lima · FASC 2024",
+      "credit": "Heitor Xavier / Prefeitura",
+      "source": "https://www.saocristovao.se.gov.br/noticia/fasc-2024-diversidade-musical-e-grande-publico-marcam-o-segundo-dia-de-apresentacoes-nos-palcos-joao-bebe-agua-e-frei-santa-cecilia",
+      "position": "50% 25%",
+      "sha256": "ee6d409dddee7e13a05be90f2e6b39bd534e51288412777f823542817f1792d1"
+    },
+    {
+      "artistId": "baiana",
+      "name": "BaianaSystem",
+      "imageSource": "https://publicacao.saocristovao.se.gov.br/laravel-filemanager/photos/19/WhatsApp%20Image%202024-12-01%20at%2013.23.47.jpeg",
+      "evidence": "Imagem após o parágrafo de BaianaSystem e a declaração de Russo Passapusso, antes da entrevista de Mestre Saci.",
+      "file": "baiana-fasc-2024.jpg",
+      "alt": "Apresentação da BaianaSystem no FASC 2024, com músicos e convidados no palco.",
+      "caption": "BaianaSystem · FASC 2024",
+      "credit": "Heitor Xavier / Prefeitura",
+      "source": "https://www.saocristovao.se.gov.br/noticia/fasc-2024-diversidade-musical-e-grande-publico-marcam-o-segundo-dia-de-apresentacoes-nos-palcos-joao-bebe-agua-e-frei-santa-cecilia",
+      "position": "50% 25%",
+      "sha256": "2bb244bc873f915e8411a303505b288fb1cfeee267710db95258a92060b78e2d"
+    },
+    {
+      "artistId": "catto",
+      "name": "Filipe Catto",
+      "imageSource": "https://publicacao.saocristovao.se.gov.br/laravel-filemanager/photos/19/IMG_9930.JPG",
+      "evidence": "Imagem precedida pela legenda Filipe Catto, cantora / Foto - Dani Santos.",
+      "file": "catto.jpg",
+      "alt": "Filipe Catto cantando no FASC 2024.",
+      "caption": "Filipe Catto · FASC 2024",
+      "credit": "Dani Santos / Prefeitura",
+      "source": "https://www.saocristovao.se.gov.br/noticia/fasc-2024-diversidade-musical-e-grande-publico-marcam-o-segundo-dia-de-apresentacoes-nos-palcos-joao-bebe-agua-e-frei-santa-cecilia",
+      "position": "50% 25%",
+      "sha256": "bffd7535a893a307301651d0a5f2a3d2983bb8fff988ac9f86dbd97b880ca6a1"
+    },
+    {
+      "artistId": "lamparina",
+      "name": "Lamparina",
+      "imageSource": "https://publicacao.saocristovao.se.gov.br/laravel-filemanager/photos/19/IMG_0064.JPG",
+      "evidence": "Imagem precedida pela legenda Lamparina / Foto - Dani Santos.",
+      "file": "lamparina.jpg",
+      "alt": "Integrantes de Lamparina no palco do FASC 2024.",
+      "caption": "Lamparina · FASC 2024",
+      "credit": "Dani Santos / Prefeitura",
+      "source": "https://www.saocristovao.se.gov.br/noticia/fasc-2024-diversidade-musical-e-grande-publico-marcam-o-segundo-dia-de-apresentacoes-nos-palcos-joao-bebe-agua-e-frei-santa-cecilia",
+      "sha256": "9491f6b01f4903020e3f5ee61227678d704b62f8b449835b6da4587058231f48"
+    },
+    {
+      "artistId": "gaby",
+      "name": "Gaby Amarantos",
+      "imageSource": "https://publicacao.saocristovao.se.gov.br/laravel-filemanager/photos/18/WhatsApp%20Image%202025-11-21%20at%2011.12.27%20(6).jpeg",
+      "evidence": "Imagem precedida pela legenda Gaby Amarantos (Foto - Julia Rodrigues), antes do trecho Edcity.",
+      "file": "gaby-fasc-2025.jpg",
+      "alt": "Gaby Amarantos se apresentando no FASC 2025.",
+      "caption": "Gaby Amarantos · FASC 2025",
+      "credit": "Julia Rodrigues / Prefeitura",
+      "source": "https://www.saocristovao.se.gov.br/noticia/primeira-noite-de-shows-do-fasc-2025-e-marcada-por-sucesso-de-publico-e-representatividade-negra-nos-palcos",
+      "position": "50% 25%",
+      "sha256": "261e3cea28fec5716ed56b62ff33349adc0d7d014a271733b5f382502cb20057"
+    },
+    {
+      "artistId": "karol",
+      "name": "Karol Conká",
+      "imageSource": "https://publicacao.saocristovao.se.gov.br/laravel-filemanager/photos/18/IMG_7542.jpg",
+      "evidence": "Imagem precedida pela legenda Karol Conká (Foto - Markus Mello).",
+      "file": "karol.jpg",
+      "alt": "Karol Conká com figurino dourado durante apresentação no FASC 2025.",
+      "caption": "Karol Conká · FASC 2025",
+      "credit": "Markus Mello / Prefeitura",
+      "source": "https://www.saocristovao.se.gov.br/noticia/primeira-noite-de-shows-do-fasc-2025-e-marcada-por-sucesso-de-publico-e-representatividade-negra-nos-palcos",
+      "position": "50% 30%",
+      "sha256": "10bdf48f3354876d8924e9523f2453e09d9d0c0575f67bcbff4e19058aa385cb"
+    },
+    {
+      "artistId": "edcity",
+      "name": "Edcity",
+      "file": "edcity-fasc-2025.jpg",
+      "alt": "Edcity Fantasmão cantando ao microfone no FASC 2025.",
+      "caption": "Edcity Fantasmão · FASC 2025",
+      "credit": "Julia Rodrigues / Prefeitura",
+      "source": "https://www.saocristovao.se.gov.br/noticia/primeira-noite-de-shows-do-fasc-2025-e-marcada-por-sucesso-de-publico-e-representatividade-negra-nos-palcos",
+      "imageSource": "https://publicacao.saocristovao.se.gov.br/laravel-filemanager/photos/18/WhatsApp%20Image%202025-11-21%20at%2011.12.27%20(8).jpeg",
+      "evidence": "Imagem precedida pela legenda Edcity (Foto - Julia Rodrigues); arquivo anteriormente associado à Gaby, corrigido após relato do responsável.",
+      "position": "50% 25%",
+      "sha256": "393cc7e81f63e1235f666ed16ffcb134bf9d780cc53a16f75b6dd1a7da7ca659"
+    },
+    {
+      "artistId": "olodum",
+      "name": "Olodum",
+      "imageSource": "https://publicacao.saocristovao.se.gov.br/laravel-filemanager/photos/18/WhatsApp%20Image%202025-11-21%20at%2011.12.27%20(3).jpeg",
+      "evidence": "Imagem precedida pela legenda Olodum (Foto - Julia Rodrigues).",
+      "file": "olodum.jpg",
+      "alt": "Percussionista do Olodum erguendo o tambor no FASC 2025.",
+      "caption": "Olodum · FASC 2025",
+      "credit": "Julia Rodrigues / Prefeitura",
+      "source": "https://www.saocristovao.se.gov.br/noticia/primeira-noite-de-shows-do-fasc-2025-e-marcada-por-sucesso-de-publico-e-representatividade-negra-nos-palcos",
+      "position": "50% 35%",
+      "sha256": "4fbc67e532055e20f5a3a87c2177cfa46f5c7524205ecd1bc0b476a73b8f3d79"
+    }
+  ],
+  "missing": [
+    {
+      "id": "imbuaca",
+      "name": "Grupo Imbuaça",
+      "featured": true
+    },
+    {
+      "id": "orsse",
+      "name": "Orquestra Sinfônica de Sergipe",
+      "featured": true
+    },
+    {
+      "id": "pedro-bomba",
+      "name": "Pedro Bomba",
+      "featured": false
+    },
+    {
+      "id": "gil",
+      "name": "Gilberto Gil",
+      "featured": true
+    },
+    {
+      "id": "liniker",
+      "name": "Liniker",
+      "featured": true
+    },
+    {
+      "id": "afexe",
+      "name": "Afoxé di Preto",
+      "featured": false
+    },
+    {
+      "id": "voz-da-vida",
+      "name": "Companhia de Teatro Voz da Vida",
+      "featured": false
+    },
+    {
+      "id": "formas",
+      "name": "Espaço Formas",
+      "featured": false
+    },
+    {
+      "id": "samba-pretas",
+      "name": "Samba das Pretas",
+      "featured": false
+    },
+    {
+      "id": "chiko-antonio",
+      "name": "Chiko Queiroga e Antônio Rogério",
+      "featured": true
+    },
+    {
+      "id": "galdencia",
+      "name": "Galdência Ferreira",
+      "featured": false
+    },
+    {
+      "id": "joesia",
+      "name": "Joésia Ramos",
+      "featured": false
+    },
+    {
+      "id": "zeca",
+      "name": "Zeca Baleiro",
+      "featured": true
+    },
+    {
+      "id": "groundation",
+      "name": "Groundation",
+      "featured": true
+    },
+    {
+      "id": "nona",
+      "name": "Nona",
+      "featured": false
+    },
+    {
+      "id": "fulgencios",
+      "name": "Fulgêncios",
+      "featured": false
+    },
+    {
+      "id": "perola",
+      "name": "Pérola",
+      "featured": false
+    },
+    {
+      "id": "serigy",
+      "name": "Serigy All-Star",
+      "featured": false
+    },
+    {
+      "id": "saci",
+      "name": "Mestre Saci",
+      "featured": false
+    },
+    {
+      "id": "nine",
+      "name": "Nine Senses",
+      "featured": false
+    },
+    {
+      "id": "iggo",
+      "name": "Iggo Centaura",
+      "featured": false
+    },
+    {
+      "id": "descidao",
+      "name": "Descidão dos Quilombolas",
+      "featured": false
+    },
+    {
+      "id": "samba-nua",
+      "name": "Samba Nuaá",
+      "featured": false
+    },
+    {
+      "id": "trakinagem",
+      "name": "Trakinagem",
+      "featured": false
+    },
+    {
+      "id": "santa-cena",
+      "name": "Santa Cena",
+      "featured": false
+    },
+    {
+      "id": "joyce",
+      "name": "Joyce Alane",
+      "featured": false
+    },
+    {
+      "id": "artist-coral-da-ufs",
+      "name": "Coral da UFS",
+      "featured": false
+    },
+    {
+      "id": "artist-maestro-antonio-carlos-plech",
+      "name": "Maestro Antônio Carlos Plech",
+      "featured": false
+    },
+    {
+      "id": "artist-teatro-livre-da-bahia",
+      "name": "Teatro Livre da Bahia",
+      "featured": false
+    },
+    {
+      "id": "artist-escola-de-ballet-marcia-haydee",
+      "name": "Escola de Ballet Márcia Haydée",
+      "featured": false
+    },
+    {
+      "id": "artist-nobia-marques",
+      "name": "Nóbia Marques",
+      "featured": false
+    },
+    {
+      "id": "artist-acrisio-torres",
+      "name": "Acrísio Torres",
+      "featured": false
+    },
+    {
+      "id": "artist-hunald-alencar",
+      "name": "Hunald Alencar",
+      "featured": false
+    },
+    {
+      "id": "artist-jackson-da-silva-lima",
+      "name": "Jackson da Silva Lima",
+      "featured": true
+    },
+    {
+      "id": "artist-beatriz-gois-dantas",
+      "name": "Beatriz Góis Dantas",
+      "featured": true
+    },
+    {
+      "id": "artist-otto",
+      "name": "Otto",
+      "featured": true
+    },
+    {
+      "id": "artist-ile-aiye",
+      "name": "Ilê Aiyê",
+      "featured": true
+    },
+    {
+      "id": "artist-mariene-de-castro",
+      "name": "Mariene de Castro",
+      "featured": true
+    },
+    {
+      "id": "artist-nando-reis",
+      "name": "Nando Reis",
+      "featured": true
+    },
+    {
+      "id": "artist-bando-teatro-olodum",
+      "name": "Bando Teatro Olodum",
+      "featured": true
+    },
+    {
+      "id": "artist-outra-cia-de-teatro",
+      "name": "Outra Cia. de Teatro",
+      "featured": false
+    },
+    {
+      "id": "artist-mamulengo-de-cheiroso",
+      "name": "Mamulengo de Cheiroso",
+      "featured": false
+    },
+    {
+      "id": "artist-grupo-galpao",
+      "name": "Grupo Galpão",
+      "featured": true
+    },
+    {
+      "id": "artist-naurea",
+      "name": "Naurêa",
+      "featured": true
+    },
+    {
+      "id": "artist-banda-reacao",
+      "name": "Banda Reação",
+      "featured": false
+    },
+    {
+      "id": "artist-mestrinho",
+      "name": "Mestrinho",
+      "featured": true
+    },
+    {
+      "id": "artist-margareth-menezes",
+      "name": "Margareth Menezes",
+      "featured": true
+    },
+    {
+      "id": "artist-nacao-zumbi",
+      "name": "Nação Zumbi",
+      "featured": true
+    },
+    {
+      "id": "artist-cidade-dormitorio",
+      "name": "Cidade Dormitório",
+      "featured": true
+    },
+    {
+      "id": "artist-trem-do-samba-com-marquinhos-de-oswaldo-cruz-e-tia-surica",
+      "name": "Trem do Samba com Marquinhos de Oswaldo Cruz e Tia Surica",
+      "featured": false
+    },
+    {
+      "id": "artist-theniza-melo-companhia-de-danca",
+      "name": "Theniza Melo Companhia de Dança",
+      "featured": false
+    },
+    {
+      "id": "artist-teatro-erukere",
+      "name": "Teatro Erukerê",
+      "featured": false
+    },
+    {
+      "id": "artist-cia-de-teatro-ufs",
+      "name": "Cia de Teatro UFS",
+      "featured": false
+    },
+    {
+      "id": "artist-dicuri-producoes",
+      "name": "Dicuri Produções",
+      "featured": false
+    },
+    {
+      "id": "artist-lenine",
+      "name": "Lenine",
+      "featured": true
+    },
+    {
+      "id": "artist-ceu",
+      "name": "Céu",
+      "featured": true
+    },
+    {
+      "id": "artist-chico-cesar",
+      "name": "Chico César",
+      "featured": true
+    },
+    {
+      "id": "artist-mart-nalia",
+      "name": "Mart’nália",
+      "featured": true
+    },
+    {
+      "id": "artist-orquestra-de-atabaques-de-sergipe",
+      "name": "Orquestra de Atabaques de Sergipe",
+      "featured": false
+    },
+    {
+      "id": "artist-samba-do-arnesto",
+      "name": "Samba do Arnesto",
+      "featured": false
+    },
+    {
+      "id": "artist-luedji-luna",
+      "name": "Luedji Luna",
+      "featured": true
+    },
+    {
+      "id": "artist-banda-eddie",
+      "name": "Banda Eddie",
+      "featured": false
+    },
+    {
+      "id": "artist-rincon-sapiencia",
+      "name": "Rincon Sapiência",
+      "featured": false
+    },
+    {
+      "id": "artist-samba-de-coco-da-ilha-grande",
+      "name": "Samba de Coco da Ilha Grande",
+      "featured": false
+    },
+    {
+      "id": "artist-patricia-polayne",
+      "name": "Patrícia Polayne",
+      "featured": true
+    },
+    {
+      "id": "artist-dami-doria-quarteto",
+      "name": "Dami Dória Quarteto",
+      "featured": false
+    },
+    {
+      "id": "artist-voodoo-cigano",
+      "name": "Voodoo Cigano",
+      "featured": false
+    },
+    {
+      "id": "artist-caceteiras-de-mestre-rindu",
+      "name": "Caceteiras de Mestre Rindú",
+      "featured": false
+    },
+    {
+      "id": "artist-samba-de-pareia-de-laranjeiras",
+      "name": "Samba de Pareia de Laranjeiras",
+      "featured": false
+    },
+    {
+      "id": "artist-taieiras-de-sao-cristovao",
+      "name": "Taieiras de São Cristóvão",
+      "featured": false
+    },
+    {
+      "id": "artist-parafusos",
+      "name": "Parafusos",
+      "featured": false
+    },
+    {
+      "id": "artist-cordel-do-fogo-encantado",
+      "name": "Cordel do Fogo Encantado",
+      "featured": true
+    },
+    {
+      "id": "artist-dezarie",
+      "name": "Dezarie",
+      "featured": true
+    },
+    {
+      "id": "artist-att-xxa",
+      "name": "Àttøøxxá",
+      "featured": false
+    },
+    {
+      "id": "artist-silverio-pessoa",
+      "name": "Silvério Pessoa",
+      "featured": false
+    },
+    {
+      "id": "artist-afrocidade",
+      "name": "Afrocidade",
+      "featured": false
+    },
+    {
+      "id": "artist-isis-broken",
+      "name": "Isis Broken",
+      "featured": false
+    },
+    {
+      "id": "artist-grupo-lurupari",
+      "name": "Grupo Lurupari",
+      "featured": false
+    },
+    {
+      "id": "artist-xico-sa",
+      "name": "Xico Sá",
+      "featured": true
+    },
+    {
+      "id": "artist-paloma-amado",
+      "name": "Paloma Amado",
+      "featured": false
+    },
+    {
+      "id": "artist-tania-mara",
+      "name": "Tânia Mara",
+      "featured": false
+    },
+    {
+      "id": "artist-daniela-mercury",
+      "name": "Daniela Mercury",
+      "featured": true
+    },
+    {
+      "id": "artist-larissa-luz",
+      "name": "Larissa Luz",
+      "featured": false
+    },
+    {
+      "id": "artist-mc-tha",
+      "name": "MC Tha",
+      "featured": false
+    },
+    {
+      "id": "artist-reemah",
+      "name": "Reemah",
+      "featured": false
+    },
+    {
+      "id": "artist-emicida",
+      "name": "Emicida",
+      "featured": true
+    },
+    {
+      "id": "artist-diogo-nogueira",
+      "name": "Diogo Nogueira",
+      "featured": true
+    },
+    {
+      "id": "artist-bk",
+      "name": "BK’",
+      "featured": true
+    },
+    {
+      "id": "artist-almerio",
+      "name": "Almério",
+      "featured": false
+    },
+    {
+      "id": "artist-academia-da-berlinda",
+      "name": "Academia da Berlinda",
+      "featured": false
+    },
+    {
+      "id": "artist-heloa",
+      "name": "Héloa",
+      "featured": false
+    },
+    {
+      "id": "artist-alex-sant-anna",
+      "name": "Alex Sant’Anna",
+      "featured": false
+    },
+    {
+      "id": "artist-cia-de-teatro-loucos-por-loucos",
+      "name": "Cia de Teatro Loucos por Loucos",
+      "featured": false
+    },
+    {
+      "id": "artist-paulo-andre",
+      "name": "Paulo André",
+      "featured": false
+    },
+    {
+      "id": "artist-carlinhos-brown",
+      "name": "Carlinhos Brown",
+      "featured": true
+    },
+    {
+      "id": "artist-marina-sena",
+      "name": "Marina Sena",
+      "featured": false
+    },
+    {
+      "id": "artist-djonga",
+      "name": "Djonga",
+      "featured": true
+    },
+    {
+      "id": "artist-arlindinho",
+      "name": "Arlindinho",
+      "featured": false
+    },
+    {
+      "id": "artist-rachel-reis",
+      "name": "Rachel Reis",
+      "featured": false
+    },
+    {
+      "id": "artist-pato-fu",
+      "name": "Pato Fu",
+      "featured": true
+    },
+    {
+      "id": "artist-vandal",
+      "name": "Vandal",
+      "featured": false
+    },
+    {
+      "id": "artist-fbc",
+      "name": "FBC",
+      "featured": false
+    },
+    {
+      "id": "artist-luisa-e-os-alquimistas",
+      "name": "Luísa e os Alquimistas",
+      "featured": false
+    },
+    {
+      "id": "artist-morgana",
+      "name": "Morgana",
+      "featured": false
+    },
+    {
+      "id": "artist-maracatu-ase-d-ori",
+      "name": "Maracatu Asé D’Ori",
+      "featured": false
+    },
+    {
+      "id": "artist-quadrilha-meu-xodo",
+      "name": "Quadrilha Meu Xodó",
+      "featured": false
+    },
+    {
+      "id": "artist-timbalada",
+      "name": "Timbalada",
+      "featured": true
+    },
+    {
+      "id": "artist-grupo-revelacao",
+      "name": "Grupo Revelação",
+      "featured": false
+    },
+    {
+      "id": "artist-tasha-tracie",
+      "name": "Tasha & Tracie",
+      "featured": false
+    },
+    {
+      "id": "artist-clinton-fearon",
+      "name": "Clinton Fearon",
+      "featured": true
+    },
+    {
+      "id": "artist-don-l",
+      "name": "Don L",
+      "featured": true
+    },
+    {
+      "id": "artist-arnaldo-antunes",
+      "name": "Arnaldo Antunes",
+      "featured": true
+    },
+    {
+      "id": "artist-maeana",
+      "name": "Mãeana",
+      "featured": false
+    },
+    {
+      "id": "artist-francisco-el-hombre",
+      "name": "Francisco, el Hombre",
+      "featured": false
+    },
+    {
+      "id": "artist-mombojo",
+      "name": "Mombojó",
+      "featured": false
+    },
+    {
+      "id": "artist-amara-moira",
+      "name": "Amara Moira",
+      "featured": true
+    },
+    {
+      "id": "artist-socorro-acioli",
+      "name": "Socorro Acioli",
+      "featured": false
+    },
+    {
+      "id": "artist-itamar-vieira-junior",
+      "name": "Itamar Vieira Junior",
+      "featured": true
+    },
+    {
+      "id": "artist-grupo-riso-cinico",
+      "name": "Grupo Riso Cínico",
+      "featured": false
+    },
+    {
+      "id": "artist-grupo-a-tua-lona",
+      "name": "Grupo A Tua Lona",
+      "featured": false
+    },
+    {
+      "id": "artist-embrazados-crew",
+      "name": "Embrazados Crew",
+      "featured": false
+    },
+    {
+      "id": "artist-pabllo-vittar",
+      "name": "Pabllo Vittar",
+      "featured": true
+    },
+    {
+      "id": "artist-marcelo-d2",
+      "name": "Marcelo D2",
+      "featured": true
+    },
+    {
+      "id": "artist-joao-gomes",
+      "name": "João Gomes",
+      "featured": true
+    },
+    {
+      "id": "artist-seu-jorge",
+      "name": "Seu Jorge",
+      "featured": true
+    },
+    {
+      "id": "artist-saulo-fernandes",
+      "name": "Saulo Fernandes",
+      "featured": false
+    },
+    {
+      "id": "artist-os-garotin",
+      "name": "Os Garotin",
+      "featured": false
+    },
+    {
+      "id": "artist-maysa-reis",
+      "name": "Maysa Reis",
+      "featured": false
+    },
+    {
+      "id": "artist-lia-de-itamaraca",
+      "name": "Lia de Itamaracá",
+      "featured": true
+    },
+    {
+      "id": "artist-maglore",
+      "name": "Maglore",
+      "featured": false
+    },
+    {
+      "id": "artist-urias",
+      "name": "Urias",
+      "featured": false
+    },
+    {
+      "id": "artist-dead-fish",
+      "name": "Dead Fish",
+      "featured": true
+    },
+    {
+      "id": "artist-mundo-livre-s-a",
+      "name": "Mundo Livre S/A",
+      "featured": true
+    },
+    {
+      "id": "artist-getulio-abelha",
+      "name": "Getúlio Abelha",
+      "featured": false
+    },
+    {
+      "id": "artist-mestre-ambrosio",
+      "name": "Mestre Ambrósio",
+      "featured": false
+    },
+    {
+      "id": "artist-ana-frango-eletrico",
+      "name": "Ana Frango Elétrico",
+      "featured": false
+    },
+    {
+      "id": "artist-chico-chico",
+      "name": "Chico Chico",
+      "featured": false
+    },
+    {
+      "id": "artist-raphael-montes",
+      "name": "Raphael Montes",
+      "featured": true
+    },
+    {
+      "id": "artist-elisama-santos",
+      "name": "Elisama Santos",
+      "featured": false
+    },
+    {
+      "id": "artist-mafuane-oliveira",
+      "name": "Mafuane Oliveira",
+      "featured": false
+    },
+    {
+      "id": "artist-cristiane-sobral",
+      "name": "Cristiane Sobral",
+      "featured": true
+    },
+    {
+      "id": "artist-sergio-vaz",
+      "name": "Sérgio Vaz",
+      "featured": true
+    },
+    {
+      "id": "artist-luiza-romao",
+      "name": "Luiza Romão",
+      "featured": true
+    },
+    {
+      "id": "artist-izabel-nascimento",
+      "name": "Izabel Nascimento",
+      "featured": false
+    },
+    {
+      "id": "artist-carmen-lucia",
+      "name": "Cármen Lúcia",
+      "featured": true
+    },
+    {
+      "id": "artist-afrobapho",
+      "name": "Afrobapho",
+      "featured": false
+    },
+    {
+      "id": "artist-mamulengo-baile-estrela",
+      "name": "Mamulengo Baile Estrela",
+      "featured": false
+    },
+    {
+      "id": "artist-trupe-kadabra",
+      "name": "Trupe Kadabra",
+      "featured": false
+    },
+    {
+      "id": "artist-catalise-cia-de-artistas",
+      "name": "Catalise Cia de Artistas",
+      "featured": false
+    },
+    {
+      "id": "artist-coletivo-transe",
+      "name": "Coletivo Transe",
+      "featured": false
+    },
+    {
+      "id": "artist-sivuca",
+      "name": "Sivuca",
+      "featured": true
+    },
+    {
+      "id": "artist-chico-queiroga",
+      "name": "Chico Queiroga",
+      "featured": false
+    },
+    {
+      "id": "artist-grupo-cataluzes",
+      "name": "Grupo Cataluzes",
+      "featured": false
+    },
+    {
+      "id": "artist-wagner-tiso",
+      "name": "Wagner Tiso",
+      "featured": true
+    },
+    {
+      "id": "artist-paulinho-da-viola",
+      "name": "Paulinho da Viola",
+      "featured": true
+    },
+    {
+      "id": "artist-dominguinhos",
+      "name": "Dominguinhos",
+      "featured": true
+    },
+    {
+      "id": "artist-pepeu-gomes",
+      "name": "Pepeu Gomes",
+      "featured": true
+    },
+    {
+      "id": "artist-geraldo-azevedo",
+      "name": "Geraldo Azevedo",
+      "featured": true
+    },
+    {
+      "id": "artist-tonho-baixinho",
+      "name": "Tonho Baixinho",
+      "featured": false
+    },
+    {
+      "id": "artist-jards-macale",
+      "name": "Jards Macalé",
+      "featured": true
+    },
+    {
+      "id": "artist-tunai",
+      "name": "Tunai",
+      "featured": false
+    },
+    {
+      "id": "artist-sebastiao-tapajos",
+      "name": "Sebastião Tapajós",
+      "featured": false
+    },
+    {
+      "id": "artist-mauricio-tapajos",
+      "name": "Maurício Tapajós",
+      "featured": false
+    },
+    {
+      "id": "artist-claudio-nucci",
+      "name": "Cláudio Nucci",
+      "featured": false
+    },
+    {
+      "id": "artist-nando-cordel",
+      "name": "Nando Cordel",
+      "featured": true
+    },
+    {
+      "id": "artist-zeze-motta",
+      "name": "Zezé Motta",
+      "featured": true
+    },
+    {
+      "id": "artist-moraes-moreira",
+      "name": "Moraes Moreira",
+      "featured": true
+    },
+    {
+      "id": "artist-amorosa",
+      "name": "Amorosa",
+      "featured": false
+    },
+    {
+      "id": "artist-dona-ivone-lara",
+      "name": "Dona Ivone Lara",
+      "featured": true
+    },
+    {
+      "id": "artist-nelson-cavaquinho",
+      "name": "Nelson Cavaquinho",
+      "featured": true
+    },
+    {
+      "id": "artist-jorge-amado",
+      "name": "Jorge Amado",
+      "featured": true
+    },
+    {
+      "id": "artist-ariano-suassuna",
+      "name": "Ariano Suassuna",
+      "featured": true
+    },
+    {
+      "id": "artist-carlos-lyra",
+      "name": "Carlos Lyra",
+      "featured": true
+    },
+    {
+      "id": "artist-moreira-da-silva",
+      "name": "Moreira da Silva",
+      "featured": false
+    },
+    {
+      "id": "artist-arrigo-barnabe",
+      "name": "Arrigo Barnabé",
+      "featured": true
+    },
+    {
+      "id": "artist-djalma-muniz-de-brito",
+      "name": "Djalma Muniz de Brito",
+      "featured": false
+    },
+    {
+      "id": "artist-waly-salomao",
+      "name": "Waly Salomão",
+      "featured": true
+    },
+    {
+      "id": "artist-luiz-carlos-vinhas",
+      "name": "Luiz Carlos Vinhas",
+      "featured": false
+    },
+    {
+      "id": "artist-bale-stagium",
+      "name": "Balé Stagium",
+      "featured": true
+    },
+    {
+      "id": "artist-clyde-morgan",
+      "name": "Clyde Morgan",
+      "featured": false
+    },
+    {
+      "id": "artist-grupo-primeiro-ato",
+      "name": "Grupo Primeiro Ato",
+      "featured": false
+    }
+  ]
+}

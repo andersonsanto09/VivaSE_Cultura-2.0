@@ -283,3 +283,16 @@ Detalhes, testes e limites: [26 — Programação pessoal e Cultura](26-PROGRAMA
 - [ ] Aceite visual e conferência da nova página em aparelho físico.
 
 Evidências e limites: [27 — Sobre editorial e transparência](27-SOBRE-EDITORIAL-E-TRANSPARENCIA.md).
+
+
+## Auditoria dos retratos — 18/11/2026
+
+- [x] Corrigir a associação de Gaby Amarantos e reassociar o arquivo anterior a Edcity.
+- [x] Revisar os demais retratos; corrigir Marina Lima e BaianaSystem.
+- [x] Registrar imagem original e evidência de legenda/contexto por retrato.
+- [x] Inventariar ausências: 72 destaques sem foto cadastrada; 181 no catálogo completo.
+- [x] Distinguir ausência de foto e falha de carregamento; recuperar ao mudar de artista.
+- [x] Verificar arquivos, carregamento, navegação, acessibilidade e build.
+- [ ] Pesquisar fotografias dos demais nomes, com atribuição conferida, em expansão editorial futura.
+
+Detalhes e inventário: [28 — Auditoria dos retratos](28-AUDITORIA-DOS-RETRATOS.md).
