@@ -189,3 +189,5 @@ Experiência atual do mapa: [pins individuais, precisão e próximos passos](doc
 Direção visual atual: [Cartaz vivo + Atlas cultural e validação](docs/19-DIRECAO-VISUAL-IMPLEMENTADA.md).
 
 Site: [VivaSE Cultura no GitHub Pages](https://bernas0610.github.io/VivaSE_Cultura-2.0/). [Configuração da publicação](docs/21-PUBLICACAO-GITHUB-PAGES.md).
+
+Revisão visual de 17/11: Home editorial, nove fotografias identificadas de artistas, cartazes tipográficos, miniaturas dos locais e agenda com destaques editoriais. [Registro e verificação](docs/25-REFINAMENTO-VISUAL-E-ACERVO-FOTOGRAFICO.md).

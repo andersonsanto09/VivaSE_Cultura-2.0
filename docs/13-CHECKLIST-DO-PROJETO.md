@@ -236,3 +236,15 @@ Registro detalhado: [24 — Pesquisa integrada](24-PESQUISA-INTEGRADA-E-MAQUINA-
 - [x] Distinguir identidade do palco de uma referência geográfica compartilhada; anúncios não aparecem como shows executados.
 - [x] Estado explícito quando o recorte ainda não contém um grande nome documentado para o palco.
 - [x] 28 testes de domínio, build e verificação no navegador de navegação e reflow 390/320 px.
+
+### Revisão estética completa — Home, acervo, lugares, agenda e mapa
+
+- [x] Home com fotografia da cidade, memória atribuída e destaque do acervo.
+- [x] Nove fotografias identificadas de artistas, créditos, cartazes tipográficos e seleção editorial.
+- [x] Fotografias maiores e hierarquia própria nos detalhes dos locais.
+- [x] Agenda compacta com horários fortes e destaques editoriais estáveis ao filtrar.
+- [x] Miniaturas nos 20 espaços e ano selecionado mais visível na máquina do tempo.
+- [x] Verificar navegação, filtros, fotos, contraste, reflow e build.
+- [ ] Aceite visual e teste final em aparelho físico.
+
+Detalhes: [25 — Refinamento visual](25-REFINAMENTO-VISUAL-E-ACERVO-FOTOGRAFICO.md).

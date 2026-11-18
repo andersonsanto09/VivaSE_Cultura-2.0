@@ -1,3 +1,5 @@
+import {editorialActivityIds} from './data/editorial';
+import PlaceThumbnail from './components/PlaceThumbnail';
 import TimeMachine,{TimeMachineProvider} from './components/TimeMachine';
 import { Suspense, lazy, useEffect, useMemo, useRef, useState } from 'react';
 import MapBoundary from './components/MapBoundary';
@@ -12,6 +14,7 @@ import { activities, categories, geoSources, places, reviewedAt } from './data/f
 import { days, displayTime, festivalStart, festivalEnd, filterPlaces, normalize, isActivityLive, festivalDayAt } from './domain/catalog';
 import type { Activity, FestivalDay, Place } from './domain/catalog';
 
+const HomeCulture=lazy(()=>import('./features/HomeCulture'));
 const StageArtists=lazy(()=>import('./components/StageArtists'));
 const MapView = lazy(() => import('./features/MapView'));
 const CultureView = lazy(() => import('./features/CultureView'));
@@ -73,7 +76,7 @@ function Home() {
       <div className="festival-dates">{days.map(d => <a key={d.id} className={`date-block date-${d.id}`} href={`#/programacao?dia=${d.id}`} aria-label={`Ver programação de ${d.name}, ${d.id} de novembro`}><strong>{d.id}</strong><span>{d.name}<small>novembro <ArrowUpRight size={15} aria-hidden="true" /></small></span></a>)}</div>
     </section>
     <section className="home-explore" aria-label="Explorar por categoria"><div className="start-links">{categoryItems.map(({name,tone,icon:Symbol})=>{const count=places.filter(place=>place.category===name).length;return <a key={name} className={`start-card tone-${tone}`} href={`#/mapa?dia=20&categoria=${encodeURIComponent(name)}`}><Symbol className="start-card-symbol" size={27} strokeWidth={1.8} aria-hidden="true" /><strong>{name}</strong><span className="start-card-count">{count} {count===1?'espaço':'espaços'}</span><span className="start-card-action">Explorar <ArrowUpRight size={18} aria-hidden="true" /></span></a>;})}</div></section>
-    <section className="home-culture"><div><p className="eyebrow">O encontro continua</p><h2>Para além<br/>do palco.</h2><p>Descubra lugares, conheça histórias e guarde o que o festival deixou em você.</p></div><div>{[{id:'roteiros',title:'Caminhos pela cultura',label:'Explorar roteiros'},{id:'memorias',title:'Histórias que ficam',label:'Ler e escrever memórias'},{id:'historia',title:'O FASC através do tempo',label:'Conhecer a linha do tempo'}].map((item,index)=><a key={item.id} href={`#/${item.id}?dia=20`}><span>0{index+1}</span><span><strong>{item.title}</strong><small>{item.label}</small></span><ArrowUpRight size={23} aria-hidden="true" /></a>)}</div></section>
+    <Suspense fallback={<div className="home-editorial-loading" role="status">Abrindo histórias da cidade…</div>}><HomeCulture/></Suspense>
     <footer className="home-footer"><span>VivaSE Cultura — seu guia para viver o FASC.</span><a href="#/sobre">Sobre o protótipo e os créditos <Icon name="arrow" size={16} /></a></footer>
   </main>;
 }
@@ -89,8 +92,9 @@ function PlaceDetail({ place, day, onBack, returnLabel }: { place: Place; day: F
   }
   return <section className="place-detail" aria-label="Detalhes do espaço">
     <button className="back-button" onClick={onBack}><Icon name="back" size={18} /> {returnLabel || 'Todos os espaços'}</button>
+    <div className="place-cover"><PlacePhoto placeId={place.id}/></div>
     <span className={`category-label tone-${categoryTone(place.category)}`}><span className="detail-category-symbol"><PlaceSymbol place={place} size={18} /></span>{place.category}</span><h2 tabIndex={-1} ref={heading}>{place.name}</h2>
-    <PlacePhoto placeId={place.id}/><p className="place-address"><Icon name="pin" size={17} />{place.address}</p><p className="precision-note">{place.locationKind!=='equipment' || place.id==='bica' ? 'Referência aproximada: o ponto indica a área, não a entrada exata.' : 'Referência do equipamento. Confirme a entrada e o acesso ao chegar.'}</p>
+    <p className="place-address"><Icon name="pin" size={17} />{place.address}</p><p className="precision-note">{place.locationKind!=='equipment' || place.id==='bica' ? 'Referência aproximada: o ponto indica a área, não a entrada exata.' : 'Referência do equipamento. Confirme a entrada e o acesso ao chegar.'}</p>
     {rows.length > 0 && <p className="day-preview"><strong>{displayTime(rows[0].time)}</strong><span>Primeiro horário anunciado · {day}/11<br />{rows[0].title}</span></p>}
     <div className="place-actions">{place.canNavigate ? <a className="button primary" href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(destination)}&travelmode=walking`} target="_blank" rel="noreferrer">Como chegar <Icon name="external" size={17} /></a> : <p className="notice">O endereço está em conferência. O trajeto será disponibilizado após a confirmação.</p>}
       {place.canNavigate && <button className="small-action" onClick={copyAddress}>Copiar endereço</button>}<span role="status" className="copy-status">{copied}</span>
@@ -112,7 +116,7 @@ function Explore({ day, placeId, query, category, origin }: { day: FestivalDay; 
   const listScroll=useRef(0);
   const request=useRef(0);
   useEffect(()=>()=>{request.current++;},[]);
-  useEffect(()=>{if(placeId) lastPlace.current=placeId;else if(lastPlace.current && panel.current){
+  useEffect(()=>{if(placeId){lastPlace.current=placeId;panel.current?.scrollTo(0,0);}else if(lastPlace.current && panel.current){
     const button=Array.from(panel.current.querySelectorAll<HTMLButtonElement>('.place-row')).find(button=>button.dataset.place===lastPlace.current);
     button?.focus({preventScroll:true});panel.current.scrollTop=listScroll.current;
   }},[placeId]);
@@ -157,7 +161,7 @@ function Explore({ day, placeId, query, category, origin }: { day: FestivalDay; 
           {category!=='Todos' && <button className="filter-reset" onClick={()=>setCategory('Todos')}>Limpar categoria <Icon name="close" size={14} /></button>}
           <div className="result-count" aria-live="polite"><strong>{filtered.length} {filtered.length === 1 ? 'espaço' : 'espaços'}</strong><span>{pinCount} com referência no mapa</span></div>
         </div>
-        <div className="places-list">{filtered.length ? filtered.map(place => <button className={`place-row ${selected?.id===place.id?'is-selected':''}`} aria-pressed={selected?.id===place.id} data-place={place.id} key={place.id} onClick={() => select(place.id)}><span className={`place-symbol tone-${categoryTone(place.category)} kind-${placeKind(place)}`}><PlaceSymbol place={place} /></span><span className="row-body"><span className="row-category">{String(place.number).padStart(2,'0')} · {place.category}</span><strong>{place.name}</strong><span>{place.address}</span></span><Icon name="arrow" size={16} /></button>) : <div className="empty"><h2>Nenhum espaço encontrado</h2><p>Tente outro nome ou remova os filtros.</p><button className="button" onClick={() => { updateFilters({busca:'',categoria:''}); }}>Limpar filtros</button></div>}</div>
+        <div className="places-list">{filtered.length ? filtered.map(place => <button className={`place-row ${selected?.id===place.id?'is-selected':''}`} aria-pressed={selected?.id===place.id} data-place={place.id} key={place.id} onClick={() => select(place.id)}><PlaceThumbnail place={place}/><span className="row-body"><span className="row-category">{String(place.number).padStart(2,'0')} · {place.category}</span><strong>{place.name}</strong><span>{place.address}</span></span><Icon name="arrow" size={16} /></button>) : <div className="empty"><h2>Nenhum espaço encontrado</h2><p>Tente outro nome ou remova os filtros.</p><button className="button" onClick={() => { updateFilters({busca:'',categoria:''}); }}>Limpar filtros</button></div>}</div>
       </>}</aside>
       <section className="map-panel" aria-label="Mapa e localização"><MapBoundary><Suspense fallback={<div className="map-loading" role="status">Abrindo o mapa de São Cristóvão…</div>}><MapView places={filtered} selected={selected} onSelect={id=>select(id,false)} position={position} /></Suspense></MapBoundary>
         {selected && !detailOpen && <article className={`map-selection tone-${categoryTone(selected.category)}`} aria-label="Resumo do espaço selecionado"><PlacePhoto placeId={selected.id} compact/><span className="eyebrow">{selected.category} · {day}/11</span><h2><span className="sr-only">Selecionado: </span>{selected.name}</h2><p>{selected.address}</p><p className="selection-agenda">{activities.filter(a=>a.placeId===selected.id && a.day===day).slice(0,2).map(a=><span key={a.id}><strong>{displayTime(a.time)}</strong> {a.title}</span>)}</p><button className="text-action" onClick={()=>{setDetailOpen(true);setMobileView('lista');panel.current?.scrollTo({top:0});}}>Ver detalhes <ArrowUpRight size={16} aria-hidden="true" /></button></article>}
@@ -192,7 +196,8 @@ function Schedule({ day, query, placeId, category, nowOnly }: { day: FestivalDay
     {rows.length ? <ol className="schedule-list">{rows.map(row=>{
       const place=places.find(p=>p.id===row.placeId)!;
       const live=isActivityLive(row,now);
-      return <li key={row.id} className={`timeline-row tone-${categoryTone(place.category)} ${live?'is-live':''}`}><div className="timeline-time"><ActivityTime activity={row} /></div><article className="event-card"><div className="event-body"><div className="activity-category"><span className="category-dot" />{place.category}{live && <span className="live-badge">Em andamento</span>}</div><h2>{row.title}</h2><p className="event-place">{place.name}</p><ActivityDetails activity={row} /></div><button className="event-action" aria-label={`Ver espaço: ${row.title}`} onClick={()=>go('mapa',day,row.placeId,window.location.hash.slice(1))}><ArrowUpRight size={21} aria-hidden="true" /><span className="sr-only">Ver espaço</span></button></article></li>;
+      const editorial=editorialActivityIds.has(row.id);
+      return <li key={row.id} className={`timeline-row tone-${categoryTone(place.category)} ${live?'is-live':''} ${editorial?'is-editorial':''}`}><div className="timeline-time"><ActivityTime activity={row} /></div><article className="event-card"><div className="event-body">{editorial && <span className="editorial-kicker">Seleção VivaSE</span>}<div className="activity-category"><span className="category-dot" />{place.category}{live && <span className="live-badge">Em andamento</span>}</div><h2>{row.title}</h2><p className="event-place">{place.name}</p><ActivityDetails activity={row} /></div>{editorial && <div className="event-visual"><PlacePhoto placeId={place.id} compact/></div>}<button className="event-action" aria-label={`Ver espaço: ${row.title}`} onClick={()=>go('mapa',day,row.placeId,window.location.hash.slice(1))}><ArrowUpRight size={21} aria-hidden="true" /><span className="sr-only">Ver espaço</span></button></article></li>;
     })}</ol> : <div className="empty"><h2>Nenhuma atividade encontrada</h2><p>{nowOnly ? (!currentDay?'O festival acontece de 20 a 22 de novembro. Escolha um dia para consultar a programação.':'Nenhuma atividade com intervalo informado está em andamento nesta consulta.'):'Confira outro dia ou remova os filtros para explorar outras atividades.'}</p></div>}</div>
   </main>;
 }

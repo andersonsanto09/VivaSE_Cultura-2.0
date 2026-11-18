@@ -15,3 +15,5 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 );
 
 import './history.css';
+
+import './art-polish.css';

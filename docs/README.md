@@ -76,3 +76,5 @@ Revisão histórica da orientação/visual: [16 — Mapa, agenda e entrada](16-R
 - [23 — Mapa histórico interativo e acervo de artistas](23-MAPA-HISTORICO-E-ACERVO.md): nove edições, 15 marcos, 36 artistas/grupos, reprodução, integração e evidências.
 
 - [24 — Pesquisa integrada e máquina do tempo](24-PESQUISA-INTEGRADA-E-MAQUINA-DO-TEMPO.md): merge das seis pesquisas, curadoria, trajetórias, fotografias e correções de interação.
+
+- [25 — Refinamento visual e acervo fotográfico](25-REFINAMENTO-VISUAL-E-ACERVO-FOTOGRAFICO.md): Home editorial, retratos, detalhes, agenda e mapa.
