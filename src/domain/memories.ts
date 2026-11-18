@@ -57,3 +57,13 @@ export function deleteMemory(store:LocalStore,id:string):MemoryResult {
   if(!current.ok)return current;
   return writeMemories(store,current.memories.filter(m=>m.id!==id));
 }
+
+export function updateMemory(store:LocalStore,memory:PersonalMemory):MemoryResult {
+  const current=readMemories(store);
+  if(!current.ok)return current;
+  const existing=current.memories.find(m=>m.id===memory.id);
+  if(!existing)return {ok:false,message:'Esta lembrança não está mais salva. Seu texto continua no formulário.'};
+  const updated={...memory,createdAt:existing.createdAt};
+  if(!validMemory(updated))return {ok:false,message:'Confira o texto e o ano da lembrança antes de salvar.'};
+  return writeMemories(store,current.memories.map(m=>m.id===memory.id?updated:m));
+}

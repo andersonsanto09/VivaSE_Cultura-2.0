@@ -1,3 +1,4 @@
+import CurrentArtistAgenda from '../components/CurrentArtistAgenda';
 import {editorialArtistIds} from '../data/editorial';
 import ArtistPortrait from '../components/ArtistPortrait';
 import {artistPhotos} from '../data/artist-photos';
@@ -30,7 +31,7 @@ export default function HistoricalArtists() {
     const records=historicalPerformances.filter(p=>p.artistId===artist.id).sort((a,b)=>(Number(a.editionId)||9999)-(Number(b.editionId)||9999));
     return <section className="historical-artist-detail" aria-labelledby="artist-detail-title"><a className="history-origin" href={origin?`#${origin}`:`#/artistas?${new URLSearchParams([...params].filter(([key])=>key!=='artista' && key!=='origem'))}`}><ArrowLeft size={17} aria-hidden="true"/>Voltar à exploração</a>
       <div className={`artist-poster tone-${categoryTone(artist.category)} ${artistPhotos[artist.id]?"has-portrait":""}`}>{artistPhotos[artist.id] && <ArtistPortrait id={artist.id} name={artist.name}/>}<div className="artist-poster-copy"><span className="eyebrow">{artist.category} · acervo VivaSE</span><h2 ref={heading} tabIndex={-1} id="artist-detail-title">{artist.name}</h2><p>{artist.context}</p><span>{records.length} {records.length===1?'participação cadastrada':'participações cadastradas'}</span></div></div>
-      <p className="archive-reading-note">“Documentada” indica cobertura ou relato retrospectivo. “Anunciada” registra a divulgação consultada e não comprova a realização.</p><ol className="artist-chronology">{records.map(p=><li key={p.id}><div className="artist-year">{p.editionId || "Sem ano"}</div><HistoricalPerformance performance={p} origin={ownOrigin} showArtist={false}/></li>)}</ol>
+      <CurrentArtistAgenda artistId={artist.id}/><p className="archive-reading-note">“Documentada” indica cobertura ou relato retrospectivo. “Anunciada” registra a divulgação consultada e não comprova a realização.</p><ol className="artist-chronology">{records.map(p=><li key={p.id}><div className="artist-year">{p.editionId || "Sem ano"}</div><HistoricalPerformance performance={p} origin={ownOrigin} showArtist={false}/></li>)}</ol>
     </section>;
   }
   return <section className="historical-artists" aria-label="Acervo de artistas"><div className="archive-intro"><div><p className="eyebrow">Da cena local aos encontros nacionais</p><h2 ref={heading} tabIndex={-1}>Grandes nomes. Encontros inesquecíveis.</h2></div><p>Uma seleção de referências da música, das artes cênicas e da literatura, incluindo a cena sergipana. Abra um nome e percorra sua história no FASC.</p></div>{artistId && <p className="notice" role="status">Artista não encontrado. Explore os registros disponíveis.</p>}

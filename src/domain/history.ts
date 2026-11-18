@@ -42,6 +42,6 @@ export function patchHistoryParams(values:Record<string,string>,replace=false) {
   const hash=`#${path}?${params}`;
   if(replace){window.history.replaceState(null,'',hash);window.dispatchEvent(new HashChangeEvent('hashchange'));}else window.location.hash=hash;
 }
-export function safeHistoryOrigin(value:string){return /^\/(mapa|historia|artistas)\?/.test(value)?value:'';}
+export function safeHistoryOrigin(value:string){return /^\/(mapa|historia|artistas|programacao|cultura|roteiros|memorias)\?/.test(value)?value:'';}
 
 export function performanceStatus(status:HistoricalPerformance["status"]){return {performed:"Participação documentada",announced:"Anunciada · realização não comprovada",invited:"Convite registrado · presença não comprovada",undated:"Memória institucional · edição não identificada",pending:"Pesquisa recebida · conferência pendente"}[status];}

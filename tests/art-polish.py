@@ -30,7 +30,7 @@ with sync_playwright() as p:
  expect(page.locator('.stage-artists')).to_be_visible()
  checks.append('Miniaturas nos 20 espaços, imagem de abertura e memória do palco preservadas')
  visit('programacao?dia=21');expect(page.locator('.timeline-row')).to_have_count(51);expect(page.locator('.is-editorial')).to_have_count(2)
- regular=page.locator('.timeline-row:not(.is-editorial) .event-card').first.bounding_box()['height'];assert regular<165,regular
+ regular=page.locator('.timeline-row:not(.is-editorial) .event-card').first.bounding_box()['height'];assert regular<185,regular # Inclui agora Salvar e a ação separada de espaço, sem virar um card alto.
  for row in page.locator('.is-editorial').all():
   expect(row).to_contain_text('Seleção VivaSE');loaded(row.locator('img'));expect(row.locator('figcaption')).not_to_have_text('')
  checks.append('51 atividades preservadas, linhas comuns compactas e dois destaques com fotos contextualizadas')

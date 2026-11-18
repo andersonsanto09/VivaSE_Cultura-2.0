@@ -1,3 +1,4 @@
+import {DayPicker,ActivityTime,ActivityDetails} from './components/ProgramUI';
 import HomeFooter from './components/HomeFooter';
 import {editorialActivityIds} from './data/editorial';
 import PlaceThumbnail from './components/PlaceThumbnail';
@@ -15,12 +16,13 @@ import { activities, categories, geoSources, places, reviewedAt } from './data/f
 import { days, displayTime, festivalStart, festivalEnd, filterPlaces, normalize, isActivityLive, festivalDayAt } from './domain/catalog';
 import type { Activity, FestivalDay, Place } from './domain/catalog';
 
+const Schedule=lazy(()=>import('./features/Schedule'));
 const HomeCulture=lazy(()=>import('./features/HomeCulture'));
 const StageArtists=lazy(()=>import('./components/StageArtists'));
 const MapView = lazy(() => import('./features/MapView'));
 const CultureView = lazy(() => import('./features/CultureView'));
 const HistoricalMap = lazy(() => import('./features/HistoricalMap'));
-const culturePages = ['roteiros','memorias','historia','artistas'];
+const culturePages = ['cultura','roteiros','memorias','historia','artistas'];
 const readRoute = () => {
   const [path = '/', query = ''] = window.location.hash.slice(1).split('?');
   const params = new URLSearchParams(query);
@@ -45,18 +47,6 @@ function updateFilters(values:Record<string,string>) {
 }
 function Brand() {
   return <a className="brand" href="#/" aria-label="VivaSE Cultura — início"><span className="brand-name">Viva<span>SE</span><svg className="brand-spark" aria-hidden="true" width="29" height="29" viewBox="0 0 30 30" fill="none" stroke="currentColor"><path d="M15 1v28M1 15h28M5 5l20 20M5 25 25 5" /></svg></span><span className="brand-label">Cultura</span></a>;
-}
-function DayPicker({ day, onChange }: { day: FestivalDay; onChange: (day: FestivalDay) => void }) {
-  return <div className="days" role="group" aria-label="Dia de programação">{days.map(d => <button key={d.id} className={`day day-${d.id}`} aria-label={`${d.name}, ${d.id} de novembro`} aria-pressed={day === d.id} onClick={() => onChange(d.id)}><strong>{d.short}, {d.id}</strong><span>novembro</span></button>)}</div>;
-}
-function ActivityTime({ activity }: { activity: Activity }) {
-  const end = festivalEnd(activity);
-  const endDate = end && new Date(end).toLocaleDateString('pt-BR',{timeZone:'America/Sao_Paulo',day:'2-digit',month:'2-digit'});
-  return <time className={activity.time.slice(3)!=='00'?'has-minutes':undefined} dateTime={festivalStart(activity.day,activity.time)}><span>{displayTime(activity.time)}</span>{activity.endTime && <span className="end-time">até {displayTime(activity.endTime)}</span>}{Number(activity.time.slice(0,2)) < 6 ? <small>{Number(activity.day)+1}/11 · madrugada</small> : endDate && endDate !== `${activity.day}/11` ? <small>até {endDate}</small> : null}</time>;
-}
-function ActivityDetails({ activity }: { activity: Activity }) {
-  if(!activity.details)return null;
-  return <Accordion.Root type="single" collapsible className="activity-accordion"><Accordion.Item value="details"><Accordion.Header><Accordion.Trigger>Participantes e detalhes<ChevronDown size={16} aria-hidden="true" /></Accordion.Trigger></Accordion.Header><Accordion.Content><p>{activity.details}</p></Accordion.Content></Accordion.Item></Accordion.Root>;
 }
 function Home() {
   return <><main id="conteudo" className="home">
@@ -125,6 +115,11 @@ function Explore({ day, placeId, query, category, origin }: { day: FestivalDay; 
   const [position, setPosition] = useState<{ lat: number; lng: number; accuracy: number } | null>(null);
   const [geoMessage, setGeoMessage] = useState('');
   const [locating, setLocating] = useState(false);
+  useEffect(()=>{
+    if(!geoMessage || locating)return;
+    const timer=window.setTimeout(()=>setGeoMessage(''),7000);
+    return()=>window.clearTimeout(timer);
+  },[geoMessage,locating]);
   const selected = places.find(p => p.id === placeId);
   const filtered = useMemo(() => filterPlaces(places, activities, query, category),[query,category]);
   const pinCount = filtered.filter(p => p.coordinates).length;
@@ -165,40 +160,11 @@ function Explore({ day, placeId, query, category, origin }: { day: FestivalDay; 
       </>}</aside>
       <section className="map-panel" aria-label="Mapa e localização"><MapBoundary><Suspense fallback={<div className="map-loading" role="status">Abrindo o mapa de São Cristóvão…</div>}><MapView places={filtered} selected={selected} onSelect={id=>select(id,false)} position={position} /></Suspense></MapBoundary>
         {selected && !detailOpen && <article className={`map-selection tone-${categoryTone(selected.category)}`} aria-label="Resumo do espaço selecionado"><PlacePhoto placeId={selected.id} compact/><span className="eyebrow">{selected.category} · {day}/11</span><h2><span className="sr-only">Selecionado: </span>{selected.name}</h2><p>{selected.address}</p><p className="selection-agenda">{activities.filter(a=>a.placeId===selected.id && a.day===day).slice(0,2).map(a=><span key={a.id}><strong>{displayTime(a.time)}</strong> {a.title}</span>)}</p><button className="text-action" onClick={()=>{setDetailOpen(true);setMobileView('lista');panel.current?.scrollTo({top:0});}}>Ver detalhes <ArrowUpRight size={16} aria-hidden="true" /></button></article>}
-        <div className="map-tools"><button className="button" onClick={locate} disabled={locating}><Icon name="locate" size={19} />{locating ? 'Localizando…' : 'Minha localização'}</button>{position && <button className="button" onClick={() => { setPosition(null); setGeoMessage('Mapa retornou à área do festival.'); go('mapa', day); }}>Voltar ao festival</button>}</div>
-        {geoMessage && <div className="geo-message" role="status">{geoMessage}</div>}
+        <div className="map-tools"><button className="button" onClick={locate} disabled={locating}><Icon name="locate" size={19} />{locating ? 'Localizando…' : 'Minha localização'}</button>{position && <button className="button" onClick={() => { request.current++; setLocating(false); setPosition(null); setGeoMessage('Mapa retornou à área do festival.'); go('mapa', day); }}>Voltar ao festival</button>}</div>
+        {geoMessage && <div className="geo-message" role="status"><span>{geoMessage}</span><button type="button" aria-label="Fechar aviso de localização" onClick={()=>setGeoMessage('')}><Icon name="close" size={18}/></button></div>}
         <div className="map-caption"><span className="precision-swatch" /><span><strong>Referência aproximada</strong><span>Confirme a entrada ao chegar. Saiba mais na legenda.</span></span></div>
       </section>
     </div>
-  </main>;
-}
-function Schedule({ day, query, placeId, category, nowOnly }: { day: FestivalDay; query:string; placeId:string; category:string; nowOnly:boolean }) {
-  const [now,setNow]=useState(()=>Date.now());
-  useEffect(()=>{const timer=window.setInterval(()=>setNow(Date.now()),30000);return()=>window.clearInterval(timer);},[]);
-  const term=normalize(query);
-  const currentDay=festivalDayAt(now);
-  const rows=activities.filter(a=>a.day===day && (!placeId || a.placeId===placeId) && (category==='Todos' || places.find(p=>p.id===a.placeId)?.category===category) && (!nowOnly || isActivityLive(a,now)) && normalize(`${a.title} ${a.details || ''} ${places.find(p=>p.id===a.placeId)?.name || ''}`).includes(term)).sort((a,b)=>festivalStart(a.day,a.time).localeCompare(festivalStart(b.day,b.time)) || a.id.localeCompare(b.id));
-  const timeLabel=new Date(now).toLocaleString('pt-BR',{timeZone:'America/Sao_Paulo',day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});
-  function toggleNow(){
-    const params=new URLSearchParams(window.location.hash.split('?')[1] || '');
-    if(nowOnly)params.delete('agora');else{params.set('agora','1');if(currentDay)params.set('dia',currentDay);}
-    window.location.hash=`/programacao?${params}`;
-  }
-  return <main id="conteudo" className="schedule-page"><div className="schedule-heading"><div><p className="eyebrow">FASC 2026 · Encontros por toda a cidade</p><h1>Viva cada encontro.</h1><span className="sr-only">Programação</span></div>
-    <DayPicker day={day} onChange={d=>{go('programacao',d);updateFilters({agora:''});}} /></div>
-    <div className="schedule-body"><div className="schedule-toolbar"><label className="search-box"><Icon name="search" /><span className="sr-only">Buscar na programação</span><input value={query} onChange={e=>updateFilters({busca:e.target.value})} placeholder="Artista, atividade ou participante" /></label>
-      <button className="now-filter" aria-pressed={nowOnly} onClick={toggleNow}><span className={`live-dot ${nowOnly && currentDay ? 'is-active' : ''}`} />Acontecendo agora</button></div>
-    <details className="filter-disclosure schedule-filter-panel"><summary><SlidersHorizontal size={16} aria-hidden="true" />Filtros<span>{[category!=='Todos'?category:'',placeId?places.find(p=>p.id===placeId)?.name:''].filter(Boolean).join(' · ') || 'Categoria e espaço'}</span><ChevronDown size={16} aria-hidden="true" /></summary><div className="schedule-filters"><CategoryChips value={category} onChange={value=>updateFilters({categoria:value,espaco:''})} /><SelectField label="Espaço da programação" value={placeId} onChange={value=>updateFilters({espaco:value})} options={[{value:'',label:'Todos os espaços'},...places.filter(place=>category==='Todos' || place.category===category || place.id===placeId).map(place=>({value:place.id,label:place.name}))]} /></div></details>
-    {nowOnly && <p className="device-clock">Relógio do aparelho · {timeLabel}</p>}
-    {nowOnly && <p className="now-explanation">Somente atividades com início e término informados. Sem horário final, a duração não é presumida. {!currentDay && 'O relógio do aparelho está fora dos dias do festival.'}</p>}
-    <div className="schedule-summary"><p aria-live="polite"><strong>{rows.length}</strong> {rows.length===1?'atividade':'atividades'} em {day}/11</p>{(query || placeId || category!=='Todos' || nowOnly) && <button className="small-action" onClick={()=>updateFilters({busca:'',espaco:'',categoria:'',agora:''})}>Limpar filtros</button>}</div>
-    <details className="agenda-note"><summary>Conferida em {reviewedAt} · Sujeita a alterações <ChevronDown size={14} aria-hidden="true" /></summary><p>Sessões e janelas gerais seguem o agrupamento publicado; horários finais só aparecem quando informados.</p></details>
-    {rows.length ? <ol className="schedule-list">{rows.map(row=>{
-      const place=places.find(p=>p.id===row.placeId)!;
-      const live=isActivityLive(row,now);
-      const editorial=editorialActivityIds.has(row.id);
-      return <li key={row.id} className={`timeline-row tone-${categoryTone(place.category)} ${live?'is-live':''} ${editorial?'is-editorial':''}`}><div className="timeline-time"><ActivityTime activity={row} /></div><article className="event-card"><div className="event-body">{editorial && <span className="editorial-kicker">Seleção VivaSE</span>}<div className="activity-category"><span className="category-dot" />{place.category}{live && <span className="live-badge">Em andamento</span>}</div><h2>{row.title}</h2><p className="event-place">{place.name}</p><ActivityDetails activity={row} /></div>{editorial && <div className="event-visual"><PlacePhoto placeId={place.id} compact/></div>}<button className="event-action" aria-label={`Ver espaço: ${row.title}`} onClick={()=>go('mapa',day,row.placeId,window.location.hash.slice(1))}><ArrowUpRight size={21} aria-hidden="true" /><span className="sr-only">Ver espaço</span></button></article></li>;
-    })}</ol> : <div className="empty"><h2>Nenhuma atividade encontrada</h2><p>{nowOnly ? (!currentDay?'O festival acontece de 20 a 22 de novembro. Escolha um dia para consultar a programação.':'Nenhuma atividade com intervalo informado está em andamento nesta consulta.'):'Confira outro dia ou remova os filtros para explorar outras atividades.'}</p></div>}</div>
   </main>;
 }
 function About() {
@@ -215,9 +181,9 @@ export default function App() {
     const title=document.querySelector<HTMLHeadingElement>('.place-detail h2') || document.querySelector<HTMLHeadingElement>('main h1');title?.setAttribute('tabindex','-1');title?.focus({preventScroll:true});previousPage.current=routeIdentity;
   }},[route.page,route.historicalMode]);
   useEffect(() => { const listener = () => setRoute(readRoute()); window.addEventListener('hashchange', listener); return () => window.removeEventListener('hashchange', listener); }, []);
-  useEffect(() => { const titles:Record<string,string>={inicio:'VivaSE Cultura',mapa:'Mapa | VivaSE Cultura',programacao:'Programação | VivaSE Cultura',roteiros:'Roteiros | VivaSE Cultura',memorias:'Memórias | VivaSE Cultura',historia:'Linha do tempo | VivaSE Cultura',artistas:'Artistas | VivaSE Cultura',sobre:'Sobre | VivaSE Cultura'};document.title = `${route.page==='mapa' && route.historicalMode?'Mapa histórico | VivaSE Cultura':titles[route.page]} — FASC 2026`; window.scrollTo(0, 0); }, [route.page,route.historicalMode]);
+  useEffect(() => { const titles:Record<string,string>={inicio:'VivaSE Cultura',cultura:'Cultura | VivaSE Cultura',mapa:'Mapa | VivaSE Cultura',programacao:'Programação | VivaSE Cultura',roteiros:'Roteiros | VivaSE Cultura',memorias:'Memórias | VivaSE Cultura',historia:'Linha do tempo | VivaSE Cultura',artistas:'Artistas | VivaSE Cultura',sobre:'Sobre | VivaSE Cultura'};document.title = `${route.page==='mapa' && route.historicalMode?'Mapa histórico | VivaSE Cultura':titles[route.page]} — FASC 2026`; window.scrollTo(0, 0); }, [route.page,route.historicalMode]);
   return <TimeMachineProvider><div className={`app page-${route.page}`}><a href="#conteudo" className="skip-link" onClick={e => { e.preventDefault(); const main = document.getElementById('conteudo'); main?.setAttribute('tabindex', '-1'); main?.focus(); }}>Pular para o conteúdo</a>
-    <header className="site-header"><Brand /><nav aria-label="Navegação principal">{[{ page: 'mapa', label: 'Mapa' }, { page: 'programacao', label: 'Programação' }, { page:'roteiros',label:'Cultura' }, { page: 'sobre', label: 'Sobre' }].map(item => <a key={item.page} href={`#/${item.page}?dia=${route.day}`} aria-current={route.page === item.page || (item.page==='roteiros' && culturePages.includes(route.page)) ? 'page' : undefined}>{item.label}</a>)}</nav><span className="edition-label"><img src={`${import.meta.env.BASE_URL}images/fasc-2026-logo.svg`} alt="FASC 2026" width="100" height="34" /></span></header>
-    {route.page === 'inicio' ? <Home /> : route.page === 'mapa' && route.historicalMode ? <Suspense fallback={<main id="conteudo" className="content-page"><p role="status">Abrindo o acervo histórico…</p></main>}><HistoricalMap day={route.day}/></Suspense> : route.page === 'mapa' ? <Explore day={route.day} placeId={route.placeId} query={route.query} category={route.category} origin={route.origin} /> : route.page === 'programacao' ? <Schedule day={route.day} query={route.query} placeId={route.agendaPlace} category={route.category} nowOnly={route.nowOnly} /> : culturePages.includes(route.page) ? <Suspense fallback={<main id="conteudo" className="content-page" aria-busy="true"><p role="status">Abrindo os caminhos da cultura…</p></main>}><CultureView page={route.page as 'roteiros'|'memorias'|'historia'|'artistas'} day={route.day} routeId={route.culturalRoute} initialPlace={route.agendaPlace} /></Suspense> : <About />}
+    <header className="site-header"><Brand /><nav aria-label="Navegação principal">{[{ page: 'mapa', label: 'Mapa' }, { page: 'programacao', label: 'Programação' }, { page:'cultura',label:'Cultura' }, { page: 'sobre', label: 'Sobre' }].map(item => <a key={item.page} href={`#/${item.page}?dia=${route.day}`} aria-current={route.page === item.page || (item.page==='cultura' && culturePages.includes(route.page)) ? 'page' : undefined}>{item.label}</a>)}</nav><span className="edition-label"><img src={`${import.meta.env.BASE_URL}images/fasc-2026-logo.svg`} alt="FASC 2026" width="100" height="34" /></span></header>
+    {route.page === 'inicio' ? <Home /> : route.page === 'mapa' && route.historicalMode ? <Suspense fallback={<main id="conteudo" className="content-page"><p role="status">Abrindo o acervo histórico…</p></main>}><HistoricalMap day={route.day}/></Suspense> : route.page === 'mapa' ? <Explore day={route.day} placeId={route.placeId} query={route.query} category={route.category} origin={route.origin} /> : route.page === 'programacao' ? <Suspense fallback={<main id="conteudo" className="content-page"><p role="status">Abrindo a programação…</p></main>}><Schedule day={route.day} query={route.query} placeId={route.agendaPlace} category={route.category} nowOnly={route.nowOnly}/></Suspense> : culturePages.includes(route.page) ? <Suspense fallback={<main id="conteudo" className="content-page" aria-busy="true"><p role="status">Abrindo os caminhos da cultura…</p></main>}><CultureView page={route.page as 'cultura'|'roteiros'|'memorias'|'historia'|'artistas'} day={route.day} routeId={route.culturalRoute} initialPlace={route.agendaPlace} /></Suspense> : <About />}
   </div></TimeMachineProvider>;
 }

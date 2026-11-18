@@ -254,3 +254,18 @@ Detalhes: [25 — Refinamento visual](25-REFINAMENTO-VISUAL-E-ACERVO-FOTOGRAFICO
 - [x] Chamada final, CTA, marca, navegação e referência à cidade na identidade FASC.
 - [x] Fontes, créditos e identificação de projeto independente.
 - [x] Desktop/mobile, contraste, teclado e build conferidos.
+
+
+## Expansão de Programação e Cultura — 17/11/2026
+
+- [x] Minha programação local, persistência e resumo por dia com conflitos sustentados por horários informados.
+- [x] Visões por horário e palco/espaço; filtros de período, Agora e A seguir.
+- [x] Detalhe e compartilhamento individual da atividade; navegação entre anúncio de 2026, espaço e artista histórico.
+- [x] Entrada própria para Cultura com três caminhos e acesso aos artistas.
+- [x] Mapa das paradas e progresso manual persistido por roteiro.
+- [x] Editar/cancelar, filtrar e exportar lembranças sem alterar identidade/criação dos registros existentes.
+- [x] Aviso de retorno ao festival temporário, fechamento manual e limpeza do temporizador.
+- [x] Testes de domínio e jornadas de navegador; regressões e reflow móveis.
+- [ ] Aceite do responsável e nova conferência em aparelho físico desses fluxos.
+
+Detalhes, testes e limites: [26 — Programação pessoal e Cultura](26-PROGRAMACAO-PESSOAL-E-CULTURA.md). A fase 4 permanece em revisão; esta expansão não encerra automaticamente a fase 5.
