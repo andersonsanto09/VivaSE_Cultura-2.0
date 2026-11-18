@@ -269,3 +269,17 @@ Detalhes: [25 — Refinamento visual](25-REFINAMENTO-VISUAL-E-ACERVO-FOTOGRAFICO
 - [ ] Aceite do responsável e nova conferência em aparelho físico desses fluxos.
 
 Detalhes, testes e limites: [26 — Programação pessoal e Cultura](26-PROGRAMACAO-PESSOAL-E-CULTURA.md). A fase 4 permanece em revisão; esta expansão não encerra automaticamente a fase 5.
+
+
+## Revisão da aba Sobre — 18/11/2026
+
+- [x] Abertura editorial com fotografia identificada e propósito do projeto.
+- [x] História da proposta e três pilares com navegação funcional.
+- [x] Autoria coletiva como Equipe VivaSE, conforme decisão do responsável.
+- [x] Fontes, créditos, fotografias, precisão e dados locais organizados em acordeões.
+- [x] Perguntas frequentes e caminho público para sugerir correções pelo GitHub.
+- [x] Encerramento com mapa/Cultura, preservação do dia e atalhos acessíveis.
+- [x] Verificar foto/fallback, teclado, foco, reflow móvel, contraste e build.
+- [ ] Aceite visual e conferência da nova página em aparelho físico.
+
+Evidências e limites: [27 — Sobre editorial e transparência](27-SOBRE-EDITORIAL-E-TRANSPARENCIA.md).
