@@ -34,7 +34,7 @@ h1[tabindex="-1"]:focus{outline:none}
 .artist-portrait{margin:0;overflow:hidden;background:var(--deep);min-width:0}
 .artist-portrait img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;transition:transform 300ms var(--ease-out)}
 .artist-portrait figcaption{display:grid;gap:3px;padding:9px 12px;background:var(--deep);color:#e7dbea;font-size:9px;line-height:1.5}
-.artist-portrait figcaption a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+.artist-portrait figcaption a{color:inherit;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
 .historical-artist-card{overflow:hidden;padding:0 22px 20px;border-radius:3px}
 .historical-artist-card>.artist-portrait,.historical-artist-card>.artist-typographic{margin:0 -22px 18px}
 .artist-letterpress{position:relative;display:flex;align-items:center;justify-content:center;aspect-ratio:4/3;background:var(--deep);color:var(--yellow);overflow:hidden;isolation:isolate}

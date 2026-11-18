@@ -293,7 +293,7 @@ Evidências e limites: [27 — Sobre editorial e transparência](27-SOBRE-EDITOR
 - [x] Inventariar ausências: 72 destaques sem foto cadastrada; 181 no catálogo completo.
 - [x] Distinguir ausência de foto e falha de carregamento; recuperar ao mudar de artista.
 - [x] Verificar arquivos, carregamento, navegação, acessibilidade e build.
-- [ ] Pesquisar fotografias dos demais nomes, com atribuição conferida, em expansão editorial futura.
+- [x] Ampliar a seleção com fotografias para todos os 80 destaques, com atribuição conferida (ver expansão abaixo).
 
 Detalhes e inventário: [28 — Auditoria dos retratos](28-AUDITORIA-DOS-RETRATOS.md).
 
@@ -310,3 +310,17 @@ Detalhes e inventário: [28 — Auditoria dos retratos](28-AUDITORIA-DOS-RETRATO
 - [ ] Ampliar a pesquisa de cobertura dos 98 registros que ainda usam fontes de programação.
 
 Inventário e critérios: [29 — Revisão das participações](29-REVISAO-DAS-PARTICIPACOES.md).
+
+## Expansão das fotografias — 18/11/2026
+
+- [x] Fotografias para os 80 nomes em destaque; 130 dos 191 nomes no catálogo completo.
+- [x] Priorizar registros do FASC; identificar fotos externas, divulgação e entrevista.
+- [x] Conferir legendas e contexto, rejeitando homônimos e associações automáticas equivocadas.
+- [x] Exibir crédito, fonte e licença das imagens do Commons.
+- [x] Identificar os dois participantes nas fotografias conjuntas.
+- [x] Preservar registros históricos e as dez imagens corrigidas na auditoria anterior.
+- [x] Inventariar as 61 pendências sem substituir fotografias por imagens de outra pessoa.
+- [x] Verificar carregamento, recuperação após falha, acessibilidade, domínio e build.
+- [ ] Encontrar fotografias identificadas dos 61 nomes restantes; conferir os direitos e créditos antes de incorporar.
+
+Detalhes: [30 — Expansão das fotos dos artistas](30-EXPANSAO-DAS-FOTOS-DOS-ARTISTAS.md).

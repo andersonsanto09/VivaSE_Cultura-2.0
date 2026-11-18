@@ -1,4 +1,5 @@
-export interface ArtistPhoto {file:string;alt:string;caption:string;credit:string;source:string;imageSource:string;evidence:string;position?:string}
+import extraPhotos from './artist-photos-extra.json' with {type:'json'};
+export interface ArtistPhoto {file:string;alt:string;caption:string;credit:string;source:string;imageSource:string;evidence:string;position?:string;context?:string;license?:string;licenseUrl?:string;sharedWith?:string[]}
 const news='https://www.saocristovao.se.gov.br/noticia/';
 const opening=news+'primeira-noite-de-shows-do-fasc-2025-e-marcada-por-sucesso-de-publico-e-representatividade-negra-nos-palcos';
 const second=news+'fasc-2024-diversidade-musical-e-grande-publico-marcam-o-segundo-dia-de-apresentacoes-nos-palcos-joao-bebe-agua-e-frei-santa-cecilia';
@@ -6,6 +7,7 @@ const gal=news+'alceu-valenca-the-baggios-e-coletivo-sergipano-de-mulheres-no-sa
 // Audit 18/11/2026: retain the exact image URL and its caption/section evidence.
 // Gallery order alone is not evidence. These images do not depict FASC 2026.
 export const artistPhotos:Record<string,ArtistPhoto>={
+  ...extraPhotos,
   alceu:{imageSource:"https://publicacao.saocristovao.se.gov.br/laravel-filemanager/photos/3/2Q2A0607.jpg",evidence:"Imagem imediatamente após a declaração atribuída a Alceu Valença, antes do início do trecho The Baggios.",file:'alceu.jpg',alt:'Alceu Valença de chapéu, cantando no FASC 2022.',caption:'Alceu Valença · FASC 2022',credit:'Fernando Correia e Dani Santos / Prefeitura',source:gal,position:'50% 28%'},
   baggios:{imageSource:"https://publicacao.saocristovao.se.gov.br/laravel-filemanager/photos/3/2Q2A0746.jpg",evidence:"Imagem após a declaração de Julico sobre The Baggios, antes do relato da visitante.",file:'baggios.jpg',alt:'Julico, vocalista e guitarrista de The Baggios, durante show no FASC 2022.',caption:'Julico / The Baggios · FASC 2022',credit:'Fernando Correia e Dani Santos / Prefeitura',source:gal,position:'50% 30%'},
   marina:{imageSource:"https://publicacao.saocristovao.se.gov.br/laravel-filemanager/photos/19/WhatsApp%20Image%202024-12-01%20at%2013.23.44%20(1).jpeg",evidence:"Imagem após o parágrafo e a declaração de Marina Lima, antes do trecho BaianaSystem.",file:'marina-fasc-2024.jpg',alt:'Marina Lima cantando ao microfone no palco do FASC 2024.',caption:'Marina Lima · FASC 2024',credit:'Heitor Xavier / Prefeitura',source:second,position:'50% 25%'},
