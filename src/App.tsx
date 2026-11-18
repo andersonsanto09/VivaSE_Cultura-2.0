@@ -12,6 +12,7 @@ import { activities, categories, geoSources, places, reviewedAt } from './data/f
 import { days, displayTime, festivalStart, festivalEnd, filterPlaces, normalize, isActivityLive, festivalDayAt } from './domain/catalog';
 import type { Activity, FestivalDay, Place } from './domain/catalog';
 
+const StageArtists=lazy(()=>import('./components/StageArtists'));
 const MapView = lazy(() => import('./features/MapView'));
 const CultureView = lazy(() => import('./features/CultureView'));
 const HistoricalMap = lazy(() => import('./features/HistoricalMap'));
@@ -96,6 +97,7 @@ function PlaceDetail({ place, day, onBack, returnLabel }: { place: Place; day: F
     </div>
     {place.canNavigate && <p className="helper">O trajeto abre no Google Maps. Confirme acessos e bloqueios locais ao chegar.</p>}
     <div className="detail-section"><h3>Programação · {day}/11</h3>{rows.length ? <ol className="activity-list">{rows.map(row => <li key={row.id}><ActivityTime activity={row} /><div><strong>{row.title}</strong><ActivityDetails activity={row} /></div></li>)}</ol> : <div className="notice">Nenhuma atividade deste espaço está indicada para {day}/11. Consulte os outros dias.</div>}</div>
+    {place.category==='Música' && <Suspense fallback={<p role="status">Abrindo a memória deste palco…</p>}><StageArtists key={place.id} placeId={place.id}/></Suspense>}
     <div className="detail-section detail-culture"><h3>Leve esse encontro com você</h3><a href={`#/memorias?dia=${day}&espaco=${place.id}`}>Escrever uma lembrança <ArrowUpRight size={16} aria-hidden="true" /></a><a href={`#/roteiros?dia=${day}`}>Explorar roteiros culturais <ArrowUpRight size={16} aria-hidden="true" /></a><a href={`#/historia?dia=${day}`}>Conhecer a linha do tempo <ArrowUpRight size={16} aria-hidden="true" /></a></div>
     <div className="detail-section"><h3>Informações do espaço</h3><p>{place.description}</p><p className="helper">{place.coordinateNote || 'A localização exata no mapa está em conferência. Este espaço permanece disponível na lista.'}</p><p className="helper">Condições de acessibilidade ainda não verificadas para esta edição.</p>
       {place.locationSources && <details className="location-sources"><summary>Fontes da localização</summary><ul>{place.locationSources.filter(url => !url.startsWith('/programacao-fasc')).map((url,i) => <li key={url}><a href={url} target="_blank" rel="noreferrer">Referência {i+1} <Icon name="external" size={12} /></a></li>)}</ul></details>}

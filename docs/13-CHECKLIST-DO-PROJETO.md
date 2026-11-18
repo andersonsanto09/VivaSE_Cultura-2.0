@@ -228,3 +228,11 @@ Detalhes: [18 — Correção do zoom e acabamento](18-CORRECAO-ZOOM-E-ACABAMENTO
 - [ ] Aceite das novas telas e conferência final em aparelho físico.
 
 Registro detalhado: [24 — Pesquisa integrada](24-PESQUISA-INTEGRADA-E-MAQUINA-DO-TEMPO.md).
+
+### Memória dos palcos — Quem já passou por aqui
+
+- [x] Seção nos detalhes dos palcos musicais atuais, destacando a curadoria de grandes nomes com apresentação documentada naquele palco.
+- [x] Anos por artista, acesso à trajetória completa e retorno ao palco original.
+- [x] Distinguir identidade do palco de uma referência geográfica compartilhada; anúncios não aparecem como shows executados.
+- [x] Estado explícito quando o recorte ainda não contém um grande nome documentado para o palco.
+- [x] 28 testes de domínio, build e verificação no navegador de navegação e reflow 390/320 px.

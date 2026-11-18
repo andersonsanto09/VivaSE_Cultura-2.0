@@ -1,3 +1,4 @@
+import {artistsAtStage,stageFamily} from '../src/domain/stage-artists.ts';
 import editionIndex from '../src/data/edition-index.json' with {type:'json'};
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -90,3 +91,16 @@ test('mudanças de lugar não herdam coordenadas da edição atual',()=>{
 });
 
 test("índice leve da máquina do tempo corresponde às edições completas",()=>{assert.deepEqual(editionIndex.map(e=>e.id),festivalEditions.map(e=>e.id));});
+
+test('memória por palco usa grandes nomes com shows documentados, sem confundir referências compartilhadas',()=>{
+  const at=(id:string)=>artistsAtStage(id,historicalArtists,historicalPerformances,historicalVenues);
+  assert.ok(at('joao').some(e=>e.artist.id==='alceu'));
+  assert.ok(at('joao').some(e=>e.artist.id==='baggios' && e.years.includes('2022')));
+  assert.ok(at('frei').some(e=>e.artist.id==='baggios' && e.years.includes('2023')));
+  assert.ok(!at('capuchinhos').some(e=>e.artist.id==='baggios')); // 2025 only announced
+  assert.ok(!at('joao').find(e=>e.artist.id==='baggios')!.years.includes('2017')); // announcement is not execution
+  for(const entry of [...at('joao'),...at('frei')])assert.ok(entry.records.every(p=>p.status==='performed' && p.category==='Música'));
+  assert.deepEqual(at('historico'),[]);assert.deepEqual(at('mariano'),[]);
+  assert.equal(stageFamily('Palco Gal Costa'),'joao');
+  assert.equal(stageFamily('Museu Histórico — Praça São Francisco'),undefined);
+});

@@ -136,3 +136,18 @@
 @media(min-width:701px){.time-machine-years>button{flex-basis:47px}.time-machine .history-play{min-width:44px;width:44px;padding:9px}}
 
 .artist-chronology .performance-place{margin:10px 0 8px}.artist-chronology .performance-place strong{font:700 26px/1.1 var(--font-display);color:var(--purple)}
+
+.stage-artists{padding:22px 18px!important;background:var(--deep);border:0!important;border-top:4px solid var(--yellow)!important;border-radius:6px;color:white;margin-block:26px}
+.stage-artists-heading{display:flex;align-items:center;gap:9px;color:var(--yellow);font-size:10px;letter-spacing:.1em;text-transform:uppercase}
+.stage-artists h3{color:white!important;font:800 31px/1.05 var(--font-display)!important;margin:12px 0!important}
+.stage-artists .stage-artists-intro{color:#f3e8f5;font-size:12px;line-height:1.6}
+.stage-artists-list{list-style:none;padding:0;margin:18px 0;display:grid;gap:8px}
+.stage-artists-list a{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px;background:#ffffff0e;border:1px solid #ffffff30;border-radius:4px;color:white;text-decoration:none;transition:background 160ms,border-color 160ms}
+.stage-artists-list strong{font:700 23px/1.1 var(--font-display)}
+.stage-artists-list small{display:block;margin-top:5px;font-size:11px;color:var(--yellow)}
+.stage-artists-list svg{flex-shrink:0;color:var(--yellow)}
+.stage-artists .stage-artists-note{font-size:10px;line-height:1.6;color:#e4d2e9}
+.stage-artists-more{min-height:44px;width:100%;background:transparent;border:1px solid #ffffff55;border-radius:4px;color:white;font-size:12px;margin-bottom:10px}
+.stage-artists-archive{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:44px;color:var(--yellow);font-size:12px;text-decoration:none;margin-top:12px}
+@media(hover:hover){.stage-artists-list a:hover,.stage-artists-more:hover{background:#ffffff22;border-color:var(--yellow)}}
+@media(prefers-reduced-motion:reduce){.stage-artists-list a{transition:none}}
