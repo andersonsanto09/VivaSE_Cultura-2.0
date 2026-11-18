@@ -3,7 +3,17 @@ import editionIndex from '../src/data/edition-index.json' with {type:'json'};
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {festivalEditions,historicalArtists,historicalMilestones,historicalPerformances,historicalSources,historicalVenues,historyImportAudit} from '../src/data/history.ts';
-import {filterHistoricalArtists,historicalMapHref,nextEditionIndex,safeHistoryOrigin,venueAsPlace} from '../src/domain/history.ts';
+import {filterHistoricalArtists,groupHistoricalAgenda,historicalMapHref,nextEditionIndex,safeHistoryOrigin,venueAsPlace} from '../src/domain/history.ts';
+
+test('agenda histórica agrupa datas, preserva sua natureza, ordena madrugada e mantém lacunas explícitas',()=>{
+ const base={editionId:'2025',artistId:'gaby',status:'announced' as const,context:'Registro',sourceIds:[]};
+ const records=[{...base,id:'unknown'},{...base,id:'late',date:'2025-11-20',time:'01:00'},{...base,id:'evening',date:'2025-11-20',time:'21:00'},{...base,id:'no-time',date:'2025-11-20'},{...base,id:'civil',date:'2025-11-20',time:'01:00',dateKind:'civil' as const},{...base,id:'next',date:'2025-11-21',time:'19:00'}];
+ const groups=groupHistoricalAgenda(records);
+ assert.deepEqual(groups.map(g=>g.key),['2025-11-20','2025-11-21','unknown']);
+ assert.deepEqual(groups[0].records.map(r=>r.id),['civil','evening','late','no-time']);
+ assert.equal(groups[0].records[0].dateKind,'civil');assert.equal(groups[2].date,undefined);
+ assert.equal(groups.flatMap(g=>g.records).length,records.length);assert.equal(records[0].id,'unknown','não altera a ordem original do acervo');
+});
 
 test('acervo mantém integridade de edições, artistas, palcos, apresentações e fontes',()=>{
   for(const list of [festivalEditions,historicalArtists,historicalMilestones,historicalPerformances,historicalSources,historicalVenues])assert.equal(new Set(list.map(r=>r.id)).size,list.length);

@@ -324,3 +324,15 @@ Inventário e critérios: [29 — Revisão das participações](29-REVISAO-DAS-P
 - [ ] Encontrar fotografias identificadas dos 61 nomes restantes; conferir os direitos e créditos antes de incorporar.
 
 Detalhes: [30 — Expansão das fotos dos artistas](30-EXPANSAO-DAS-FOTOS-DOS-ARTISTAS.md).
+
+## Programação no mapa histórico — 18/11/2026
+
+- [x] Resumo ao clicar no pin, com ações diretas para programação e detalhes.
+- [x] Agenda do espaço primeiro, com datas, horários destacados e filtro por data.
+- [x] Separar informações do local e contexto geral da edição, eliminando repetições.
+- [x] Preservar fontes, status históricos, datas civis, dias de programação e lacunas.
+- [x] Abrir a programação diretamente ao tocar no pin no celular.
+- [x] Verificar links diretos, troca de edição, estados vazios, teclado e acessibilidade.
+- [x] Testar as 18 edições, reflow em quatro larguras e build de produção.
+
+Detalhes: [31 — Programação no mapa histórico](31-PROGRAMACAO-NO-MAPA-HISTORICO.md).

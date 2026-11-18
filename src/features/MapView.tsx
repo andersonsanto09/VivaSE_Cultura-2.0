@@ -126,8 +126,8 @@ export default function MapView({ places, selected, onSelect, position, preserve
         const {place,offset}=pin;
         const [lat,lng]=place.coordinates!;
         const approximate=place.locationKind!=='equipment' || place.id==='bica';
-        return <Marker key={place.id} ref={marker=>{if(marker)nativeMarkers.current.set(place.id,marker);else nativeMarkers.current.delete(place.id);}} longitude={lng} latitude={lat} offset={offset} anchor="bottom" style={{zIndex:place.id===selected?.id?3:1}}>
-          <button style={{transform:`rotate(-45deg) scale(${pinScale})`}} className={`festival-pin tone-${categoryTone(place.category)} kind-${placeKind(place)} ${approximate?'is-approximate':''} ${place.id===selected?.id?'is-selected':''}`} aria-label={`Abrir ${place.name}`} title={`${place.name}${approximate?' — referência aproximada':''}`} onClick={event=>{
+        return <Marker key={place.id} ref={marker=>{if(marker)nativeMarkers.current.set(place.id,marker);else nativeMarkers.current.delete(place.id);}} longitude={lng} latitude={lat} offset={offset} anchor="bottom" style={{zIndex:place.id===selected?.id?3:1,pointerEvents:'none'}}>
+          <button style={{transform:`rotate(-45deg) scale(${pinScale})`,pointerEvents:'auto'}} className={`festival-pin tone-${categoryTone(place.category)} kind-${placeKind(place)} ${approximate?'is-approximate':''} ${place.id===selected?.id?'is-selected':''}`} aria-label={`Abrir ${place.name}`} title={`${place.name}${approximate?' — referência aproximada':''}`} onClick={event=>{
             lastPin.current=event.currentTarget;
             setLegendOpen(false);
             const projected=displayPins.map(item=>{const point=ref.current!.project([item.place.coordinates![1],item.place.coordinates![0]]);return {...item,x:point.x,y:point.y};});

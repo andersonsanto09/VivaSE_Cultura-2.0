@@ -45,3 +45,20 @@ export function patchHistoryParams(values:Record<string,string>,replace=false) {
 export function safeHistoryOrigin(value:string){return /^\/(mapa|historia|artistas|programacao|cultura|roteiros|memorias)\?/.test(value)?value:'';}
 
 export function performanceStatus(status:HistoricalPerformance["status"]){return {performed:"Participação documentada",announced:"Registro de programação",invited:"Convite registrado · presença não comprovada",undated:"Memória institucional · edição não identificada",pending:"Pesquisa recebida · conferência pendente",replaced:"Participação substituída"}[status];}
+
+/** Group the date written in the source; each record retains its date kind. */
+export function groupHistoricalAgenda(records:HistoricalPerformance[]) {
+  const groups=new Map<string,{key:string;date?:string;records:HistoricalPerformance[]}>();
+  for(const record of records){
+    const key=record.date || 'unknown';
+    if(!groups.has(key))groups.set(key,{key,date:record.date,records:[]});
+    groups.get(key)!.records.push(record);
+  }
+  const minutes=(p:HistoricalPerformance)=>{
+    const match=p.time?.match(/^(\d{1,2}):(\d{2})$/);
+    if(!match)return Infinity;
+    const hour=Number(match[1]);
+    return (hour+(p.dateKind!=='civil'&&hour<6?24:0))*60+Number(match[2]);
+  };
+  return [...groups.values()].sort((a,b)=>(a.date || '9999').localeCompare(b.date || '9999')||a.key.localeCompare(b.key)).map(group=>({...group,records:[...group.records].sort((a,b)=>minutes(a)-minutes(b))}));
+}
