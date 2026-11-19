@@ -1,6 +1,6 @@
 # 09 — Roadmap, riscos e dúvidas
 
-Referência: 16/11/2026. O ideathon vai de 19 a 21/11. A data exata do pitch e sua duração ainda não foram informadas; planejar para ter um percurso demonstrável antes do início em 19/11. As datas abaixo são proposta de organização, não garantia de entrega nem horas de trabalho confirmadas.
+Atualização de estado: 19/11/2026. Planejamento inicial: 16/11/2026. O ideathon vai de 19 a 21/11. A data exata do pitch e sua duração ainda não foram informadas; planejar para ter um percurso demonstrável antes do início em 19/11. As datas abaixo são proposta de organização, não garantia de entrega nem horas de trabalho confirmadas.
 
 ## Fases
 
@@ -10,8 +10,8 @@ Referência: 16/11/2026. O ideathon vai de 19 a 21/11. A data exata do pitch e s
 | Conversa de design | Referências, direção, composição e prioridades visuais | Responsável escolhe a direção antes das telas | Direção FASC 2026 aceita provisoriamente; refinar no protótipo |
 | 2 — Fundação e conteúdo | Entrada, base técnica, inventário de espaços e agenda revisada | Build/typecheck, dados coerentes e base visual discutida | Concluída tecnicamente; protótipo revisado e correções solicitadas aplicadas |
 | 3 — Fluxos do MVP | Mapa, busca, localização, detalhes, agenda e trajeto externo | Percurso de orientação verificado | Concluída no escopo do protótipo; evidências e limites no documento 15 |
-| 4 — Cultura e memória | Roteiros, memórias locais e linha do tempo | Conteúdo e origens identificados, persistência testada | Em implementação: cultura e expansão histórica testadas; fotos e aceite pendentes (documentos 22/23) |
-| 5 — Preparação do pitch | Revisão mobile, falhas, evidências e material de apoio | Percurso repetível e limitações conhecidas | Não iniciada |
+| 4 — Cultura e memória | Roteiros, memórias locais e linha do tempo | Conteúdo e origens identificados, persistência testada | Concluída no escopo funcional do protótipo; evidências, limites e pendências de validação final no documento 33 |
+| 5 — Preparação do pitch | Revisão mobile, falhas, evidências e material de apoio | Percurso repetível e limitações conhecidas | Próxima; verificações iniciais existentes, validação final pendente |
 
 ## Sequência sugerida para a janela disponível
 
@@ -47,7 +47,7 @@ Cada etapa depende de disponibilidade, materiais e validação. Cobertura de tod
 | Q-04 | Qual direção visual seguir? | Resolvida provisoriamente: identidade FASC 2026, entrada vibrante e consulta clara | Refinar com o protótipo |
 | Q-05 | Qual inventário completo de locais e atividades? | V4 reconciliada: 20 registros de espaços/frentes e 144 de agenda; revisar atualizações | Antes de afirmar cobertura completa |
 | Q-06 | Quais fotos e relatos públicos podem entrar? | Pesquisa inicial; exemplos fictícios autorizados | Antes de incorporar mídias e referências reais |
-| Q-07 | Qual provedor de tiles e aplicativo de destino? | Fundação usa tiles padrão OSM e Google Maps externo; sem mapas offline ou garantia de disponibilidade | Reavaliar antes de operação pública |
+| Q-07 | Qual provedor de tiles e aplicativo de destino? | MapLibre/react-map-gl com MapTiler e Google Maps externo; sem mapas offline ou garantia de disponibilidade | Reavaliar antes de operação pública |
 
 ## Atualização da Matriz CSD
 
@@ -55,6 +55,6 @@ A [matriz](MATRIZ-CSD.md) e seu PDF preservam o registro inicial do ideathon. As
 
 ## Passagem para a próxima etapa
 
-O responsável pediu o encerramento da Fase 1 e início da Fase 2 após concordar provisoriamente com a direção. A fundação e a curadoria da v4 foram implementadas e verificadas para revisão. O estado efetivo e as limitações estão em [11 — Fundação técnica](11-FASE-2-FUNDACAO.md). Publicação, domínio e serviços de produção continuam pendentes.
+O responsável solicitou finalizar a fase 4. O escopo funcional foi consolidado com testes, rastreabilidade e limites no [documento 33](33-FECHAMENTO-FASE-4.md). A próxima fase é qualidade final e preparação do pitch. O teste final dos novos fluxos em aparelho físico e as condições de reutilização das mídias sem autorização específica registrada continuam pendentes nessa validação final. O protótipo já está publicado no GitHub Pages.
 
 Checklist operacional de todas as fases: [13 — Checklist do projeto](13-CHECKLIST-DO-PROJETO.md).

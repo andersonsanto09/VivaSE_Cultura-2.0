@@ -1,6 +1,6 @@
 # 22 — Fase 4: descoberta cultural, memórias e fotografias
 
-Snapshot inicial de 17/11/2026; a expansão posterior da história está no [documento 23](23-MAPA-HISTORICO-E-ACERVO.md).
+Snapshot inicial de 17/11/2026, preservado como histórico. O estado consolidado de encerramento está no [documento 33](33-FECHAMENTO-FASE-4.md); a expansão posterior da história está no [documento 23](23-MAPA-HISTORICO-E-ACERVO.md).
 
 Revisão: 17/11/2026. Implementação local em andamento, ainda sem aceite do responsável. Este incremento não foi enviado ao GitHub nem publicado no Pages. A publicação anterior permanece disponível.
 
