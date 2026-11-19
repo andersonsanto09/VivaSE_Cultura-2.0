@@ -2,7 +2,7 @@
 
 Atualizado em 19/11/2026. `[x]` = executado/registrado; `[ ]` = pendente ou ainda depende de aceite. Uma função existente não encerra sua fase sem a validação correspondente. Este é o estado do protótipo desta revisão, não uma promessa de prazo.
 
-**Fases 1 a 4 concluídas no escopo funcional do protótipo. Próxima: fase 5 — qualidade final e preparação do pitch. O teste físico dos novos fluxos, ainda sem retorno, e a revisão final de publicação permanecem pendentes na fase 5.** Limites e evidências da orientação estão no [relatório da fase 3](15-FASE-3-VALIDACAO.md).
+**Fases 1 a 4 concluídas no escopo funcional do protótipo. Próxima: fase 5 — qualidade final e preparação do pitch. O teste físico dos novos fluxos foi confirmado sem problemas em 19/11; a revisão final de publicação permanece na fase 5.** Limites e evidências da orientação estão no [relatório da fase 3](15-FASE-3-VALIDACAO.md).
 
 **Revisão estética antes da fase 4:** mescla aprovada de Cartaz vivo e Atlas cultural implementada em 17/11/2026. Evidências e limites no [registro 19](19-DIRECAO-VISUAL-IMPLEMENTADA.md). A avaliação visual desta versão pelo responsável permanece pendente.
 
@@ -86,7 +86,7 @@ Critério de saída: percurso completo “encontrar atividade → escolher espa�
 
 ## Fase 4 — Descoberta cultural e preservação da memória
 
-**Situação: concluída no escopo funcional do protótipo em 19/11/2026, com evidências e limites no [relatório 33](33-FECHAMENTO-FASE-4.md). A validação física final dos novos fluxos segue explicitamente pendente na fase 5.**
+**Situação: concluída no escopo funcional do protótipo em 19/11/2026, com evidências e limites no [relatório 33](33-FECHAMENTO-FASE-4.md). O responsável confirmou o teste dos novos fluxos em aparelho físico, sem problemas, em 19/11/2026.**
 
 - [x] Selecionar lugares e conteúdo cultural com fontes por afirmação.
 - [x] Criar roteiros temáticos com ordem e paradas explícitas.
@@ -101,13 +101,13 @@ Critério de saída: percurso completo “encontrar atividade → escolher espa�
 - [x] Criar linha do tempo com marcos históricos documentados e fontes acessíveis.
 - [x] Conferir datas e descontinuidades; não inventar edições, públicos ou artistas.
 - [x] Revisar fontes, créditos, licenças declaradas e limites de reutilização; casos sem autorização específica registrada estão inventariados para a revisão final de publicação (relatório 33).
-- [x] Verificar integração das funções nas larguras móveis e testar as jornadas culturais com automação; teste em aparelho físico acompanhado na fase 5.
+- [x] Verificar integração das funções nas larguras móveis e testar as jornadas culturais com automação; teste em aparelho físico confirmado sem problemas pelo responsável em 19/11/2026.
 
 - [x] Fotografias reais no resumo do pin e no detalhe, com crédito, contexto e falha tratada. Cobertura atual: 20/20 registros, sem apresentar fotos antigas como montagem de 2026.
 - [x] Referências de fachada de Tsuru e Reurb confirmadas pelo responsável; links de consulta disponíveis.
 - [x] Completar os nove registros pendentes com fotografias reais, créditos e legendas; referências de entorno/arquivo identificadas.
 - [x] Testar jornadas culturais e reflow em 1440/768/390/320 px; axe sem violações detectadas nas três telas culturais em 390 px.
-- [x] Aplicar as revisões solicitadas pelo responsável e consolidar o fechamento funcional; a confirmação dos novos fluxos em aparelho físico continua pendente na fase 5.
+- [x] Aplicar as revisões solicitadas pelo responsável e consolidar o fechamento funcional; a confirmação dos novos fluxos em aparelho físico foi recebida em 19/11/2026, sem problemas.
 
 Evidências, fontes, cobertura e pendências: [22 — Fase 4](22-FASE-4-CULTURA-E-FOTOS.md). A conferência de atribuição não equivale a uma licença irrestrita de uso.
 
@@ -127,7 +127,7 @@ Critério de saída: roteiros, memórias e linha do tempo utilizáveis, fontes r
 - [x] Expandir a linha do tempo de oito para 15 marcos, com contexto e ligações ao mapa.
 - [x] Preservar edição, espaço e busca ao navegar entre Cultura, artista e mapa.
 - [x] Testar teclado, trocas rápidas, ausência de registros, mobile, movimento reduzido, build e regressões.
-- [x] Incorporar a avaliação dos novos fluxos e as correções solicitadas; teste físico final dos novos fluxos acompanhado na fase 5.
+- [x] Incorporar a avaliação dos novos fluxos e as correções solicitadas; teste físico final dos novos fluxos confirmado sem problemas pelo responsável em 19/11/2026.
 - [x] Corrigir popup encoberto pelos pins e carregamento tardio após sair do mapa.
 - [x] Ampliar o inventário histórico para 125 espaços por edição; usar coordenadas somente nas referências conferidas.
 - [x] Consolidar a revisão editorial do recorte do protótipo e o fechamento solicitado pelo responsável, preservando o inventário das lacunas históricas (relatórios 30–33).
@@ -143,7 +143,7 @@ Relatório completo: [23 — Mapa histórico e acervo](23-MAPA-HISTORICO-E-ACERV
 - [ ] Revisar o conjunto final de dados, créditos, limites e mensagens.
 - [ ] Medir carregamento e revisar conexão limitada e falhas externas.
 - [ ] Fazer revisão final de contraste, teclado, foco e zoom.
-- [ ] Registrar o teste final dos novos fluxos culturais em celular físico: roteiro/parada, salvar/recarregar/excluir memória e programação histórica por data. Solicitação enviada, resultado ainda não informado.
+- [x] Registrar o teste final dos novos fluxos culturais em celular físico: roteiro/parada, salvar/recarregar/excluir memória e programação histórica por data. Em 19/11/2026, o responsável confirmou o teste e relatou “sem problemas”; aparelho e navegador não informados.
 - [ ] Verificar condições de reutilização ou substituir mídias sem autorização específica registrada, conforme inventário de proveniência da fase 4.
 - [ ] Executar os cenários aplicáveis da estratégia de testes no MVP completo.
 - [ ] Corrigir falhas que comprometam a apresentação e repetir os testes afetados.
@@ -360,3 +360,9 @@ Detalhes e inventário: [32 — Datas históricas e rolagem](32-DATAS-HISTORICAS
 - [x] Registrar as pendências de teste físico e revisão final de publicação na fase 5, sem declará-las realizadas.
 
 Referência atual: [33 — Fechamento da fase 4](33-FECHAMENTO-FASE-4.md).
+
+## Confirmação do teste físico cultural — 19/11/2026
+
+- [x] Receber confirmação do responsável de que realizou o roteiro de teste solicitado.
+- [x] Registrar o resultado informado: “sem problemas”.
+- [x] Concluir essa pendência de validação da fase 4, mantendo as demais verificações finais da fase 5.

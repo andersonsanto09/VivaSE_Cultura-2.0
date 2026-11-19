@@ -2,7 +2,7 @@
 
 Encerramento funcional consolidado em 19/11/2026, após solicitação do responsável para finalizar a fase e continuar o trabalho. **Fase 4 concluída no escopo funcional do protótipo.** Os critérios de uso, rastreabilidade e persistência foram verificados com testes automatizados e inspeções de navegador.
 
-O teste final dos novos fluxos em celular físico foi solicitado e ainda não tem resultado informado. Ele permanece como pendência explícita da validação geral da fase 5, antes da entrega final; não é registrado como realizado. As lacunas históricas e de documentação de autorização de imagens também continuam explícitas. O fechamento funcional não declara o produto pronto para operação pública definitiva.
+Em 19/11/2026, o responsável confirmou a realização do teste solicitado em celular físico e informou “sem problemas”. O roteiro solicitado cobria roteiro/parada, salvar/recarregar/excluir memória e programação histórica por data. Essa verificação está registrada como relato do responsável; aparelho e navegador não foram informados. As lacunas históricas e de documentação de autorização de imagens também continuam explícitas. O fechamento funcional não declara o produto pronto para operação pública definitiva.
 
 ## Escopo entregue
 
@@ -27,7 +27,7 @@ Na consolidação de 18/11 e na reconferência de 19/11 foram executados:
 - `tests/planning-browser.py`: programação pessoal, agrupamento, navegação, progresso por roteiro, edição/exportação de memória, privacidade dos links e ciclo de vida do aviso de localização.
 - As revisões imediatamente anteriores verificaram as 18 edições, os 130 retratos, o fluxo da agenda histórica e a regressão da rolagem até o fim da lista. Evidências estão nos relatórios 30–32.
 
-As jornadas foram automatizadas em desktop e em larguras móveis, incluindo 320 px. Isso não substitui o retorno de uma pessoa usando aparelho físico. O teste físico já registrado na fase 3 cobria orientação; a revisão cultural atual tem sua própria confirmação pendente.
+As jornadas foram automatizadas em desktop e em larguras móveis, incluindo 320 px. Isso não substitui o retorno de uma pessoa usando aparelho físico. O teste físico da fase 3 cobria orientação; a revisão cultural atual também foi confirmada pelo responsável em 19/11/2026, sem problemas relatados.
 
 ## Revisão de fontes e imagens
 
@@ -54,7 +54,7 @@ A fase 4 entrega seu escopo funcional. A **fase 5 — qualidade final e prepara�
 1. Revisar a programação de 2026 e eventuais alterações posteriores à v4.
 2. Medir carregamento e verificar conexão limitada, mapa e falhas externas.
 3. Consolidar a revisão final de créditos, condições de reutilização e mensagens de limite.
-4. Conferir contraste, teclado, foco e zoom no MVP completo; registrar o teste dos novos fluxos em celular físico, ainda pendente.
+4. Conferir contraste, teclado, foco e zoom no MVP completo, preservando o teste físico cultural confirmado nesta revisão. Testes de GPS e orientação em campo seguem na qualidade final.
 5. Confirmar duração/equipamento/internet do pitch; preparar roteiro e apoio visual para falha de rede.
 
 O checklist mestre é o [documento 13](13-CHECKLIST-DO-PROJETO.md). O documento 22 é um retrato inicial de 17/11, não o estado atual da entrega.
