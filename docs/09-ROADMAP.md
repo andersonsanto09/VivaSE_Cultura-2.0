@@ -1,6 +1,6 @@
 # 09 — Roadmap, riscos e dúvidas
 
-Atualização de estado: 19/11/2026. Planejamento inicial: 16/11/2026. O ideathon vai de 19 a 21/11. A data exata do pitch e sua duração ainda não foram informadas; planejar para ter um percurso demonstrável antes do início em 19/11. As datas abaixo são proposta de organização, não garantia de entrega nem horas de trabalho confirmadas.
+Atualização de estado: 19/11/2026. Planejamento inicial: 16/11/2026. O ideathon vai de 19 a 21/11. Pitch de três minutos, computador/projetor e internet confirmados; dia/horário específico e banca ainda não informados. As datas abaixo são proposta de organização, não garantia de entrega nem horas de trabalho confirmadas.
 
 ## Fases
 
@@ -11,7 +11,7 @@ Atualização de estado: 19/11/2026. Planejamento inicial: 16/11/2026. O ideatho
 | 2 — Fundação e conteúdo | Entrada, base técnica, inventário de espaços e agenda revisada | Build/typecheck, dados coerentes e base visual discutida | Concluída tecnicamente; protótipo revisado e correções solicitadas aplicadas |
 | 3 — Fluxos do MVP | Mapa, busca, localização, detalhes, agenda e trajeto externo | Percurso de orientação verificado | Concluída no escopo do protótipo; evidências e limites no documento 15 |
 | 4 — Cultura e memória | Roteiros, memórias locais e linha do tempo | Conteúdo e origens identificados, persistência testada | Concluída no escopo funcional do protótipo; evidências, limites e pendências de validação final no documento 33 |
-| 5 — Preparação do pitch | Revisão mobile, falhas, evidências e material de apoio | Percurso repetível e limitações conhecidas | Próxima; verificações iniciais existentes, validação final pendente |
+| 5 — Preparação do pitch | Revisão mobile, falhas, evidências e material de apoio | Percurso repetível e limitações conhecidas | Em andamento; revisão técnica e apoio de três minutos preparados; ensaio humano e curadoria pendentes (34–35) |
 
 ## Sequência sugerida para a janela disponível
 
@@ -41,8 +41,8 @@ Cada etapa depende de disponibilidade, materiais e validação. Cobertura de tod
 
 | ID | Questão | Situação | Quando resolver |
 | --- | --- | --- | --- |
-| Q-01 | Quem é a banca e quanto dura o pitch? | Responsável ainda não sabe | Quando organização informar; não inventar |
-| Q-02 | Haverá demo ao vivo, projetor e internet? | Apenas formato pitch confirmado | Antes de escolher apoio e ensaio final |
+| Q-01 | Quem é a banca e quanto dura o pitch? | Três minutos confirmados; banca ainda não informada | Confirmar critérios e tempo de perguntas |
+| Q-02 | Haverá demo ao vivo, projetor e internet? | Computador/projetor e internet confirmados | Ensaio com equipamento e apoio local |
 | Q-03 | Em qual dia/horário ocorrerá a apresentação? | Evento de 19 a 21/11 | Antes do ensaio; preparar percurso para 19/11 |
 | Q-04 | Qual direção visual seguir? | Resolvida provisoriamente: identidade FASC 2026, entrada vibrante e consulta clara | Refinar com o protótipo |
 | Q-05 | Qual inventário completo de locais e atividades? | V4 reconciliada: 20 registros de espaços/frentes e 144 de agenda; revisar atualizações | Antes de afirmar cobertura completa |

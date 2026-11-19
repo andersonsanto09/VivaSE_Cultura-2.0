@@ -27,7 +27,7 @@ with sync_playwright() as p:
     page.goto(BASE);page.keyboard.press('Tab')
     expect(page.get_by_role('link',name='Pular para o conteúdo')).to_be_focused()
     page.keyboard.press('Enter');expect(page.locator('#conteudo')).to_be_focused()
-    page.get_by_role('link',name='Explorar o mapa').click()
+    page.locator('.hero-action').click()
     expect(page.locator('main h1')).to_be_focused()
     search=page.get_by_role('textbox',name='Buscar espaço ou atração')
     reveal_filters(page)
@@ -53,7 +53,7 @@ with sync_playwright() as p:
     page.goto(BASE+'#/programacao?dia=20&espaco=cinema&busca=sess')
     expect(page.locator('.schedule-list>li').first).to_be_visible()
     agenda_url=page.url;agenda_count=page.locator('.schedule-list>li').count()
-    page.locator('.schedule-list .event-action').first.click()
+    page.locator('.schedule-list .event-space-action').first.click()
     expect(page.locator('.place-detail h2')).to_be_focused()
     page.get_by_role('button',name='Sábado, 21 de novembro').click()
     page.get_by_role('button',name='Voltar à programação').click()
@@ -112,7 +112,7 @@ with sync_playwright() as p:
     checks.append('T08: posição aproximada em sessão, sem persistência ou restauração após reload')
     # Textual content survives a missing festival image.
     page.route('**/images/fasc-2025-palco-julia-rodrigues.jpg',lambda route:route.abort())
-    page.goto(BASE);expect(page.get_by_role('link',name='Explorar o mapa')).to_be_visible()
+    page.goto(BASE);expect(page.locator('.hero-action')).to_be_visible()
     checks.append('T19: imagem indisponível preserva ação e texto da entrada')
     # A 640 CSS-pixel layout is the reflow width of a 1280px desktop at 200% zoom.
     # This is explicit simulation, not a claim of native browser zoom or physical hardware.

@@ -1,6 +1,6 @@
 # VivaSE Cultura — Fase 1
 
-Data de referência: 16/11/2026. Fase 1 encerrada como planejamento; fase 2 concluída tecnicamente e revisada pelo responsável. Fase 3 encerrada para orientação do protótipo; próxima fase: 4, funções culturais. Consulte o [checklist atualizado](13-CHECKLIST-DO-PROJETO.md) e a [migração do mapa e correções](14-MAPA-VETORIAL-E-REVISAO-VISUAL.md).
+Data de referência: 16/11/2026. Fase 1 encerrada como planejamento; fase 2 concluída tecnicamente e revisada pelo responsável. Fases 3 e 4 encerradas no escopo funcional do protótipo. Fase 5 em andamento: qualidade final e pitch de três minutos. Consulte o [checklist atualizado](13-CHECKLIST-DO-PROJETO.md) e a [migração do mapa e correções](14-MAPA-VETORIAL-E-REVISAO-VISUAL.md).
 
 ## Objetivo
 
@@ -78,3 +78,6 @@ Revisão histórica da orientação/visual: [16 — Mapa, agenda e entrada](16-R
 - [24 — Pesquisa integrada e máquina do tempo](24-PESQUISA-INTEGRADA-E-MAQUINA-DO-TEMPO.md): merge das seis pesquisas, curadoria, trajetórias, fotografias e correções de interação.
 
 - [25 — Refinamento visual e acervo fotográfico](25-REFINAMENTO-VISUAL-E-ACERVO-FOTOGRAFICO.md): Home editorial, retratos, detalhes, agenda e mapa.
+
+- [34 — Fase 5: qualidade e apresentação](34-FASE-5-QUALIDADE-E-PITCH.md).
+- [35 — Roteiro do pitch de três minutos](35-ROTEIRO-PITCH-3-MINUTOS.md) e [apoio local com capturas reais](apresentacao/index.html).

@@ -55,4 +55,4 @@ Esses critérios não estão satisfeitos pela documentação. Revisão desta fas
 
 ## Atualização após implementação
 
-O texto acima preserva os critérios de planejamento. A aplicação já existe: evidências efetivamente executadas na orientação, resultados automáticos, relato em celular físico e limites estão no [relatório da fase 3](15-FASE-3-VALIDACAO.md). Cenários culturais e medições finais permanecem pendentes; não considerar todos os P0 do MVP concluídos.
+O texto acima preserva os critérios de planejamento. A aplicação já existe: evidências efetivamente executadas na orientação, resultados automáticos, relato em celular físico e limites estão no [relatório da fase 3](15-FASE-3-VALIDACAO.md). O fechamento cultural e teste físico confirmado estão no [documento 33](33-FECHAMENTO-FASE-4.md). Regressão atual, amostras de carregamento e falhas externas estão no [documento 34](34-FASE-5-QUALIDADE-E-PITCH.md). Ensaio humano e curadoria continuam pendentes; testes não substituem vistoria de campo nem validação com turistas.

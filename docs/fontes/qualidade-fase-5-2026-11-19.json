@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-19",
+  "environment": "Edge headless, Windows, production preview, software WebGL",
+  "samples": [
+    {
+      "lcp_ms": 1380,
+      "dcl_ms": 930,
+      "resource_bytes": 555309
+    },
+    {
+      "lcp_ms": 1208,
+      "dcl_ms": 908,
+      "resource_bytes": 555309
+    },
+    {
+      "lcp_ms": 1212,
+      "dcl_ms": 898,
+      "resource_bytes": 555309
+    }
+  ],
+  "schedule": {
+    "url": "https://anexos.saocristovao.se.gov.br/storage/files/62/FASC%202026_Programa%C3%A7%C3%A3o%20Completa%20v4.pdf",
+    "local_sha256": "9d5b16fc1f7141e14fd7eff565717f3b6583635bc1ac9d6a7733f824f42e5311",
+    "remote_sha256": "9d5b16fc1f7141e14fd7eff565717f3b6583635bc1ac9d6a7733f824f42e5311",
+    "identical": true
+  },
+  "browser": "157.0.4341.60",
+  "profile": {
+    "viewport": "390x844",
+    "latency_ms": 150,
+    "download_bytes_s": 200000,
+    "cpu_slowdown": 4,
+    "cache": "disabled",
+    "observation": "5 seconds after load",
+    "origin": "local Vite preview; does not emulate GitHub CDN compression"
+  },
+  "median_lcp_ms": 1212,
+  "screenshots": [
+    "01-inicio.jpg",
+    "02-orientacao.jpg",
+    "03-programacao.jpg",
+    "04-cultura.jpg",
+    "05-historia.jpg",
+    "06-memorias.jpg"
+  ],
+  "map_provider_failure": "visible status and usable venue list",
+  "schedule_independent_of_map": true,
+  "page_errors": []
+}

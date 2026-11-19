@@ -136,24 +136,26 @@ Relatório completo: [23 — Mapa histórico e acervo](23-MAPA-HISTORICO-E-ACERV
 
 ## Fase 5 — Qualidade final e preparação do pitch
 
-**Situação: próxima fase, liberada após o fechamento funcional da fase 4. Verificações iniciais já existem; a validação final ainda não está concluída.**
+**Situação: em andamento desde 19/11. Revisão técnica e apoio inicial do pitch preparados; ensaio humano e curadoria continuam abertos. Evidências no [documento 34](34-FASE-5-QUALIDADE-E-PITCH.md).**
 
 - [x] Primeiro conjunto automatizado de verificações e capturas criado.
-- [ ] Reconferir programação e eventuais revisões após a v4.
+- [x] Reconferir fonte oficial em 19/11: continua vinculando a v4, idêntica ao PDF arquivado; verificar novos comunicados no dia do pitch.
 - [ ] Revisar o conjunto final de dados, créditos, limites e mensagens.
-- [ ] Medir carregamento e revisar conexão limitada e falhas externas.
-- [ ] Fazer revisão final de contraste, teclado, foco e zoom.
+- [x] Medir produção local com perfil de rede/CPU documentado e verificar falha do mapa/lista/agenda independente (documento 34).
+- [x] Revisar contraste, teclado, foco e reflow até largura equivalente a 200%; resultados axe e limite sobre fotografia registrados no documento 34.
 - [x] Registrar o teste final dos novos fluxos culturais em celular físico: roteiro/parada, salvar/recarregar/excluir memória e programação histórica por data. Em 19/11/2026, o responsável confirmou o teste e relatou “sem problemas”; aparelho e navegador não informados.
 - [ ] Verificar condições de reutilização ou substituir mídias sem autorização específica registrada, conforme inventário de proveniência da fase 4.
-- [ ] Executar os cenários aplicáveis da estratégia de testes no MVP completo.
-- [ ] Corrigir falhas que comprometam a apresentação e repetir os testes afetados.
-- [ ] Confirmar dia, duração, banca, equipamento e internet do pitch quando a organização informar.
-- [ ] Definir roteiro demonstrável que mostre as três prioridades do produto.
-- [ ] Preparar apoio visual real para eventual falha de rede; não prometer mapa offline.
-- [ ] Preparar material de pitch e ensaiar dentro do tempo disponível.
-- [ ] Registrar limitações e próximos passos na entrega final.
+- [x] Repetir orientação, cultura, planejamento, datas/rolagem histórica e produção; escopo e limites no documento 34.
+- [x] Atualizar seletores antigos e repetir testes afetados; nenhuma falha crítica de produto identificada nesta rodada.
+- [x] Confirmar duração/equipamento/internet: três minutos, computador/projetor com internet.
+- [ ] Confirmar dia/horário específico, critérios da banca e tempo de perguntas.
+- [x] Definir roteiro de três minutos para orientação, cultura e memória (documento 35).
+- [x] Preparar apoio local com seis capturas reais e navegação por setas, sem prometer mapa offline.
+- [x] Preparar material de pitch com tempos e sequência de telas.
+- [ ] Fazer ensaio humano cronometrado e conferir legibilidade no projetor.
+- [x] Registrar limites e próximos passos desta rodada no documento 34.
 - [ ] Fazer commit/push da versão final quando solicitado e conferir sincronização.
-- [ ] Combinar hospedagem/publicação se necessária à apresentação.
+- [x] Hospedagem escolhida e protótipo já publicado no GitHub Pages.
 
 Critério de saída: demo repetível, material de apoio, limitações conhecidas e versão de apresentação identificada.
 
@@ -175,7 +177,7 @@ Não são requisitos para concluir o protótipo acordado. Só entram com nova de
 - Recomendações recebidas por mensagens já foram avaliadas. Eventual `.txt` adicional será novo material de revisão.
 - Banheiros, emergências, bloqueios e acessibilidade: dependem de fonte específica da edição; não serão inventados.
 - Pesquisa histórica: bibliografia localizada não equivale a livros integralmente lidos.
-- Recursos e duração do pitch: ainda não informados.
+- Pitch: três minutos, computador/projetor com internet confirmados; banca e horário específico ainda não informados.
 
 Referências: [roadmap](09-ROADMAP.md), [requisitos](02-REQUISITOS.md), [fundação](11-FASE-2-FUNDACAO.md) e [inventário](12-INVENTARIO-E-PROGRAMACAO.md).
 
