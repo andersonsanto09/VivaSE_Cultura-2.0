@@ -25,14 +25,14 @@ with sync_playwright() as p:
   client.send('Network.emulateNetworkConditions',{'offline':False,'latency':150,'downloadThroughput':200000,'uploadThroughput':93750})
   client.send('Emulation.setCPUThrottlingRate',{'rate':4})
   page.add_init_script("new PerformanceObserver(l=>{for(const e of l.getEntries())window.pitchLCP=e.startTime}).observe({type:'largest-contentful-paint',buffered:true})")
-  page.goto(BASE,wait_until='load');expect(page.locator('h1')).to_be_visible();page.wait_for_timeout(5000)
+  page.goto(BASE+'#/fasc',wait_until='load');expect(page.locator('h1')).to_be_visible();page.wait_for_timeout(5000)
   result['samples'].append(page.evaluate("({lcp_ms:Math.round(window.pitchLCP||0),dcl_ms:Math.round(performance.getEntriesByType('navigation')[0].domContentLoadedEventEnd),resource_bytes:performance.getEntriesByType('resource').reduce((s,r)=>s+r.transferSize,0)})"))
   c.close()
  result['profile']={'viewport':'390x844','latency_ms':150,'download_bytes_s':200000,'cpu_slowdown':4,'cache':'disabled','observation':'5 seconds after load','origin':'local Vite preview; does not emulate GitHub CDN compression'}
  result['median_lcp_ms']=statistics.median(s['lcp_ms'] for s in result['samples'])
  c=b.new_context(viewport={'width':1440,'height':900},locale='pt-BR');page=c.new_page();errors=[]
  page.on('pageerror',lambda e:errors.append(str(e)))
- screens=[('01-inicio',''),('02-orientacao','#/mapa?dia=21&lugar=joao'),('03-programacao','#/programacao?dia=21&busca=Morgana'),('04-cultura','#/roteiros?dia=21&roteiro=patrimonio'),('05-historia','#/mapa?modo=historico&edicao=2025&lugar=2025-joao'),('06-memorias','#/memorias?dia=21')]
+ screens=[('01-inicio','#/fasc'),('02-orientacao','#/mapa?dia=21&lugar=joao'),('03-programacao','#/programacao?dia=21&busca=Morgana'),('04-cultura','#/roteiros?dia=21&roteiro=patrimonio'),('05-historia','#/mapa?modo=historico&edicao=2025&lugar=2025-joao'),('06-memorias','#/memorias?dia=21')]
  for name,path in screens:
   page.goto(BASE+path);page.wait_for_load_state('networkidle');page.evaluate('document.fonts.ready');page.wait_for_timeout(1500)
   expect(page.locator('h1')).to_be_visible()

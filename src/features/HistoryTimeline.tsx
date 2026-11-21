@@ -2,14 +2,22 @@ import {ArrowUpRight,MapPinned} from 'lucide-react';
 import {festivalEditions,historicalArtists,historicalMilestones} from '../data/history';
 import {historicalMapHref,historyParams,patchHistoryParams} from '../domain/history';
 import SelectField from '../components/SelectField';
+// A linha do tempo exibe apenas o recorte de 2005 a 2026. Os dados anteriores
+// continuam no acervo (mapa histórico e artistas), mas ficam fora desta tela.
+const FIRST_YEAR=2005;
+const LAST_YEAR=2026;
+const inTimeline=(year:number)=>year>=FIRST_YEAR && year<=LAST_YEAR;
+const timelineMilestones=historicalMilestones.filter(m=>inTimeline(m.year));
+const timelineEditions=festivalEditions.filter(e=>inTimeline(e.year));
 export default function HistoryTimeline() {
   const params=historyParams();
   const filter=params.get('tipo') || 'todos';
-  const editionId=params.get('edicao') || '';
-  const milestones=historicalMilestones.filter(m=>(filter==='todos' || m.kind===filter) && (!editionId || m.editionId===editionId));
+  const requestedEdition=params.get('edicao') || '';
+  const editionId=timelineEditions.some(e=>e.id===requestedEdition)?requestedEdition:'';
+  const milestones=timelineMilestones.filter(m=>(filter==='todos' || m.kind===filter) && (!editionId || m.editionId===editionId));
   const origin=`/historia?${params}`;
-  return <section className="history-section" aria-label="Marcos históricos"><div className="history-intro"><h2>Uma história feita de encontros.<br/>E de reencontros.</h2><p>Espaços que mudam de nome, cenas que se encontram e retornos que marcam a cidade. Explore {historicalMilestones.length} marcos documentados, sem preencher os anos de interrupção.</p></div>
-    <div className="history-explore-toolbar"><div className="history-filters" role="group" aria-label="Filtrar marcos">{[['todos','Todos os marcos'],['festival','Festival'],['cidade','Cidade']].map(([value,label])=><button key={value} aria-pressed={filter===value} onClick={()=>patchHistoryParams({tipo:value,edicao:''},true)}>{label}</button>)}</div><SelectField label="Edição da linha do tempo" value={editionId} onChange={value=>patchHistoryParams({edicao:value,tipo:'todos'},true)} options={[{value:'',label:'Toda a trajetória'},...festivalEditions.map(e=>({value:e.id,label:`${e.year}${e.number?` · ${e.number}ª edição`:''}`}))]}/></div>
+  return <section className="history-section" aria-label="Marcos históricos"><div className="history-intro"><h2>Uma história feita de encontros.<br/>E de reencontros.</h2><p>Espaços que mudam de nome, cenas que se encontram e retornos que marcam a cidade. Explore {timelineMilestones.length} marcos documentados de {FIRST_YEAR} a {LAST_YEAR}, sem preencher os anos de interrupção.</p></div>
+    <div className="history-explore-toolbar"><div className="history-filters" role="group" aria-label="Filtrar marcos">{[['todos','Todos os marcos'],['festival','Festival'],['cidade','Cidade']].map(([value,label])=><button key={value} aria-pressed={filter===value} onClick={()=>patchHistoryParams({tipo:value,edicao:''},true)}>{label}</button>)}</div><SelectField label="Edição da linha do tempo" value={editionId} onChange={value=>patchHistoryParams({edicao:value,tipo:'todos'},true)} options={[{value:'',label:'Toda a trajetória'},...timelineEditions.map(e=>({value:e.id,label:`${e.year}${e.number?` · ${e.number}ª edição`:''}`}))]}/></div>
     <a className="history-map-invite" href={historicalMapHref(editionId || '2025','','/historia?'+params)}><MapPinned size={23} aria-hidden="true"/><span><strong>O tempo também está no mapa.</strong>Viaje pelos espaços documentados de cada edição.</span><ArrowUpRight size={22} aria-hidden="true"/></a>
     <p className="history-result-count" role="status">{milestones.length} marcos neste recorte</p>
     <ol className="history-list expanded-history">{milestones.map(m=>{

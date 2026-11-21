@@ -43,4 +43,11 @@ São amostras de laboratório local, sem equivalência à rede real do evento, C
 5. Memórias e favoritos são locais; não há servidor, moderação nem sincronização. Mapas não funcionam integralmente offline. Referências aproximadas e trajetos não vistoriados continuam explicitados.
 6. Reconfirmar comunicados da organização no dia do pitch. Evitar novas funcionalidades antes da apresentação; priorizar falhas reproduzíveis.
 
+## Ajustes posteriores — 20 e 21/11/2026
+
+- **Plataforma cultural** ([36](36-PLATAFORMA-CULTURAL.md)): a raiz `#/` abre a Home do VivaSE sobre São Cristóvão; a Home do FASC passou para `#/fasc`. As rotas do FASC usadas no roteiro do pitch (`#/mapa`, `#/programacao`, `#/roteiros`, `#/memorias`, `#/historia`) não mudaram. Para abrir o pitch pela Home do FASC, usar `#/fasc` em vez da raiz.
+- **Linha do tempo** ([37](37-LINHA-DO-TEMPO-2005-2026.md)): a tela `#/historia` mostra só 2005 a 2026 (14 marcos). O mapa histórico continua com as 18 edições.
+- `npm test` passou a ter **52 testes** (10 novos da plataforma), todos aprovados; typecheck aprovado.
+- Os testes Playwright `phase-3`, `phase-4`, `phase-5`, `art-polish` e `visual-review` foram atualizados para a nova raiz e para o novo recorte da linha do tempo. Não foram executados de novo após os ajustes, porque o ambiente atual não tem o pacote `playwright`.
+
 Critério para encerrar a fase: ensaio repetível dentro do tempo, condições finais registradas, pendências de mídia resolvidas ou decisão documentada sobre seu uso/substituição e versão de apresentação identificada. Os itens abertos não impedem preparar e testar o percurso do MVP.

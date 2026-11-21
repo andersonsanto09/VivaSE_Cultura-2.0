@@ -56,7 +56,7 @@ with sync_playwright() as p:
     expect(page.locator('.place-detail h2')).to_be_visible()
     expect(page.locator('.festival-pin .pin-number')).to_have_count(1)
     checks.append('20 pins individuais; 19 centrais na abertura; visão geral inclui Bica; fallback residual abre lista sem zoom')
-    page.goto(BASE)
+    page.goto(BASE+'#/fasc')
     title=page.locator('.hero-copy h1')
     assert title.evaluate('el=>getComputedStyle(el).letterSpacing')=='normal' or float(title.evaluate('el=>parseFloat(getComputedStyle(el).letterSpacing)||0'))==0
     for category in ['Música','Artes cênicas','Cultura e formação','Feiras e experiências','Cortejos']:
@@ -64,7 +64,7 @@ with sync_playwright() as p:
         reveal_filters(page)
         expect(page.get_by_role('button',name='Filtrar '+category,exact=True)).to_have_attribute('aria-pressed','true')
         assert page.locator('.place-row').count()>0
-        page.goto(BASE)
+        page.goto(BASE+'#/fasc')
     checks.append('Cinco cards da entrada filtram categorias reais; título sem tracking negativo')
     page.goto(BASE+'#/programacao?dia=21')
     reveal_filters(page)

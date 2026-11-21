@@ -1,5 +1,7 @@
 import {DayPicker,ActivityTime,ActivityDetails} from './components/ProgramUI';
 import HomeFooter from './components/HomeFooter';
+import Brand from './components/Brand';
+import BackLink from './components/BackLink';
 import {editorialActivityIds} from './data/editorial';
 import PlaceThumbnail from './components/PlaceThumbnail';
 import TimeMachine,{TimeMachineProvider} from './components/TimeMachine';
@@ -37,7 +39,7 @@ function go(page: string, day: FestivalDay = '20', placeId = '', origin = '') {
   params.set('dia',day);params.delete('lugar');
   if(origin) params.set('origem',origin);
   if (placeId) params.set('lugar', placeId);
-  window.location.hash = page === 'inicio' ? '/' : `/${page}?${params}`;
+  window.location.hash = page === 'inicio' ? '/fasc' : `/${page}?${params}`;
 }
 function updateFilters(values:Record<string,string>) {
   const [path,search='']=window.location.hash.slice(1).split('?');
@@ -45,9 +47,6 @@ function updateFilters(values:Record<string,string>) {
   for(const [name,value] of Object.entries(values)) {if(value && value!=='Todos') params.set(name,value);else params.delete(name);}
   window.history.replaceState(null,'',`#${path}?${params}`);
   window.dispatchEvent(new Event('hashchange'));
-}
-function Brand() {
-  return <a className="brand" href="#/" aria-label="VivaSE Cultura — início"><span className="brand-name">Viva<span>SE</span><svg className="brand-spark" aria-hidden="true" width="29" height="29" viewBox="0 0 30 30" fill="none" stroke="currentColor"><path d="M15 1v28M1 15h28M5 5l20 20M5 25 25 5" /></svg></span><span className="brand-label">Cultura</span></a>;
 }
 function Home() {
   return <><main id="conteudo" className="home">
@@ -178,7 +177,8 @@ export default function App() {
   useEffect(() => { const listener = () => setRoute(readRoute()); window.addEventListener('hashchange', listener); return () => window.removeEventListener('hashchange', listener); }, []);
   useEffect(() => { const titles:Record<string,string>={inicio:'VivaSE Cultura',cultura:'Cultura | VivaSE Cultura',mapa:'Mapa | VivaSE Cultura',programacao:'Programação | VivaSE Cultura',roteiros:'Roteiros | VivaSE Cultura',memorias:'Memórias | VivaSE Cultura',historia:'Linha do tempo | VivaSE Cultura',artistas:'Artistas | VivaSE Cultura',sobre:'Sobre | VivaSE Cultura'};document.title = `${route.page==='mapa' && route.historicalMode?'Mapa histórico | VivaSE Cultura':titles[route.page]} — FASC 2026`; window.scrollTo(0, 0); }, [route.page,route.historicalMode]);
   return <TimeMachineProvider><div className={`app page-${route.page}`}><a href="#conteudo" className="skip-link" onClick={e => { e.preventDefault(); const main = document.getElementById('conteudo'); main?.setAttribute('tabindex', '-1'); main?.focus(); }}>Pular para o conteúdo</a>
-    <header className="site-header"><Brand /><nav aria-label="Navegação principal">{[{ page: 'mapa', label: 'Mapa' }, { page: 'programacao', label: 'Programação' }, { page:'cultura',label:'Cultura' }, { page: 'sobre', label: 'Sobre' }].map(item => <a key={item.page} href={`#/${item.page}?dia=${route.day}`} aria-current={route.page === item.page || (item.page==='cultura' && culturePages.includes(route.page)) ? 'page' : undefined}>{item.label}</a>)}</nav><span className="edition-label"><img src={`${import.meta.env.BASE_URL}images/fasc-2026-logo.svg`} alt="FASC 2026" width="100" height="34" /></span></header>
+    <header className="site-header"><Brand /><nav aria-label="Navegação principal">{[{ page: 'mapa', label: 'Mapa' }, { page: 'programacao', label: 'Programação' }, { page:'cultura',label:'Cultura' }, { page: 'sobre', label: 'Sobre' }].map(item => <a key={item.page} href={`#/${item.page}?dia=${route.day}`} aria-current={route.page === item.page || (item.page==='cultura' && culturePages.includes(route.page)) ? 'page' : undefined}>{item.label}</a>)}</nav><a className="edition-label" href="#/fasc" title="Início do FASC"><img src={`${import.meta.env.BASE_URL}images/fasc-2026-logo.svg`} alt="FASC 2026 — início do festival" width="100" height="34" /></a></header>
+    <BackLink />
     {route.page === 'inicio' ? <Home /> : route.page === 'mapa' && route.historicalMode ? <Suspense fallback={<main id="conteudo" className="content-page"><p role="status">Abrindo o acervo histórico…</p></main>}><HistoricalMap day={route.day}/></Suspense> : route.page === 'mapa' ? <Explore day={route.day} placeId={route.placeId} query={route.query} category={route.category} origin={route.origin} /> : route.page === 'programacao' ? <Suspense fallback={<main id="conteudo" className="content-page"><p role="status">Abrindo a programação…</p></main>}><Schedule day={route.day} query={route.query} placeId={route.agendaPlace} category={route.category} nowOnly={route.nowOnly}/></Suspense> : culturePages.includes(route.page) ? <Suspense fallback={<main id="conteudo" className="content-page" aria-busy="true"><p role="status">Abrindo os caminhos da cultura…</p></main>}><CultureView page={route.page as 'cultura'|'roteiros'|'memorias'|'historia'|'artistas'} day={route.day} routeId={route.culturalRoute} initialPlace={route.agendaPlace} /></Suspense> : <Suspense fallback={<main id="conteudo" className="content-page"><p role="status">Abrindo a história do VivaSE…</p></main>}><About day={route.day}/></Suspense>}
   </div></TimeMachineProvider>;
 }

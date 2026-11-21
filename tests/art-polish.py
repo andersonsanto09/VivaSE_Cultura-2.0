@@ -12,10 +12,10 @@ with sync_playwright() as p:
   page.goto(BASE+'#/'+path);page.wait_for_load_state('networkidle')
  def loaded(img):
   img.scroll_into_view_if_needed();expect(img).to_have_js_property('complete',True);assert img.evaluate('e=>e.naturalWidth>0')
- visit('');expect(page.locator('.editorial-grid>article')).to_have_count(3)
+ visit('fasc');expect(page.locator('.editorial-grid>article')).to_have_count(3)
  for img in page.locator('.home-editorial img').all():loaded(img)
  page.locator('.city-story .editorial-action').click();expect(page.locator('.cultural-stops')).to_be_visible()
- visit('');page.locator('.archive-story .editorial-action').click();expect(page.locator('#artist-detail-title')).to_have_text('The Baggios')
+ visit('fasc');page.locator('.archive-story .editorial-action').click();expect(page.locator('#artist-detail-title')).to_have_text('The Baggios')
  checks.append('Home com cidade, depoimento atribuído e trajetória com links funcionais')
  for query in ['Alceu','Baggios','Gaby','Marina','Baiana','Karol','Olodum','Catto']:
   visit('artistas?busca='+query);img=page.locator('.artist-portrait img');expect(img).to_have_count(1);loaded(img)

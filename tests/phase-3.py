@@ -24,7 +24,7 @@ with sync_playwright() as p:
         c.on('page',lambda page:page.on('pageerror',lambda e:errors.append(str(e))))
         return c
     c=context(viewport={'width':1440,'height':1000});page=c.new_page()
-    page.goto(BASE);page.keyboard.press('Tab')
+    page.goto(BASE+'#/fasc');page.locator('.hero-action').wait_for();page.keyboard.press('Tab')
     expect(page.get_by_role('link',name='Pular para o conteúdo')).to_be_focused()
     page.keyboard.press('Enter');expect(page.locator('#conteudo')).to_be_focused()
     page.locator('.hero-action').click()
@@ -112,13 +112,13 @@ with sync_playwright() as p:
     checks.append('T08: posição aproximada em sessão, sem persistência ou restauração após reload')
     # Textual content survives a missing festival image.
     page.route('**/images/fasc-2025-palco-julia-rodrigues.jpg',lambda route:route.abort())
-    page.goto(BASE);expect(page.locator('.hero-action')).to_be_visible()
+    page.goto(BASE+'#/fasc');expect(page.locator('.hero-action')).to_be_visible()
     checks.append('T19: imagem indisponível preserva ação e texto da entrada')
     # A 640 CSS-pixel layout is the reflow width of a 1280px desktop at 200% zoom.
     # This is explicit simulation, not a claim of native browser zoom or physical hardware.
     for width in [1440,768,640,390,360]:
         page.set_viewport_size({'width':width,'height':900})
-        for path in ['', '#/mapa?dia=20', '#/mapa?dia=22&lugar=joao', '#/programacao?dia=21&espaco=cinema', '#/sobre']:
+        for path in ['#/fasc', '#/mapa?dia=20', '#/mapa?dia=22&lugar=joao', '#/programacao?dia=21&espaco=cinema', '#/sobre']:
             page.goto(BASE+path);page.wait_for_load_state('networkidle')
             assert page.evaluate('document.documentElement.scrollWidth<=innerWidth'),(width,path)
         if width==640:

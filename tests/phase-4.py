@@ -33,12 +33,14 @@ with sync_playwright() as p:
     checks.append('Roteiro → detalhe com foto → retorno preserva dia e roteiro')
 
     page.goto(BASE+'#/historia?dia=21')
-    expect(page.locator('.history-list>li')).to_have_count(15)
+    expect(page.locator('.history-list>li')).to_have_count(14)
+    expect(page.locator('.history-year').first).to_contain_text('2005')
+    expect(page.locator('.history-list')).not_to_contain_text('1972')
     page.get_by_role('button',name='Cidade',exact=True).click()
     expect(page.locator('.history-list>li')).to_have_count(1)
     expect(page.locator('.history-year')).to_have_text('2010')
     page.get_by_role('button',name='Festival',exact=True).click()
-    expect(page.locator('.history-list>li')).to_have_count(14)
+    expect(page.locator('.history-list>li')).to_have_count(13)
     expect(page.locator('.history-list')).to_contain_text('edição anunciada')
     checks.append('Marcos documentados: cidade separada do festival e 2026 anunciada')
 

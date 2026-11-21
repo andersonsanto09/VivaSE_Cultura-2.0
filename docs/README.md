@@ -1,6 +1,6 @@
 # VivaSE Cultura — Fase 1
 
-Data de referência: 16/11/2026. Fase 1 encerrada como planejamento; fase 2 concluída tecnicamente e revisada pelo responsável. Fases 3 e 4 encerradas no escopo funcional do protótipo. Fase 5 em andamento: qualidade final e pitch de três minutos. Consulte o [checklist atualizado](13-CHECKLIST-DO-PROJETO.md) e a [migração do mapa e correções](14-MAPA-VETORIAL-E-REVISAO-VISUAL.md).
+Data de referência: 16/11/2026; estado atualizado em 21/11/2026. Fase 1 encerrada como planejamento; fase 2 concluída tecnicamente e revisada pelo responsável. Fases 3 e 4 encerradas no escopo funcional do protótipo. Fase 5 em andamento: qualidade final e pitch de três minutos. Em 20/11 o VivaSE ganhou uma camada de plataforma cultural sobre o FASC ([36](36-PLATAFORMA-CULTURAL.md)) e, em 21/11, a linha do tempo passou a mostrar só 2005 a 2026 ([37](37-LINHA-DO-TEMPO-2005-2026.md)). Consulte o [checklist atualizado](13-CHECKLIST-DO-PROJETO.md) e a [migração do mapa e correções](14-MAPA-VETORIAL-E-REVISAO-VISUAL.md).
 
 ## Objetivo
 
@@ -73,11 +73,22 @@ Revisão histórica da orientação/visual: [16 — Mapa, agenda e entrada](16-R
 
 - [22 — Fase 4: roteiros, memórias, história e fotografias](22-FASE-4-CULTURA-E-FOTOS.md): implementação local, evidências e pendências de curadoria.
 
-- [23 — Mapa histórico interativo e acervo de artistas](23-MAPA-HISTORICO-E-ACERVO.md): nove edições, 15 marcos, 36 artistas/grupos, reprodução, integração e evidências.
+- [23 — Mapa histórico interativo e acervo de artistas](23-MAPA-HISTORICO-E-ACERVO.md): nove edições, 15 marcos, 36 artistas/grupos, reprodução, integração e evidências. A tela da linha do tempo hoje mostra 14 marcos (registro 37).
 
 - [24 — Pesquisa integrada e máquina do tempo](24-PESQUISA-INTEGRADA-E-MAQUINA-DO-TEMPO.md): merge das seis pesquisas, curadoria, trajetórias, fotografias e correções de interação.
 
 - [25 — Refinamento visual e acervo fotográfico](25-REFINAMENTO-VISUAL-E-ACERVO-FOTOGRAFICO.md): Home editorial, retratos, detalhes, agenda e mapa.
 
+- [26 — Programação pessoal, Cultura e aviso do mapa](26-PROGRAMACAO-PESSOAL-E-CULTURA.md).
+- [27 — Sobre: propósito, equipe e transparência](27-SOBRE-EDITORIAL-E-TRANSPARENCIA.md).
+- [28 — Auditoria dos retratos do acervo](28-AUDITORIA-DOS-RETRATOS.md).
+- [29 — Revisão da realização das participações históricas](29-REVISAO-DAS-PARTICIPACOES.md).
+- [30 — Expansão das fotografias dos artistas](30-EXPANSAO-DAS-FOTOS-DOS-ARTISTAS.md).
+- [31 — Programação no mapa histórico](31-PROGRAMACAO-NO-MAPA-HISTORICO.md).
+- [32 — Datas históricas e rolagem](32-DATAS-HISTORICAS-E-ROLAGEM.md).
+- [33 — Fechamento da fase 4](33-FECHAMENTO-FASE-4.md): descoberta cultural e memória.
+
 - [34 — Fase 5: qualidade e apresentação](34-FASE-5-QUALIDADE-E-PITCH.md).
 - [35 — Roteiro do pitch de três minutos](35-ROTEIRO-PITCH-3-MINUTOS.md) e [apoio local com capturas reais](apresentacao/index.html).
+- [36 — Plataforma cultural de São Cristóvão](36-PLATAFORMA-CULTURAL.md): nova Home, rotas, preservação do FASC, Senhor dos Passos, publicações e fontes.
+- [37 — Linha do tempo de 2005 a 2026](37-LINHA-DO-TEMPO-2005-2026.md): recorte da tela, o que foi preservado no acervo e verificação.

@@ -16,7 +16,7 @@ Referência: 16/11/2026. Todos os requisitos abaixo estão planejados, sem imple
 | RF-08 | P0 | Roteiro cultural apresenta uma sequência de lugares | Ordem explícita, detalhes e acesso a cada parada; não apresenta linha reta como caminho caminhável |
 | RF-09 | P0 | Memórias permite explorar exemplos e, quando disponíveis, referências reais | Fictício, relato publicado e memória pessoal são distinguíveis na própria leitura |
 | RF-10 | P0 | Visitante pode escrever e remover uma lembrança local | Conteúdo reaparece ao recarregar no mesmo navegador; aviso de armazenamento local; exclusão funciona |
-| RF-11 | P0 | Linha do tempo apresenta marcos históricos documentados | Cada marco tem data/período, descrição e fonte; não inventar uma edição por ano |
+| RF-11 | P0 | Linha do tempo apresenta marcos históricos documentados | Cada marco tem data/período, descrição e fonte; não inventar uma edição por ano. Desde 21/11/2026 a tela mostra o período de 2005 a 2026 (D-18) |
 | RF-12 | P0 | Sobre/créditos informa protótipo, origem dos dados e limites | Não se apresenta como serviço oficial ou em tempo real; créditos acessíveis |
 | RF-13 | P0 | Conteúdo de todos os espaços é reconciliado com fontes oficiais | Lista mestra registra incluídos, pendentes, itinerantes e excluídos com motivo; pendência não é escondida |
 | RF-14 | P1 | Roteiro pessoal permite selecionar e remover paradas | Ordem visível e estado vazio claro; salvar preferências localmente é opcional |

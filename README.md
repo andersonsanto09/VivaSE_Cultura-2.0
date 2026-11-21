@@ -2,9 +2,13 @@
 
 Nova versão do guia cultural e mapa do FASC, planejada para o ideathon de 19 a 21/11/2026. Repositório: [VivaSE_Cultura-2.0](https://github.com/bernas0610/VivaSE_Cultura-2.0).
 
-**Estado atual:** fases 1, 2 e 3 concluídas no escopo do protótipo. Fluxos de orientação revisados e testados, incluindo retorno do responsável em celular físico. Fase 4 em implementação: roteiros, memórias locais e linha do tempo já utilizáveis localmente; fotografias contextualizadas nos 20 registros, com revisão editorial e aceite pendentes. [Registro da fase 4](docs/22-FASE-4-CULTURA-E-FOTOS.md). [Checklist](docs/13-CHECKLIST-DO-PROJETO.md) · [Evidências e limites da fase 3](docs/15-FASE-3-VALIDACAO.md).
+**Estado atual (21/11/2026):** fases 1 a 4 concluídas no escopo do protótipo. Fase 5 em andamento: qualidade final e pitch de três minutos. Orientação, roteiros, memórias locais, linha do tempo, mapa histórico e acervo de artistas estão implementados e testados. [Fechamento da fase 4](docs/33-FECHAMENTO-FASE-4.md) · [Fase 5](docs/34-FASE-5-QUALIDADE-E-PITCH.md) · [Checklist](docs/13-CHECKLIST-DO-PROJETO.md).
 
 A máquina do tempo fica visível acima do mapa: 18 edições históricas e retorno a 2026. O acervo preserva 191 artistas/grupos e 230 participações, com uma seleção pública de 80 nomes, trajetórias cronológicas e 125 registros de espaços por edição. [Pesquisa integrada, critérios e lacunas](docs/24-PESQUISA-INTEGRADA-E-MAQUINA-DO-TEMPO.md).
+
+**Plataforma cultural (20/11/2026):** a raiz do site (`#/`) agora abre a Home do VivaSE sobre São Cristóvão, com experiências, publicações e lugares. A Home original do FASC está em `#/fasc`, e todas as rotas do FASC (`#/mapa`, `#/programacao`…) continuam iguais. Nova experiência: Festa de Nosso Senhor dos Passos (`#/senhor-dos-passos`). [Arquitetura, rotas e fontes](docs/36-PLATAFORMA-CULTURAL.md).
+
+**Linha do tempo (21/11/2026):** a tela Cultura → Linha do tempo (`#/historia`) mostra apenas o período de 2005 a 2026: 14 marcos e oito edições no seletor. O acervo completo, desde 1972, continua no mapa histórico e na página de artistas. [Registro da mudança](docs/37-LINHA-DO-TEMPO-2005-2026.md).
 
 ## Executar a nova versão
 
@@ -17,7 +21,9 @@ npm run dev
 
 Antes de usar o mapa vetorial, copie `.env.example` para `.env.local` e configure sua chave pública MapTiler com origens permitidas. Reinicie o servidor após alterar esse arquivo.
 
-Abrir o endereço local impresso pelo Vite. Verificações: `npm test`, `npm run typecheck` e `npm run build`. O build verifica tipos e gera `dist/`. O mapa é carregado sob demanda.
+Abrir o endereço local impresso pelo Vite. Verificações: `npm test` (52 testes de domínio), `npm run typecheck` e `npm run build`. O build verifica tipos e gera `dist/`. O mapa é carregado sob demanda. Os testes de navegador ficam em `tests/*.py` e exigem Python com Playwright.
+
+Principais endereços: `#/` (Home da plataforma), `#/fasc` (Home do FASC), `#/mapa`, `#/programacao`, `#/cultura`, `#/historia`, `#/artistas`, `#/publicacoes` e `#/senhor-dos-passos`.
 
 A fundação tem 20 registros de espaços/frentes com referências geográficas de precisão declarada e 144 registros de agenda reconciliados com as 21 páginas de conteúdo da v4. As funções culturais estão implementadas e testadas localmente; as fotos distinguem arquivo, equipamento e entorno, e a revisão do responsável continua pendente; o PDF v4 é mantido apenas na documentação interna do repositório. A abertura de “Como chegar” é externa.
 

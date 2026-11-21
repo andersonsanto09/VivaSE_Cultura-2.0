@@ -11,7 +11,7 @@ Em 19/11/2026, o responsável confirmou a realização do teste solicitado em ce
 | Roteiros | Três percursos culturais com ordem, paradas, fontes, mapa e retorno ao roteiro; progresso salvo no navegador. |
 | Memórias | Exploração de relatos publicados e exemplo fictício identificado; criar, editar, excluir e exportar lembranças pessoais. |
 | Persistência | Dados locais no aparelho/origem do site, sem servidor; recarga, bloqueio, quota, dados corrompidos e alterações de outra aba tratados. |
-| História | 15 marcos documentados e máquina do tempo com 18 edições, sem presumir continuidade anual. |
+| História | 15 marcos documentados e máquina do tempo com 18 edições, sem presumir continuidade anual. Desde 21/11/2026 a tela da linha do tempo mostra 14 marcos, de 2005 a 2026 (registro 37). |
 | Mapa histórico | 125 espaços cadastrados por edição, seleção individual, resumo, programação por data, informações do espaço e fontes. |
 | Artistas | 191 nomes preservados, curadoria de 80 destaques, busca e trajetória; 130 nomes com foto, incluindo os 80 destaques. |
 | Fotografias dos espaços | 20 registros com foto contextualizada; crédito, origem e alternativa em caso de falha. |

@@ -1,6 +1,6 @@
 # 09 — Roadmap, riscos e dúvidas
 
-Atualização de estado: 19/11/2026. Planejamento inicial: 16/11/2026. O ideathon vai de 19 a 21/11. Pitch de três minutos, computador/projetor e internet confirmados; dia/horário específico e banca ainda não informados. As datas abaixo são proposta de organização, não garantia de entrega nem horas de trabalho confirmadas.
+Atualização de estado: 21/11/2026. Planejamento inicial: 16/11/2026. O ideathon vai de 19 a 21/11. Pitch de três minutos, computador/projetor e internet confirmados; dia/horário específico e banca ainda não informados. As datas abaixo são proposta de organização, não garantia de entrega nem horas de trabalho confirmadas.
 
 ## Fases
 
@@ -11,7 +11,7 @@ Atualização de estado: 19/11/2026. Planejamento inicial: 16/11/2026. O ideatho
 | 2 — Fundação e conteúdo | Entrada, base técnica, inventário de espaços e agenda revisada | Build/typecheck, dados coerentes e base visual discutida | Concluída tecnicamente; protótipo revisado e correções solicitadas aplicadas |
 | 3 — Fluxos do MVP | Mapa, busca, localização, detalhes, agenda e trajeto externo | Percurso de orientação verificado | Concluída no escopo do protótipo; evidências e limites no documento 15 |
 | 4 — Cultura e memória | Roteiros, memórias locais e linha do tempo | Conteúdo e origens identificados, persistência testada | Concluída no escopo funcional do protótipo; evidências, limites e pendências de validação final no documento 33 |
-| 5 — Preparação do pitch | Revisão mobile, falhas, evidências e material de apoio | Percurso repetível e limitações conhecidas | Em andamento; revisão técnica e apoio de três minutos preparados; ensaio humano e curadoria pendentes (34–35) |
+| 5 — Preparação do pitch | Revisão mobile, falhas, evidências e material de apoio | Percurso repetível e limitações conhecidas | Em andamento; revisão técnica e apoio de três minutos preparados; ensaio humano e curadoria pendentes (34–35). Ajustes de 20–21/11: plataforma cultural (36) e linha do tempo 2005–2026 (37) |
 
 ## Sequência sugerida para a janela disponível
 
@@ -56,5 +56,7 @@ A [matriz](MATRIZ-CSD.md) e seu PDF preservam o registro inicial do ideathon. As
 ## Passagem para a próxima etapa
 
 O responsável solicitou finalizar a fase 4. O escopo funcional foi consolidado com testes, rastreabilidade e limites no [documento 33](33-FECHAMENTO-FASE-4.md). A próxima fase é qualidade final e preparação do pitch. O teste final dos novos fluxos em aparelho físico foi confirmado sem problemas pelo responsável em 19/11/2026. As condições de reutilização das mídias sem autorização específica registrada continuam pendentes na revisão final de publicação. O protótipo já está publicado no GitHub Pages.
+
+Durante a fase 5, o responsável pediu dois ajustes de escopo: a camada de plataforma cultural sobre o FASC ([36](36-PLATAFORMA-CULTURAL.md)) e o recorte de 2005 a 2026 na tela da linha do tempo ([37](37-LINHA-DO-TEMPO-2005-2026.md)). Os dois preservam rotas, dados e funções existentes.
 
 Checklist operacional de todas as fases: [13 — Checklist do projeto](13-CHECKLIST-DO-PROJETO.md).

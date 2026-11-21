@@ -1,0 +1,139 @@
+/* Senhor dos Passos: its own identity inside the VivaSE grammar.
+   Deep violet of Lent, warm cream and muted gold; same type, buttons and spacing
+   rhythm as the platform. The header follows the FASC header anatomy. Mobile first. */
+.vs-passos{--passos-night:#1f1024;--passos-violet:#3d1d47;--passos-plum:#5a2a66;--passos-gold:#e2bd4f;--passos-gold-ink:#7a5c12;--passos-cream:#f8f2e7;--passos-ink:#2a1630;--passos-line:#e6dace;background:var(--passos-cream);color:var(--passos-ink)}
+.vs-passos a:focus-visible{outline-color:#0877a8}
+.vs-passos .site-header a:focus-visible,.vs-passos .vs-passos-hero a:focus-visible,.vs-passos .vs-passos-heading a:focus-visible{outline-color:var(--passos-gold)}
+
+/* Header: the FASC header in violet; the emblem takes the place of the FASC logo */
+.vs-passos .site-header{background:var(--passos-violet)}
+.vs-passos .site-header nav a[aria-current]{color:var(--passos-gold);border-color:var(--passos-gold)}
+.vs-passos-emblem{display:flex;flex-direction:column;align-items:flex-end;font:800 25px/.85 var(--font-display);text-transform:uppercase;color:var(--passos-gold);white-space:nowrap}
+.vs-passos-emblem>span{font-size:11px;letter-spacing:.08em;color:white;margin-bottom:3px}
+/* Bands */
+.vs-passos-band{padding:44px 20px}
+.vs-passos-band>h2{margin-bottom:20px;font:800 clamp(34px,9vw,52px)/1 var(--font-display);color:var(--passos-plum)}
+.vs-passos-notice{margin:16px 20px 0;padding:12px 14px;border-radius:6px;background:#efe4f2;font-size:14px}
+
+/* Home */
+.vs-passos-hero{display:grid;overflow:hidden;background:linear-gradient(180deg,var(--passos-violet) 0%,var(--passos-night) 100%);color:var(--passos-cream)}
+.vs-passos-hero-copy{padding:44px 20px 18px}
+.vs-passos-kicker{font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--passos-gold)}
+.vs-passos-hero h1{margin:14px 0 14px;font:800 clamp(62px,17vw,148px)/.9 var(--font-display);text-transform:uppercase;letter-spacing:0;color:var(--passos-cream)}
+.vs-passos-hero h1:focus{outline:none}
+.vs-passos-standfirst{max-width:30ch;font-size:19px;line-height:1.5;color:#efe3f2}
+.vs-passos-actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px;margin-top:26px}
+.vs-passos-button{display:inline-flex;align-items:center;justify-content:space-between;gap:18px;min-height:54px;min-width:230px;padding:14px 18px;border-radius:4px;background:var(--passos-gold);color:var(--passos-night);font-size:14px;font-weight:700;text-decoration:none;transition:background-color var(--fast) ease}
+.vs-passos-link{display:inline-flex;align-items:center;gap:8px;min-height:44px;color:var(--passos-cream);font-size:14px;font-weight:600;text-underline-offset:6px}
+.vs-passos-hero-art{height:230px;background:transparent}
+.vs-passos-facts{display:grid;margin:0;background:var(--passos-gold);color:var(--passos-night)}
+.vs-passos-facts>div{padding:16px 20px;border-bottom:1px solid #00000018}
+.vs-passos-facts dt{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.vs-passos-facts dd{margin:4px 0 0;font:800 26px/1.05 var(--font-display)}
+.vs-passos-intro>div>p{max-width:62ch;margin-bottom:16px;font-size:17px;line-height:1.75}
+.vs-passos-intro .text-action{color:var(--passos-plum)}
+.vs-passos-cards{display:grid;gap:12px}
+.vs-passos-card{position:relative;display:flex;flex-direction:column;gap:8px;min-height:150px;padding:20px 48px 20px 20px;border:1px solid var(--passos-line);border-top:4px solid var(--passos-gold);border-radius:6px;background:white;color:var(--passos-ink);text-decoration:none;transition:transform 200ms var(--ease-out),border-color 200ms ease}
+.vs-passos-card>svg:first-child{color:var(--passos-plum)}
+.vs-passos-card strong{font:700 29px/1 var(--font-display)}
+.vs-passos-card span{font-size:14px;line-height:1.55;color:#5d4d61}
+.vs-passos-card-arrow{position:absolute;top:18px;right:16px;color:var(--passos-plum);transition:transform var(--fast) var(--ease-out)}
+
+/* Sub pages */
+.vs-passos-heading{padding:40px 20px 34px;background:var(--passos-violet);color:var(--passos-cream)}
+.vs-passos-heading .eyebrow{color:var(--passos-gold)}
+.vs-passos-heading h1{margin:12px 0 14px;font:800 clamp(44px,12vw,86px)/.95 var(--font-display);text-transform:uppercase;letter-spacing:0}
+.vs-passos-heading h1:focus{outline:none}
+.vs-passos-heading>p:last-child{max-width:60ch;font-size:16px;color:#ecdff0}
+.vs-passos-prose>p{max-width:68ch;margin-bottom:20px;font-size:18px;line-height:1.8}
+.vs-passos-prose .vs-sources{max-width:68ch;margin-top:28px}
+.vs-passos .vs-article-note{max-width:68ch;background:#efe4f2;border-color:var(--passos-plum)}
+
+.vs-passos-steps{display:grid;gap:0;margin:0;padding:0;list-style:none}
+.vs-passos-steps>li{display:grid;grid-template-columns:54px minmax(0,1fr);gap:16px;padding:22px 0;border-top:1px solid var(--passos-line)}
+.vs-passos-steps>li:first-child{border-top:0;padding-top:0}
+.vs-passos-step-number{font:800 40px/1 var(--font-display);color:var(--passos-plum);padding-top:2px}
+.vs-passos-moment{display:inline-block;margin-bottom:8px;padding:4px 8px;border-radius:3px;background:var(--passos-gold);color:var(--passos-night);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.vs-passos-steps h2{margin-bottom:8px;font:700 30px/1.05 var(--font-display);color:var(--passos-ink)}
+.vs-passos-steps p:not(.vs-passos-moment){max-width:62ch;font-size:16px;line-height:1.7}
+.vs-passos-source{display:inline-flex;align-items:center;gap:5px;min-height:40px;margin-top:6px;color:var(--passos-plum);font-size:12px;overflow-wrap:anywhere}
+
+.vs-passos-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.vs-passos-gallery-item{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;min-height:150px;padding:16px;border:1px dashed #bda9c4;border-radius:6px;background:white;color:var(--passos-plum);text-align:center}
+.vs-passos-gallery-item strong{font:700 20px/1.1 var(--font-display);color:var(--passos-ink)}.vs-passos-gallery-item span{font-size:12px;color:#6c5b70}
+.vs-passos-gallery-item.has-image{grid-column:1/-1;align-items:stretch;padding:0;border:0;background:transparent;text-align:left}
+.vs-passos-gallery-item.has-image img{aspect-ratio:16/10}
+.vs-passos-gallery-item.has-image>p{font-size:13px;color:#5d4d61}
+.vs-passos-contribute{display:grid;grid-template-columns:auto minmax(0,1fr);gap:14px;margin-top:22px;padding:20px;border-top:4px solid var(--passos-gold);border-radius:6px;background:white}
+.vs-passos-contribute>svg{color:var(--passos-plum)}
+.vs-passos-contribute h2{font:700 26px/1.1 var(--font-display)}.vs-passos-contribute p{margin:8px 0 6px;font-size:14px;color:#5d4d61}
+.vs-passos-contribute .text-action{color:var(--passos-plum)}
+
+.vs-passos-places{display:grid;gap:16px}
+.vs-passos-place{display:flex;flex-direction:column;overflow:hidden;border:1px solid var(--passos-line);border-radius:6px;background:white}
+.vs-passos-place-media{aspect-ratio:16/9;overflow:hidden;background:var(--passos-violet)}.vs-passos-place-media .vs-figure,.vs-passos-place-media img{height:100%}
+.vs-passos-place-art{display:grid;place-items:center;height:100%;color:var(--passos-gold);background:linear-gradient(160deg,var(--passos-plum),var(--passos-night))}
+.vs-passos-place-body{display:flex;flex-direction:column;gap:10px;padding:18px}
+.vs-passos-place h2{font:700 28px/1.05 var(--font-display);color:var(--passos-ink)}
+.vs-passos-place p{font-size:15px;line-height:1.65}
+.vs-passos .vs-passos-coordinate{display:flex;gap:8px;align-items:flex-start;font-size:12px;color:#6c5b70}.vs-passos-coordinate svg{margin-top:3px;flex-shrink:0}
+.vs-passos-place-actions{display:flex;flex-direction:column;align-items:flex-start;gap:0}
+.vs-passos-place-actions>a:first-child:not(.vs-passos-source){display:inline-flex;align-items:center;gap:6px;min-height:44px;color:var(--passos-plum);font-size:14px;font-weight:700}
+
+.vs-passos-empty{display:flex;flex-direction:column;align-items:flex-start;gap:12px;max-width:720px;padding:26px 22px;border:1px dashed #bda9c4;border-radius:8px;background:white}
+.vs-passos-empty>svg{color:var(--passos-plum)}.vs-passos-empty h2{font:700 30px/1.1 var(--font-display)}.vs-passos-empty p{font-size:15px;line-height:1.7;color:#5d4d61}.vs-passos-empty .text-action{color:var(--passos-plum)}
+
+.vs-passos-next{display:flex;flex-wrap:wrap;gap:10px;padding-top:0}
+.vs-passos-next a{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:10px 14px;border:1px solid var(--passos-line);border-radius:999px;background:white;color:var(--passos-plum);font-size:13px;font-weight:600;text-decoration:none}
+
+@media(hover:hover) and (pointer:fine){
+  .vs-passos-card:hover{transform:translateY(-3px);border-color:var(--passos-plum)}
+  .vs-passos-card:hover .vs-passos-card-arrow{transform:translate(3px,-3px)}
+  .vs-passos-button:hover{background:white}
+  .vs-passos .site-header nav a:hover{color:var(--passos-gold)}
+  .vs-passos-next a:hover{border-color:var(--passos-plum)}
+}
+@media(min-width:560px){
+  .vs-passos-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .vs-passos-gallery{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .vs-passos-gallery-item.has-image{grid-column:span 3}
+}
+@media(min-width:700px){
+  .vs-passos-band{padding:64px clamp(28px,5vw,64px)}
+  .vs-passos-heading{padding:56px clamp(28px,5vw,64px) 48px}
+  .vs-passos-hero{grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);align-items:end;min-height:540px}
+  .vs-passos-hero-copy{padding:64px 0 64px clamp(28px,5vw,64px)}
+  .vs-passos-hero-art{height:100%;min-height:420px}
+  .vs-passos-facts{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .vs-passos-facts>div{padding:20px clamp(20px,3vw,40px);border-bottom:0;border-left:1px solid #00000018}.vs-passos-facts>div:first-child{border-left:0;padding-left:clamp(28px,5vw,64px)}
+  .vs-passos-places{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .vs-passos-contribute{padding:24px 28px}
+}
+@media(min-width:900px){
+  .vs-passos-intro{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:48px}
+  .vs-passos-intro>h2{margin:0}
+  .vs-passos-cards{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .vs-passos-gallery-item.has-image{grid-column:span 2;grid-row:span 2}
+  .vs-passos-gallery-item{min-height:190px}
+}
+@media(min-width:1180px){
+  .vs-passos-band,.vs-passos-heading{padding-inline:max(64px,calc((100% - 1180px)/2))}
+  .vs-passos-hero-copy{padding-left:max(64px,calc((100% - 1180px)/2))}
+}
+@media(max-width:650px){
+  .vs-passos-emblem{font-size:18px}.vs-passos-emblem>span{font-size:8px;margin-bottom:2px}
+}
+@media(max-width:400px){
+  .vs-passos .site-header{gap:10px}.vs-passos .site-header nav{gap:10px}
+  .vs-passos-emblem{font-size:15px}.vs-passos-emblem>span{display:none}
+}
+@media(max-width:370px){
+  .vs-passos .site-header nav{gap:8px}
+  .vs-passos-emblem{font-size:13px}
+}
+.vs-passos .vs-back-bar a{color:var(--passos-cream)}
+.vs-passos .vs-back-bar a:focus-visible{outline-color:var(--passos-gold)}
+@media(hover:hover) and (pointer:fine){.vs-passos .vs-back-bar a:hover{color:var(--passos-gold)}}
+.vs-back-bar~main .vs-passos-hero-copy{padding-top:72px}
+.vs-back-bar~main .vs-passos-heading{padding-top:68px}
+@media(min-width:700px){.vs-back-bar~main .vs-passos-hero-copy{padding-top:84px}.vs-back-bar~main .vs-passos-heading{padding-top:76px}}

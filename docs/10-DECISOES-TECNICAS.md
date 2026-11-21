@@ -20,6 +20,8 @@ Referência: 16/11/2026. “Confirmada” é uma decisão do responsável; “pr
 | D-14 | Alternativa em lista para mapa e tiles | Proposta técnica | Conteúdo permanece utilizável com falha de cartografia ou sem GPS |
 | D-15 | Tiles OSM padrão e Google Maps externo no protótipo | Seleção técnica da Fase 2 | Atribuição visível, sem download offline; revisão antes de uso público |
 | D-16 | Novo repositório VivaSE_Cultura-2.0 | Confirmada pelo endereço informado | Preservar origem antiga e arquivos locais; conferir estado remoto antes de qualquer sincronização |
+| D-17 | Plataforma cultural acima do FASC | Confirmada (20/11) | Nova Home em `#/`; FASC preservado em `#/fasc` e nas rotas originais; detalhes no documento 36 |
+| D-18 | Linha do tempo mostra só 2005 a 2026 | Confirmada (21/11) | Recorte aplicado apenas à tela `#/historia`; dados de 1972 a 1993 preservados no acervo, mapa histórico e artistas; detalhes no documento 37 |
 
 ## D-04 — Navegação externa
 
@@ -50,3 +52,7 @@ Detalhes de arquitetura: [03](03-ARQUITETURA.md). Perguntas e riscos: [09](09-RO
 16/11, revisão de concentração real: o responsável substituiu a preferência anterior por pins sempre separados e autorizou agrupamento/expansão. Implementada detecção de proximidade em tela e spiderfy, sem alterar âncoras; detalhes no documento 16.
 
 16/11, decisão mais recente: responsável voltou a priorizar pins individuais, sem cluster, afastamento pequeno só em colisões e lista de vizinhos como fallback. Substitui a escolha de agrupamento do registro anterior; detalhes no documento 17.
+
+20/11: plataforma cultural de São Cristóvão acima do FASC (D-17, documento 36).
+
+21/11: linha do tempo restrita a 2005–2026 na tela, sem remover dados do acervo (D-18, documento 37).

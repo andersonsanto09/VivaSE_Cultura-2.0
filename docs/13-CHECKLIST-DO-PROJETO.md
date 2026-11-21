@@ -1,6 +1,6 @@
 # 13 — Checklist de todas as fases do projeto
 
-Atualizado em 19/11/2026. `[x]` = executado/registrado; `[ ]` = pendente ou ainda depende de aceite. Uma função existente não encerra sua fase sem a validação correspondente. Este é o estado do protótipo desta revisão, não uma promessa de prazo.
+Atualizado em 21/11/2026. `[x]` = executado/registrado; `[ ]` = pendente ou ainda depende de aceite. Uma função existente não encerra sua fase sem a validação correspondente. Este é o estado do protótipo desta revisão, não uma promessa de prazo.
 
 **Fases 1 a 4 concluídas no escopo funcional do protótipo. Próxima: fase 5 — qualidade final e preparação do pitch. O teste físico dos novos fluxos foi confirmado sem problemas em 19/11; a revisão final de publicação permanece na fase 5.** Limites e evidências da orientação estão no [relatório da fase 3](15-FASE-3-VALIDACAO.md).
 
@@ -124,7 +124,7 @@ Critério de saída: roteiros, memórias e linha do tempo utilizáveis, fontes r
 - [x] Limpar timers, pausar fora da tela e preservar a câmera durante a sequência.
 - [x] Preservar os 38 registros anteriores, integrar as 212 entradas recebidas e acrescentar um anúncio verificado no PDF oficial de 2025: 230 registros após o merge. Distinguir cobertura, anúncio, convite e menção sem edição.
 - [x] Preservar 191 artistas/grupos no acervo e destacar uma curadoria de 80 nomes, com busca, categoria, edição, ordenação, paginação e trajetória cronológica.
-- [x] Expandir a linha do tempo de oito para 15 marcos, com contexto e ligações ao mapa.
+- [x] Expandir a linha do tempo de oito para 15 marcos, com contexto e ligações ao mapa. Em 21/11 a tela passou a mostrar só 2005 a 2026 (14 marcos), a pedido do responsável; o acervo de 1972 foi preservado (registro 37).
 - [x] Preservar edição, espaço e busca ao navegar entre Cultura, artista e mapa.
 - [x] Testar teclado, trocas rápidas, ausência de registros, mobile, movimento reduzido, build e regressões.
 - [x] Incorporar a avaliação dos novos fluxos e as correções solicitadas; teste físico final dos novos fluxos confirmado sem problemas pelo responsável em 19/11/2026.
@@ -156,6 +156,14 @@ Relatório completo: [23 — Mapa histórico e acervo](23-MAPA-HISTORICO-E-ACERV
 - [x] Registrar limites e próximos passos desta rodada no documento 34.
 - [ ] Fazer commit/push da versão final quando solicitado e conferir sincronização.
 - [x] Hospedagem escolhida e protótipo já publicado no GitHub Pages.
+
+### Ajustes de 20 e 21/11/2026
+
+- [x] Plataforma cultural de São Cristóvão: nova Home em `#/`, FASC preservado em `#/fasc` e nas rotas originais, publicações e experiência Senhor dos Passos (registro 36).
+- [x] Linha do tempo restrita a 2005–2026 na tela `#/historia`, sem apagar dados do acervo (registro 37).
+- [x] Typecheck e 52 testes de domínio aprovados após os dois ajustes; testes de navegador afetados atualizados.
+- [ ] Executar os testes Playwright atualizados (`phase-3`, `phase-4`, `phase-5`, `art-polish`, `visual-review`) num ambiente com Python e Playwright.
+- [ ] Enviar os ajustes ao GitHub e conferir a nova publicação no Pages (resultado no registro 37).
 
 Critério de saída: demo repetível, material de apoio, limitações conhecidas e versão de apresentação identificada.
 
