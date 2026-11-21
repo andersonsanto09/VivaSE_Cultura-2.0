@@ -49,7 +49,9 @@ Perfil da banca, duração e recursos do pitch ainda desconhecidos. A cobertura 
 
 ## Repositório
 
-Destino: [VivaSE_Cultura-2.0](https://github.com/bernas0610/VivaSE_Cultura-2.0). A configuração local aponta `origin` para a nova versão e preserva o repositório antigo como `legacy`. A documentação inicial foi enviada no commit `6d2bb88`. O responsável solicitou um novo snapshot de implementação e documentação; o resultado da sincronização deve ser conferido no Git. A pasta local mantém o nome `VivaSE_Cultura`.
+Atual (desde 21/11/2026): [andersonsanto09/VivaSE_Cultura-2.0](https://github.com/andersonsanto09/VivaSE_Cultura-2.0), publicado em [andersonsanto09.github.io/VivaSE_Cultura-2.0](https://andersonsanto09.github.io/VivaSE_Cultura-2.0/). Motivo e pendências no [registro 21](21-PUBLICACAO-GITHUB-PAGES.md).
+
+Destino original: [VivaSE_Cultura-2.0](https://github.com/bernas0610/VivaSE_Cultura-2.0). A configuração local aponta `origin` para a nova versão e preserva o repositório antigo como `legacy`. A documentação inicial foi enviada no commit `6d2bb88`. O responsável solicitou um novo snapshot de implementação e documentação; o resultado da sincronização deve ser conferido no Git. A pasta local mantém o nome `VivaSE_Cultura`.
 
 ## Forma de trabalho
 

@@ -37,3 +37,21 @@ Build e dez testes de domínio aprovados. Teste local do build no subdiretório 
 - Evidências locais: `tmp/pages-public/result.json` e capturas na mesma pasta.
 
 O site do portfólio não foi modificado. A revisão em aparelho físico continua sendo uma validação distinta da automação em navegador.
+
+## Novo repositório — 21/11/2026
+
+O envio das atualizações de 20 e 21/11 (plataforma cultural e linha do tempo 2005–2026) para `bernas0610/VivaSE_Cultura-2.0` foi recusado com HTTP 403: a conta `andersonsanto09`, usada pelo Git neste computador, não tem permissão de escrita nesse repositório. A pedido do responsável, o projeto passou a ter um repositório no perfil dele.
+
+- Repositório: [andersonsanto09/VivaSE_Cultura-2.0](https://github.com/andersonsanto09/VivaSE_Cultura-2.0), público (o GitHub Pages gratuito exige repositório público, como no original).
+- Site: https://andersonsanto09.github.io/VivaSE_Cultura-2.0/
+- Histórico completo enviado, incluindo todos os commits do repositório original.
+- GitHub Pages ativado com fonte **GitHub Actions**; o mesmo workflow `.github/workflows/pages.yml` publica a cada push em `main`.
+- Remotos locais: `origin` aponta para o novo repositório; o original ficou como `bernas0610`.
+- O repositório e o site de `bernas0610` não foram alterados e continuam com a versão de 19/11.
+
+### Pendências do responsável
+
+1. **Variável do mapa.** Cadastrar `VITE_MAPTILER_KEY` em *Settings → Secrets and variables → Actions → Variables* do novo repositório, com a mesma chave pública do `.env.local`, e rodar o workflow de novo (*Actions → Publish VivaSE to GitHub Pages → Run workflow*). Sem ela, o build termina, mas o mapa vetorial não carrega; lista, agenda e demais páginas continuam funcionando.
+2. **Origem no MapTiler.** Acrescentar `andersonsanto09.github.io` em **Allowed HTTP Origins** da chave, como foi feito para `bernas0610.github.io` em 17/11.
+
+O resultado do workflow e a verificação do site estão no [registro 37](37-LINHA-DO-TEMPO-2005-2026.md).

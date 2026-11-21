@@ -45,3 +45,10 @@ Para mudar o período no futuro, basta alterar as duas constantes.
 - `npm test`: 52 testes aprovados. Os testes de domínio continuam esperando 1972 nos dados, o que é correto, porque os dados não mudaram.
 - Navegador (Vite dev, 21/11/2026): 14 marcos, primeiro ano 2005, nenhum 1972 na lista; seletor com as oito edições do período; `#/historia?edicao=1972` abre os 14 marcos; nenhum erro no console.
 - `tests/phase-4.py` foi atualizado para esperar 14 marcos (13 no filtro Festival), primeiro ano 2005 e ausência de 1972. Ele não foi executado neste ambiente, porque o pacote `playwright` não está instalado.
+- `npm run build`: aprovado. Continua o aviso de chunk acima de 500 kB do mapa (`MapView`), sem relação com esta mudança.
+
+## Publicação
+
+- Commit `d41758d`: plataforma cultural (registro 36), linha do tempo 2005–2026 e documentação.
+- O push para `bernas0610/VivaSE_Cultura-2.0` foi recusado (HTTP 403, sem permissão de escrita para `andersonsanto09`).
+- Criado o repositório [andersonsanto09/VivaSE_Cultura-2.0](https://github.com/andersonsanto09/VivaSE_Cultura-2.0), com Pages por GitHub Actions. Detalhes e pendências (variável do mapa e origem no MapTiler) no [registro 21](21-PUBLICACAO-GITHUB-PAGES.md).
